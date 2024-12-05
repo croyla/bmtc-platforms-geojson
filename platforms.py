@@ -121,7 +121,7 @@ def save_platforms():
 
     tomorrow_start = (datetime.datetime.now() + datetime.timedelta(days=1)).strftime('%Y-%m-%d 00:00')
     tomorrow_end = (datetime.datetime.now() + datetime.timedelta(days=1)).strftime('%Y-%m-%d 23:59')
-
+    routes_done = set()
     for stop, stops in next_stops.items():
         for query in stops:
             if stops.index(query) != 0:
@@ -151,7 +151,6 @@ def save_platforms():
             if not response_data or response_data is None or len(response_data) == 0:
                 schedule_times["Failed"].append({"stop": stop, "next": query, "schedule": response})
                 continue
-            routes_done = set()
             for route_entry in response_data:
                 if not route_entry['routeid'] in routes_done:
                     routes_done.add(route_entry['routeid'])
@@ -174,63 +173,6 @@ def save_platforms():
                         }
                     )
 
-            # schedule_times["Received"].extend(
-            #     [
-            #         {
-            #             "route-number": route_entry['routeno'],
-            #             "extended-route-number": routes[route_entry['routeid']]['routeno'],
-            #             "route-name": route_entry["routename"],
-            #             "start-station": routes[route_entry['routeid']]['fromstation'],
-            #             "start-station-id": routes[route_entry['routeid']]['fromstationid'],  # Start of route
-            #             "from-station-id": route_entry['fromstationid'],  # Current station id
-            #             "route-id": route_entry['routeid'],
-            #             "to-station-id": routes[route_entry['routeid']]["tostationid"],  # End of route
-            #             "to-station": routes[route_entry['routeid']]["tostation"],
-            #             "platform-name": route_entry["platformname"] if not str(
-            #                 route_entry['routeid']) in overrides.keys() else overrides[str(route_entry['routeid'])],
-            #             "platform-number": route_entry["platformnumber"] if not str(
-            #                 route_entry['routeid']) in overrides.keys() else overrides[str(route_entry['routeid'])],
-            #             "bay-number": route_entry["baynumber"]
-            #         }
-            #         for route_entry in response_data]
-            # )
-
-    # for route in to_save:  # To get the next run of a route, we will get accurate schedule information later
-    #     if to_save.index(route) != 0:
-    #         time.sleep(5)
-    #     date = datetime.datetime.now() + datetime.timedelta(days=1)
-    #     station_id = route["fromstationid"]
-    #     # Current date must be next day to get proper information, otherwise receive partial info
-    #     data = f'''
-    #     {{"routeid": {route["routeid"]},
-    #     "fromStationId": {route["fromstationid"]},
-    #     "toStationId": {route["tostationid"]},
-    #     "current_date": "{date.strftime("%Y-%m-%d")}",
-    #     "starttime": "{date.strftime("%Y-%m-%d")} 00:00",
-    #     "endtime": "{date.strftime("%Y-%m-%d")} 23:59"}}'''
-    #
-    #     print(f"Sending query for {route['routeno']}")
-    #     now = time.time()
-    #
-    #     response = requests.post('https://bmtcmobileapistaging.amnex.com/WebAPI/GetTimetableByRouteid_v3',
-    #                              headers=scraper_headers, data=data).json()
-    #     print(f"Received in {time.time() - now} seconds")
-    #     response_data = response["data"]
-    #     if not response_data or response_data is None or len(response_data) == 0:
-    #         schedule_times["Failed"].append({"route": route, "schedule": response})
-    #         continue
-    #     if not response_data[0]["tripdetails"]:
-    #         schedule_times["Failed"].append({"route": route, "schedule": response})
-    #         continue
-    #     schedule_times["Received"].append({"route-number": route["routeno"].replace(" UP", ""),
-    #                                        "route-name": route["routename"],
-    #                                        "from-station-id": station_id,
-    #                                        "route-id": route['routeid'],
-    #                                        "to-station-id": response_data[0]["tostationid"],
-    #                                        "to-station": response_data[0]["tostationname"],
-    #                                        "platform-name": response_data[0]["platformname"].upper() if not str(route['routeid']) in overrides.keys() else overrides[str(route['routeid'])],
-    #                                        "platform-number": response_data[0]["platformnumber"].upper() if not str(route['routeid']) in overrides.keys() else overrides[str(route['routeid'])],
-    #                                        "bay-number": response_data[0]["baynumber"].upper()})
     print(f'Failed in receiving {len(schedule_times["Failed"])}')
     print(f'Succeeded in receiving {len(schedule_times["Received"])}')
     with open(f'out/platforms-{sys.argv[-1]}.json', 'w') as p_m:
