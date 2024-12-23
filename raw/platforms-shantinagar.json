@@ -235,9 +235,9 @@
       "route-id": 3917,
       "to-station-id": 20624,
       "to-station": "Banashankari Bus Station",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
+      "platform-name": "8",
+      "platform-number": "8",
+      "bay-number": 3
     },
     {
       "route-number": "215-U",
@@ -347,9 +347,9 @@
       "route-id": 8101,
       "to-station-id": 36502,
       "to-station": "Brigade Meadows Kanakapura Road",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
+      "platform-name": "8",
+      "platform-number": "8",
+      "bay-number": 3
     },
     {
       "route-number": "Callbus-3",
@@ -440,14 +440,14 @@
       "extended-route-number": "MF-16A UP",
       "route-name": "SNBS-SNBS",
       "start-station": "Shanthinagara Bus Station",
-      "start-station-id": 21166,
-      "from-station-id": 21166,
+      "start-station-id": 21167,
+      "from-station-id": 21167,
       "route-id": 13401,
-      "to-station-id": 21167,
+      "to-station-id": 21166,
       "to-station": "Shanthinagara Bus Station",
-      "platform-name": "8",
-      "platform-number": "8",
-      "bay-number": 3
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
     },
     {
       "route-number": "SNBS-HSKPB",
@@ -473,6 +473,48 @@
       "route-id": 13457,
       "to-station-id": 38816,
       "to-station": "Metro Tech Aprtment",
+      "platform-name": "8",
+      "platform-number": "8",
+      "bay-number": 3
+    },
+    {
+      "route-number": "13-C",
+      "extended-route-number": "13-C UP",
+      "route-name": "SBS-KSLO",
+      "start-station": "Shivajinagara Bus Station",
+      "start-station-id": 21172,
+      "from-station-id": 21166,
+      "route-id": 1672,
+      "to-station-id": 22211,
+      "to-station": "Kumaraswamy Layout",
+      "platform-name": "8",
+      "platform-number": "8",
+      "bay-number": 3
+    },
+    {
+      "route-number": "13-E",
+      "extended-route-number": "13-E UP",
+      "route-name": "SBS-BSK3",
+      "start-station": "Shivajinagara Bus Station",
+      "start-station-id": 21172,
+      "from-station-id": 21166,
+      "route-id": 1842,
+      "to-station-id": 22675,
+      "to-station": "Shri Vidhyanagara",
+      "platform-name": "8",
+      "platform-number": "8",
+      "bay-number": 3
+    },
+    {
+      "route-number": "210-T",
+      "extended-route-number": "210-T UP",
+      "route-name": " SBS-PTGT",
+      "start-station": "Shivajinagara Bus Station",
+      "start-station-id": 21172,
+      "from-station-id": 21166,
+      "route-id": 4357,
+      "to-station-id": 34282,
+      "to-station": "Pratyangira Temple Turahalli",
       "platform-name": "8",
       "platform-number": "8",
       "bay-number": 3
@@ -688,20 +730,6 @@
       "bay-number": 3
     },
     {
-      "route-number": "365-E",
-      "extended-route-number": "365-E UP",
-      "route-name": "KBS-SBH",
-      "start-station": "Kempegowda Bus Station",
-      "start-station-id": 20921,
-      "from-station-id": 21166,
-      "route-id": 1985,
-      "to-station-id": 23743,
-      "to-station": "Shanubhoganahalli Bannerughatta",
-      "platform-name": "8",
-      "platform-number": "8",
-      "bay-number": 3
-    },
-    {
       "route-number": "343-L",
       "extended-route-number": "343-L UP",
       "route-name": "KBS-HGSML",
@@ -753,6 +781,20 @@
       "route-id": 2595,
       "to-station-id": 33014,
       "to-station": "Huskur",
+      "platform-name": "8",
+      "platform-number": "8",
+      "bay-number": 3
+    },
+    {
+      "route-number": "KMT-SNBS-KRMTTMC",
+      "extended-route-number": "KMT-SNBS-KRMTTMC UP",
+      "route-name": "KMT-KRMTTMC",
+      "start-station": "KR Market",
+      "start-station-id": 20940,
+      "from-station-id": 21166,
+      "route-id": 2969,
+      "to-station-id": 35267,
+      "to-station": "Koramangala Bus Station",
       "platform-name": "8",
       "platform-number": "8",
       "bay-number": 3
@@ -1234,20 +1276,6 @@
       "bay-number": 3
     },
     {
-      "route-number": "348-E",
-      "extended-route-number": "348-E UP",
-      "route-name": "RMC-MGP",
-      "start-station": "RMC Yard (Yeshawanthapura New Railway Station)",
-      "start-station-id": 21132,
-      "from-station-id": 21166,
-      "route-id": 6699,
-      "to-station-id": 35097,
-      "to-station": "Mangammanapalya",
-      "platform-name": "8",
-      "platform-number": "8",
-      "bay-number": 3
-    },
-    {
       "route-number": "348-M",
       "extended-route-number": "348-M UP",
       "route-name": "KBS-KBS",
@@ -1285,20 +1313,6 @@
       "route-id": 6972,
       "to-station-id": 32994,
       "to-station": "Hulimavu",
-      "platform-name": "8",
-      "platform-number": "8",
-      "bay-number": 3
-    },
-    {
-      "route-number": "355-C KBS-D27G",
-      "extended-route-number": "355-C KBS-D27G UP",
-      "route-name": "KBS-D27",
-      "start-station": "Kempegowda Bus Station",
-      "start-station-id": 20921,
-      "from-station-id": 21166,
-      "route-id": 6981,
-      "to-station-id": 36343,
-      "to-station": "Depot-27 Gate",
       "platform-name": "8",
       "platform-number": "8",
       "bay-number": 3
@@ -1369,20 +1383,6 @@
       "route-id": 8295,
       "to-station-id": 33121,
       "to-station": "Jayaram Layout (Hale Sampigehalli)",
-      "platform-name": "8",
-      "platform-number": "8",
-      "bay-number": 3
-    },
-    {
-      "route-number": "359-A",
-      "extended-route-number": "359-A UP",
-      "route-name": "KBS-ADGH",
-      "start-station": "Kempegowda Bus Station",
-      "start-station-id": 20921,
-      "from-station-id": 21166,
-      "route-id": 9051,
-      "to-station-id": 35548,
-      "to-station": "Adigondanahalli",
       "platform-name": "8",
       "platform-number": "8",
       "bay-number": 3
@@ -1598,20 +1598,6 @@
       "bay-number": 3
     },
     {
-      "route-number": "171 KBS-SNCA",
-      "extended-route-number": "171 KBS-SNCA UP",
-      "route-name": "KBS-SNCA",
-      "start-station": "Kempegowda Bus Station",
-      "start-station-id": 20921,
-      "from-station-id": 21166,
-      "route-id": 10356,
-      "to-station-id": 36762,
-      "to-station": "Suncity Apartment ORR Road",
-      "platform-name": "8",
-      "platform-number": "8",
-      "bay-number": 3
-    },
-    {
       "route-number": "347-E",
       "extended-route-number": "347-E UP",
       "route-name": "KBS-HSR",
@@ -1794,6 +1780,20 @@
       "bay-number": 3
     },
     {
+      "route-number": "342-F KBS-D42G",
+      "extended-route-number": "342-F KBS-D42G UP",
+      "route-name": "KBS-D42G",
+      "start-station": "Kempegowda Bus Station",
+      "start-station-id": 20921,
+      "from-station-id": 21166,
+      "route-id": 12821,
+      "to-station-id": 23510,
+      "to-station": "Depot-42 Gate  Arrival",
+      "platform-name": "8",
+      "platform-number": "8",
+      "bay-number": 3
+    },
+    {
       "route-number": "355",
       "extended-route-number": "355 UP",
       "route-name": "KBS-BMSV",
@@ -1864,20 +1864,6 @@
       "bay-number": 3
     },
     {
-      "route-number": "365-J VSD-JACP",
-      "extended-route-number": "365-J VSD-JACP UP",
-      "route-name": "VSD-JACP",
-      "start-station": "Vidhana Soudha Karnataka High Court",
-      "start-station-id": 21258,
-      "from-station-id": 21166,
-      "route-id": 14253,
-      "to-station-id": 35167,
-      "to-station": "Jigani APC Circle",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
       "route-number": "342-F VSD-HSRKEB",
       "extended-route-number": "342-F VSD-HSRKEB UP",
       "route-name": "VSD-HSRKEB",
@@ -1887,9 +1873,9 @@
       "route-id": 14746,
       "to-station-id": 26024,
       "to-station": "HSR Layout KEB",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
+      "platform-name": "8",
+      "platform-number": "8",
+      "bay-number": 3
     },
     {
       "route-number": "365-JA",
@@ -1901,9 +1887,9 @@
       "route-id": 14927,
       "to-station-id": 39290,
       "to-station": "Jigani DLF Cloub House",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
+      "platform-name": "8",
+      "platform-number": "8",
+      "bay-number": 3
     },
     {
       "route-number": "365-JA KBS-VSD-JDLF",
@@ -1915,48 +1901,6 @@
       "route-id": 14932,
       "to-station-id": 39290,
       "to-station": "Jigani DLF Cloub House",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "13-C",
-      "extended-route-number": "13-C UP",
-      "route-name": "SBS-KSLO",
-      "start-station": "Shivajinagara Bus Station",
-      "start-station-id": 21172,
-      "from-station-id": 21166,
-      "route-id": 1672,
-      "to-station-id": 22211,
-      "to-station": "Kumaraswamy Layout",
-      "platform-name": "8",
-      "platform-number": "8",
-      "bay-number": 3
-    },
-    {
-      "route-number": "13-E",
-      "extended-route-number": "13-E UP",
-      "route-name": "SBS-BSK3",
-      "start-station": "Shivajinagara Bus Station",
-      "start-station-id": 21172,
-      "from-station-id": 21166,
-      "route-id": 1842,
-      "to-station-id": 22675,
-      "to-station": "Shri Vidhyanagara",
-      "platform-name": "8",
-      "platform-number": "8",
-      "bay-number": 3
-    },
-    {
-      "route-number": "210-T",
-      "extended-route-number": "210-T UP",
-      "route-name": " SBS-PTGT",
-      "start-station": "Shivajinagara Bus Station",
-      "start-station-id": 21172,
-      "from-station-id": 21166,
-      "route-id": 4357,
-      "to-station-id": 34282,
-      "to-station": "Pratyangira Temple Turahalli",
       "platform-name": "8",
       "platform-number": "8",
       "bay-number": 3
@@ -2002,20 +1946,6 @@
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
-    },
-    {
-      "route-number": "335-E SNBS-KDG",
-      "extended-route-number": "335-E SNBS-KDG UP",
-      "route-name": "SNBS-KDG",
-      "start-station": "Shanthinagara Bus Station",
-      "start-station-id": 21167,
-      "from-station-id": 21167,
-      "route-id": 1734,
-      "to-station-id": 20902,
-      "to-station": "Kadugodi Bus Station",
-      "platform-name": "2",
-      "platform-number": "2",
-      "bay-number": 4
     },
     {
       "route-number": "13 SNBS-BGRD",
@@ -2727,20 +2657,6 @@
       "route-id": 1676,
       "to-station-id": 20922,
       "to-station": "Kempegowda Bus Station",
-      "platform-name": "2",
-      "platform-number": "2",
-      "bay-number": 4
-    },
-    {
-      "route-number": "KMT-SNBS",
-      "extended-route-number": "KMT-SNBS DOWN",
-      "route-name": "SNBS-KMT",
-      "start-station": "Shanthinagara Bus Station",
-      "start-station-id": 21167,
-      "from-station-id": 21167,
-      "route-id": 1687,
-      "to-station-id": 20945,
-      "to-station": "KR Market (Kalasipalya)",
       "platform-name": "2",
       "platform-number": "2",
       "bay-number": 4
@@ -3488,20 +3404,6 @@
       "bay-number": 4
     },
     {
-      "route-number": "348-E",
-      "extended-route-number": "348-E DOWN",
-      "route-name": "MGP-RMC",
-      "start-station": "Mangammanapalya",
-      "start-station-id": 35242,
-      "from-station-id": 21167,
-      "route-id": 6690,
-      "to-station-id": 21131,
-      "to-station": "RMC Yard (Yashawanthapura New Railway Station)",
-      "platform-name": "2",
-      "platform-number": "2",
-      "bay-number": 4
-    },
-    {
       "route-number": "370-A KBS-UJPD",
       "extended-route-number": "370-A KBS-UJPD DOWN",
       "route-name": "UJPD-KBS",
@@ -3523,20 +3425,6 @@
       "start-station-id": 26042,
       "from-station-id": 21167,
       "route-id": 6975,
-      "to-station-id": 20922,
-      "to-station": "Kempegowda Bus Station",
-      "platform-name": "2",
-      "platform-number": "2",
-      "bay-number": 4
-    },
-    {
-      "route-number": "355-C KBS-D27G",
-      "extended-route-number": "355-C KBS-D27G DOWN",
-      "route-name": "D27-KBS",
-      "start-station": "Depot-27 Gate",
-      "start-station-id": 36342,
-      "from-station-id": 21167,
-      "route-id": 6984,
       "to-station-id": 20922,
       "to-station": "Kempegowda Bus Station",
       "platform-name": "2",
@@ -3628,20 +3516,6 @@
       "bay-number": 4
     },
     {
-      "route-number": "NDC-SNBS-KBS",
-      "extended-route-number": "NDC-SNBS-KBS UP",
-      "route-name": "NYD-KBS",
-      "start-station": "Nyaya Degula",
-      "start-station-id": 27523,
-      "from-station-id": 21167,
-      "route-id": 8221,
-      "to-station-id": 20922,
-      "to-station": "Kempegowda Bus Station",
-      "platform-name": "2",
-      "platform-number": "2",
-      "bay-number": 4
-    },
-    {
       "route-number": "369-K VSD-DLF",
       "extended-route-number": "369-K VSD-DLF DOWN",
       "route-name": "DLF-VSD",
@@ -3679,20 +3553,6 @@
       "route-id": 8781,
       "to-station-id": 20718,
       "to-station": "Chikka Banavara",
-      "platform-name": "2",
-      "platform-number": "2",
-      "bay-number": 4
-    },
-    {
-      "route-number": "359-A",
-      "extended-route-number": "359-A DOWN",
-      "route-name": "ADGH-KBS",
-      "start-station": "Adigondanahalli",
-      "start-station-id": 29446,
-      "from-station-id": 21167,
-      "route-id": 9062,
-      "to-station-id": 20922,
-      "to-station": "Kempegowda Bus Station",
       "platform-name": "2",
       "platform-number": "2",
       "bay-number": 4
@@ -3922,20 +3782,6 @@
       "bay-number": 4
     },
     {
-      "route-number": "G-6A SNBS-NBC-BSNK",
-      "extended-route-number": "G-6A SNBS-NBC-BSNK UP",
-      "route-name": "SNBS-BSNK",
-      "start-station": "Shanthinagara Bus Station",
-      "start-station-id": 21167,
-      "from-station-id": 21167,
-      "route-id": 10737,
-      "to-station-id": 20627,
-      "to-station": "Basavanagara Kengeri",
-      "platform-name": "2",
-      "platform-number": "2",
-      "bay-number": 4
-    },
-    {
       "route-number": "242-B SNBS-TVK (Calla Bus)",
       "extended-route-number": "242-B SNBS-TVK (Calla Bus) UP",
       "route-name": "SNBS-TVK",
@@ -4006,6 +3852,20 @@
       "bay-number": 4
     },
     {
+      "route-number": "258 SNBS-NMG",
+      "extended-route-number": "258 SNBS-NMG UP",
+      "route-name": "SNBS-NMG",
+      "start-station": "Shanthinagara Bus Station",
+      "start-station-id": 21167,
+      "from-station-id": 21167,
+      "route-id": 11407,
+      "to-station-id": 27411,
+      "to-station": "Nelamangala Bus Station",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
+    },
+    {
       "route-number": "C-365",
       "extended-route-number": "C-365 DOWN",
       "route-name": "BNP-KBS",
@@ -4062,13 +3922,27 @@
       "bay-number": 4
     },
     {
-      "route-number": "KBS-3E FLY",
-      "extended-route-number": "KBS-3E FLY DOWN",
-      "route-name": "ELCW-KBS",
-      "start-station": "Electronic City Wipro Main Gate",
-      "start-station-id": 20772,
+      "route-number": "342-F KBS-D42G",
+      "extended-route-number": "342-F KBS-D42G DOWN",
+      "route-name": "D42G-KBS",
+      "start-station": "Depot-42 Gate Departure",
+      "start-station-id": 23509,
       "from-station-id": 21167,
-      "route-id": 13150,
+      "route-id": 12822,
+      "to-station-id": 20922,
+      "to-station": "Kempegowda Bus Station",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
+    },
+    {
+      "route-number": "355",
+      "extended-route-number": "355 DOWN",
+      "route-name": "BMSV-KBS",
+      "start-station": "Bommasandra Village",
+      "start-station-id": 38655,
+      "from-station-id": 21167,
+      "route-id": 13118,
       "to-station-id": 20922,
       "to-station": "Kempegowda Bus Station",
       "platform-name": "2",
@@ -4141,9 +4015,9 @@
       "route-id": 14928,
       "to-station-id": 20922,
       "to-station": "Kempegowda Bus Station",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
     },
     {
       "route-number": "365-JA KBS-VSD-JDLF",
@@ -4155,20 +4029,34 @@
       "route-id": 14931,
       "to-station-id": 20922,
       "to-station": "Kempegowda Bus Station",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
     },
     {
-      "route-number": "355",
-      "extended-route-number": "355 DOWN",
-      "route-name": "BMSV-KBS",
-      "start-station": "Bommasandra Village",
-      "start-station-id": 38655,
+      "route-number": "KMT-SNBS",
+      "extended-route-number": "KMT-SNBS DOWN",
+      "route-name": "SNBS-KMT",
+      "start-station": "Shanthinagara Bus Station",
+      "start-station-id": 21167,
       "from-station-id": 21167,
-      "route-id": 13118,
-      "to-station-id": 20922,
-      "to-station": "Kempegowda Bus Station",
+      "route-id": 1687,
+      "to-station-id": 20945,
+      "to-station": "KR Market (Kalasipalya)",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
+    },
+    {
+      "route-number": "G-6A SNBS-NBC-BSNK",
+      "extended-route-number": "G-6A SNBS-NBC-BSNK UP",
+      "route-name": "SNBS-BSNK",
+      "start-station": "Shanthinagara Bus Station",
+      "start-station-id": 21167,
+      "from-station-id": 21167,
+      "route-id": 10737,
+      "to-station-id": 20627,
+      "to-station": "Basavanagara Kengeri",
       "platform-name": "2",
       "platform-number": "2",
       "bay-number": 4

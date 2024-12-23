@@ -1,0 +1,110 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.55675226449968,
+          13.017885809641822
+        ]
+      },
+      "properties": {
+        "Platform": "1",
+        "Alias": [
+        "B1"
+        ],
+        "Routes": [
+          {
+            "Name": "90-E",
+            "Destination": "Kempegowda Bus Station",
+            "From": 21289,
+            "UniqueName": "YPRRS-KBS",
+            "Id": 6391,
+            "BayReported": null,
+            "Stops": [
+              "Yeshawanthapura Railway Station",
+              "Yeshawanthapura Market",
+              "Yeshawanthapura",
+              "Mysore Lamp",
+              "Malleshwara 18th Cross",
+              "Malleshwara 15th Cross(8th Main)",
+              "Malleshwara 13th Cross (8th Main Road)",
+              "Malleshwara 8th Cross (8th Main KBS)",
+              "Malleshwara Circle",
+              "Link Road",
+              "Central",
+              "Kempegowda Bus Station"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5566476583481,
+          13.017938075150191
+        ]
+      },
+      "properties": {
+        "Platform": "2",
+        "Alias": [
+        "B2"
+        ],
+        "Routes": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.55655378103258,
+          13.017995567196651
+        ]
+      },
+      "properties": {
+        "Platform": "3",
+        "Alias": [
+        "B3"
+        ],
+        "Routes": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.55647063255311,
+          13.018039992859798
+        ]
+      },
+      "properties": {
+        "Platform": "4",
+        "Alias": [
+        "B4"
+        ],
+        "Routes": []
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.55637407302858,
+          13.017932848599846
+        ]
+      },
+      "properties": {
+        "Platform": "LEVEL 1 ENTRY BUS",
+        "Routes": []
+      }
+    }
+  ]
+}

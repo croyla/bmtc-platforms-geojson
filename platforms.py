@@ -175,7 +175,7 @@ def save_platforms():
 
     print(f'Failed in receiving {len(schedule_times["Failed"])}')
     print(f'Succeeded in receiving {len(schedule_times["Received"])}')
-    with open(f'out/platforms-{sys.argv[-1]}.json', 'w') as p_m:
+    with open(f'raw/platforms-{sys.argv[-1]}.json', 'w') as p_m:
         p_m.write(json.dumps(schedule_times, indent=2))
     return schedule_times
 
@@ -184,9 +184,9 @@ def geo_json():
     platforms_geo: dict  # Platform: List of routes
     geojson_json: dict
     platforms_majestic: dict
-    with open(f'out/platforms-{sys.argv[-1]}.json', 'r') as p_m:
+    with open(f'raw/platforms-{sys.argv[-1]}.json', 'r') as p_m:
         platforms_majestic = json.loads(p_m.read().replace('\n', ''))
-    with (open(f'out/platforms-{sys.argv[-1]}.geojson', 'r') as p_m_g):
+    with (open(f'in/platforms-{sys.argv[-1]}.geojson', 'r') as p_m_g):
         geojson_json = json.loads(p_m_g.read().replace('\n', ''))
         for feature in geojson_json["features"]:
             print(feature)
@@ -218,7 +218,7 @@ def geo_json():
     with open(f'out/platforms-routes-{sys.argv[-1]}.geojson', 'w') as p_m_g:
         p_m_g.write(json.dumps(geojson_json, indent=2))
     if (len(platforms_geo["Unknown"]) > 0) or (len(platforms_geo["Unsorted"]) > 0):
-        with open(f'out/help/platforms-unaccounted-{sys.argv[-1]}.json', 'w') as p_u:
+        with open(f'help/platforms-unaccounted-{sys.argv[-1]}.json', 'w') as p_u:
             p_u.write(
                 json.dumps({"Unknown": platforms_geo["Unknown"], "Unsorted": platforms_geo["Unsorted"]}, indent=2))
 
