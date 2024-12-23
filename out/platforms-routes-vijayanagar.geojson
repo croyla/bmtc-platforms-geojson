@@ -4161,21 +4161,6 @@
             "Stops": []
           },
           {
-            "Name": "V-500K",
-            "Destination": "Vijayanagara",
-            "From": 35395,
-            "UniqueName": "ITPL-VJN",
-            "Id": 3770,
-            "BayReported": 3,
-            "Stops": [
-              "Banashankari",
-              "Kadirenahalli Cross",
-              "Kadirenahalli Park",
-              "Devegowda Petrol Bunk",
-              "Kamakya Talkies"
-            ]
-          },
-          {
             "Name": "600-KB",
             "Destination": "Electronic City Wipro Main Gate",
             "From": 35395,
@@ -4246,6 +4231,21 @@
               "BHEL",
               "Wipro Gate Shikaripalya Cross",
               "Electronic City Wipro Main Gate"
+            ]
+          },
+          {
+            "Name": "V-500K",
+            "Destination": "Vijayanagara",
+            "From": 35395,
+            "UniqueName": "ITPL-VJN",
+            "Id": 3770,
+            "BayReported": 3,
+            "Stops": [
+              "Banashankari",
+              "Kadirenahalli Cross",
+              "Kadirenahalli Park",
+              "Devegowda Petrol Bunk",
+              "Kamakya Talkies"
             ]
           }
         ]

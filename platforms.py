@@ -186,20 +186,25 @@ def geo_json():
     platforms_majestic: dict
     with open(f'raw/platforms-{sys.argv[-1]}.json', 'r') as p_m:
         platforms_majestic = json.loads(p_m.read().replace('\n', ''))
-    with (open(f'in/platforms-{sys.argv[-1]}.geojson', 'r') as p_m_g):
+    with open(f'in/platforms-{sys.argv[-1]}.geojson', 'r') as p_m_g:
         geojson_json = json.loads(p_m_g.read().replace('\n', ''))
         for feature in geojson_json["features"]:
-            print(feature)
             feature["properties"]["Platform"] = str(feature["properties"]["Platform"]).upper()
-        platforms_geo = {feature["properties"]["Platform"]: [] for feature in geojson_json["features"]
-                         if feature["geometry"]["type"] == "Point"}
+        platforms_geo = {}
+        for feature in geojson_json["features"]:
+            if feature["geometry"]["type"] == "Point":
+                platforms_geo[feature["properties"]["Platform"]] = []
+                if "Alias" in feature["properties"].keys():
+                    for alias in feature["properties"]["Alias"]:
+                        platforms_geo[str(alias)] = []
+
         platforms_geo["Unknown"] = []
         platforms_geo["Unsorted"] = []
     if not platforms_geo or not platforms_majestic:
         return ''
     for route in platforms_majestic["Received"]:
         platform = route['platform-name'] if route['platform-name'] != "" else route['platform-number']
-        if platform == "":
+        if platform == "" or platform is None:
             platforms_geo["Unknown"].append(route)
             continue
         if platform in platforms_geo.keys():
@@ -207,14 +212,25 @@ def geo_json():
             continue
         platforms_geo["Unsorted"].append(route)
     for feature in geojson_json["features"]:
-        feature["properties"]["Routes"] = [{
-            "Name": route['route-number'],
-            "Destination": route['to-station'],
-            "From": route['from-station-id'],
-            "UniqueName": route['route-name'],
-            "Id": route['route-id'],
-            "BayReported": route['bay-number']
-        } for route in platforms_geo[str(feature["properties"]["Platform"])]]
+        if feature["geometry"]["type"] == "Point":
+            feature["properties"]["Routes"] = [{
+                "Name": route['route-number'],
+                "Destination": route['to-station'],
+                "From": route['from-station-id'],
+                "UniqueName": route['route-name'],
+                "Id": route['route-id'],
+                "BayReported": route['bay-number']
+            } for route in platforms_geo[str(feature["properties"]["Platform"])]]
+            if "Alias" in feature["properties"].keys():
+                for alias in feature["properties"]["Alias"]:
+                    feature["properties"]["Routes"].extend([{
+                "Name": route['route-number'],
+                "Destination": route['to-station'],
+                "From": route['from-station-id'],
+                "UniqueName": route['route-name'],
+                "Id": route['route-id'],
+                "BayReported": route['bay-number']
+            } for route in platforms_geo[str(alias)]])
     with open(f'out/platforms-routes-{sys.argv[-1]}.geojson', 'w') as p_m_g:
         p_m_g.write(json.dumps(geojson_json, indent=2))
     if (len(platforms_geo["Unknown"]) > 0) or (len(platforms_geo["Unsorted"]) > 0):

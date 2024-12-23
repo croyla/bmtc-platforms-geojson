@@ -1,6 +1,5 @@
 {
-  "Unknown": [],
-  "Unsorted": [
+  "Unknown": [
     {
       "route-number": "37",
       "extended-route-number": "37 DOWN",
@@ -113,5 +112,6 @@
       "platform-number": null,
       "bay-number": null
     }
-  ]
+  ],
+  "Unsorted": []
 }
