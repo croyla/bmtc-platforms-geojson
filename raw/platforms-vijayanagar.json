@@ -1877,20 +1877,6 @@
       "bay-number": null
     },
     {
-      "route-number": "V-500K",
-      "extended-route-number": "V-500K DOWN",
-      "route-name": "ITPL-VJN",
-      "start-station": "ITPL",
-      "start-station-id": 20865,
-      "from-station-id": 35395,
-      "route-id": 3770,
-      "to-station-id": 21266,
-      "to-station": "Vijayanagara",
-      "platform-name": "5",
-      "platform-number": "5",
-      "bay-number": 3
-    },
-    {
       "route-number": "61-A",
       "extended-route-number": "61-A UP",
       "route-name": "KBS-CLO",
@@ -2267,6 +2253,20 @@
       "platform-name": "",
       "platform-number": "1",
       "bay-number": null
+    },
+    {
+      "route-number": "V-500K",
+      "extended-route-number": "V-500K DOWN",
+      "route-name": "ITPL-VJN",
+      "start-station": "ITPL",
+      "start-station-id": 20865,
+      "from-station-id": 35395,
+      "route-id": 3770,
+      "to-station-id": 21266,
+      "to-station": "Vijayanagara",
+      "platform-name": "5",
+      "platform-number": "5",
+      "bay-number": 3
     },
     {
       "route-number": "61-F",

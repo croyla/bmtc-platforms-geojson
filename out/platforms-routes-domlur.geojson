@@ -14,46 +14,6 @@
         "Platform": "1",
         "Routes": [
           {
-            "Name": "201",
-            "Destination": "Srinagara Bus Station",
-            "From": 21923,
-            "UniqueName": "DBS-SRN",
-            "Id": 3138,
-            "BayReported": 1,
-            "Stops": [
-              "Central Silk Board",
-              "Kuvempunagara Bus Station(BTM Layout)",
-              "BTM Layout 16th Main",
-              "BTM Layout Water Tank",
-              "MICO Layout BTM",
-              "East End Jayanagara",
-              "Ragigudda Temple",
-              "Marenahalli (Marenahalli Metro Station)",
-              "Jayanagara 5th Block",
-              "Sangam Circle",
-              "Banashankari Bus Station"
-            ]
-          },
-          {
-            "Name": "201 D06G-DMR",
-            "Destination": "Depot-06 Gate",
-            "From": 21923,
-            "UniqueName": "DMR-D06G",
-            "Id": 6487,
-            "BayReported": 1,
-            "Stops": [
-              "Dr BR Ambedkar Bus Terminal (Domlur)",
-              "Dhoopanahalli",
-              "Indiranagara 100ft Road",
-              "New Horizon School",
-              "Indiranagara 12th Main",
-              "Indiranagara 6th Main",
-              "Indiranagara Police Station/KFC",
-              "Binnamangala",
-              "Depot-06 Gate"
-            ]
-          },
-          {
             "Name": "333-E",
             "Destination": "Kadugodi Bus Station",
             "From": 21914,
@@ -2632,55 +2592,6 @@
             "Stops": []
           },
           {
-            "Name": "329",
-            "Destination": "Muthsandra",
-            "From": 21914,
-            "UniqueName": "KMT-MTS",
-            "Id": 6407,
-            "BayReported": null,
-            "Stops": [
-              "KR Market",
-              "Town Hall",
-              "Corporation",
-              "St Joseph's Indian School/ Malya Hospital",
-              "Richmond Circle",
-              "St Joseph College",
-              "Mayohall",
-              "Garuda Mall",
-              "Hosmat Hospital",
-              "Military Accounts Office",
-              "Commando Hospital",
-              "Domlur",
-              "Domlur Flyover",
-              "Kodihalli",
-              "NAL/Manipal Hospital",
-              "Murugeshpalya",
-              "Konena Agrahara",
-              "HAL Main Gate",
-              "Helicopter Division",
-              "HAL Kalyana Mantap",
-              "Yamalur Cross",
-              "Marathahalli",
-              "Marathahalli Bridge",
-              "Munnekolalu Cross (Spice Garden)",
-              "Kundalahalli Gate",
-              "Thubarahalli",
-              "Siddapura",
-              "Ramagondanahalli",
-              "Varthur Kodi",
-              "Varthuru Govt College",
-              "Sorahunse Gate",
-              "Janthamane",
-              "Madhura Nagara Hostel",
-              "Madhura Nagara",
-              "Valepura Cross",
-              "Valepura Gate",
-              "Kotur Gate",
-              "Gullakaipura",
-              "Muthsandra"
-            ]
-          },
-          {
             "Name": "329-A",
             "Destination": "Madappanahalli",
             "From": 21914,
@@ -4251,6 +4162,46 @@
             "Id": 14844,
             "BayReported": null,
             "Stops": []
+          },
+          {
+            "Name": "201",
+            "Destination": "Srinagara Bus Station",
+            "From": 21923,
+            "UniqueName": "DBS-SRN",
+            "Id": 3138,
+            "BayReported": 1,
+            "Stops": [
+              "Central Silk Board",
+              "Kuvempunagara Bus Station(BTM Layout)",
+              "BTM Layout 16th Main",
+              "BTM Layout Water Tank",
+              "MICO Layout BTM",
+              "East End Jayanagara",
+              "Ragigudda Temple",
+              "Marenahalli (Marenahalli Metro Station)",
+              "Jayanagara 5th Block",
+              "Sangam Circle",
+              "Banashankari Bus Station"
+            ]
+          },
+          {
+            "Name": "201 D06G-DMR",
+            "Destination": "Depot-06 Gate",
+            "From": 21923,
+            "UniqueName": "DMR-D06G",
+            "Id": 6487,
+            "BayReported": 1,
+            "Stops": [
+              "Dr BR Ambedkar Bus Terminal (Domlur)",
+              "Dhoopanahalli",
+              "Indiranagara 100ft Road",
+              "New Horizon School",
+              "Indiranagara 12th Main",
+              "Indiranagara 6th Main",
+              "Indiranagara Police Station/KFC",
+              "Binnamangala",
+              "Depot-06 Gate"
+            ]
           }
         ]
       }
@@ -4309,54 +4260,6 @@
       "properties": {
         "Platform": "5",
         "Routes": [
-          {
-            "Name": "SBS-13K DML-KDG",
-            "Destination": "Kadugodi Bus Station",
-            "From": 21923,
-            "UniqueName": "DML-KDG",
-            "Id": 10757,
-            "BayReported": 2,
-            "Stops": [
-              "Indiranagara Police Station/KFC",
-              "Indiranagara Metro Station",
-              "Double Road Indiranagara",
-              "Lakshmipura",
-              "Halasuru",
-              "Depot-06 Gate",
-              "Binnamangala",
-              "Swamy Vivekananda Metro Station/Isolation Hospital",
-              "NGEF",
-              "Bayyappanahalli Metro Station",
-              "Benniganahalli",
-              "Tin Factory",
-              "KR Pura Railway Station",
-              "B Narayanapura",
-              "Mahadevapura",
-              "Singaianapalya Phoenix",
-              "Garudacharpalya",
-              "Brook Steel ESI",
-              "Hoodi",
-              "Rajapalya",
-              "Prestige Shantiniketana /Manipal Hospital",
-              "Big Bazzar ITPL",
-              "Pattandur Agrahara Gate",
-              "ITPL",
-              "GR Tech Park ITPL",
-              "BPL",
-              "Hope Farm",
-              "Kadugodi Bridge",
-              "Kadugodi Bus Station"
-            ]
-          },
-          {
-            "Name": "412 KLN-BRAB DMLR",
-            "Destination": "Kalyananagara Bus Stand",
-            "From": 21923,
-            "UniqueName": "BRAD-KLN",
-            "Id": 14188,
-            "BayReported": 2,
-            "Stops": []
-          },
           {
             "Name": "334-E",
             "Destination": "Hosakote Bus Stand (Old)",
@@ -4481,6 +4384,54 @@
               "ITI Colony Gate",
               "KR Pura Market"
             ]
+          },
+          {
+            "Name": "SBS-13K DML-KDG",
+            "Destination": "Kadugodi Bus Station",
+            "From": 21923,
+            "UniqueName": "DML-KDG",
+            "Id": 10757,
+            "BayReported": 2,
+            "Stops": [
+              "Indiranagara Police Station/KFC",
+              "Indiranagara Metro Station",
+              "Double Road Indiranagara",
+              "Lakshmipura",
+              "Halasuru",
+              "Depot-06 Gate",
+              "Binnamangala",
+              "Swamy Vivekananda Metro Station/Isolation Hospital",
+              "NGEF",
+              "Bayyappanahalli Metro Station",
+              "Benniganahalli",
+              "Tin Factory",
+              "KR Pura Railway Station",
+              "B Narayanapura",
+              "Mahadevapura",
+              "Singaianapalya Phoenix",
+              "Garudacharpalya",
+              "Brook Steel ESI",
+              "Hoodi",
+              "Rajapalya",
+              "Prestige Shantiniketana /Manipal Hospital",
+              "Big Bazzar ITPL",
+              "Pattandur Agrahara Gate",
+              "ITPL",
+              "GR Tech Park ITPL",
+              "BPL",
+              "Hope Farm",
+              "Kadugodi Bridge",
+              "Kadugodi Bus Station"
+            ]
+          },
+          {
+            "Name": "412 KLN-BRAB DMLR",
+            "Destination": "Kalyananagara Bus Stand",
+            "From": 21923,
+            "UniqueName": "BRAD-KLN",
+            "Id": 14188,
+            "BayReported": 2,
+            "Stops": []
           }
         ]
       }

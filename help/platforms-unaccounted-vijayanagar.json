@@ -1,6 +1,5 @@
 {
-  "Unknown": [],
-  "Unsorted": [
+  "Unknown": [
     {
       "route-number": "360 VTTMC-KMT-ATB",
       "extended-route-number": "360 VTTMC-KMT-ATB UP",
@@ -575,5 +574,6 @@
       "platform-number": null,
       "bay-number": null
     }
-  ]
+  ],
+  "Unsorted": []
 }

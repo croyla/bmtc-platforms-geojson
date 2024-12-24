@@ -50,14 +50,16 @@ Please have a look at `raw/commands.txt` for a clearer understanding.
 
 ### Contributing
 - The data for platforms - routes mapping is taken from BMTC-API, it is not accurate all the time. Simply creating an issue
-for an inaccurate or unknown route wherein you can provide the actual platform for the route will allow this to be rectified.
+for an inaccurate or unknown route wherein you can provide the actual platform for the route will allow this to be rectified
 - The geojson / geographic data is manually created, and it may be inaccurate. Should new platforms open up, or old 
 platforms shut down, this would need updating. Please create an issue for this matter, and provide your changes to existing 
 files in a PR in which the issue is mentioned.
 - The current stop collection does not represent all platformed stops operated by BMTC. If you are aware of one please raise
 an issue on this repository. If you have already created a geojson for the same please create a PR referencing the issue.
 - There are numerous platforms and buses that are not in the files. Please have a look at the `help/` directory to see where you can help.
+The help directory is structured into "Unknown" and "Unsorted". "Unsorted" refers to an unrecognised platform, "Unknown" refers to no platform information.
 - To add a new feature, fix a bug, or optimise some code please create the relevant issue and reference it in your PR.
+- To update the files, please create a PR with the description noting the date, and if possible please link / upload the gtfs used for the run.
 #### Tools for Contributing
 - [geojson-blrtransit](https://geojson.blrtransit.com/)
 - [geojson.io](https://geojson.io/)

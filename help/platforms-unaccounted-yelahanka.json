@@ -1,6 +1,5 @@
 {
-  "Unknown": [],
-  "Unsorted": [
+  "Unknown": [
     {
       "route-number": "298-M",
       "extended-route-number": "298-M UP",
@@ -1780,6 +1779,20 @@
       "bay-number": null
     },
     {
+      "route-number": "284 RTNP-YHK-OASIS",
+      "extended-route-number": "284 RTNP-YHK-OASIS UP",
+      "route-name": "RTNPS-OASIS",
+      "start-station": "RT Nagara Police Station",
+      "start-station-id": 21096,
+      "from-station-id": 27854,
+      "route-id": 8842,
+      "to-station-id": 34183,
+      "to-station": "Oasis School",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
       "route-number": "289-D HSK-BYRTH-YHKOT",
       "extended-route-number": "289-D HSK-BYRTH-YHKOT UP",
       "route-name": "YHKOT-HSK",
@@ -3194,34 +3207,6 @@
       "bay-number": null
     },
     {
-      "route-number": "290-EJ NGWJN-GKVK-YHK",
-      "extended-route-number": "290-EJ NGWJN-GKVK-YHK UP",
-      "route-name": "NGWJN-YHK",
-      "start-station": "Nagawara Junction",
-      "start-station-id": 36305,
-      "from-station-id": 22644,
-      "route-id": 14654,
-      "to-station-id": 22641,
-      "to-station": "Yelahanka Old Town",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "290-EJ NGWJN-GKVK-YHK",
-      "extended-route-number": "290-EJ NGWJN-GKVK-YHK DOWN",
-      "route-name": "YHKOT-NGWJN",
-      "start-station": "Yelahanka Old Town",
-      "start-station-id": 22640,
-      "from-station-id": 22640,
-      "route-id": 14655,
-      "to-station-id": 36305,
-      "to-station": "Nagawara Junction",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
       "route-number": "401-B HPN-MSP-YHKOT",
       "extended-route-number": "401-B HPN-MSP-YHKOT UP",
       "route-name": "HPN-YHKOT",
@@ -3417,5 +3402,6 @@
       "platform-number": null,
       "bay-number": null
     }
-  ]
+  ],
+  "Unsorted": []
 }

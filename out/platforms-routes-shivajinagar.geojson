@@ -185,6 +185,42 @@
               "12th Block Nagarabhavi",
               "Bande Maramma Bus Station"
             ]
+          },
+          {
+            "Name": "241-Q",
+            "Destination": "Nagarahole Nagara",
+            "From": 21172,
+            "UniqueName": "SBS-NHN",
+            "Id": 3502,
+            "BayReported": 1,
+            "Stops": [
+              "Shivajinagara Bus Station",
+              "Indian Express",
+              "Vidhana Soudha Karnataka High Court",
+              "MS Building",
+              "Maharani College",
+              "Cauvery Bhavana",
+              "Kempegowda Bus Station",
+              "Okalipura",
+              "Minerva Mill",
+              "1st Cross Magadi Road",
+              "5th Cross Magadi Road",
+              "10th Cross Magadi Road",
+              "Magadi Road Metro Station",
+              "Prasanna Theatre",
+              "Magadi Road TollGate",
+              "Agrahara Dasarahalli",
+              "KHB Colony",
+              "Kamakshipalya",
+              "Summanahalli",
+              "Kottigepalya",
+              "Sunkadakatte",
+              "Janapriya Apartment",
+              "Herohalli Cross",
+              "Maruthi Nagara",
+              "Mahadeshwara Nagara",
+              "Nagarahole Nagara"
+            ]
           }
         ]
       }
@@ -953,38 +989,6 @@
               "Hosahalli Cross Devanagondi",
               "Shrunga School Devangondi",
               "Devanagondi"
-            ]
-          },
-          {
-            "Name": "311-J SBS-SGH",
-            "Destination": "Seegehalli",
-            "From": 21172,
-            "UniqueName": "SBS-SGH",
-            "Id": 5717,
-            "BayReported": 1,
-            "Stops": [
-              "Shivajinagara Bus Station",
-              "Indian Express",
-              "Maniksha Parade Ground",
-              "Manipal Centre MG Road",
-              "Gurudwara/Lido",
-              "Philips Millenium Halasuru",
-              "Halasuru",
-              "Depot-06 Gate",
-              "Binnamangala",
-              "Swamy Vivekananda Metro Station/Isolation Hospital",
-              "NGEF",
-              "Bayyappanahalli Metro Station",
-              "Benniganahalli",
-              "Tin Factory",
-              "ITI Colony Gate",
-              "Krishnaraja Pura Govt Hospital",
-              "KR Pura Market",
-              "KR Pura Extension",
-              "TC Palya  Gate Hosakote Road",
-              "Bhattarahalli Cross",
-              "Seegehalli Junction",
-              "Seegehalli"
             ]
           },
           {
