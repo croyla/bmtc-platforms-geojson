@@ -1,4 +1,5 @@
 # Ignore IDE specific files
 .idea/
-
 .venv/
+# Ignore fs specific files
+.DS_Store
