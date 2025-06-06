@@ -54,14 +54,13 @@ Raw files are in `raw/`. These files contain route - platform data in json files
 These files are intermediary files that are then used to populate the `in/` files and generate `out/` files.
 
 ### Running it yourself
-1. #### Installation
+#### 1. Installation
 Clone the repo in your desired directory.
-2. #### Dependents
+#### 2. Dependents
 Ensure you have the python package `csv` installed, and you are using python 3. You must have a local bmtc-gtfs copy
 with proper BMTC-API IDs to run the script.
-3. #### Running
+## 3. Running
 You can run the program itself by running `python3 <stop_id>... <stop_nickname> <nest_level>`.
-Please have a look at `raw/commands.txt` for a clearer understanding.
 
 ### Contributing
 - The data for platforms - routes mapping is taken from BMTC-API, it is not accurate all the time. Simply creating an issue
