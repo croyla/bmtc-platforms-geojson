@@ -3,6 +3,8 @@ import datetime
 import json
 import time
 import sys
+from concurrent.futures import ThreadPoolExecutor, as_completed
+import threading
 
 import requests
 
@@ -125,11 +127,17 @@ def save_platforms():
 
     schedule_times = {"Failed": [], "Received": []}
     routes_done = set()
+    routes_done_lock = threading.Lock()
+    received_lock = threading.Lock()
+    failed_stops = set()
+    failed_stops_lock = threading.Lock()
+    s = {l: set() for l in range(nest_level + 1)}
+
     file = sys.argv[-1] if not sys.argv[-1].isdigit() else sys.argv[-2]
     tomorrow_start = (datetime.datetime.now() + datetime.timedelta(days=1)).strftime('%Y-%m-%d 00:00')
     tomorrow_end = (datetime.datetime.now() + datetime.timedelta(days=1)).strftime('%Y-%m-%d 23:59')
+
     def send_request(from_stop, to_stop):
-        """ Sends a request and checks response validity """
         data = f'''
             {{
             "fromStationId":{int(from_stop)},
@@ -147,61 +155,62 @@ def save_platforms():
             response = requests.post(f'{api_url}GetTimetableByStation_v4', headers=request_headers, data=data).json()
         except:
             print("Failed in response.json")
-            response = {"isException": True, "Issuccess": False, "exception": "Response not received in JSON.", "Message": "Response not received in JSON."}
+            response = {"isException": True, "Issuccess": False, "exception": "Response not received in JSON.",
+                        "Message": "Response not received in JSON."}
         print(f"Received in {time.time() - now} seconds")
 
-        # Define failure criteria
-        print(f"Exception value {response.get('exception') not in (None, False)}")
-        print(f"Exception is {response.get('isException') is True}")
-        print(f"Success is {response.get('Issuccess') is not True}")
-        print(f"Message != 'Success' {response.get('Message') != 'Success'}")
-        is_failed = \
-            response.get("exception") not in (None, False) or \
-            response.get("isException") is True or \
-            response.get("Issuccess") is not True
-        print(f"Is failed? {is_failed}")
-        return response, is_failed
+        is_failed = (
+                response.get("exception") not in (None, False) or
+                response.get("isException") is True or
+                response.get("Issuccess") is not True
+        )
+        return from_stop, to_stop, response, is_failed
 
-    failed_stops = set()
+    # Main execution
+    with ThreadPoolExecutor(max_workers=10) as executor:
+        for stop in stop_ids:
+            s[0].add(stop)
+            for level in range(nest_level):
+                print(f"Processing stop {stop}, current level: {level}")
+                to_break = True
+                futures = []
+                for b in s[level]:
+                    for n in next_stops[b]:
+                        futures.append(executor.submit(send_request, stop, n))
 
-    s = {l: set() for l in range(nest_level+1)}
-    for stop in stop_ids:
-        s[0].add(stop)
-        for level in range(nest_level):
-            print(f"Processing stop {stop}, current level: {level}")
-            to_break = True
-            for b in s[level]:
-                for n in next_stops[b]:
-                    response, is_failed = send_request(stop, n)
+                for future in as_completed(futures):
+                    from_stop, to_stop, response, is_failed = future.result()
                     if is_failed:
-                        s[level + 1].add(n)  # Do this, only add those that failed
+                        with failed_stops_lock:
+                            if level == nest_level - 1:
+                                failed_stops.add(from_stop)
+                        s[level + 1].add(to_stop)
                         to_break = False
-                        if level == nest_level-1:
-                            failed_stops.add(stop)
-                        continue
-                    for route_entry in response.get("data", []):
-                        if route_entry["routeid"] not in routes_done:
-                            routes_done.add(route_entry["routeid"])  # Unsure if we should keep or remove this, as this prevents the same route from encountering multiple stops
-                            schedule_times["Received"].append(
-                                {
+                    else:
+                        for route_entry in response.get("data", []):
+                            route_id = route_entry["routeid"]
+                            with routes_done_lock:
+                                if route_id in routes_done:
+                                    continue
+                                routes_done.add(route_id)
+                            with received_lock:
+                                schedule_times["Received"].append({
                                     "route-number": route_entry['routeno'],
-                                    "extended-route-number": routes[route_entry['routeid']]['routeno'],
+                                    "extended-route-number": routes[route_id]['routeno'],
                                     "route-name": route_entry["routename"],
-                                    "start-station": routes[route_entry['routeid']]['fromstation'],
-                                    "start-station-id": routes[route_entry['routeid']]['fromstationid'],
+                                    "start-station": routes[route_id]['fromstation'],
+                                    "start-station-id": routes[route_id]['fromstationid'],
                                     "from-station-id": route_entry['fromstationid'],
-                                    "route-id": route_entry['routeid'],
-                                    "to-station-id": routes[route_entry['routeid']]["tostationid"],
-                                    "to-station": routes[route_entry['routeid']]["tostation"],
-                                    "platform-name": overrides.get(str(route_entry['routeid']),
-                                                                   route_entry["platformname"]),
-                                    "platform-number": overrides.get(str(route_entry['routeid']),
-                                                                     route_entry["platformnumber"]),
+                                    "route-id": route_id,
+                                    "to-station-id": routes[route_id]["tostationid"],
+                                    "to-station": routes[route_id]["tostation"],
+                                    "platform-name": overrides.get(str(route_id), route_entry["platformname"]),
+                                    "platform-number": overrides.get(str(route_id), route_entry["platformnumber"]),
                                     "bay-number": route_entry["baynumber"]
-                                }
-                            )
-            if to_break:
-                break
+                                })
+                if to_break:
+                    break
+
     print(f'Failed in processing {len(failed_stops)} stop(s)')
     print(f'Succeeded in receiving {len(schedule_times["Received"])}')
 
@@ -220,7 +229,7 @@ def geo_json():
     print("Loading stops.txt...")
     with open(f"{gtfs_folder}stops.txt", mode='r') as file:
         reader = csv.DictReader(file)
-        stops_loc = {row["stop_id"]: [row["stop_lat"], row["stop_lon"]] for row in reader}
+        stops_loc = {row["stop_id"]: [float(row["stop_lat"]), float(row["stop_lon"])] for row in reader}
     with open('stops-platforms.json', 'r') as p_m:
         stops_platforms = json.loads(p_m.read().replace('\n', ''))
     file = sys.argv[-1] if not sys.argv[-1].isdigit() else sys.argv[-2]
@@ -348,6 +357,6 @@ def add_routes_gtfs_geojson():
 
 if __name__ == '__main__':
     print(sys.argv)
-    print(save_platforms())
-    print(geo_json())
-    print(add_routes_gtfs_geojson())
+    save_platforms()
+    geo_json()
+    add_routes_gtfs_geojson()
