@@ -15,168 +15,199 @@ request_headers = {
     'Origin': 'https://bmtcwebportal.amnex.com',
     'Referer': 'https://bmtcwebportal.amnex.com/'
 }
-api_url = 'https://bmtcmobileapistaging.amnex.com/WebAPI/'
+api_url = 'https://bmtcmobileapi.karnataka.gov.in/WebAPI/'
 
 gtfs_folder = '../bmtc-19-07-2024/'  # This gtfs folder is our source for stops, as opposed to querying api
 
 
-def get_next_stops(stop_ids):
-    # Load GTFS files
-    stop_times = []
-    print("Loading stop_times.txt...")
-    # Load stop_times.txt which contains stop sequence information for each trip
-    with open(f"{gtfs_folder}stop_times.txt", mode='r') as file:
-        reader = csv.DictReader(file)
-        for row in reader:
-            stop_times.append(row)
-    print(f"Loaded {len(stop_times)} stop times.")
+def print_progress_bar(iteration, total, prefix='', length=40):
+    percent = f"{100 * (iteration / float(total)):.1f}"
+    filled_length = int(length * iteration // total)
+    bar = '█' * filled_length + '-' * (length - filled_length)
+    sys.stdout.write(f'\r{prefix} |{bar}| {percent}%')
+    sys.stdout.flush()
+    if iteration == total:
+        print()  # Move to next line when done
 
-    trips = []
+
+def get_next_stops(stop_ids, nest_level=5):
+    # Load GTFS files
     print("Loading trips.txt...")
-    # Load trips.txt which contains trip and route information
     with open(f"{gtfs_folder}trips.txt", mode='r') as file:
         reader = csv.DictReader(file)
-        for row in reader:
-            trips.append(row)
+        trips_list = list(reader)
+        trips = {x['trip_id']: x for x in trips_list}
     print(f"Loaded {len(trips)} trips.")
 
-    stops = []
+    print("Loading stop_times.txt...")
+    with open(f"{gtfs_folder}stop_times.txt", mode='r') as file:
+        reader = csv.DictReader(file)
+        stop_times = list(reader)
+    print(f"Loaded {len(stop_times)} stop times.")
+
     print("Loading stops.txt...")
-    # Load stops.txt which contains stop information, including stop names
     with open(f"{gtfs_folder}stops.txt", mode='r') as file:
         reader = csv.DictReader(file)
-        for row in reader:
-            stops.append(row)
+        stops = {row["stop_id"]: row["stop_name"] for row in reader}
     print(f"Loaded {len(stops)} stops.")
 
-    # Create a set to store unique next stops
-    next_stops_total = {}
+    next_stops_total = {stop_id: [] for stop_id in stop_ids}
+
+    # Group stop_times by trip_id for faster access
+    stop_times_by_trip = {}
+    for st in stop_times:
+        stop_times_by_trip.setdefault(st['trip_id'], []).append(st)
+
+    # Sort stop_times within each trip by stop_sequence
+    for trip_id in stop_times_by_trip:
+        stop_times_by_trip[trip_id].sort(key=lambda x: int(x['stop_sequence']))
+
+
     for stop_id in stop_ids:
-        next_stops = set()
-        print(f"Processing stop_id: {stop_id}")
-        # Get the list of stop times that include the given stop_id
-        trips_with_stop = [stop_time for stop_time in stop_times if stop_time['stop_id'] == stop_id]
-        print(f"Found {len(trips_with_stop)} trips with stop_id {stop_id}.")
+        for st in stop_times:
+            if st['stop_id'] != stop_id:
+                continue
 
-        # Get one trip_id per route to avoid processing all trips of the same route
-        trip_ids = set()
-        route_ids_got = set()
-        for trip in trips_with_stop:
-            # Find the route_id for the current trip_id
-            route_id = next((t['route_id'] for t in trips if t['trip_id'] == trip['trip_id']), None)
-            # Add the trip_id to the set if the route_id has not been processed yet
-            if route_id and route_id not in route_ids_got:
-                route_ids_got.add(route_id)
-                trip_ids.add(trip['trip_id'])
-                print(f"Added trip_id {trip['trip_id']} for route_id {route_id}.")
+            trip_id = st['trip_id']
+            trip_stop_times = stop_times_by_trip[trip_id]
 
-        for trip_id in trip_ids:
-            # print(f"Processing trip_id: {trip_id}")
-            # Get all stop times for the specific trip, sorted by stop_sequence to maintain the correct order
-            trip_stop_times = sorted([stop_time for stop_time in stop_times if stop_time['trip_id'] == trip_id],
-                                     key=lambda x: int(x['stop_sequence']))
-            # print(f"Trip {trip_id} has {len(trip_stop_times)} stops.")
+            # Find index of current stop
+            current_index = next(
+                (i for i, x in enumerate(trip_stop_times) if x['stop_id'] == stop_id), None)
 
-            # Find the current stop in the sequence
-            current_stop_index = next(
-                (index for index, stop_time in enumerate(trip_stop_times) if stop_time['stop_id'] == stop_id), None)
-            # print(f"Current stop index for stop_id {stop_id} in trip_id {trip_id}: {current_stop_index}")
+            if current_index is None:
+                continue
 
-            # Check if there is a next stop in the sequence
-            if current_stop_index is not None and current_stop_index + 1 < len(trip_stop_times):
-                # Get the next stop_id from the sequence
-                next_stop_id = trip_stop_times[current_stop_index + 1]['stop_id']
-                # Find the name of the next stop using the stop_id
-                next_stop_name = next((stop['stop_name'] for stop in stops if stop['stop_id'] == next_stop_id), None)
-                # print(f"Next stop for stop_id {stop_id} in trip_id {trip_id}: {next_stop_name} {next_stop_id}")
+            # Traverse up to `n` next stops from this stop along this trip
+            for offset in range(nest_level):
+                idx = current_index + offset
+                if idx >= len(trip_stop_times) - 1:
+                    break
 
-                # Add the next stop name to the set of unique next stops
-                if next_stop_name:
-                    next_stops.add(next_stop_id)
-        next_stops_total[stop_id] = list(next_stops)
+                curr = trip_stop_times[idx]['stop_id']
+                nxt = trip_stop_times[idx + 1]['stop_id']
 
-    print(f"Unique next stops: {next_stops_total}")
+                if curr not in next_stops_total:
+                    next_stops_total[curr] = []
+
+                if nxt not in next_stops_total[curr]:
+                    next_stops_total[curr].append(nxt)
+
+    print(f"Next stops mapping: {next_stops_total}")
+
+    # print(f"Final nested stops mapping: {next_stops_total}")
     return next_stops_total
 
 
 def save_platforms():
     overrides: dict
-    with open('overrides.json', 'r') as p_m:  # Overrides contain manual overrides for routes wrongly provided by API
-        # For example KIA-9 is on platform 30, but it is retrieved in API under platform 5
+    with open('overrides.json', 'r') as p_m:
         overrides_json = json.loads(p_m.read().replace('\n', ''))
         overrides = {}
-        for arg in sys.argv[1:-1]:
+        # Extract nest_level from command-line arguments
+        if sys.argv[-1].isdigit():  # Check if the last argument is a number
+            nest_level = int(sys.argv[-1])
+            stop_ids = sys.argv[1:-2]  # Exclude the last two arguments (majestic and nest_level)
+        else:
+            nest_level = 2  # Default value if no nest_level is provided
+            stop_ids = sys.argv[1:-1]  # Exclude only the last argument (majestic)
+
+        print(f"Using nest level: {nest_level}")
+
+        for arg in stop_ids:
             if arg in overrides_json.keys():
                 overrides.update(overrides_json[arg])
-    next_stops = get_next_stops(sys.argv[1:-1])
 
-    response = requests.post(f'{api_url}GetAllRouteList',
-                             headers=request_headers)
-    routes = {route['routeid']: route for route in response.json()['data']}
+    next_stops = get_next_stops(stop_ids, nest_level=nest_level)
+
+    response = requests.post(f'{api_url}GetAllRouteList', headers=request_headers)
+    routes = {route['routeid']: route for route in response.json().get('data', [])}
 
     schedule_times = {"Failed": [], "Received": []}
-    print(
-        f'using overrides {overrides}')
-    # Introduced override for when we know a platform is wrong, and we know the correct platform as well
-
+    routes_done = set()
+    file = sys.argv[-1] if not sys.argv[-1].isdigit() else sys.argv[-2]
     tomorrow_start = (datetime.datetime.now() + datetime.timedelta(days=1)).strftime('%Y-%m-%d 00:00')
     tomorrow_end = (datetime.datetime.now() + datetime.timedelta(days=1)).strftime('%Y-%m-%d 23:59')
-    routes_done = set()
-    for stop, stops in next_stops.items():
-        for query in stops:
-            if stops.index(query) != 0:
-                time.sleep(1.5)
-            data = f'''
-                    {{
-                    "fromStationId":{int(stop)},
-                    "toStationId":{int(query)},
-                    "p_startdate":"{tomorrow_start}",
-                    "p_enddate":"{tomorrow_end}",
-                    "p_isshortesttime":0,
-                    "p_routeid":"",
-                    "p_date":"{tomorrow_start}"
-                    }}
-                    '''
-            print(f'Sending query for stops {stop} and {query}')
-            # print('With data')
-            # print(data)
-            now = time.time()
+    def send_request(from_stop, to_stop):
+        """ Sends a request and checks response validity """
+        data = f'''
+            {{
+            "fromStationId":{int(from_stop)},
+            "toStationId":{int(to_stop)},
+            "p_startdate":"{tomorrow_start}",
+            "p_enddate":"{tomorrow_end}",
+            "p_isshortesttime":0,
+            "p_routeid":"",
+            "p_date":"{tomorrow_start}"
+            }}
+        '''
+        print(f'Sending query for stops {from_stop} -> {to_stop}')
+        now = time.time()
+        try:
+            response = requests.post(f'{api_url}GetTimetableByStation_v4', headers=request_headers, data=data).json()
+        except:
+            print("Failed in response.json")
+            response = {"isException": True, "Issuccess": False, "exception": "Response not received in JSON.", "Message": "Response not received in JSON."}
+        print(f"Received in {time.time() - now} seconds")
 
-            response = requests.post(f'{api_url}GetTimetableByStation_v4',
-                                     headers=request_headers, data=data).json()
+        # Define failure criteria
+        print(f"Exception value {response.get('exception') not in (None, False)}")
+        print(f"Exception is {response.get('isException') is True}")
+        print(f"Success is {response.get('Issuccess') is not True}")
+        print(f"Message != 'Success' {response.get('Message') != 'Success'}")
+        is_failed = \
+            response.get("exception") not in (None, False) or \
+            response.get("isException") is True or \
+            response.get("Issuccess") is not True
+        print(f"Is failed? {is_failed}")
+        return response, is_failed
 
-            print(f"Received in {time.time() - now} seconds")
+    failed_stops = set()
 
-            response_data = response['data'] if 'data' in response.keys() else None
-            if not response_data or response_data is None or len(response_data) == 0:
-                schedule_times["Failed"].append({"stop": stop, "next": query, "schedule": response})
-                continue
-            for route_entry in response_data:
-                if not route_entry['routeid'] in routes_done:
-                    routes_done.add(route_entry['routeid'])
-                    schedule_times["Received"].append(
-                        {
-                            "route-number": route_entry['routeno'],
-                            "extended-route-number": routes[route_entry['routeid']]['routeno'],
-                            "route-name": route_entry["routename"],
-                            "start-station": routes[route_entry['routeid']]['fromstation'],
-                            "start-station-id": routes[route_entry['routeid']]['fromstationid'],  # Start of route
-                            "from-station-id": route_entry['fromstationid'],  # Current station id
-                            "route-id": route_entry['routeid'],
-                            "to-station-id": routes[route_entry['routeid']]["tostationid"],  # End of route
-                            "to-station": routes[route_entry['routeid']]["tostation"],
-                            "platform-name": route_entry["platformname"] if not str(
-                                route_entry['routeid']) in overrides.keys() else overrides[str(route_entry['routeid'])],
-                            "platform-number": route_entry["platformnumber"] if not str(
-                                route_entry['routeid']) in overrides.keys() else overrides[str(route_entry['routeid'])],
-                            "bay-number": route_entry["baynumber"]
-                        }
-                    )
-
-    print(f'Failed in receiving {len(schedule_times["Failed"])}')
+    s = {l: set() for l in range(nest_level+1)}
+    for stop in stop_ids:
+        s[0].add(stop)
+        for level in range(nest_level):
+            print(f"Processing stop {stop}, current level: {level}")
+            to_break = True
+            for b in s[level]:
+                for n in next_stops[b]:
+                    response, is_failed = send_request(stop, n)
+                    if is_failed:
+                        s[level + 1].add(n)  # Do this, only add those that failed
+                        to_break = False
+                        if level == nest_level-1:
+                            failed_stops.add(stop)
+                        continue
+                    for route_entry in response.get("data", []):
+                        if route_entry["routeid"] not in routes_done:
+                            routes_done.add(route_entry["routeid"])  # Unsure if we should keep or remove this, as this prevents the same route from encountering multiple stops
+                            schedule_times["Received"].append(
+                                {
+                                    "route-number": route_entry['routeno'],
+                                    "extended-route-number": routes[route_entry['routeid']]['routeno'],
+                                    "route-name": route_entry["routename"],
+                                    "start-station": routes[route_entry['routeid']]['fromstation'],
+                                    "start-station-id": routes[route_entry['routeid']]['fromstationid'],
+                                    "from-station-id": route_entry['fromstationid'],
+                                    "route-id": route_entry['routeid'],
+                                    "to-station-id": routes[route_entry['routeid']]["tostationid"],
+                                    "to-station": routes[route_entry['routeid']]["tostation"],
+                                    "platform-name": overrides.get(str(route_entry['routeid']),
+                                                                   route_entry["platformname"]),
+                                    "platform-number": overrides.get(str(route_entry['routeid']),
+                                                                     route_entry["platformnumber"]),
+                                    "bay-number": route_entry["baynumber"]
+                                }
+                            )
+            if to_break:
+                break
+    print(f'Failed in processing {len(failed_stops)} stop(s)')
     print(f'Succeeded in receiving {len(schedule_times["Received"])}')
-    with open(f'raw/platforms-{sys.argv[-1]}.json', 'w') as p_m:
+
+    with open(f'raw/platforms-{file}.json', 'w') as p_m:
         p_m.write(json.dumps(schedule_times, indent=2))
+
     return schedule_times
 
 
@@ -184,9 +215,18 @@ def geo_json():
     platforms_geo: dict  # Platform: List of routes
     geojson_json: dict
     platforms_majestic: dict
-    with open(f'raw/platforms-{sys.argv[-1]}.json', 'r') as p_m:
+    stops_platforms: dict
+    stops_loc: dict
+    print("Loading stops.txt...")
+    with open(f"{gtfs_folder}stops.txt", mode='r') as file:
+        reader = csv.DictReader(file)
+        stops_loc = {row["stop_id"]: [row["stop_lat"], row["stop_lon"]] for row in reader}
+    with open('stops-platforms.json', 'r') as p_m:
+        stops_platforms = json.loads(p_m.read().replace('\n', ''))
+    file = sys.argv[-1] if not sys.argv[-1].isdigit() else sys.argv[-2]
+    with open(f'raw/platforms-{file}.json', 'r') as p_m:
         platforms_majestic = json.loads(p_m.read().replace('\n', ''))
-    with open(f'in/platforms-{sys.argv[-1]}.geojson', 'r') as p_m_g:
+    with open(f'in/platforms-{file}.geojson', 'r') as p_m_g:
         geojson_json = json.loads(p_m_g.read().replace('\n', ''))
         for feature in geojson_json["features"]:
             feature["properties"]["Platform"] = str(feature["properties"]["Platform"]).upper()
@@ -202,8 +242,29 @@ def geo_json():
         platforms_geo["Unsorted"] = []
     if not platforms_geo or not platforms_majestic:
         return ''
+    platforms_names = [feature["properties"]["Platform"] for feature in geojson_json["features"]]
+    # Add stops (not identified as platforms by BMTC API) to geojson and platforms_geo
+    for stop_id, stop_name in stops_platforms.items():
+        if stop_id in stops_loc and stop_id in sys.argv:
+            platforms_geo[stop_name] = []
+            if stop_name in platforms_names:
+                continue
+            geojson_json["features"].append({
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        stops_loc[stop_id][1], stops_loc[stop_id][0]
+                    ]
+                },
+                "properties": {
+                    "Platform": stop_name
+                }
+            })
+
+    # Process received routes and populate local data accordingly
     for route in platforms_majestic["Received"]:
-        platform = route['platform-name'] if route['platform-name'] != "" else route['platform-number']
+        platform = stops_platforms[str(route['from-station-id'])] if str(route['from-station-id']) in stops_platforms else route['platform-name'] if route['platform-name'] != "" else route['platform-number']
         if platform == "" or platform is None:
             platforms_geo["Unknown"].append(route)
             continue
@@ -224,17 +285,19 @@ def geo_json():
             if "Alias" in feature["properties"].keys():
                 for alias in feature["properties"]["Alias"]:
                     feature["properties"]["Routes"].extend([{
-                "Name": route['route-number'],
-                "Destination": route['to-station'],
-                "From": route['from-station-id'],
-                "UniqueName": route['route-name'],
-                "Id": route['route-id'],
-                "BayReported": route['bay-number']
-            } for route in platforms_geo[str(alias)]])
-    with open(f'out/platforms-routes-{sys.argv[-1]}.geojson', 'w') as p_m_g:
+                        "Name": route['route-number'],
+                        "Destination": route['to-station'],
+                        "From": route['from-station-id'],
+                        "UniqueName": route['route-name'],
+                        "Id": route['route-id'],
+                        "BayReported": route['bay-number']
+                    } for route in platforms_geo[str(alias)]])
+
+    # Save all data. Unknown and Unsorted as well.
+    with open(f'out/platforms-routes-{file}.geojson', 'w') as p_m_g:
         p_m_g.write(json.dumps(geojson_json, indent=2))
     if (len(platforms_geo["Unknown"]) > 0) or (len(platforms_geo["Unsorted"]) > 0):
-        with open(f'help/platforms-unaccounted-{sys.argv[-1]}.json', 'w') as p_u:
+        with open(f'help/platforms-unaccounted-{file}.json', 'w') as p_u:
             p_u.write(
                 json.dumps({"Unknown": platforms_geo["Unknown"], "Unsorted": platforms_geo["Unsorted"]}, indent=2))
 
@@ -243,7 +306,8 @@ def geo_json():
 
 def add_routes_gtfs_geojson():
     geojson_json: dict
-    with (open(f'out/platforms-routes-{sys.argv[-1]}.geojson', 'r') as p_m_g):
+    file = sys.argv[-1] if not sys.argv[-1].isdigit() else sys.argv[-2]
+    with (open(f'out/platforms-routes-{file}.geojson', 'r') as p_m_g):
         geojson_json = json.loads(p_m_g.read().replace('\n', ''))
 
     def get_dicts(filename) -> list[dict]:
@@ -277,7 +341,7 @@ def add_routes_gtfs_geojson():
                 for stop in stop_times[trips[str(route["Id"])][0]["trip_id"]]:
                     stops_now.append(stops[stop['stop_id']])
             route["Stops"] = stops_now
-    with open(f'out/platforms-routes-{sys.argv[-1]}.geojson', 'w') as p_m_g:
+    with open(f'out/platforms-routes-{file}.geojson', 'w') as p_m_g:
         p_m_g.write(json.dumps(geojson_json, indent=2))
     return geojson_json
 

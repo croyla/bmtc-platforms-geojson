@@ -33,7 +33,22 @@ Every feature is a point. Each feature represents a platform. Each feature conta
 |----------|--------|----------|--------------------------------------------------------------------------|
 | Platform | String | no       | A human-readable unique name of the platform                             |
 | Alias    | List   | yes      | A list of names the BMTC-API asociates with this platform (E.g B2 and 2) |
+Additionally, there are two json files, `overrides.json` and `stops-platforms.json`
 
+The `overrides.json` handles overriding the API data, and is structured like so: 
+```
+{
+  stop_id: {
+    route_id: override_platform_name
+  }
+}
+```
+The `stops-platforms.json` handles instances where a separate stop is to be treated like a platform, it is structured like below:
+```
+{
+  stop_id: platform_name
+}
+```
 ### Raw Files
 Raw files are in `raw/`. These files contain route - platform data in json files. The naming format is `platforms-<stopname>.json`
 These files are intermediary files that are then used to populate the `in/` files and generate `out/` files.
@@ -45,7 +60,7 @@ Clone the repo in your desired directory.
 Ensure you have the python package `csv` installed, and you are using python 3. You must have a local bmtc-gtfs copy
 with proper BMTC-API IDs to run the script.
 3. #### Running
-You can run the program itself by running `python3 <stop_id>... <stop_nickname>`.
+You can run the program itself by running `python3 <stop_id>... <stop_nickname> <nest_level>`.
 Please have a look at `raw/commands.txt` for a clearer understanding.
 
 ### Contributing
