@@ -6916,6 +6916,51 @@
       "platform-name": "",
       "platform-number": "3B",
       "bay-number": null
+    },
+    
+    {
+      "route-number": "293-K",
+      "extended-route-number": "293-K UP",
+      "route-name": "KMT-MLNH",
+      "start-station": "KR Market (Kalasipalya)",
+      "start-station-id": 20944,
+      "from-station-id": 20944,
+      "route-id": 1910,
+      "to-station-id": 34015,
+      "to-station": "Mylanahalli",
+      "platform-name": "Silver Jubilee Park",
+      "platform-number": 9,
+      "bay-number": null
+    },
+    
+    {
+      "route-number": "293-A",
+      "extended-route-number": "293-A UP",
+      "route-name": "KMT-PRKC",
+      "start-station": "KR Market (Kalasipalya)",
+      "start-station-id": 20944,
+      "from-station-id": 20944,
+      "route-id": "293-A",
+      "to-station-id": 36756,
+      "to-station": "Puneethrajakumar Circle",
+      "platform-name": "Silver Jubilee Park",
+      "platform-number": 9,
+      "bay-number": null
+    },
+    
+    {
+      "route-number": "111",
+      "extended-route-number": "111 UP",
+      "route-name": "KMT-KVLBRS",
+      "start-station": "KR Market (Kalasipalya)",
+      "start-station-id": 20944,
+      "from-station-id": 20944,
+      "route-id": 111,
+      "to-station-id": 20918,
+      "to-station": "Kaval Byrasandra",
+      "platform-name": "Silver Jubilee Park",
+      "platform-number": 9,
+      "bay-number": null
     }
   ]
 }
