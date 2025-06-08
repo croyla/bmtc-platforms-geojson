@@ -1,6 +1,7 @@
 import csv
 import datetime
 import json
+import os
 import time
 import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -125,7 +126,7 @@ def save_platforms():
     response = requests.post(f'{api_url}GetAllRouteList', headers=request_headers)
     routes = {route['routeid']: route for route in response.json().get('data', [])}
 
-    schedule_times = {"Failed": [], "Received": []}
+    schedule_times = {"Failed": [], "Received": {}}
     routes_done = set()
     routes_done_lock = threading.Lock()
     received_lock = threading.Lock()
@@ -134,6 +135,12 @@ def save_platforms():
     s = {l: set() for l in range(nest_level + 1)}
 
     file = sys.argv[-1] if not sys.argv[-1].isdigit() else sys.argv[-2]
+    if os.path.exists(f'raw/platforms-{file}.json'):
+        with open(f'raw/platforms-{file}.json', 'r') as p_m:
+            x = json.loads(p_m.read())
+            for y in x['Received']:
+                with received_lock:
+                    schedule_times[y['route-id']] = y
     tomorrow_start = (datetime.datetime.now() + datetime.timedelta(days=1)).strftime('%Y-%m-%d 00:00')
     tomorrow_end = (datetime.datetime.now() + datetime.timedelta(days=1)).strftime('%Y-%m-%d 23:59')
 
@@ -189,12 +196,15 @@ def save_platforms():
                     else:
                         for route_entry in response.get("data", []):
                             route_id = route_entry["routeid"]
+                            pf_name = overrides.get(str(route_id), route_entry["platformname"])
+                            pf_num = overrides.get(str(route_id), route_entry["platformnumber"])
                             with routes_done_lock:
                                 if route_id in routes_done:
                                     continue
-                                routes_done.add(route_id)
+                                if (pf_name and pf_name != "") or (pf_num and pf_num != ""): # Add only if platform is populated
+                                    routes_done.add(route_id)
                             with received_lock:
-                                schedule_times["Received"].append({
+                                schedule_times["Received"][route_id] = {
                                     "route-number": route_entry['routeno'],
                                     "extended-route-number": routes[route_id]['routeno'],
                                     "route-name": route_entry["routename"],
@@ -207,13 +217,13 @@ def save_platforms():
                                     "platform-name": overrides.get(str(route_id), route_entry["platformname"]),
                                     "platform-number": overrides.get(str(route_id), route_entry["platformnumber"]),
                                     "bay-number": route_entry["baynumber"]
-                                })
+                                }
                 if to_break:
                     break
 
     print(f'Failed in processing {len(failed_stops)} stop(s)')
     print(f'Succeeded in receiving {len(schedule_times["Received"])}')
-
+    schedule_times["Received"] = list(schedule_times["Received"].values())
     with open(f'raw/platforms-{file}.json', 'w') as p_m:
         p_m.write(json.dumps(schedule_times, indent=2))
 
