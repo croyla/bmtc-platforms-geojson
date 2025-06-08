@@ -262,12 +262,14 @@ def geo_json():
     if not platforms_geo or not platforms_majestic:
         return ''
     platforms_names = [feature["properties"]["Platform"] for feature in geojson_json["features"]]
+    stop_names = []
     # Add stops (not identified as platforms by BMTC API) to geojson and platforms_geo
     for stop_id, stop_name in stops_platforms.items():
         if stop_id in stops_loc and stop_id in sys.argv:
             platforms_geo[stop_name] = []
-            if stop_name in platforms_names:
+            if stop_name in platforms_names or stop_name in stop_names:
                 continue
+            stop_names.append(stop_name)
             geojson_json["features"].append({
                 "type": "Feature",
                 "geometry": {
