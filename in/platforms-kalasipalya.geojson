@@ -257,20 +257,6 @@
         "type": "Point"
       },
       "id": 18
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Platform": 9
-      },
-      "geometry": {
-        "coordinates": [
-          77.579146,
-          12.963783
-        ],
-        "type": "Point"
-      },
-      "id": 0
     }
   ]
 }
