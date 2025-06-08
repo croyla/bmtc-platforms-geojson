@@ -247,16 +247,15 @@
     {
       "type": "Feature",
       "properties": {
-        "Platform": 8
+        "Platform": "Main Jn."
       },
       "geometry": {
         "coordinates": [
-          77.57742404937746,
-          12.96377465108427
+          77.57742,
+          12.96368
         ],
         "type": "Point"
-      },
-      "id": 18
+      }
     }
   ]
 }

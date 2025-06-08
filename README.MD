@@ -33,6 +33,7 @@ Every feature is a point. Each feature represents a platform. Each feature conta
 |----------|--------|----------|--------------------------------------------------------------------------|
 | Platform | String | no       | A human-readable unique name of the platform                             |
 | Alias    | List   | yes      | A list of names the BMTC-API asociates with this platform (E.g B2 and 2) |
+
 Additionally, there are two json files, `overrides.json` and `stops-platforms.json`
 
 The `overrides.json` handles overriding the API data, and is structured like so: 
@@ -60,7 +61,7 @@ Clone the repo in your desired directory.
 Ensure you have the python package `csv` installed, and you are using python 3. You must have a local bmtc-gtfs copy
 with proper BMTC-API IDs to run the script.
 ## 3. Running
-You can run the program itself by running `python3 <stop_id>... <stop_nickname> <nest_level>`.
+You can run the program itself by running `python3 <stop_id>... <stop_nickname> <nest_level>` or to generate / re-generate all files `bash commands.txt`
 
 ### Contributing
 - The data for platforms - routes mapping is taken from BMTC-API, it is not accurate all the time. Simply creating an issue
@@ -77,10 +78,11 @@ The help directory is structured into "Unknown" and "Unsorted". "Unsorted" refer
 #### Tools for Contributing
 - [geojson-blrtransit](https://geojson.blrtransit.com/)
 - [geojson.io](https://geojson.io/)
-- [bmtc-gtfs github](https://github.com/Vonter/bmtc-gtfs/)
+- [bmtc-gtfs github](https://github.com/bengawalk/gtfs-blr/tree/main/bmtc)
 
 ### Credits
 
 - [Namma BMTC](https://bmtcwebportal.amnex.com/commuter/dashboard)
 - [Vonter's bmtc-gtfs](https://github.com/Vonter/bmtc-gtfs)
+- [Bengawalk's gtfs-blr](https://github.com/bengawalk/gtfs-blr)
 
