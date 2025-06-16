@@ -1,13 +1,23 @@
 {
-  "35768": "Towards E-City",
-  "21479": "Towards Agara, Madivala",
+  -- Central Silk Board (Stop::Platform) Mappings
+  "20707": "Silk Board Bus Stand", #North-East corner of the junction. Main Bus Stand.
+  "35768": "Krishna Annex Building, Hosur Road", #South-east side of the junction, heading towards E-city and Hosur
+  "20704": "Silk Board Building",
+  "21479": "Opp. Silk Board Building",
+  
+  #TODO:- Find correct StopID, if it exists. This StopID points to a different part of CSB.
+  #The correct GMaps location for the "towards Madiwala" stop is (https://maps.app.goo.gl/JxADkvRfZ5BPTGyc7)
+  #I suspect this stop doesn't exist since there is a "Madiwala" stop a few hundred feet ahead from this coordinate.
   "32213": "Towards Madivala",
-  "20704": "Towards Banashankari",
+  
+  
+  
+  -- KR Market (Stop::Platform) Mappings
   "20940": "Masjid East",
   "20941": "Main Jn.",
   "20942": "Opp. Post Office",
   "20943": "Post Office",
-  "21557": "Fort",
+  "21557": "Bangalore Fort",
   "22199": "Masjid West",
   "22201": "Main Jn."
 }
