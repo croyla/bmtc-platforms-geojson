@@ -1,19 +1,11 @@
 {
-  -- Central Silk Board (Stop::Platform) Mappings
-  "20707": "Silk Board Bus Stand", #North-East corner of the junction. Main Bus Stand.
-  "35943": "Silk Board Bus Stand", #Seems like a duplicate of 20707
-  "35768": "Krishna Annex Building, Hosur Road", #South-east side of the junction, heading towards E-city and Hosur
+  "35768": "Krishna Annex Building, Hosur Road",
   "20704": "Silk Board Building",
   "21479": "Opp. Silk Board Building",
-  
-  #TODO:- Explore better names for these
   "35944": "Towards Madivala",
-  "32213": "Towards BTM Layout, Ring Road"
-  "37850": "Towards BTM Layout, Ring Road" #Seems like a duplicate of 32213
-  
-  
-  
-  -- KR Market (Stop::Platform) Mappings
+  "32213": "Towards BTM Layout, Ring Road",
+  "37850": "Towards BTM Layout, Ring Road",
+
   "20940": "Masjid East",
   "20941": "Main Jn.",
   "20942": "Opp. Post Office",
