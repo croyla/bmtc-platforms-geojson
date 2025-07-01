@@ -23,36 +23,18 @@ api_url = 'https://bmtcmobileapi.karnataka.gov.in/WebAPI/'
 gtfs_folder = '../bmtc-19-07-2024/'  # This gtfs folder is our source for stops, as opposed to querying api
 
 
-def print_progress_bar(iteration, total, prefix='', length=40):
-    percent = f"{100 * (iteration / float(total)):.1f}"
-    filled_length = int(length * iteration // total)
-    bar = '█' * filled_length + '-' * (length - filled_length)
-    sys.stdout.write(f'\r{prefix} |{bar}| {percent}%')
-    sys.stdout.flush()
-    if iteration == total:
-        print()  # Move to next line when done
-
-
 def get_next_stops(stop_ids, nest_level=5):
     # Load GTFS files
-    print("Loading trips.txt...")
-    with open(f"{gtfs_folder}trips.txt", mode='r') as file:
-        reader = csv.DictReader(file)
-        trips_list = list(reader)
-        trips = {x['trip_id']: x for x in trips_list}
-    print(f"Loaded {len(trips)} trips.")
-
-    print("Loading stop_times.txt...")
+    # with open(f"{gtfs_folder}trips.txt", mode='r') as file:
+    #     reader = csv.DictReader(file)
+    #     trips_list = list(reader)
+    #     trips = {x['trip_id']: x for x in trips_list}
     with open(f"{gtfs_folder}stop_times.txt", mode='r') as file:
         reader = csv.DictReader(file)
         stop_times = list(reader)
-    print(f"Loaded {len(stop_times)} stop times.")
-
-    print("Loading stops.txt...")
-    with open(f"{gtfs_folder}stops.txt", mode='r') as file:
-        reader = csv.DictReader(file)
-        stops = {row["stop_id"]: row["stop_name"] for row in reader}
-    print(f"Loaded {len(stops)} stops.")
+    # with open(f"{gtfs_folder}stops.txt", mode='r') as file:
+    #     reader = csv.DictReader(file)
+    #     stops = {row["stop_id"]: row["stop_name"] for row in reader}
 
     next_stops_total = {stop_id: [] for stop_id in stop_ids}
 
@@ -96,9 +78,6 @@ def get_next_stops(stop_ids, nest_level=5):
                 if nxt not in next_stops_total[curr]:
                     next_stops_total[curr].append(nxt)
 
-    print(f"Next stops mapping: {next_stops_total}")
-
-    # print(f"Final nested stops mapping: {next_stops_total}")
     return next_stops_total
 
 
@@ -114,8 +93,6 @@ def save_platforms():
         else:
             nest_level = 2  # Default value if no nest_level is provided
             stop_ids = sys.argv[1:-1]  # Exclude only the last argument (majestic)
-
-        print(f"Using nest level: {nest_level}")
 
         for arg in stop_ids:
             if arg in overrides_json.keys():
@@ -156,15 +133,12 @@ def save_platforms():
             "p_date":"{tomorrow_start}"
             }}
         '''
-        print(f'Sending query for stops {from_stop} -> {to_stop}')
         now = time.time()
         try:
             response = requests.post(f'{api_url}GetTimetableByStation_v4', headers=request_headers, data=data).json()
         except:
-            print("Failed in response.json")
             response = {"isException": True, "Issuccess": False, "exception": "Response not received in JSON.",
                         "Message": "Response not received in JSON."}
-        print(f"Received in {time.time() - now} seconds")
 
         is_failed = (
                 response.get("exception") not in (None, False) or
@@ -178,10 +152,11 @@ def save_platforms():
         for stop in stop_ids:
             s[0].add(stop)
             for level in range(nest_level):
-                print(f"Processing stop {stop}, current level: {level}")
                 to_break = True
                 futures = []
                 for b in s[level]:
+                    if b not in next_stops:
+                        continue
                     for n in next_stops[b]:
                         futures.append(executor.submit(send_request, stop, n))
 
@@ -220,9 +195,6 @@ def save_platforms():
                                 }
                 if to_break:
                     break
-
-    print(f'Failed in processing {len(failed_stops)} stop(s)')
-    print(f'Succeeded in receiving {len(schedule_times["Received"])}')
     schedule_times["Received"] = list(schedule_times["Received"].values())
     with open(f'raw/platforms-{file}.json', 'w') as p_m:
         p_m.write(json.dumps(schedule_times, indent=2))
@@ -233,10 +205,9 @@ def save_platforms():
 def geo_json():
     platforms_geo: dict  # Platform: List of routes
     geojson_json: dict
-    platforms_majestic: dict
+    platforms_raw: dict
     stops_platforms: dict
     stops_loc: dict
-    print("Loading stops.txt...")
     with open(f"{gtfs_folder}stops.txt", mode='r') as file:
         reader = csv.DictReader(file)
         stops_loc = {row["stop_id"]: [float(row["stop_lat"]), float(row["stop_lon"])] for row in reader}
@@ -244,7 +215,7 @@ def geo_json():
         stops_platforms = json.loads(p_m.read().replace('\n', ''))
     file = sys.argv[-1] if not sys.argv[-1].isdigit() else sys.argv[-2]
     with open(f'raw/platforms-{file}.json', 'r') as p_m:
-        platforms_majestic = json.loads(p_m.read().replace('\n', ''))
+        platforms_raw = json.loads(p_m.read().replace('\n', ''))
     with open(f'in/platforms-{file}.geojson', 'r') as p_m_g:
         geojson_json = json.loads(p_m_g.read().replace('\n', ''))
         for feature in geojson_json["features"]:
@@ -259,7 +230,7 @@ def geo_json():
 
         platforms_geo["Unknown"] = []
         platforms_geo["Unsorted"] = []
-    if not platforms_geo or not platforms_majestic:
+    if not platforms_geo or not platforms_raw:
         return ''
     platforms_names = [feature["properties"]["Platform"] for feature in geojson_json["features"]]
     stop_names = []
@@ -284,7 +255,7 @@ def geo_json():
             })
 
     # Process received routes and populate local data accordingly
-    for route in platforms_majestic["Received"]:
+    for route in platforms_raw["Received"]:
         platform = stops_platforms[str(route['from-station-id'])] if str(route['from-station-id']) in stops_platforms else route['platform-name'] if route['platform-name'] != "" else route['platform-number']
         if platform == "" or platform is None:
             platforms_geo["Unknown"].append(route)
@@ -326,6 +297,11 @@ def geo_json():
 
 
 def add_routes_gtfs_geojson():
+    # Extract nest_level from command-line arguments
+    if sys.argv[-1].isdigit():  # Check if the last argument is a number
+        stop_ids = sys.argv[1:-2]  # Exclude the last two arguments (majestic and nest_level)
+    else:
+        stop_ids = sys.argv[1:-1]  # Exclude only the last argument (majestic)
     geojson_json: dict
     file = sys.argv[-1] if not sys.argv[-1].isdigit() else sys.argv[-2]
     with (open(f'out/platforms-routes-{file}.geojson', 'r') as p_m_g):
@@ -359,7 +335,9 @@ def add_routes_gtfs_geojson():
         for route in feature["properties"]["Routes"]:
             stops_now = []
             if trips.keys().__contains__(str(route["Id"])):
-                for stop in stop_times[trips[str(route["Id"])][0]["trip_id"]]:
+                loop_stops = stop_times[trips[str(route["Id"])][0]["trip_id"]]
+                loop_stops = loop_stops[next((i for i, stop in enumerate(loop_stops) if stop['stop_id'] in stop_ids), None):]
+                for stop in loop_stops:
                     stops_now.append(stops[stop['stop_id']])
             route["Stops"] = stops_now
     with open(f'out/platforms-routes-{file}.geojson', 'w') as p_m_g:
@@ -372,3 +350,4 @@ if __name__ == '__main__':
     save_platforms()
     geo_json()
     add_routes_gtfs_geojson()
+    print(f"Completed {sys.argv[-2]}")

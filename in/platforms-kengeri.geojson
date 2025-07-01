@@ -11,7 +11,8 @@
         ]
       },
       "properties": {
-        "Platform": "1"
+        "Platform": "1",
+        "Alias": ["1A"]
       }
     },
     {
@@ -24,7 +25,8 @@
         ]
       },
       "properties": {
-        "Platform": "2"
+        "Platform": "2",
+        "Alias": ["2A"]
       }
     },
     {
@@ -37,7 +39,8 @@
         ]
       },
       "properties": {
-        "Platform": "3"
+        "Platform": "3",
+        "Alias": ["3A"]
       }
     },
     {
@@ -50,7 +53,8 @@
         ]
       },
       "properties": {
-        "Platform": "4"
+        "Platform": "4",
+        "Alias": ["4A"]
       }
     }
   ]
