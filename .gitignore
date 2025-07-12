@@ -3,3 +3,4 @@
 .venv/
 # Ignore fs specific files
 .DS_Store
+*.log
