@@ -294,30 +294,6 @@
         "Platform": "Towards E-City",
         "Routes": [
           {
-            "Name": "356-CW UFLY",
-            "Destination": "Electronic City Wipro Main Gate",
-            "From": 35768,
-            "UniqueName": "BDAHSRL-ELCW",
-            "Id": 1787,
-            "BayReported": null,
-            "Stops": [
-              "Central Silk Board",
-              "Roopena Agrahara",
-              "Bommanahalli",
-              "Garvebhavipalya",
-              "Kudlu Gate",
-              "Singasandra",
-              "Hosa Road",
-              "Electronic City PESIT College",
-              "Konappana Agarhara",
-              "Crown Plaza",
-              "Infosys Parking Lot",
-              "BHEL",
-              "Wipro Gate Shikaripalya Cross",
-              "Electronic City Wipro Main Gate"
-            ]
-          },
-          {
             "Name": "KIA-8",
             "Destination": "Electronic City KIA",
             "From": 35768,
@@ -383,15 +359,6 @@
               "Wipro Gate Shikaripalya Cross",
               "Electronic City Wipro Main Gate"
             ]
-          },
-          {
-            "Name": "G-3 ELCW-CSB",
-            "Destination": "Electronic City Wipro Main Gate",
-            "From": 35768,
-            "UniqueName": "CSB-ELCW",
-            "Id": 11762,
-            "BayReported": null,
-            "Stops": []
           },
           {
             "Name": "600 YBS-NBC-ELCW",
@@ -782,11 +749,24 @@
             ]
           },
           {
-            "Name": "500-DH HSRCPWD-ATB",
+            "Name": "V-500F KDG-ATB",
             "Destination": "Attibele Bus Stand",
             "From": 35768,
-            "UniqueName": "HSRCPWD-ATB",
-            "Id": 9615,
+            "UniqueName": "KDG-ATB",
+            "Id": 12281,
+            "BayReported": null,
+            "Stops": [
+              "Central Silk Board",
+              "Roopena Agrahara",
+              "Bommanahalli"
+            ]
+          },
+          {
+            "Name": "354-C CSB-MRS",
+            "Destination": "Marsuru",
+            "From": 35768,
+            "UniqueName": "CSB-MRS",
+            "Id": 12422,
             "BayReported": null,
             "Stops": [
               "Central Silk Board",
@@ -806,13 +786,127 @@
               "BTL College",
               "Hennagara Gate",
               "Chandapura",
-              "Hale Chandapura",
-              "Tirumagondanahalli",
-              "Neraluru Gate",
-              "Guddahatti Gate",
-              "Guestline Hotel",
-              "Yadavanahalli",
-              "Attibele Bus Stand"
+              "Chandapura KEB",
+              "Suryacity Gate",
+              "Surya Nagara",
+              "Iggluru",
+              "Ramakrishnapura Gate",
+              "Marasur Gate",
+              "Marsuru"
+            ]
+          },
+          {
+            "Name": "356-CW",
+            "Destination": "Electronic City Wipro Main Gate",
+            "From": 35768,
+            "UniqueName": "HSRBDA-ELCW",
+            "Id": 1816,
+            "BayReported": null,
+            "Stops": [
+              "Central Silk Board",
+              "Roopena Agrahara FLY",
+              "Roopena Agrahara Toll",
+              "Bommanahalli Fly Over",
+              "Kudlu Gate Flyover",
+              "Singasandra FLY",
+              "Hosa Road FLY",
+              "Konappana Agrahara",
+              "Electronic City",
+              "Siemens",
+              "BHEL",
+              "Wipro Gate Shikaripalya Cross",
+              "Electronic City Wipro Main Gate"
+            ]
+          },
+          {
+            "Name": "500-DC",
+            "Destination": "Chandapura",
+            "From": 35768,
+            "UniqueName": "HBL-CDP",
+            "Id": 3152,
+            "BayReported": null,
+            "Stops": [
+              "Central Silk Board"
+            ]
+          },
+          {
+            "Name": "600-KB",
+            "Destination": "Electronic City Wipro Main Gate",
+            "From": 35768,
+            "UniqueName": "VTTMC-ELCW",
+            "Id": 4674,
+            "BayReported": null,
+            "Stops": [
+              "Vijayanagara Garage",
+              "Income Tax Layout Cross 1",
+              "Income Tax Layout",
+              "Chandra Public School",
+              "Ganesha Temple Chandra Layout",
+              "Chandra Layout Circle",
+              "Jyothi Nagara",
+              "Nagarabhavi Circle",
+              "1st Stage 3rd Block Nagarabhavi (Nayandahalli)",
+              "Nayandahalli Junction",
+              "Veerabhadra Nagara",
+              "PES College",
+              "Hosakerehalli Petrol Bunk",
+              "Hosakerehalli  Junction",
+              "Janatha Bazar  Banashankari",
+              "Kathriguppe",
+              "Kamakya Talkies",
+              "Devegowda Petrol Bunk",
+              "Kadirenahalli Park",
+              "Kadirenahalli Cross",
+              "Banashankari Bus Station"
+            ]
+          },
+          {
+            "Name": "346-M CSB-GLH",
+            "Destination": "Gollahalli Electronic City",
+            "From": 35768,
+            "UniqueName": "CSB-GLH",
+            "Id": 6545,
+            "BayReported": null,
+            "Stops": [
+              "Central Silk Board",
+              "Roopena Agrahara",
+              "Bommanahalli",
+              "Garvebhavipalya",
+              "Kudlu Gate",
+              "Singasandra",
+              "Hosa Road",
+              "Electronic City PESIT College",
+              "Konappana Agarhara",
+              "Electronic City",
+              "ElC City Phase-2 Xavier Institute of Management",
+              "Electronic City",
+              "Siemens",
+              "BHEL",
+              "Wipro Gate Shikaripalya Cross",
+              "Shikaripalya",
+              "Gollahalli Cross",
+              "Gollahalli Cross",
+              "Gollahalli Electronic City"
+            ]
+          },
+          {
+            "Name": "600-CB",
+            "Destination": "Anekal",
+            "From": 35768,
+            "UniqueName": "BSK-ANK",
+            "Id": 8277,
+            "BayReported": null,
+            "Stops": [
+              "Central Silk Board",
+              "Roopena Agrahara",
+              "Bommanahalli",
+              "Garvebhavipalya",
+              "Kudlu Gate",
+              "Singasandra",
+              "Hosa Road",
+              "Electronic City PESIT College",
+              "Konappana Agarhara",
+              "Electronic City"
             ]
           },
           {
@@ -840,44 +934,6 @@
               "BTL College",
               "Hennagara Gate",
               "Chandapura"
-            ]
-          },
-          {
-            "Name": "600-F BSK-BOMC",
-            "Destination": "Bommasandra Canara Bank",
-            "From": 35768,
-            "UniqueName": "BSK-BOMC",
-            "Id": 11867,
-            "BayReported": null,
-            "Stops": [
-              "Central Silk Board",
-              "Central Silk Board",
-              "Roopena Agrahara",
-              "Bommanahalli",
-              "Garvebhavipalya",
-              "Kudlu Gate",
-              "Singasandra",
-              "Hosa Road",
-              "Electronic City PESIT College",
-              "Konappana Agarhara",
-              "Electronic City",
-              "Veerasandra",
-              "Huskur Gate",
-              "Hebbagodi",
-              "Bommasandra Canara Bank"
-            ]
-          },
-          {
-            "Name": "V-500F KDG-ATB",
-            "Destination": "Attibele Bus Stand",
-            "From": 35768,
-            "UniqueName": "KDG-ATB",
-            "Id": 12281,
-            "BayReported": null,
-            "Stops": [
-              "Central Silk Board",
-              "Roopena Agrahara",
-              "Bommanahalli"
             ]
           },
           {
@@ -938,120 +994,6 @@
             ]
           },
           {
-            "Name": "500-DC D38G-BELF",
-            "Destination": "Depot-38 Gate",
-            "From": 35768,
-            "UniqueName": "BELF-D38G",
-            "Id": 11739,
-            "BayReported": null,
-            "Stops": []
-          },
-          {
-            "Name": "356-CW",
-            "Destination": "Electronic City Wipro Main Gate",
-            "From": 35768,
-            "UniqueName": "HSRBDA-ELCW",
-            "Id": 1816,
-            "BayReported": null,
-            "Stops": [
-              "Central Silk Board",
-              "Roopena Agrahara FLY",
-              "Roopena Agrahara Toll",
-              "Bommanahalli Fly Over",
-              "Kudlu Gate Flyover",
-              "Singasandra FLY",
-              "Hosa Road FLY",
-              "Konappana Agrahara",
-              "Electronic City",
-              "Siemens",
-              "BHEL",
-              "Wipro Gate Shikaripalya Cross",
-              "Electronic City Wipro Main Gate"
-            ]
-          },
-          {
-            "Name": "500-DC",
-            "Destination": "Chandapura",
-            "From": 35768,
-            "UniqueName": "HBL-CDP",
-            "Id": 3152,
-            "BayReported": null,
-            "Stops": [
-              "Central Silk Board"
-            ]
-          },
-          {
-            "Name": "V-500DH",
-            "Destination": "Attibele Bus Stand",
-            "From": 35768,
-            "UniqueName": "HBL-ATB",
-            "Id": 3990,
-            "BayReported": null,
-            "Stops": []
-          },
-          {
-            "Name": "600-KB",
-            "Destination": "Electronic City Wipro Main Gate",
-            "From": 35768,
-            "UniqueName": "VTTMC-ELCW",
-            "Id": 4674,
-            "BayReported": null,
-            "Stops": [
-              "Vijayanagara Garage",
-              "Income Tax Layout Cross 1",
-              "Income Tax Layout",
-              "Chandra Public School",
-              "Ganesha Temple Chandra Layout",
-              "Chandra Layout Circle",
-              "Jyothi Nagara",
-              "Nagarabhavi Circle",
-              "1st Stage 3rd Block Nagarabhavi (Nayandahalli)",
-              "Nayandahalli Junction",
-              "Veerabhadra Nagara",
-              "PES College",
-              "Hosakerehalli Petrol Bunk",
-              "Hosakerehalli  Junction",
-              "Janatha Bazar  Banashankari",
-              "Kathriguppe",
-              "Kamakya Talkies",
-              "Devegowda Petrol Bunk",
-              "Kadirenahalli Park",
-              "Kadirenahalli Cross",
-              "Banashankari Bus Station"
-            ]
-          },
-          {
-            "Name": "600-CB",
-            "Destination": "Anekal",
-            "From": 35768,
-            "UniqueName": "BSK-ANK",
-            "Id": 8277,
-            "BayReported": null,
-            "Stops": [
-              "Central Silk Board",
-              "Roopena Agrahara",
-              "Bommanahalli",
-              "Garvebhavipalya",
-              "Kudlu Gate",
-              "Singasandra",
-              "Hosa Road",
-              "Electronic City PESIT College",
-              "Konappana Agarhara",
-              "Electronic City"
-            ]
-          },
-          {
-            "Name": "V-500E",
-            "Destination": "Electronic City Wipro Main Gate",
-            "From": 35768,
-            "UniqueName": "HBLB-ELCW",
-            "Id": 10397,
-            "BayReported": null,
-            "Stops": [
-              "Central Silk Board"
-            ]
-          },
-          {
             "Name": "356-CW CSB-ELCW FLY",
             "Destination": "Electronic City Wipro Main Gate",
             "From": 35768,
@@ -1078,24 +1020,6 @@
             "Id": 15302,
             "BayReported": null,
             "Stops": []
-          },
-          {
-            "Name": "347-K CSB-AECSLS",
-            "Destination": "AECS Layout Singasandra",
-            "From": 35768,
-            "UniqueName": "CSB-AECSLS",
-            "Id": 6621,
-            "BayReported": null,
-            "Stops": []
-          },
-          {
-            "Name": "344-J",
-            "Destination": "Jigani APC Circle",
-            "From": 35768,
-            "UniqueName": "CSB-JAPC",
-            "Id": 14894,
-            "BayReported": null,
-            "Stops": []
           }
         ]
       }
@@ -1112,37 +1036,6 @@
       "properties": {
         "Platform": "Towards Agara, Madivala",
         "Routes": [
-          {
-            "Name": "600-F BSK-D32",
-            "Destination": "Depot-32 Suryacity",
-            "From": 21479,
-            "UniqueName": "BSK-D32",
-            "Id": 11476,
-            "BayReported": null,
-            "Stops": [
-              "Central Silk Board",
-              "Roopena Agrahara",
-              "Bommanahalli",
-              "Garvebhavipalya",
-              "Kudlu Gate",
-              "Singasandra",
-              "Hosa Road",
-              "Electronic City PESIT College",
-              "Konappana Agarhara",
-              "Electronic City",
-              "Veerasandra",
-              "Huskur Gate",
-              "Hebbagodi",
-              "Bommasandra",
-              "BTL College",
-              "Hennagara Gate",
-              "Chandapura",
-              "Chandapura KEB",
-              "Suryacity Gate",
-              "Surya Nagara",
-              "Depot-32 Suryacity"
-            ]
-          },
           {
             "Name": "164",
             "Destination": "Shivajinagara Bus Station",
@@ -1296,6 +1189,58 @@
               "Halasuru Police Station",
               "Halasuru",
               "Depot-06 Gate"
+            ]
+          },
+          {
+            "Name": "600-F BSK-D32",
+            "Destination": "Depot-32 Suryacity",
+            "From": 21479,
+            "UniqueName": "BSK-D32",
+            "Id": 11476,
+            "BayReported": null,
+            "Stops": [
+              "Central Silk Board",
+              "Roopena Agrahara",
+              "Bommanahalli",
+              "Garvebhavipalya",
+              "Kudlu Gate",
+              "Singasandra",
+              "Hosa Road",
+              "Electronic City PESIT College",
+              "Konappana Agarhara",
+              "Electronic City",
+              "Veerasandra",
+              "Huskur Gate",
+              "Hebbagodi",
+              "Bommasandra",
+              "BTL College",
+              "Hennagara Gate",
+              "Chandapura",
+              "Chandapura KEB",
+              "Suryacity Gate",
+              "Surya Nagara",
+              "Depot-32 Suryacity"
+            ]
+          },
+          {
+            "Name": "600-QA",
+            "Destination": "Electronic City East Phase-II",
+            "From": 21479,
+            "UniqueName": "BSK-ELC2",
+            "Id": 3875,
+            "BayReported": null,
+            "Stops": [
+              "Central Silk Board",
+              "Roopena Agrahara",
+              "Bommanahalli",
+              "Garvebhavipalya",
+              "Kudlu Gate",
+              "Singasandra",
+              "Hosa Road",
+              "Electronic City PESIT College",
+              "Konappana Agarhara",
+              "Electronic City",
+              "Electronic City East Phase-II"
             ]
           },
           {
@@ -1555,33 +1500,12 @@
           },
           {
             "Name": "MF-5 SMVT-BSK",
-            "Destination": "Sir M Vishweshwaraiah Railway Station",
+            "Destination": "Sir M Visvesvaraya Terminal",
             "From": 21479,
             "UniqueName": "BSK-SMVT",
             "Id": 13684,
             "BayReported": null,
             "Stops": []
-          },
-          {
-            "Name": "600-QA",
-            "Destination": "Electronic City East Phase-II",
-            "From": 21479,
-            "UniqueName": "BSK-ELC2",
-            "Id": 3875,
-            "BayReported": null,
-            "Stops": [
-              "Central Silk Board",
-              "Roopena Agrahara",
-              "Bommanahalli",
-              "Garvebhavipalya",
-              "Kudlu Gate",
-              "Singasandra",
-              "Hosa Road",
-              "Electronic City PESIT College",
-              "Konappana Agarhara",
-              "Electronic City",
-              "Electronic City East Phase-II"
-            ]
           }
         ]
       }
@@ -1621,15 +1545,6 @@
             ]
           },
           {
-            "Name": "V-505 ATB-KDG",
-            "Destination": "Attibele Bus Stand",
-            "From": 32213,
-            "UniqueName": "KDG-ATB",
-            "Id": 13104,
-            "BayReported": null,
-            "Stops": []
-          },
-          {
             "Name": "500-CA KRMTTMC\u00a0-CSB-KDG",
             "Destination": "Koramangala Bus Station",
             "From": 32213,
@@ -1649,24 +1564,13 @@
             ]
           },
           {
-            "Name": "V-505 ELCW-KDG",
-            "Destination": "Electronic City Wipro Main Gate",
+            "Name": "V-505 ATB-KDG",
+            "Destination": "Attibele Bus Stand",
             "From": 32213,
-            "UniqueName": "KDG-ELCW",
-            "Id": 13756,
+            "UniqueName": "KDG-ATB",
+            "Id": 13104,
             "BayReported": null,
-            "Stops": [
-              "Central Silk Board",
-              "Roopena Agrahara",
-              "Bommanahalli",
-              "Garvebhavipalya",
-              "Kudlu Gate",
-              "Singasandra",
-              "Hosa Road",
-              "Electronic City PESIT College",
-              "Konappana Agarhara",
-              "Electronic City Wipro Main Gate"
-            ]
+            "Stops": []
           }
         ]
       }

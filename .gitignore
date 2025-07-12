@@ -4,3 +4,6 @@
 # Ignore fs specific files
 .DS_Store
 *.log
+
+# Cache database
+api_cache.db
