@@ -6,8 +6,109 @@ import time
 import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 import threading
+import sqlite3
+import hashlib
 
 import requests
+
+# Cache configuration
+CACHE_DB_PATH = 'api_cache.db'
+CACHE_DURATION_HOURS = 24
+
+def init_cache_db():
+    """Initialize the SQLite cache database"""
+    conn = sqlite3.connect(CACHE_DB_PATH)
+    cursor = conn.cursor()
+    cursor.execute('''
+        CREATE TABLE IF NOT EXISTS api_cache (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            request_hash TEXT UNIQUE NOT NULL,
+            from_stop TEXT NOT NULL,
+            to_stop TEXT NOT NULL,
+            request_data TEXT NOT NULL,
+            response_data TEXT NOT NULL,
+            created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+        )
+    ''')
+    conn.commit()
+    conn.close()
+
+def get_cache_key(from_stop, to_stop, request_data):
+    """Generate a unique cache key for the request"""
+    # Create a hash of the request parameters
+    request_string = "{}:{}:{}".format(from_stop, to_stop, request_data)
+    return hashlib.md5(request_string.encode()).hexdigest()
+
+def get_cached_response(from_stop, to_stop, request_data):
+    """Get cached response if it exists and is not expired"""
+    try:
+        conn = sqlite3.connect(CACHE_DB_PATH)
+        cursor = conn.cursor()
+        
+        cache_key = get_cache_key(from_stop, to_stop, request_data)
+        
+        # Get response if it exists and is not older than CACHE_DURATION_HOURS
+        cursor.execute('''
+            SELECT response_data FROM api_cache 
+            WHERE request_hash = ? 
+            AND created_at > datetime('now', '-%d hours')
+        ''' % CACHE_DURATION_HOURS, (cache_key,))
+        
+        result = cursor.fetchone()
+        conn.close()
+        
+        if result:
+            print('        cache hit: {} -> {}'.format(from_stop, to_stop))
+            return json.loads(result[0])
+        else:
+            print('        cache miss: {} -> {}'.format(from_stop, to_stop))
+            return None
+            
+    except Exception as e:
+        print('        cache error: {}'.format(e))
+        return None
+
+def store_cached_response(from_stop, to_stop, request_data, response_data):
+    """Store response in cache"""
+    try:
+        conn = sqlite3.connect(CACHE_DB_PATH)
+        cursor = conn.cursor()
+        
+        cache_key = get_cache_key(from_stop, to_stop, request_data)
+        
+        cursor.execute('''
+            INSERT OR REPLACE INTO api_cache 
+            (request_hash, from_stop, to_stop, request_data, response_data, created_at)
+            VALUES (?, ?, ?, ?, ?, CURRENT_TIMESTAMP)
+        ''', (cache_key, from_stop, to_stop, request_data, json.dumps(response_data)))
+        
+        conn.commit()
+        conn.close()
+        print('        cached: {} -> {}'.format(from_stop, to_stop))
+        
+    except Exception as e:
+        print('        cache store error: {}'.format(e))
+
+def cleanup_expired_cache():
+    """Remove expired cache entries"""
+    try:
+        conn = sqlite3.connect(CACHE_DB_PATH)
+        cursor = conn.cursor()
+        
+        cursor.execute('''
+            DELETE FROM api_cache 
+            WHERE created_at <= datetime('now', '-%d hours')
+        ''' % CACHE_DURATION_HOURS)
+        
+        deleted_count = cursor.rowcount
+        conn.commit()
+        conn.close()
+        
+        if deleted_count > 0:
+            print('Cleaned up {} expired cache entries'.format(deleted_count))
+            
+    except Exception as e:
+        print('Cache cleanup error: {}'.format(e))
 
 request_headers = {
     'Accept': 'application/json, text/plain, */*',
@@ -24,6 +125,7 @@ gtfs_folder = '../bmtc-19-07-2024/'  # This gtfs folder is our source for stops,
 
 
 def get_next_stops(stop_ids, nest_level=5):
+    print('starting get_next_stops')
     # Load GTFS files
     # with open(f"{gtfs_folder}trips.txt", mode='r') as file:
     #     reader = csv.DictReader(file)
@@ -77,11 +179,18 @@ def get_next_stops(stop_ids, nest_level=5):
 
                 if nxt not in next_stops_total[curr]:
                     next_stops_total[curr].append(nxt)
+    print('finished get_next_stops')
 
     return next_stops_total
 
 
 def save_platforms():
+    print('starting save_platforms')
+    
+    # Initialize cache database and cleanup expired entries
+    init_cache_db()
+    cleanup_expired_cache()
+    
     overrides: dict
     with open('overrides.json', 'r') as p_m:
         overrides_json = json.loads(p_m.read().replace('\n', ''))
@@ -100,13 +209,25 @@ def save_platforms():
 
     next_stops = get_next_stops(stop_ids, nest_level=nest_level)
 
-    response = requests.post(f'{api_url}GetAllRouteList', headers=request_headers)
-    routes = {route['routeid']: route for route in response.json().get('data', [])}
+    response = requests.post(f'{api_url}GetAllRouteList', headers=request_headers, data='{}')
+    try:
+        response_json = response.json()
+    except Exception as e:
+        print("Error decoding JSON from GetAllRouteList:", e)
+        print("Response text:", response.text)
+        response_json = {}
+    routes = {route['routeid']: route for route in response_json.get('data', [])}
+    print(f"Loaded {len(routes)} routes from GetAllRouteList API")
+    if len(routes) == 0:
+        print("Warning: No routes loaded from GetAllRouteList API - this may cause issues with route metadata")
+    else:
+        print(f"Sample route IDs: {list(routes.keys())[:5]}")
 
-    schedule_times = {"Failed": [], "Received": {}}
+    schedule_times = {"Failed": [], "Received": []}
     routes_done = set()
     routes_done_lock = threading.Lock()
     received_lock = threading.Lock()
+    failed_lock = threading.Lock()
     failed_stops = set()
     failed_stops_lock = threading.Lock()
     s = {l: set() for l in range(nest_level + 1)}
@@ -115,13 +236,13 @@ def save_platforms():
     if os.path.exists(f'raw/platforms-{file}.json'):
         with open(f'raw/platforms-{file}.json', 'r') as p_m:
             x = json.loads(p_m.read())
-            for y in x['Received']:
-                with received_lock:
-                    schedule_times[y['route-id']] = y
+            # Load only successful entries from previous run, reset failed entries
+            schedule_times["Received"] = x.get('Received', [])
     tomorrow_start = (datetime.datetime.now() + datetime.timedelta(days=1)).strftime('%Y-%m-%d 00:00')
     tomorrow_end = (datetime.datetime.now() + datetime.timedelta(days=1)).strftime('%Y-%m-%d 23:59')
 
     def send_request(from_stop, to_stop):
+        print(f'        sending request {from_stop} to {to_stop}')
         data = f'''
             {{
             "fromStationId":{int(from_stop)},
@@ -133,12 +254,29 @@ def save_platforms():
             "p_date":"{tomorrow_start}"
             }}
         '''
+        
+        # Check cache first
+        cached_response = get_cached_response(from_stop, to_stop, data)
+        if cached_response is not None:
+            # Return cached response
+            is_failed = (
+                cached_response.get("exception") not in (None, False) or
+                cached_response.get("isException") is True or
+                cached_response.get("Issuccess") is not True
+            )
+            return from_stop, to_stop, cached_response, is_failed
+        
+        # If not in cache, make actual API call
+        print(f'        sending request {from_stop} to {to_stop}')
         now = time.time()
         try:
             response = requests.post(f'{api_url}GetTimetableByStation_v4', headers=request_headers, data=data).json()
         except:
             response = {"isException": True, "Issuccess": False, "exception": "Response not received in JSON.",
                         "Message": "Response not received in JSON."}
+
+        # Store response in cache
+        store_cached_response(from_stop, to_stop, data, response)
 
         is_failed = (
                 response.get("exception") not in (None, False) or
@@ -150,10 +288,13 @@ def save_platforms():
     # Main execution
     with ThreadPoolExecutor(max_workers=10) as executor:
         for stop in stop_ids:
+            print(f'processing stop {stop}')
             s[0].add(stop)
             for level in range(nest_level):
-                to_break = True
+                has_failures = False
                 futures = []
+                print(f'    processing level {level}')
+                print(f'        processing stops at level {level}: {list(s[level])}')
                 for b in s[level]:
                     if b not in next_stops:
                         continue
@@ -163,12 +304,23 @@ def save_platforms():
                 for future in as_completed(futures):
                     from_stop, to_stop, response, is_failed = future.result()
                     if is_failed:
+                        # Log the failed query
+                        with failed_lock:
+                            schedule_times["Failed"].append({
+                                "from_stop": from_stop,
+                                "to_stop": to_stop,
+                                "response": response,
+                                "level": level
+                            })
                         with failed_stops_lock:
                             if level == nest_level - 1:
                                 failed_stops.add(from_stop)
+                        # Only add to next level if this path failed (we need to explore further)
                         s[level + 1].add(to_stop)
-                        to_break = False
+                        print(f'        failed: {from_stop} -> {to_stop}, adding {to_stop} to level {level + 1}')
+                        has_failures = True
                     else:
+                        print(f'        success: {from_stop} -> {to_stop}, NOT adding {to_stop} to next level')
                         for route_entry in response.get("data", []):
                             route_id = route_entry["routeid"]
                             pf_name = overrides.get(str(route_id), route_entry["platformname"])
@@ -179,7 +331,13 @@ def save_platforms():
                                 if (pf_name and pf_name != "") or (pf_num and pf_num != ""): # Add only if platform is populated
                                     routes_done.add(route_id)
                             with received_lock:
-                                schedule_times["Received"][route_id] = {
+                                # Check if route_id exists in routes dictionary
+                                if route_id not in routes:
+                                    print(f"        warning: route_id {route_id} not found in routes dictionary, skipping")
+                                    continue
+                                
+                                # Create new entry
+                                new_entry = {
                                     "route-number": route_entry['routeno'],
                                     "extended-route-number": routes[route_id]['routeno'],
                                     "route-name": route_entry["routename"],
@@ -193,12 +351,40 @@ def save_platforms():
                                     "platform-number": overrides.get(str(route_id), route_entry["platformnumber"]),
                                     "bay-number": route_entry["baynumber"]
                                 }
-                if to_break:
+                                
+                                # Check if entry already exists and update it, otherwise add new entry
+                                existing_index = None
+                                for i, existing_entry in enumerate(schedule_times["Received"]):
+                                    if existing_entry.get("route-id") == route_id:
+                                        existing_index = i
+                                        break
+                                
+                                if existing_index is not None:
+                                    # Update existing entry
+                                    schedule_times["Received"][existing_index] = new_entry
+                                else:
+                                    # Add new entry
+                                    schedule_times["Received"].append(new_entry)
+                
+                # If no failures at this level, we can stop (all successful)
+                if not has_failures:
+                    print(f'    all requests successful at level {level}, stopping')
                     break
-    schedule_times["Received"] = list(schedule_times["Received"].values())
     with open(f'raw/platforms-{file}.json', 'w') as p_m:
         p_m.write(json.dumps(schedule_times, indent=2))
-
+    
+    # Print cache statistics
+    try:
+        conn = sqlite3.connect(CACHE_DB_PATH)
+        cursor = conn.cursor()
+        cursor.execute('SELECT COUNT(*) FROM api_cache')
+        total_cached = cursor.fetchone()[0]
+        conn.close()
+        print(f'Cache contains {total_cached} entries')
+    except Exception as e:
+        print(f'Could not get cache statistics: {e}')
+    
+    print('finished save_platforms')
     return schedule_times
 
 
