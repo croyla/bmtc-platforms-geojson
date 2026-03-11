@@ -121,7 +121,7 @@ request_headers = {
 }
 api_url = 'https://bmtcmobileapi.karnataka.gov.in/WebAPI/'
 
-gtfs_folder = '../bmtc-19-07-2024/'  # This gtfs folder is our source for stops, as opposed to querying api
+gtfs_folder = '../../assets/bmtc-vonter'  # This gtfs folder is our source for stops, as opposed to querying api
 
 
 def get_next_stops(stop_ids, nest_level=5):
@@ -520,12 +520,15 @@ def add_routes_gtfs_geojson():
     for feature in geojson_json["features"]:
         for route in feature["properties"]["Routes"]:
             stops_now = []
+            stop_ids_now = []
             if trips.keys().__contains__(str(route["Id"])):
                 loop_stops = stop_times[trips[str(route["Id"])][0]["trip_id"]]
                 loop_stops = loop_stops[next((i for i, stop in enumerate(loop_stops) if stop['stop_id'] in stop_ids), None):]
                 for stop in loop_stops:
                     stops_now.append(stops[stop['stop_id']])
+                    stop_ids_now.append(stop['stop_id'])
             route["Stops"] = stops_now
+            route["StopIds"] = stop_ids_now
     with open(f'out/platforms-routes-{file}.geojson', 'w') as p_m_g:
         p_m_g.write(json.dumps(geojson_json, indent=2))
     return geojson_json
