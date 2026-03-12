@@ -708,6 +708,15 @@ def smart_match_platform(route_number, platforms_routes, platform_route_ids):
     return None
 
 
+def replacements(s: str) -> str:
+    return (s
+            .replace('Banashankari Hunasemara', 'Hunasemara')
+            .replace('Kempegowda', 'Majestic')
+            .replace('KR Market', 'Kalasipalya')
+            .replace('Silk Board', 'silkboard')
+            .replace('Shanthinagar', 'shantinagar')
+            )
+
 def build_geojson(
     schedule_times, routes_en, routes_kn, stop_platforms,
     platforms_geojson, overrides, stop_ids, kn_cache, route_stops_api, file_nickname
@@ -859,7 +868,7 @@ def build_geojson(
             # Find the first occurrence of any of our stop IDs
             first_stop_index = None
             for i, stop_info in enumerate(api_route_stops):
-                if str(stop_info.get('stop_id', '')) in [str(sid) for sid in stop_ids] and str(file_nickname).lower() in str(stop_info.get('stop_name', '')).replace('Banashankari Hunasemara', 'Hunasemara').lower():
+                if str(stop_info.get('stop_id', '')) in [str(sid) for sid in stop_ids] and str(file_nickname).lower() in replacements(str(stop_info.get('stop_name', ''))).lower():
                     first_stop_index = i
                     break
 
@@ -1090,7 +1099,7 @@ def main():
                     }
 
     # Write filtered stops-coordinates.json
-    stops_coords_path = f'static/data/stops-coordinates.json'
+    stops_coords_path = f'out/stops-coordinates-{file_nickname}.json'
     os.makedirs(os.path.dirname(stops_coords_path), exist_ok=True)
     with open(stops_coords_path, 'w', encoding='utf-8') as f:
         json.dump(stops_coordinates, f, ensure_ascii=False, indent=2)

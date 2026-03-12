@@ -12,6 +12,7 @@
       },
       "properties": {
         "Platform": "1",
+        "Color": "#9800D1",
         "Alias": ["1A"]
       }
     },
@@ -26,6 +27,7 @@
       },
       "properties": {
         "Platform": "2",
+        "Color": "#9800D1",
         "Alias": ["2A"]
       }
     },
@@ -40,6 +42,7 @@
       },
       "properties": {
         "Platform": "3",
+        "Color": "#9800D1",
         "Alias": ["3A"]
       }
     },
@@ -54,6 +57,7 @@
       },
       "properties": {
         "Platform": "4",
+        "Color": "#9800D1",
         "Alias": ["4A"]
       }
     }

@@ -6,4 +6,4 @@
 *.log
 
 # Cache database
-api_cache.db
+*.db

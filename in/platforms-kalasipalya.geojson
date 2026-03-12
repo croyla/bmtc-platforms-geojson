@@ -2,6 +2,133 @@
   "type": "FeatureCollection",
   "features": [
     {
+      "id": 3,
+      "type": "Feature",
+      "properties": {
+        "Platform": 1
+      },
+      "geometry": {
+        "coordinates": [
+          77.57722020149232,
+          12.960844513449207
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": 4,
+      "type": "Feature",
+      "properties": {
+        "Platform": "6B"
+      },
+      "geometry": {
+        "coordinates": [
+          77.57733553647996,
+          12.960922929713755
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": 5,
+      "type": "Feature",
+      "properties": {
+        "Platform": "6C"
+      },
+      "geometry": {
+        "coordinates": [
+          77.57746964693071,
+          12.96100918757623
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": 6,
+      "type": "Feature",
+      "properties": {
+        "Platform": "5B"
+      },
+      "geometry": {
+        "coordinates": [
+          77.57747232913971,
+          12.960836671821383
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": 13,
+      "type": "Feature",
+      "properties": {
+        "Platform": 1
+      },
+      "geometry": {
+        "coordinates": [
+          77.5767669081688,
+          12.95945784842427
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": 14,
+      "type": "Feature",
+      "properties": {
+        "Platform": "1A"
+      },
+      "geometry": {
+        "coordinates": [
+          77.57678568363191,
+          12.959574166522358
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": 16,
+      "type": "Feature",
+      "properties": {
+        "Platform": "2A"
+      },
+      "geometry": {
+        "coordinates": [
+          77.57682859897615,
+          12.959801574781862
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": 17,
+      "type": "Feature",
+      "properties": {
+        "Platform": "2B"
+      },
+      "geometry": {
+        "coordinates": [
+          77.57685005664827,
+          12.959919199662188
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": 19,
+      "type": "Feature",
+      "properties": {
+        "Platform": 7
+      },
+      "geometry": {
+        "coordinates": [
+          77.57762738768027,
+          12.964133947838668
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "f087d74f6b8080c88d944a7a0853143f",
       "type": "Feature",
       "properties": {
         "Platform": 6
@@ -15,6 +142,7 @@
       }
     },
     {
+      "id": "43eba2dcd7d66eaf254c8967bad060df",
       "type": "Feature",
       "properties": {
         "Platform": "6A"
@@ -28,62 +156,7 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Platform": 1
-      },
-      "geometry": {
-        "coordinates": [
-          77.57722020149232,
-          12.960844513449207
-        ],
-        "type": "Point"
-      },
-      "id": 3
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Platform": "6B"
-      },
-      "geometry": {
-        "coordinates": [
-          77.57733553647996,
-          12.960922929713755
-        ],
-        "type": "Point"
-      },
-      "id": 4
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Platform": "6C"
-      },
-      "geometry": {
-        "coordinates": [
-          77.57746964693071,
-          12.96100918757623
-        ],
-        "type": "Point"
-      },
-      "id": 5
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Platform": "5B"
-      },
-      "geometry": {
-        "coordinates": [
-          77.57747232913971,
-          12.960836671821383
-        ],
-        "type": "Point"
-      },
-      "id": 6
-    },
-    {
+      "id": "53aac842ec7f490b83b2954daaf26b33",
       "type": "Feature",
       "properties": {
         "Platform": "5A"
@@ -97,6 +170,7 @@
       }
     },
     {
+      "id": "04ceeb3007b4d84ff23c7d96d8920f22",
       "type": "Feature",
       "properties": {
         "Platform": 5
@@ -110,6 +184,7 @@
       }
     },
     {
+      "id": "2ee472a9425f954eddbbe4d126964dbc",
       "type": "Feature",
       "properties": {
         "Platform": 4
@@ -123,6 +198,7 @@
       }
     },
     {
+      "id": "ffb22b25457b19c6a5fa318e6712d3eb",
       "type": "Feature",
       "properties": {
         "Platform": "3B"
@@ -136,6 +212,7 @@
       }
     },
     {
+      "id": "4586dfe92a2c6df4c19333cca50948b2",
       "type": "Feature",
       "properties": {
         "Platform": "3A"
@@ -149,6 +226,7 @@
       }
     },
     {
+      "id": "3d4dae90d5760eb318215dfdcca26900",
       "type": "Feature",
       "properties": {
         "Platform": 3
@@ -162,34 +240,7 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Platform": 1
-      },
-      "geometry": {
-        "coordinates": [
-          77.5767669081688,
-          12.95945784842427
-        ],
-        "type": "Point"
-      },
-      "id": 13
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Platform": "1A"
-      },
-      "geometry": {
-        "coordinates": [
-          77.57678568363191,
-          12.959574166522358
-        ],
-        "type": "Point"
-      },
-      "id": 14
-    },
-    {
+      "id": "267c24fd7640336ff61366cef0663d52",
       "type": "Feature",
       "properties": {
         "Platform": 2
@@ -203,48 +254,7 @@
       }
     },
     {
-      "type": "Feature",
-      "properties": {
-        "Platform": "2A"
-      },
-      "geometry": {
-        "coordinates": [
-          77.57682859897615,
-          12.959801574781862
-        ],
-        "type": "Point"
-      },
-      "id": 16
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Platform": "2B"
-      },
-      "geometry": {
-        "coordinates": [
-          77.57685005664827,
-          12.959919199662188
-        ],
-        "type": "Point"
-      },
-      "id": 17
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "Platform": 7
-      },
-      "geometry": {
-        "coordinates": [
-          77.57762738768027,
-          12.964133947838668
-        ],
-        "type": "Point"
-      },
-      "id": 19
-    },
-    {
+      "id": "e5a7df78a7a31f333472f816955d5f93",
       "type": "Feature",
       "properties": {
         "Platform": "Main Jn."
@@ -253,6 +263,76 @@
         "coordinates": [
           77.57742,
           12.96368
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "0e44c234ac4a75da590e8cbed687ebe2",
+      "type": "Feature",
+      "properties": {
+        "Platform": "Bangalore Fort"
+      },
+      "geometry": {
+        "coordinates": [
+          77.57560798130748,
+          12.962066921179655
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "a10f9603e0e9e375ee422483906b4868",
+      "type": "Feature",
+      "properties": {
+        "Platform": "Opp. Post Office"
+      },
+      "geometry": {
+        "coordinates": [
+          77.57680592437788,
+          12.964079194331731
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "e3b4470cb020284c7c7cb377f26680f5",
+      "type": "Feature",
+      "properties": {
+        "Platform": "Post Office"
+      },
+      "geometry": {
+        "coordinates": [
+          77.57691536802906,
+          12.964408133562145
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "39979dbf06a2bb25d476ee5a8710f54a",
+      "type": "Feature",
+      "properties": {
+        "Platform": "Masjid East"
+      },
+      "geometry": {
+        "coordinates": [
+          77.57891816056878,
+          12.9638319698753
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "4282e3109e15d04972633eee7e527bd1",
+      "type": "Feature",
+      "properties": {
+        "Platform": "Masjid West"
+      },
+      "geometry": {
+        "coordinates": [
+          77.57743284746607,
+          12.964373583082164
         ],
         "type": "Point"
       }
