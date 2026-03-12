@@ -729,6 +729,7 @@ def build_geojson(
     platform_color_lookup = {}
     platform_icon_lookup = {}
     platform_hours_lookup = {}
+    platform_alias_lookup = {}  # alias -> canonical platform name
     for feature in platforms_geojson['features']:
         plat_name = str(feature['properties'].get('Platform', '')).strip().upper()
         icon = str(str(feature['properties'].get('Icon', plat_name)).strip().upper())
@@ -738,6 +739,8 @@ def build_geojson(
             platform_color_lookup[plat_name] = feature['properties'].get('Color', '#000000')
             platform_icon_lookup[plat_name] = icon
             platform_hours_lookup[plat_name] = hours
+            for alias in feature['properties'].get('Alias', []):
+                platform_alias_lookup[str(alias).strip().upper()] = plat_name
 
     # Group routes by platform
     platforms_routes = {name.upper(): [] for name in platform_geom_lookup}
@@ -763,6 +766,10 @@ def build_geojson(
             pf_name = route_data.get("platform-name", "")
             pf_num = route_data.get("platform-number", "")
             platform = (pf_name if pf_name else pf_num if pf_num else "").upper()
+
+        # Resolve platform alias (e.g. 20C -> 20B)
+        if platform and platform not in platforms_routes:
+            platform = platform_alias_lookup.get(platform, platform)
 
         # Smart matching: only apply if not from stop-platforms.json and no platform found yet
         if not platform and not is_manual_override:

@@ -4839,449 +4839,6 @@
             ]
           },
           {
-            "Route": "401-AK-D52G-CKB",
-            "RouteId": 14358,
-            "RouteParentId": 7684,
-            "Destination": "Chikka Banavara",
-            "Via": "",
-            "Area": "Depot-52 Departure",
-            "PlatformNumber": "1",
-            "KannadaDestination": "ಚಿಕ್ಕ ಬನವರ",
-            "KannadaArea": "ಡಿಪೋಟ್-52 ಡಿಪಾರ್ಚರ್",
-            "KannadaVia": "",
-            "FromStationId": 22645,
-            "Stops": [
-              {
-                "name": "Yelahanka Santhe Circle",
-                "name_kn": "ಯೆಲಹಂಕ ಸಂತೆ ಕಿರ್ಕ್ಲೆ",
-                "stop_id": "22645",
-                "lat": 13.09852,
-                "lon": 77.59698
-              },
-              {
-                "name": "NES Office",
-                "name_kn": "ನೆಸ್ ೊೞ್ೞಿಕೆ",
-                "stop_id": "22356",
-                "lat": 13.09766,
-                "lon": 77.59166
-              },
-              {
-                "name": "Sheshadripuram College",
-                "name_kn": "ಶೆಶದ್ರಿಪುರಂ ಕೊಲ್ಲೆಗೆ",
-                "stop_id": "22481",
-                "lat": 13.09951,
-                "lon": 77.58834
-              },
-              {
-                "name": "Sharavathi Hotel",
-                "name_kn": "ಶರವತಿ ಹೊಟೆಲ್",
-                "stop_id": "22475",
-                "lat": 13.09797,
-                "lon": 77.58442
-              },
-              {
-                "name": "Chikka Bommasandra Cross",
-                "name_kn": "ಚಿಕ್ಕ ಬೊಮ್ಮಸಂದ್ರ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "21834",
-                "lat": 13.09353,
-                "lon": 77.58251
-              },
-              {
-                "name": "Yelahanka Satellite Town",
-                "name_kn": "ಯೆಲಹಂಕ ಸಟೆಲ್ಲಿಟೆ ಟೌಂ",
-                "stop_id": "22646",
-                "lat": 13.0958,
-                "lon": 77.57921
-              },
-              {
-                "name": "Mother Dairy Cross Yelahanka",
-                "name_kn": "ಮೊತೆರ್ ದೈರೆ ಕ್ರೊಸ್ಸ್ ಯೆಲಹಂಕ",
-                "stop_id": "22299",
-                "lat": 13.09934,
-                "lon": 77.57717
-              },
-              {
-                "name": "Mother Dairy Yelahanka",
-                "name_kn": "ಮೊತೆರ್ ದೈರೆ ಯೆಲಹಂಕ",
-                "stop_id": "33952",
-                "lat": 13.09883,
-                "lon": 77.57476
-              },
-              {
-                "name": "Atturu Layout",
-                "name_kn": "ಅಟುರು ಲಯೌಟ್",
-                "stop_id": "21675",
-                "lat": 13.09774,
-                "lon": 77.56766
-              },
-              {
-                "name": "Thirumala Dhaba",
-                "name_kn": "ತಿರುಮಲ ಧಬ",
-                "stop_id": "22551",
-                "lat": 13.09762,
-                "lon": 77.563
-              },
-              {
-                "name": "Bettahalli Layout",
-                "name_kn": "ಬೆಟಹಲ್ಲಿ ಲಯೌಟ್",
-                "stop_id": "21749",
-                "lat": 13.0923,
-                "lon": 77.55954
-              },
-              {
-                "name": "Chikka Bettahalli",
-                "name_kn": "ಚಿಕ್ಕ ಬೆಟಹಲ್ಲಿ",
-                "stop_id": "21832",
-                "lat": 13.08945,
-                "lon": 77.55629
-              },
-              {
-                "name": "Jalli Machine",
-                "name_kn": "ಜಲ್ಲಿ ಮಚಿನೆ",
-                "stop_id": "22096",
-                "lat": 13.08601,
-                "lon": 77.55551
-              },
-              {
-                "name": "Depot-45 Gate",
-                "name_kn": "ದೆಪೊಟ್-45 ಗಟೆ",
-                "stop_id": "36327",
-                "lat": 13.0829,
-                "lon": 77.55072
-              },
-              {
-                "name": "MS Palya",
-                "name_kn": "ಂಸ್ ಪಲೆ",
-                "stop_id": "36469",
-                "lat": 13.08178,
-                "lon": 77.54809
-              },
-              {
-                "name": "Vinayaka Nagara",
-                "name_kn": "ವಿನಯಕ ನಗರ",
-                "stop_id": "35689",
-                "lat": 13.08258,
-                "lon": 77.5433
-              },
-              {
-                "name": "Singapura",
-                "name_kn": "ಸಿಙಪುರ",
-                "stop_id": "26479",
-                "lat": 13.07965,
-                "lon": 77.53834
-              },
-              {
-                "name": "Abbigere Gate",
-                "name_kn": "ಅಬ್ಬಿಗೆರೆ ಗಟೆ",
-                "stop_id": "35559",
-                "lat": 13.07243,
-                "lon": 77.52355
-              },
-              {
-                "name": "RMG Factory",
-                "name_kn": "ರ್ಂಗ್ ೞಕ್ಟೊರೆ",
-                "stop_id": "34423",
-                "lat": 13.07604,
-                "lon": 77.51718
-              },
-              {
-                "name": "Kere Guddadahalli",
-                "name_kn": "ಕೆರೆ ಗುದ್ದದಹಲ್ಲಿ",
-                "stop_id": "33464",
-                "lat": 13.07927,
-                "lon": 77.51574
-              },
-              {
-                "name": "Gangadhara Kalyana Mantapa",
-                "name_kn": "ಗಙಧರ ಕಲೆನ ಮಂಟಪ",
-                "stop_id": "25309",
-                "lat": 13.07998,
-                "lon": 77.51095
-              },
-              {
-                "name": "Dasappanapalya",
-                "name_kn": "ದಸಪ್ಪನಪಲೆ",
-                "stop_id": "24792",
-                "lat": 13.07934,
-                "lon": 77.50593
-              },
-              {
-                "name": "Chikka Banavara",
-                "name_kn": "ಚಿಕ್ಕ ಬನವರ",
-                "stop_id": "20718",
-                "lat": 13.08046,
-                "lon": 77.50248
-              }
-            ]
-          },
-          {
-            "Route": "401-A PSS-SGP-YHK",
-            "RouteId": 16398,
-            "RouteParentId": 8781,
-            "Destination": "Peenya 2nd Stage",
-            "Via": "",
-            "Area": "Yelahanka Old Town",
-            "PlatformNumber": "1",
-            "KannadaDestination": "ಪೀನೆ 2ಂದ್ ಸ್ಟಗೆ",
-            "KannadaArea": "ಯಲಹಂಕ ಓಲ್ಡ್ ಟೌನ್",
-            "KannadaVia": "",
-            "FromStationId": 22645,
-            "Stops": [
-              {
-                "name": "Yelahanka Old Town",
-                "name_kn": "ಯೆಲಹಂಕ ೊಲ್ದ್ ಟೌಂ",
-                "stop_id": "22640",
-                "lat": 13.10091,
-                "lon": 77.59436
-              },
-              {
-                "name": "Yelahanka Santhe Circle",
-                "name_kn": "ಯೆಲಹಂಕ ಸಂತೆ ಕಿರ್ಕ್ಲೆ",
-                "stop_id": "22645",
-                "lat": 13.09852,
-                "lon": 77.59698
-              },
-              {
-                "name": "NES Office",
-                "name_kn": "ನೆಸ್ ೊೞ್ೞಿಕೆ",
-                "stop_id": "22356",
-                "lat": 13.09766,
-                "lon": 77.59166
-              },
-              {
-                "name": "Sheshadripuram College",
-                "name_kn": "ಶೆಶದ್ರಿಪುರಂ ಕೊಲ್ಲೆಗೆ",
-                "stop_id": "22481",
-                "lat": 13.09951,
-                "lon": 77.58834
-              },
-              {
-                "name": "Sharavathi Hotel",
-                "name_kn": "ಶರವತಿ ಹೊಟೆಲ್",
-                "stop_id": "22475",
-                "lat": 13.09797,
-                "lon": 77.58442
-              },
-              {
-                "name": "Chikka Bommasandra Cross",
-                "name_kn": "ಚಿಕ್ಕ ಬೊಮ್ಮಸಂದ್ರ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "21834",
-                "lat": 13.09353,
-                "lon": 77.58251
-              },
-              {
-                "name": "Yelahanka Satellite Town",
-                "name_kn": "ಯೆಲಹಂಕ ಸಟೆಲ್ಲಿಟೆ ಟೌಂ",
-                "stop_id": "22646",
-                "lat": 13.0958,
-                "lon": 77.57921
-              },
-              {
-                "name": "Mother Dairy Cross Yelahanka",
-                "name_kn": "ಮೊತೆರ್ ದೈರೆ ಕ್ರೊಸ್ಸ್ ಯೆಲಹಂಕ",
-                "stop_id": "22299",
-                "lat": 13.09934,
-                "lon": 77.57717
-              },
-              {
-                "name": "Mother Dairy Yelahanka",
-                "name_kn": "ಮೊತೆರ್ ದೈರೆ ಯೆಲಹಂಕ",
-                "stop_id": "33952",
-                "lat": 13.09883,
-                "lon": 77.57476
-              },
-              {
-                "name": "Atturu Layout",
-                "name_kn": "ಅಟುರು ಲಯೌಟ್",
-                "stop_id": "21675",
-                "lat": 13.09774,
-                "lon": 77.56766
-              },
-              {
-                "name": "Thirumala Dhaba",
-                "name_kn": "ತಿರುಮಲ ಧಬ",
-                "stop_id": "22551",
-                "lat": 13.09762,
-                "lon": 77.563
-              },
-              {
-                "name": "Bettahalli Layout",
-                "name_kn": "ಬೆಟಹಲ್ಲಿ ಲಯೌಟ್",
-                "stop_id": "21749",
-                "lat": 13.0923,
-                "lon": 77.55954
-              },
-              {
-                "name": "Chikka Bettahalli",
-                "name_kn": "ಚಿಕ್ಕ ಬೆಟಹಲ್ಲಿ",
-                "stop_id": "21832",
-                "lat": 13.08945,
-                "lon": 77.55629
-              },
-              {
-                "name": "Jalli Machine",
-                "name_kn": "ಜಲ್ಲಿ ಮಚಿನೆ",
-                "stop_id": "22096",
-                "lat": 13.08601,
-                "lon": 77.55551
-              },
-              {
-                "name": "Depot-45 Gate",
-                "name_kn": "ದೆಪೊಟ್-45 ಗಟೆ",
-                "stop_id": "36327",
-                "lat": 13.0829,
-                "lon": 77.55072
-              },
-              {
-                "name": "MS Palya",
-                "name_kn": "ಂಸ್ ಪಲೆ",
-                "stop_id": "36469",
-                "lat": 13.08178,
-                "lon": 77.54809
-              },
-              {
-                "name": "Vinayaka Nagara",
-                "name_kn": "ವಿನಯಕ ನಗರ",
-                "stop_id": "35689",
-                "lat": 13.08258,
-                "lon": 77.5433
-              },
-              {
-                "name": "Singapura",
-                "name_kn": "ಸಿಙಪುರ",
-                "stop_id": "26479",
-                "lat": 13.07965,
-                "lon": 77.53834
-              },
-              {
-                "name": "Singapura LT",
-                "name_kn": "ಸಿಙಪುರ ಲ್ಟ್",
-                "stop_id": "26481",
-                "lat": 13.07498,
-                "lon": 77.53999
-              },
-              {
-                "name": "2nd stage Kuvempunagara",
-                "name_kn": "2ಂದ್ ಸ್ಟಗೆ ಕುವೆಂಪುನಗರ",
-                "stop_id": "35591",
-                "lat": 13.07306,
-                "lon": 77.54142
-              },
-              {
-                "name": "Kuvempunagara",
-                "name_kn": "ಕುವೆಂಪುನಗರ",
-                "stop_id": "28428",
-                "lat": 13.0695,
-                "lon": 77.54144
-              },
-              {
-                "name": "Gangamma Circle",
-                "name_kn": "ಗಙಮ್ಮ ಕಿರ್ಕ್ಲೆ",
-                "stop_id": "21946",
-                "lat": 13.05663,
-                "lon": 77.54672
-              },
-              {
-                "name": "Fathima Church",
-                "name_kn": "ೞತಿಮ ಚುರ್ಚ್",
-                "stop_id": "21940",
-                "lat": 13.05474,
-                "lon": 77.54148
-              },
-              {
-                "name": "Kammagondanahalli Bridge",
-                "name_kn": "ಕಮ್ಮಗೊಂದನಹಲ್ಲಿ ಬ್ರಿದ್ಗೆ",
-                "stop_id": "22144",
-                "lat": 13.05486,
-                "lon": 77.53482
-              },
-              {
-                "name": "IAF Jalahalli",
-                "name_kn": "ಇೞ್ ಜಲಹಲ್ಲಿ",
-                "stop_id": "22065",
-                "lat": 13.0536,
-                "lon": 77.5308
-              },
-              {
-                "name": "Shettyhalli Cross",
-                "name_kn": "ಶೆಟೆಹಲ್ಲಿ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "22483",
-                "lat": 13.05024,
-                "lon": 77.52568
-              },
-              {
-                "name": "Ayyappa Temple Jalahalli Cross",
-                "name_kn": "ಅಯೆಪ್ಪ ಟೆಂಪ್ಲೆ ಜಲಹಲ್ಲಿ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "21688",
-                "lat": 13.04623,
-                "lon": 77.52243
-              },
-              {
-                "name": "Jalahalli Cross",
-                "name_kn": "ಜಲಹಲ್ಲಿ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "20870",
-                "lat": 13.03959,
-                "lon": 77.51839
-              },
-              {
-                "name": "Systems Peenya",
-                "name_kn": "ಶೆಸ್ಟೆಂಸ್ ಪೀನೆ",
-                "stop_id": "21210",
-                "lat": 13.03506,
-                "lon": 77.51806
-              },
-              {
-                "name": "TVS Cross Peenya",
-                "name_kn": "ಟ್ವ್ಸ್ ಕ್ರೊಸ್ಸ್ ಪೀನೆ",
-                "stop_id": "21237",
-                "lat": 13.02835,
-                "lon": 77.51953
-              },
-              {
-                "name": "Rolling Mill",
-                "name_kn": "ರೊಲ್ಲಿಙ್ ಮಿಲ್ಲ್",
-                "stop_id": "21137",
-                "lat": 13.02648,
-                "lon": 77.51478
-              },
-              {
-                "name": "NTTF Peenya",
-                "name_kn": "ಂಟ್ೞ್ ಪೀನೆ",
-                "stop_id": "21069",
-                "lat": 13.02461,
-                "lon": 77.51099
-              },
-              {
-                "name": "Brundavana Peenya",
-                "name_kn": "ಬ್ರುಂದವನ ಪೀನೆ",
-                "stop_id": "20685",
-                "lat": 13.0204,
-                "lon": 77.50815
-              },
-              {
-                "name": "Peenya 14th cross",
-                "name_kn": "ಪೀನೆ 14ತ್ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "20567",
-                "lat": 13.01646,
-                "lon": 77.50566
-              },
-              {
-                "name": "Rajagopalanagara",
-                "name_kn": "ರಜಗೊಪಲನಗರ",
-                "stop_id": "21114",
-                "lat": 13.01368,
-                "lon": 77.50881
-              },
-              {
-                "name": "Peenya 2nd Stage",
-                "name_kn": "ಪೀನೆ 2ಂದ್ ಸ್ಟಗೆ",
-                "stop_id": "21080",
-                "lat": 13.01092,
-                "lon": 77.50683
-              }
-            ]
-          },
-          {
             "Route": "401-AM",
             "RouteId": 2475,
             "RouteParentId": 1427,
@@ -6441,6 +5998,449 @@
             ]
           },
           {
+            "Route": "401-AK-D52G-CKB",
+            "RouteId": 14358,
+            "RouteParentId": 7684,
+            "Destination": "Chikka Banavara",
+            "Via": "",
+            "Area": "Depot-52 Departure",
+            "PlatformNumber": "1",
+            "KannadaDestination": "ಚಿಕ್ಕ ಬನವರ",
+            "KannadaArea": "ಡಿಪೋಟ್-52 ಡಿಪಾರ್ಚರ್",
+            "KannadaVia": "",
+            "FromStationId": 22645,
+            "Stops": [
+              {
+                "name": "Yelahanka Santhe Circle",
+                "name_kn": "ಯೆಲಹಂಕ ಸಂತೆ ಕಿರ್ಕ್ಲೆ",
+                "stop_id": "22645",
+                "lat": 13.09852,
+                "lon": 77.59698
+              },
+              {
+                "name": "NES Office",
+                "name_kn": "ನೆಸ್ ೊೞ್ೞಿಕೆ",
+                "stop_id": "22356",
+                "lat": 13.09766,
+                "lon": 77.59166
+              },
+              {
+                "name": "Sheshadripuram College",
+                "name_kn": "ಶೆಶದ್ರಿಪುರಂ ಕೊಲ್ಲೆಗೆ",
+                "stop_id": "22481",
+                "lat": 13.09951,
+                "lon": 77.58834
+              },
+              {
+                "name": "Sharavathi Hotel",
+                "name_kn": "ಶರವತಿ ಹೊಟೆಲ್",
+                "stop_id": "22475",
+                "lat": 13.09797,
+                "lon": 77.58442
+              },
+              {
+                "name": "Chikka Bommasandra Cross",
+                "name_kn": "ಚಿಕ್ಕ ಬೊಮ್ಮಸಂದ್ರ ಕ್ರೊಸ್ಸ್",
+                "stop_id": "21834",
+                "lat": 13.09353,
+                "lon": 77.58251
+              },
+              {
+                "name": "Yelahanka Satellite Town",
+                "name_kn": "ಯೆಲಹಂಕ ಸಟೆಲ್ಲಿಟೆ ಟೌಂ",
+                "stop_id": "22646",
+                "lat": 13.0958,
+                "lon": 77.57921
+              },
+              {
+                "name": "Mother Dairy Cross Yelahanka",
+                "name_kn": "ಮೊತೆರ್ ದೈರೆ ಕ್ರೊಸ್ಸ್ ಯೆಲಹಂಕ",
+                "stop_id": "22299",
+                "lat": 13.09934,
+                "lon": 77.57717
+              },
+              {
+                "name": "Mother Dairy Yelahanka",
+                "name_kn": "ಮೊತೆರ್ ದೈರೆ ಯೆಲಹಂಕ",
+                "stop_id": "33952",
+                "lat": 13.09883,
+                "lon": 77.57476
+              },
+              {
+                "name": "Atturu Layout",
+                "name_kn": "ಅಟುರು ಲಯೌಟ್",
+                "stop_id": "21675",
+                "lat": 13.09774,
+                "lon": 77.56766
+              },
+              {
+                "name": "Thirumala Dhaba",
+                "name_kn": "ತಿರುಮಲ ಧಬ",
+                "stop_id": "22551",
+                "lat": 13.09762,
+                "lon": 77.563
+              },
+              {
+                "name": "Bettahalli Layout",
+                "name_kn": "ಬೆಟಹಲ್ಲಿ ಲಯೌಟ್",
+                "stop_id": "21749",
+                "lat": 13.0923,
+                "lon": 77.55954
+              },
+              {
+                "name": "Chikka Bettahalli",
+                "name_kn": "ಚಿಕ್ಕ ಬೆಟಹಲ್ಲಿ",
+                "stop_id": "21832",
+                "lat": 13.08945,
+                "lon": 77.55629
+              },
+              {
+                "name": "Jalli Machine",
+                "name_kn": "ಜಲ್ಲಿ ಮಚಿನೆ",
+                "stop_id": "22096",
+                "lat": 13.08601,
+                "lon": 77.55551
+              },
+              {
+                "name": "Depot-45 Gate",
+                "name_kn": "ದೆಪೊಟ್-45 ಗಟೆ",
+                "stop_id": "36327",
+                "lat": 13.0829,
+                "lon": 77.55072
+              },
+              {
+                "name": "MS Palya",
+                "name_kn": "ಂಸ್ ಪಲೆ",
+                "stop_id": "36469",
+                "lat": 13.08178,
+                "lon": 77.54809
+              },
+              {
+                "name": "Vinayaka Nagara",
+                "name_kn": "ವಿನಯಕ ನಗರ",
+                "stop_id": "35689",
+                "lat": 13.08258,
+                "lon": 77.5433
+              },
+              {
+                "name": "Singapura",
+                "name_kn": "ಸಿಙಪುರ",
+                "stop_id": "26479",
+                "lat": 13.07965,
+                "lon": 77.53834
+              },
+              {
+                "name": "Abbigere Gate",
+                "name_kn": "ಅಬ್ಬಿಗೆರೆ ಗಟೆ",
+                "stop_id": "35559",
+                "lat": 13.07243,
+                "lon": 77.52355
+              },
+              {
+                "name": "RMG Factory",
+                "name_kn": "ರ್ಂಗ್ ೞಕ್ಟೊರೆ",
+                "stop_id": "34423",
+                "lat": 13.07604,
+                "lon": 77.51718
+              },
+              {
+                "name": "Kere Guddadahalli",
+                "name_kn": "ಕೆರೆ ಗುದ್ದದಹಲ್ಲಿ",
+                "stop_id": "33464",
+                "lat": 13.07927,
+                "lon": 77.51574
+              },
+              {
+                "name": "Gangadhara Kalyana Mantapa",
+                "name_kn": "ಗಙಧರ ಕಲೆನ ಮಂಟಪ",
+                "stop_id": "25309",
+                "lat": 13.07998,
+                "lon": 77.51095
+              },
+              {
+                "name": "Dasappanapalya",
+                "name_kn": "ದಸಪ್ಪನಪಲೆ",
+                "stop_id": "24792",
+                "lat": 13.07934,
+                "lon": 77.50593
+              },
+              {
+                "name": "Chikka Banavara",
+                "name_kn": "ಚಿಕ್ಕ ಬನವರ",
+                "stop_id": "20718",
+                "lat": 13.08046,
+                "lon": 77.50248
+              }
+            ]
+          },
+          {
+            "Route": "401-A PSS-SGP-YHK",
+            "RouteId": 16398,
+            "RouteParentId": 8781,
+            "Destination": "Peenya 2nd Stage",
+            "Via": "",
+            "Area": "Yelahanka Old Town",
+            "PlatformNumber": "1",
+            "KannadaDestination": "ಪೀನೆ 2ಂದ್ ಸ್ಟಗೆ",
+            "KannadaArea": "ಯಲಹಂಕ ಓಲ್ಡ್ ಟೌನ್",
+            "KannadaVia": "",
+            "FromStationId": 22645,
+            "Stops": [
+              {
+                "name": "Yelahanka Old Town",
+                "name_kn": "ಯೆಲಹಂಕ ೊಲ್ದ್ ಟೌಂ",
+                "stop_id": "22640",
+                "lat": 13.10091,
+                "lon": 77.59436
+              },
+              {
+                "name": "Yelahanka Santhe Circle",
+                "name_kn": "ಯೆಲಹಂಕ ಸಂತೆ ಕಿರ್ಕ್ಲೆ",
+                "stop_id": "22645",
+                "lat": 13.09852,
+                "lon": 77.59698
+              },
+              {
+                "name": "NES Office",
+                "name_kn": "ನೆಸ್ ೊೞ್ೞಿಕೆ",
+                "stop_id": "22356",
+                "lat": 13.09766,
+                "lon": 77.59166
+              },
+              {
+                "name": "Sheshadripuram College",
+                "name_kn": "ಶೆಶದ್ರಿಪುರಂ ಕೊಲ್ಲೆಗೆ",
+                "stop_id": "22481",
+                "lat": 13.09951,
+                "lon": 77.58834
+              },
+              {
+                "name": "Sharavathi Hotel",
+                "name_kn": "ಶರವತಿ ಹೊಟೆಲ್",
+                "stop_id": "22475",
+                "lat": 13.09797,
+                "lon": 77.58442
+              },
+              {
+                "name": "Chikka Bommasandra Cross",
+                "name_kn": "ಚಿಕ್ಕ ಬೊಮ್ಮಸಂದ್ರ ಕ್ರೊಸ್ಸ್",
+                "stop_id": "21834",
+                "lat": 13.09353,
+                "lon": 77.58251
+              },
+              {
+                "name": "Yelahanka Satellite Town",
+                "name_kn": "ಯೆಲಹಂಕ ಸಟೆಲ್ಲಿಟೆ ಟೌಂ",
+                "stop_id": "22646",
+                "lat": 13.0958,
+                "lon": 77.57921
+              },
+              {
+                "name": "Mother Dairy Cross Yelahanka",
+                "name_kn": "ಮೊತೆರ್ ದೈರೆ ಕ್ರೊಸ್ಸ್ ಯೆಲಹಂಕ",
+                "stop_id": "22299",
+                "lat": 13.09934,
+                "lon": 77.57717
+              },
+              {
+                "name": "Mother Dairy Yelahanka",
+                "name_kn": "ಮೊತೆರ್ ದೈರೆ ಯೆಲಹಂಕ",
+                "stop_id": "33952",
+                "lat": 13.09883,
+                "lon": 77.57476
+              },
+              {
+                "name": "Atturu Layout",
+                "name_kn": "ಅಟುರು ಲಯೌಟ್",
+                "stop_id": "21675",
+                "lat": 13.09774,
+                "lon": 77.56766
+              },
+              {
+                "name": "Thirumala Dhaba",
+                "name_kn": "ತಿರುಮಲ ಧಬ",
+                "stop_id": "22551",
+                "lat": 13.09762,
+                "lon": 77.563
+              },
+              {
+                "name": "Bettahalli Layout",
+                "name_kn": "ಬೆಟಹಲ್ಲಿ ಲಯೌಟ್",
+                "stop_id": "21749",
+                "lat": 13.0923,
+                "lon": 77.55954
+              },
+              {
+                "name": "Chikka Bettahalli",
+                "name_kn": "ಚಿಕ್ಕ ಬೆಟಹಲ್ಲಿ",
+                "stop_id": "21832",
+                "lat": 13.08945,
+                "lon": 77.55629
+              },
+              {
+                "name": "Jalli Machine",
+                "name_kn": "ಜಲ್ಲಿ ಮಚಿನೆ",
+                "stop_id": "22096",
+                "lat": 13.08601,
+                "lon": 77.55551
+              },
+              {
+                "name": "Depot-45 Gate",
+                "name_kn": "ದೆಪೊಟ್-45 ಗಟೆ",
+                "stop_id": "36327",
+                "lat": 13.0829,
+                "lon": 77.55072
+              },
+              {
+                "name": "MS Palya",
+                "name_kn": "ಂಸ್ ಪಲೆ",
+                "stop_id": "36469",
+                "lat": 13.08178,
+                "lon": 77.54809
+              },
+              {
+                "name": "Vinayaka Nagara",
+                "name_kn": "ವಿನಯಕ ನಗರ",
+                "stop_id": "35689",
+                "lat": 13.08258,
+                "lon": 77.5433
+              },
+              {
+                "name": "Singapura",
+                "name_kn": "ಸಿಙಪುರ",
+                "stop_id": "26479",
+                "lat": 13.07965,
+                "lon": 77.53834
+              },
+              {
+                "name": "Singapura LT",
+                "name_kn": "ಸಿಙಪುರ ಲ್ಟ್",
+                "stop_id": "26481",
+                "lat": 13.07498,
+                "lon": 77.53999
+              },
+              {
+                "name": "2nd stage Kuvempunagara",
+                "name_kn": "2ಂದ್ ಸ್ಟಗೆ ಕುವೆಂಪುನಗರ",
+                "stop_id": "35591",
+                "lat": 13.07306,
+                "lon": 77.54142
+              },
+              {
+                "name": "Kuvempunagara",
+                "name_kn": "ಕುವೆಂಪುನಗರ",
+                "stop_id": "28428",
+                "lat": 13.0695,
+                "lon": 77.54144
+              },
+              {
+                "name": "Gangamma Circle",
+                "name_kn": "ಗಙಮ್ಮ ಕಿರ್ಕ್ಲೆ",
+                "stop_id": "21946",
+                "lat": 13.05663,
+                "lon": 77.54672
+              },
+              {
+                "name": "Fathima Church",
+                "name_kn": "ೞತಿಮ ಚುರ್ಚ್",
+                "stop_id": "21940",
+                "lat": 13.05474,
+                "lon": 77.54148
+              },
+              {
+                "name": "Kammagondanahalli Bridge",
+                "name_kn": "ಕಮ್ಮಗೊಂದನಹಲ್ಲಿ ಬ್ರಿದ್ಗೆ",
+                "stop_id": "22144",
+                "lat": 13.05486,
+                "lon": 77.53482
+              },
+              {
+                "name": "IAF Jalahalli",
+                "name_kn": "ಇೞ್ ಜಲಹಲ್ಲಿ",
+                "stop_id": "22065",
+                "lat": 13.0536,
+                "lon": 77.5308
+              },
+              {
+                "name": "Shettyhalli Cross",
+                "name_kn": "ಶೆಟೆಹಲ್ಲಿ ಕ್ರೊಸ್ಸ್",
+                "stop_id": "22483",
+                "lat": 13.05024,
+                "lon": 77.52568
+              },
+              {
+                "name": "Ayyappa Temple Jalahalli Cross",
+                "name_kn": "ಅಯೆಪ್ಪ ಟೆಂಪ್ಲೆ ಜಲಹಲ್ಲಿ ಕ್ರೊಸ್ಸ್",
+                "stop_id": "21688",
+                "lat": 13.04623,
+                "lon": 77.52243
+              },
+              {
+                "name": "Jalahalli Cross",
+                "name_kn": "ಜಲಹಲ್ಲಿ ಕ್ರೊಸ್ಸ್",
+                "stop_id": "20870",
+                "lat": 13.03959,
+                "lon": 77.51839
+              },
+              {
+                "name": "Systems Peenya",
+                "name_kn": "ಶೆಸ್ಟೆಂಸ್ ಪೀನೆ",
+                "stop_id": "21210",
+                "lat": 13.03506,
+                "lon": 77.51806
+              },
+              {
+                "name": "TVS Cross Peenya",
+                "name_kn": "ಟ್ವ್ಸ್ ಕ್ರೊಸ್ಸ್ ಪೀನೆ",
+                "stop_id": "21237",
+                "lat": 13.02835,
+                "lon": 77.51953
+              },
+              {
+                "name": "Rolling Mill",
+                "name_kn": "ರೊಲ್ಲಿಙ್ ಮಿಲ್ಲ್",
+                "stop_id": "21137",
+                "lat": 13.02648,
+                "lon": 77.51478
+              },
+              {
+                "name": "NTTF Peenya",
+                "name_kn": "ಂಟ್ೞ್ ಪೀನೆ",
+                "stop_id": "21069",
+                "lat": 13.02461,
+                "lon": 77.51099
+              },
+              {
+                "name": "Brundavana Peenya",
+                "name_kn": "ಬ್ರುಂದವನ ಪೀನೆ",
+                "stop_id": "20685",
+                "lat": 13.0204,
+                "lon": 77.50815
+              },
+              {
+                "name": "Peenya 14th cross",
+                "name_kn": "ಪೀನೆ 14ತ್ ಕ್ರೊಸ್ಸ್",
+                "stop_id": "20567",
+                "lat": 13.01646,
+                "lon": 77.50566
+              },
+              {
+                "name": "Rajagopalanagara",
+                "name_kn": "ರಜಗೊಪಲನಗರ",
+                "stop_id": "21114",
+                "lat": 13.01368,
+                "lon": 77.50881
+              },
+              {
+                "name": "Peenya 2nd Stage",
+                "name_kn": "ಪೀನೆ 2ಂದ್ ಸ್ಟಗೆ",
+                "stop_id": "21080",
+                "lat": 13.01092,
+                "lon": 77.50683
+              }
+            ]
+          },
+          {
             "Route": "290-EJ NGWJN-GKVK-YHK",
             "RouteId": 14655,
             "RouteParentId": 7852,
@@ -7541,190 +7541,6 @@
             ]
           },
           {
-            "Route": "280-K",
-            "RouteId": 4815,
-            "RouteParentId": 2637,
-            "Destination": "Mittaganahalli 1",
-            "Via": "",
-            "Area": "Kempegowda Bus Station",
-            "PlatformNumber": "1",
-            "KannadaDestination": "ಮಿಟಗನಹಲ್ಲಿ 1",
-            "KannadaArea": "ಕೆಂಪೇಗೌಡ ಬಸ್ ನಿಲ್ದಾಣ",
-            "KannadaVia": "",
-            "FromStationId": 27854,
-            "Stops": [
-              {
-                "name": "Raitarasanthe Yelahanka",
-                "name_kn": "ರೈಟರಸಂತೆ ಯೆಲಹಂಕ",
-                "stop_id": "27854",
-                "lat": 13.09807,
-                "lon": 77.59866
-              },
-              {
-                "name": "Yelahanka Santhe Circle",
-                "name_kn": "ಯೆಲಹಂಕ ಸಂತೆ ಕಿರ್ಕ್ಲೆ",
-                "stop_id": "22643",
-                "lat": 13.09919,
-                "lon": 77.59731
-              },
-              {
-                "name": "Kogilu Cross",
-                "name_kn": "ಕೊಗಿಲು ಕ್ರೊಸ್ಸ್",
-                "stop_id": "22183",
-                "lat": 13.10362,
-                "lon": 77.60102
-              },
-              {
-                "name": "Maruthi Nagara",
-                "name_kn": "ಮರುತಿ ನಗರ",
-                "stop_id": "22266",
-                "lat": 13.10445,
-                "lon": 77.60632
-              },
-              {
-                "name": "Sapthagiri Layout",
-                "name_kn": "ಸಪ್ತಗಿರಿ ಲಯೌಟ್",
-                "stop_id": "22457",
-                "lat": 13.10457,
-                "lon": 77.61045
-              },
-              {
-                "name": "Kogilu",
-                "name_kn": "ಕೊಗಿಲು",
-                "stop_id": "22181",
-                "lat": 13.10362,
-                "lon": 77.616
-              },
-              {
-                "name": "Srinivasapura Kogilu",
-                "name_kn": "ಸ್ರಿನಿವಸಪುರ ಕೊಗಿಲು",
-                "stop_id": "22513",
-                "lat": 13.10347,
-                "lon": 77.62349
-              },
-              {
-                "name": "Ittige Factory",
-                "name_kn": "ಇಟಿಗೆ ೞಕ್ಟೊರೆ",
-                "stop_id": "22087",
-                "lat": 13.10252,
-                "lon": 77.62918
-              },
-              {
-                "name": "Bellahalli Cross",
-                "name_kn": "ಬೆಲ್ಲಹಲ್ಲಿ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "31951",
-                "lat": 13.10207,
-                "lon": 77.63351
-              },
-              {
-                "name": "Mittaganahalli Cross",
-                "name_kn": "ಮಿಟಗನಹಲ್ಲಿ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "29020",
-                "lat": 13.11173,
-                "lon": 77.64381
-              },
-              {
-                "name": "Mittaganahalli 1",
-                "name_kn": "ಮಿಟಗನಹಲ್ಲಿ 1",
-                "stop_id": "34826",
-                "lat": 13.10951,
-                "lon": 77.64363
-              }
-            ]
-          },
-          {
-            "Route": "280-K YHK-MTH",
-            "RouteId": 4819,
-            "RouteParentId": 2640,
-            "Destination": "Mittaganahalli 1",
-            "Via": "",
-            "Area": "Yelahanka Old Town",
-            "PlatformNumber": "1",
-            "KannadaDestination": "ಮಿಟಗನಹಲ್ಲಿ 1",
-            "KannadaArea": "ಯಲಹಂಕ ಓಲ್ಡ್ ಟೌನ್",
-            "KannadaVia": "",
-            "FromStationId": 22643,
-            "Stops": [
-              {
-                "name": "Yelahanka Old Town",
-                "name_kn": "ಯೆಲಹಂಕ ೊಲ್ದ್ ಟೌಂ",
-                "stop_id": "22640",
-                "lat": 13.10091,
-                "lon": 77.59436
-              },
-              {
-                "name": "Yelahanka Santhe Circle",
-                "name_kn": "ಯೆಲಹಂಕ ಸಂತೆ ಕಿರ್ಕ್ಲೆ",
-                "stop_id": "22643",
-                "lat": 13.09919,
-                "lon": 77.59731
-              },
-              {
-                "name": "Kogilu Cross",
-                "name_kn": "ಕೊಗಿಲು ಕ್ರೊಸ್ಸ್",
-                "stop_id": "22183",
-                "lat": 13.10362,
-                "lon": 77.60102
-              },
-              {
-                "name": "Maruthi Nagara",
-                "name_kn": "ಮರುತಿ ನಗರ",
-                "stop_id": "22266",
-                "lat": 13.10445,
-                "lon": 77.60632
-              },
-              {
-                "name": "Sapthagiri Layout",
-                "name_kn": "ಸಪ್ತಗಿರಿ ಲಯೌಟ್",
-                "stop_id": "22457",
-                "lat": 13.10457,
-                "lon": 77.61045
-              },
-              {
-                "name": "Kogilu",
-                "name_kn": "ಕೊಗಿಲು",
-                "stop_id": "22181",
-                "lat": 13.10362,
-                "lon": 77.616
-              },
-              {
-                "name": "Srinivasapura Kogilu",
-                "name_kn": "ಸ್ರಿನಿವಸಪುರ ಕೊಗಿಲು",
-                "stop_id": "22513",
-                "lat": 13.10347,
-                "lon": 77.62349
-              },
-              {
-                "name": "Ittige Factory",
-                "name_kn": "ಇಟಿಗೆ ೞಕ್ಟೊರೆ",
-                "stop_id": "22087",
-                "lat": 13.10252,
-                "lon": 77.62918
-              },
-              {
-                "name": "Bellahalli Cross",
-                "name_kn": "ಬೆಲ್ಲಹಲ್ಲಿ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "31951",
-                "lat": 13.10207,
-                "lon": 77.63351
-              },
-              {
-                "name": "Mittaganahalli Cross",
-                "name_kn": "ಮಿಟಗನಹಲ್ಲಿ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "29020",
-                "lat": 13.11173,
-                "lon": 77.64381
-              },
-              {
-                "name": "Mittaganahalli 1",
-                "name_kn": "ಮಿಟಗನಹಲ್ಲಿ 1",
-                "stop_id": "34826",
-                "lat": 13.10951,
-                "lon": 77.64363
-              }
-            ]
-          },
-          {
             "Route": "290-MV",
             "RouteId": 15830,
             "RouteParentId": 8487,
@@ -8016,6 +7832,190 @@
                 "stop_id": "37713",
                 "lat": 12.99966,
                 "lon": 77.64099
+              }
+            ]
+          },
+          {
+            "Route": "280-K",
+            "RouteId": 4815,
+            "RouteParentId": 2637,
+            "Destination": "Mittaganahalli 1",
+            "Via": "",
+            "Area": "Kempegowda Bus Station",
+            "PlatformNumber": "1",
+            "KannadaDestination": "ಮಿಟಗನಹಲ್ಲಿ 1",
+            "KannadaArea": "ಕೆಂಪೇಗೌಡ ಬಸ್ ನಿಲ್ದಾಣ",
+            "KannadaVia": "",
+            "FromStationId": 27854,
+            "Stops": [
+              {
+                "name": "Raitarasanthe Yelahanka",
+                "name_kn": "ರೈಟರಸಂತೆ ಯೆಲಹಂಕ",
+                "stop_id": "27854",
+                "lat": 13.09807,
+                "lon": 77.59866
+              },
+              {
+                "name": "Yelahanka Santhe Circle",
+                "name_kn": "ಯೆಲಹಂಕ ಸಂತೆ ಕಿರ್ಕ್ಲೆ",
+                "stop_id": "22643",
+                "lat": 13.09919,
+                "lon": 77.59731
+              },
+              {
+                "name": "Kogilu Cross",
+                "name_kn": "ಕೊಗಿಲು ಕ್ರೊಸ್ಸ್",
+                "stop_id": "22183",
+                "lat": 13.10362,
+                "lon": 77.60102
+              },
+              {
+                "name": "Maruthi Nagara",
+                "name_kn": "ಮರುತಿ ನಗರ",
+                "stop_id": "22266",
+                "lat": 13.10445,
+                "lon": 77.60632
+              },
+              {
+                "name": "Sapthagiri Layout",
+                "name_kn": "ಸಪ್ತಗಿರಿ ಲಯೌಟ್",
+                "stop_id": "22457",
+                "lat": 13.10457,
+                "lon": 77.61045
+              },
+              {
+                "name": "Kogilu",
+                "name_kn": "ಕೊಗಿಲು",
+                "stop_id": "22181",
+                "lat": 13.10362,
+                "lon": 77.616
+              },
+              {
+                "name": "Srinivasapura Kogilu",
+                "name_kn": "ಸ್ರಿನಿವಸಪುರ ಕೊಗಿಲು",
+                "stop_id": "22513",
+                "lat": 13.10347,
+                "lon": 77.62349
+              },
+              {
+                "name": "Ittige Factory",
+                "name_kn": "ಇಟಿಗೆ ೞಕ್ಟೊರೆ",
+                "stop_id": "22087",
+                "lat": 13.10252,
+                "lon": 77.62918
+              },
+              {
+                "name": "Bellahalli Cross",
+                "name_kn": "ಬೆಲ್ಲಹಲ್ಲಿ ಕ್ರೊಸ್ಸ್",
+                "stop_id": "31951",
+                "lat": 13.10207,
+                "lon": 77.63351
+              },
+              {
+                "name": "Mittaganahalli Cross",
+                "name_kn": "ಮಿಟಗನಹಲ್ಲಿ ಕ್ರೊಸ್ಸ್",
+                "stop_id": "29020",
+                "lat": 13.11173,
+                "lon": 77.64381
+              },
+              {
+                "name": "Mittaganahalli 1",
+                "name_kn": "ಮಿಟಗನಹಲ್ಲಿ 1",
+                "stop_id": "34826",
+                "lat": 13.10951,
+                "lon": 77.64363
+              }
+            ]
+          },
+          {
+            "Route": "280-K YHK-MTH",
+            "RouteId": 4819,
+            "RouteParentId": 2640,
+            "Destination": "Mittaganahalli 1",
+            "Via": "",
+            "Area": "Yelahanka Old Town",
+            "PlatformNumber": "1",
+            "KannadaDestination": "ಮಿಟಗನಹಲ್ಲಿ 1",
+            "KannadaArea": "ಯಲಹಂಕ ಓಲ್ಡ್ ಟೌನ್",
+            "KannadaVia": "",
+            "FromStationId": 22643,
+            "Stops": [
+              {
+                "name": "Yelahanka Old Town",
+                "name_kn": "ಯೆಲಹಂಕ ೊಲ್ದ್ ಟೌಂ",
+                "stop_id": "22640",
+                "lat": 13.10091,
+                "lon": 77.59436
+              },
+              {
+                "name": "Yelahanka Santhe Circle",
+                "name_kn": "ಯೆಲಹಂಕ ಸಂತೆ ಕಿರ್ಕ್ಲೆ",
+                "stop_id": "22643",
+                "lat": 13.09919,
+                "lon": 77.59731
+              },
+              {
+                "name": "Kogilu Cross",
+                "name_kn": "ಕೊಗಿಲು ಕ್ರೊಸ್ಸ್",
+                "stop_id": "22183",
+                "lat": 13.10362,
+                "lon": 77.60102
+              },
+              {
+                "name": "Maruthi Nagara",
+                "name_kn": "ಮರುತಿ ನಗರ",
+                "stop_id": "22266",
+                "lat": 13.10445,
+                "lon": 77.60632
+              },
+              {
+                "name": "Sapthagiri Layout",
+                "name_kn": "ಸಪ್ತಗಿರಿ ಲಯೌಟ್",
+                "stop_id": "22457",
+                "lat": 13.10457,
+                "lon": 77.61045
+              },
+              {
+                "name": "Kogilu",
+                "name_kn": "ಕೊಗಿಲು",
+                "stop_id": "22181",
+                "lat": 13.10362,
+                "lon": 77.616
+              },
+              {
+                "name": "Srinivasapura Kogilu",
+                "name_kn": "ಸ್ರಿನಿವಸಪುರ ಕೊಗಿಲು",
+                "stop_id": "22513",
+                "lat": 13.10347,
+                "lon": 77.62349
+              },
+              {
+                "name": "Ittige Factory",
+                "name_kn": "ಇಟಿಗೆ ೞಕ್ಟೊರೆ",
+                "stop_id": "22087",
+                "lat": 13.10252,
+                "lon": 77.62918
+              },
+              {
+                "name": "Bellahalli Cross",
+                "name_kn": "ಬೆಲ್ಲಹಲ್ಲಿ ಕ್ರೊಸ್ಸ್",
+                "stop_id": "31951",
+                "lat": 13.10207,
+                "lon": 77.63351
+              },
+              {
+                "name": "Mittaganahalli Cross",
+                "name_kn": "ಮಿಟಗನಹಲ್ಲಿ ಕ್ರೊಸ್ಸ್",
+                "stop_id": "29020",
+                "lat": 13.11173,
+                "lon": 77.64381
+              },
+              {
+                "name": "Mittaganahalli 1",
+                "name_kn": "ಮಿಟಗನಹಲ್ಲಿ 1",
+                "stop_id": "34826",
+                "lat": 13.10951,
+                "lon": 77.64363
               }
             ]
           },

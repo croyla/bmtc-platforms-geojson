@@ -807,169 +807,6 @@
             ]
           },
           {
-            "Route": "335-N KGR-KMT-ARDCHAL",
-            "RouteId": 10479,
-            "RouteParentId": 5585,
-            "Destination": "HAL ARDC",
-            "Via": "",
-            "Area": "Kengeri Bus Station",
-            "PlatformNumber": "1",
-            "KannadaDestination": "ಹಲ್ ರ್ದ್ಕ್",
-            "KannadaArea": "ಕೆಂಗೇರಿ ಬಸ್ ನಿಲ್ದಾಣ",
-            "KannadaVia": "",
-            "FromStationId": 21914,
-            "Stops": [
-              {
-                "name": "Domlur",
-                "name_kn": "ದೊಂಲುರ್",
-                "stop_id": "21914",
-                "lat": 12.96111,
-                "lon": 77.63809
-              },
-              {
-                "name": "Domlur Flyover",
-                "name_kn": "ದೊಂಲುರ್ ೞ್ಲೆೊವೆರ್",
-                "stop_id": "21917",
-                "lat": 12.96048,
-                "lon": 77.64352
-              },
-              {
-                "name": "Kodihalli",
-                "name_kn": "ಕೊದಿಹಲ್ಲಿ",
-                "stop_id": "22178",
-                "lat": 12.96,
-                "lon": 77.64758
-              },
-              {
-                "name": "NAL/Manipal Hospital",
-                "name_kn": "ನಲ್/ಮನಿಪಲ್ ಹೊಸ್ಪಿಟಲ್",
-                "stop_id": "22336",
-                "lat": 12.95964,
-                "lon": 77.65076
-              },
-              {
-                "name": "Murugeshpalya",
-                "name_kn": "ಮುರುಗೆಶ್ಪಲೆ",
-                "stop_id": "22316",
-                "lat": 12.95936,
-                "lon": 77.65618
-              },
-              {
-                "name": "Konena Agrahara",
-                "name_kn": "ಕೊನೆನ ಗ್ರಹರ",
-                "stop_id": "22193",
-                "lat": 12.95914,
-                "lon": 77.65962
-              },
-              {
-                "name": "HAL Main Gate",
-                "name_kn": "ಹಲ್ ಮೈಂ ಗಟೆ",
-                "stop_id": "22003",
-                "lat": 12.95821,
-                "lon": 77.66821
-              },
-              {
-                "name": "Helicopter Division",
-                "name_kn": "ಹೆಲಿಕೊಪ್ಟೆರ್ ದಿವಿಸಿೊಂ",
-                "stop_id": "22021",
-                "lat": 12.95582,
-                "lon": 77.67735
-              },
-              {
-                "name": "HAL ARDC",
-                "name_kn": "ಹಲ್ ರ್ದ್ಕ್",
-                "stop_id": "36748",
-                "lat": 12.96185,
-                "lon": 77.68527
-              }
-            ]
-          },
-          {
-            "Route": "225-CA BEML5-HAL ARDC",
-            "RouteId": 15239,
-            "RouteParentId": 8166,
-            "Destination": "HAL ARDC",
-            "Via": "",
-            "Area": "BEML Layout 5th stage",
-            "PlatformNumber": "1",
-            "KannadaDestination": "ಹಲ್ ರ್ದ್ಕ್",
-            "KannadaArea": "ಬಿಇಎಂಎಲ್ ಲೇಔಟ್ 5ನೇ ಹಂತ",
-            "KannadaVia": "",
-            "FromStationId": 21914,
-            "Stops": [
-              {
-                "name": "Domlur",
-                "name_kn": "ದೊಂಲುರ್",
-                "stop_id": "21914",
-                "lat": 12.96111,
-                "lon": 77.63809
-              },
-              {
-                "name": "Domlur Flyover",
-                "name_kn": "ದೊಂಲುರ್ ೞ್ಲೆೊವೆರ್",
-                "stop_id": "21917",
-                "lat": 12.96048,
-                "lon": 77.64352
-              },
-              {
-                "name": "Kodihalli",
-                "name_kn": "ಕೊದಿಹಲ್ಲಿ",
-                "stop_id": "22178",
-                "lat": 12.96,
-                "lon": 77.64758
-              },
-              {
-                "name": "NAL/Manipal Hospital",
-                "name_kn": "ನಲ್/ಮನಿಪಲ್ ಹೊಸ್ಪಿಟಲ್",
-                "stop_id": "22336",
-                "lat": 12.95964,
-                "lon": 77.65076
-              },
-              {
-                "name": "Murugeshpalya",
-                "name_kn": "ಮುರುಗೆಶ್ಪಲೆ",
-                "stop_id": "22316",
-                "lat": 12.95936,
-                "lon": 77.65618
-              },
-              {
-                "name": "Konena Agrahara",
-                "name_kn": "ಕೊನೆನ ಗ್ರಹರ",
-                "stop_id": "22193",
-                "lat": 12.95914,
-                "lon": 77.65962
-              },
-              {
-                "name": "HAL Main Gate",
-                "name_kn": "ಹಲ್ ಮೈಂ ಗಟೆ",
-                "stop_id": "22003",
-                "lat": 12.95821,
-                "lon": 77.66821
-              },
-              {
-                "name": "Helicopter Division",
-                "name_kn": "ಹೆಲಿಕೊಪ್ಟೆರ್ ದಿವಿಸಿೊಂ",
-                "stop_id": "22021",
-                "lat": 12.95582,
-                "lon": 77.67735
-              },
-              {
-                "name": "Ramesh Nagara Cross",
-                "name_kn": "ರಮೆಶ್ ನಗರ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "37770",
-                "lat": 12.95467,
-                "lon": 77.67995
-              },
-              {
-                "name": "HAL ARDC",
-                "name_kn": "ಹಲ್ ರ್ದ್ಕ್",
-                "stop_id": "36748",
-                "lat": 12.96185,
-                "lon": 77.68527
-              }
-            ]
-          },
-          {
             "Route": "333-C",
             "RouteId": 1679,
             "RouteParentId": 1002,
@@ -1150,6 +987,169 @@
                 "stop_id": "21719",
                 "lat": 12.96664,
                 "lon": 77.68279
+              }
+            ]
+          },
+          {
+            "Route": "225-CA BEML5-HAL ARDC",
+            "RouteId": 15239,
+            "RouteParentId": 8166,
+            "Destination": "HAL ARDC",
+            "Via": "",
+            "Area": "BEML Layout 5th stage",
+            "PlatformNumber": "1",
+            "KannadaDestination": "ಹಲ್ ರ್ದ್ಕ್",
+            "KannadaArea": "ಬಿಇಎಂಎಲ್ ಲೇಔಟ್ 5ನೇ ಹಂತ",
+            "KannadaVia": "",
+            "FromStationId": 21914,
+            "Stops": [
+              {
+                "name": "Domlur",
+                "name_kn": "ದೊಂಲುರ್",
+                "stop_id": "21914",
+                "lat": 12.96111,
+                "lon": 77.63809
+              },
+              {
+                "name": "Domlur Flyover",
+                "name_kn": "ದೊಂಲುರ್ ೞ್ಲೆೊವೆರ್",
+                "stop_id": "21917",
+                "lat": 12.96048,
+                "lon": 77.64352
+              },
+              {
+                "name": "Kodihalli",
+                "name_kn": "ಕೊದಿಹಲ್ಲಿ",
+                "stop_id": "22178",
+                "lat": 12.96,
+                "lon": 77.64758
+              },
+              {
+                "name": "NAL/Manipal Hospital",
+                "name_kn": "ನಲ್/ಮನಿಪಲ್ ಹೊಸ್ಪಿಟಲ್",
+                "stop_id": "22336",
+                "lat": 12.95964,
+                "lon": 77.65076
+              },
+              {
+                "name": "Murugeshpalya",
+                "name_kn": "ಮುರುಗೆಶ್ಪಲೆ",
+                "stop_id": "22316",
+                "lat": 12.95936,
+                "lon": 77.65618
+              },
+              {
+                "name": "Konena Agrahara",
+                "name_kn": "ಕೊನೆನ ಗ್ರಹರ",
+                "stop_id": "22193",
+                "lat": 12.95914,
+                "lon": 77.65962
+              },
+              {
+                "name": "HAL Main Gate",
+                "name_kn": "ಹಲ್ ಮೈಂ ಗಟೆ",
+                "stop_id": "22003",
+                "lat": 12.95821,
+                "lon": 77.66821
+              },
+              {
+                "name": "Helicopter Division",
+                "name_kn": "ಹೆಲಿಕೊಪ್ಟೆರ್ ದಿವಿಸಿೊಂ",
+                "stop_id": "22021",
+                "lat": 12.95582,
+                "lon": 77.67735
+              },
+              {
+                "name": "Ramesh Nagara Cross",
+                "name_kn": "ರಮೆಶ್ ನಗರ ಕ್ರೊಸ್ಸ್",
+                "stop_id": "37770",
+                "lat": 12.95467,
+                "lon": 77.67995
+              },
+              {
+                "name": "HAL ARDC",
+                "name_kn": "ಹಲ್ ರ್ದ್ಕ್",
+                "stop_id": "36748",
+                "lat": 12.96185,
+                "lon": 77.68527
+              }
+            ]
+          },
+          {
+            "Route": "335-N KGR-KMT-ARDCHAL",
+            "RouteId": 10479,
+            "RouteParentId": 5585,
+            "Destination": "HAL ARDC",
+            "Via": "",
+            "Area": "Kengeri Bus Station",
+            "PlatformNumber": "1",
+            "KannadaDestination": "ಹಲ್ ರ್ದ್ಕ್",
+            "KannadaArea": "ಕೆಂಗೇರಿ ಬಸ್ ನಿಲ್ದಾಣ",
+            "KannadaVia": "",
+            "FromStationId": 21914,
+            "Stops": [
+              {
+                "name": "Domlur",
+                "name_kn": "ದೊಂಲುರ್",
+                "stop_id": "21914",
+                "lat": 12.96111,
+                "lon": 77.63809
+              },
+              {
+                "name": "Domlur Flyover",
+                "name_kn": "ದೊಂಲುರ್ ೞ್ಲೆೊವೆರ್",
+                "stop_id": "21917",
+                "lat": 12.96048,
+                "lon": 77.64352
+              },
+              {
+                "name": "Kodihalli",
+                "name_kn": "ಕೊದಿಹಲ್ಲಿ",
+                "stop_id": "22178",
+                "lat": 12.96,
+                "lon": 77.64758
+              },
+              {
+                "name": "NAL/Manipal Hospital",
+                "name_kn": "ನಲ್/ಮನಿಪಲ್ ಹೊಸ್ಪಿಟಲ್",
+                "stop_id": "22336",
+                "lat": 12.95964,
+                "lon": 77.65076
+              },
+              {
+                "name": "Murugeshpalya",
+                "name_kn": "ಮುರುಗೆಶ್ಪಲೆ",
+                "stop_id": "22316",
+                "lat": 12.95936,
+                "lon": 77.65618
+              },
+              {
+                "name": "Konena Agrahara",
+                "name_kn": "ಕೊನೆನ ಗ್ರಹರ",
+                "stop_id": "22193",
+                "lat": 12.95914,
+                "lon": 77.65962
+              },
+              {
+                "name": "HAL Main Gate",
+                "name_kn": "ಹಲ್ ಮೈಂ ಗಟೆ",
+                "stop_id": "22003",
+                "lat": 12.95821,
+                "lon": 77.66821
+              },
+              {
+                "name": "Helicopter Division",
+                "name_kn": "ಹೆಲಿಕೊಪ್ಟೆರ್ ದಿವಿಸಿೊಂ",
+                "stop_id": "22021",
+                "lat": 12.95582,
+                "lon": 77.67735
+              },
+              {
+                "name": "HAL ARDC",
+                "name_kn": "ಹಲ್ ರ್ದ್ಕ್",
+                "stop_id": "36748",
+                "lat": 12.96185,
+                "lon": 77.68527
               }
             ]
           },
@@ -2649,77 +2649,6 @@
             ]
           },
           {
-            "Route": "SBS-1K KDG-D6G",
-            "RouteId": 4524,
-            "RouteParentId": 2485,
-            "Destination": "Depot-06 Gate",
-            "Via": "",
-            "Area": "Kadugodi Bus Station",
-            "PlatformNumber": "1",
-            "KannadaDestination": "ದೆಪೊಟ್-06 ಗಟೆ",
-            "KannadaArea": "ಕಾಡುಗೋಡಿ ಬಸ್‌ ನಿಲ್ದಾಣ",
-            "KannadaVia": "",
-            "FromStationId": 21915,
-            "Stops": [
-              {
-                "name": "Domlur Flyover",
-                "name_kn": "ದೊಂಲುರ್ ೞ್ಲೆೊವೆರ್",
-                "stop_id": "21915",
-                "lat": 12.96045,
-                "lon": 77.64251
-              },
-              {
-                "name": "Domlur",
-                "name_kn": "ದೊಂಲುರ್",
-                "stop_id": "21913",
-                "lat": 12.96122,
-                "lon": 77.63667
-              },
-              {
-                "name": "Commando Hospital",
-                "name_kn": "ಕೊಮ್ಮಂದೊ ಹೊಸ್ಪಿಟಲ್",
-                "stop_id": "21865",
-                "lat": 12.96268,
-                "lon": 77.62756
-              },
-              {
-                "name": "Military Accounts Office",
-                "name_kn": "ಮಿಲಿಟರೆ ಕ್ಕೌಂಟ್ಸ್ ೊೞ್ೞಿಕೆ",
-                "stop_id": "22288",
-                "lat": 12.96691,
-                "lon": 77.62117
-              },
-              {
-                "name": "Lido Talkies",
-                "name_kn": "ಲಿದೊ ಟಲ್ಕಿೆಸ್",
-                "stop_id": "22226",
-                "lat": 12.97277,
-                "lon": 77.62074
-              },
-              {
-                "name": "Halasuru Police Station",
-                "name_kn": "ಹಲಸುರು ಪೊಲಿಕೆ ಸ್ಟಟಿೊಂ",
-                "stop_id": "22006",
-                "lat": 12.97516,
-                "lon": 77.62544
-              },
-              {
-                "name": "Halasuru",
-                "name_kn": "ಹಲಸುರು",
-                "stop_id": "20805",
-                "lat": 12.97949,
-                "lon": 77.62949
-              },
-              {
-                "name": "Depot-06 Gate",
-                "name_kn": "ದೆಪೊಟ್-06 ಗಟೆ",
-                "stop_id": "20742",
-                "lat": 12.9824,
-                "lon": 77.6344
-              }
-            ]
-          },
-          {
             "Route": "SBS-1K",
             "RouteId": 1709,
             "RouteParentId": 1018,
@@ -3530,6 +3459,77 @@
             ]
           },
           {
+            "Route": "SBS-1K KDG-D6G",
+            "RouteId": 4524,
+            "RouteParentId": 2485,
+            "Destination": "Depot-06 Gate",
+            "Via": "",
+            "Area": "Kadugodi Bus Station",
+            "PlatformNumber": "1",
+            "KannadaDestination": "ದೆಪೊಟ್-06 ಗಟೆ",
+            "KannadaArea": "ಕಾಡುಗೋಡಿ ಬಸ್‌ ನಿಲ್ದಾಣ",
+            "KannadaVia": "",
+            "FromStationId": 21915,
+            "Stops": [
+              {
+                "name": "Domlur Flyover",
+                "name_kn": "ದೊಂಲುರ್ ೞ್ಲೆೊವೆರ್",
+                "stop_id": "21915",
+                "lat": 12.96045,
+                "lon": 77.64251
+              },
+              {
+                "name": "Domlur",
+                "name_kn": "ದೊಂಲುರ್",
+                "stop_id": "21913",
+                "lat": 12.96122,
+                "lon": 77.63667
+              },
+              {
+                "name": "Commando Hospital",
+                "name_kn": "ಕೊಮ್ಮಂದೊ ಹೊಸ್ಪಿಟಲ್",
+                "stop_id": "21865",
+                "lat": 12.96268,
+                "lon": 77.62756
+              },
+              {
+                "name": "Military Accounts Office",
+                "name_kn": "ಮಿಲಿಟರೆ ಕ್ಕೌಂಟ್ಸ್ ೊೞ್ೞಿಕೆ",
+                "stop_id": "22288",
+                "lat": 12.96691,
+                "lon": 77.62117
+              },
+              {
+                "name": "Lido Talkies",
+                "name_kn": "ಲಿದೊ ಟಲ್ಕಿೆಸ್",
+                "stop_id": "22226",
+                "lat": 12.97277,
+                "lon": 77.62074
+              },
+              {
+                "name": "Halasuru Police Station",
+                "name_kn": "ಹಲಸುರು ಪೊಲಿಕೆ ಸ್ಟಟಿೊಂ",
+                "stop_id": "22006",
+                "lat": 12.97516,
+                "lon": 77.62544
+              },
+              {
+                "name": "Halasuru",
+                "name_kn": "ಹಲಸುರು",
+                "stop_id": "20805",
+                "lat": 12.97949,
+                "lon": 77.62949
+              },
+              {
+                "name": "Depot-06 Gate",
+                "name_kn": "ದೆಪೊಟ್-06 ಗಟೆ",
+                "stop_id": "20742",
+                "lat": 12.9824,
+                "lon": 77.6344
+              }
+            ]
+          },
+          {
             "Route": "335-E SNBS-KDG",
             "RouteId": 1735,
             "RouteParentId": 1031,
@@ -4208,6 +4208,1693 @@
                 "stop_id": "37509",
                 "lat": 12.9843,
                 "lon": 77.75148
+              },
+              {
+                "name": "Kadugodi Bridge",
+                "name_kn": "ಕದುಗೊದಿ ಬ್ರಿದ್ಗೆ",
+                "stop_id": "20901",
+                "lat": 12.99448,
+                "lon": 77.75769
+              },
+              {
+                "name": "Kadugodi Bus Station",
+                "name_kn": "ಕದುಗೊದಿ ಬುಸ್ ಸ್ಟಟಿೊಂ",
+                "stop_id": "20902",
+                "lat": 12.99563,
+                "lon": 77.75855
+              }
+            ]
+          },
+          {
+            "Route": "335-E",
+            "RouteId": 1700,
+            "RouteParentId": 1014,
+            "Destination": "Kadugodi Bus Station",
+            "Via": "",
+            "Area": "Kempegowda Bus Station",
+            "PlatformNumber": "1",
+            "KannadaDestination": "ಕದುಗೊದಿ ಬುಸ್ ಸ್ಟಟಿೊಂ",
+            "KannadaArea": "ಕೆಂಪೇಗೌಡ ಬಸ್ ನಿಲ್ದಾಣ",
+            "KannadaVia": "",
+            "FromStationId": 21914,
+            "Stops": [
+              {
+                "name": "Domlur",
+                "name_kn": "ದೊಂಲುರ್",
+                "stop_id": "21914",
+                "lat": 12.96111,
+                "lon": 77.63809
+              },
+              {
+                "name": "Domlur Flyover",
+                "name_kn": "ದೊಂಲುರ್ ೞ್ಲೆೊವೆರ್",
+                "stop_id": "21917",
+                "lat": 12.96048,
+                "lon": 77.64352
+              },
+              {
+                "name": "Kodihalli",
+                "name_kn": "ಕೊದಿಹಲ್ಲಿ",
+                "stop_id": "22178",
+                "lat": 12.96,
+                "lon": 77.64758
+              },
+              {
+                "name": "NAL/Manipal Hospital",
+                "name_kn": "ನಲ್/ಮನಿಪಲ್ ಹೊಸ್ಪಿಟಲ್",
+                "stop_id": "22336",
+                "lat": 12.95964,
+                "lon": 77.65076
+              },
+              {
+                "name": "Murugeshpalya",
+                "name_kn": "ಮುರುಗೆಶ್ಪಲೆ",
+                "stop_id": "22316",
+                "lat": 12.95936,
+                "lon": 77.65618
+              },
+              {
+                "name": "Konena Agrahara",
+                "name_kn": "ಕೊನೆನ ಗ್ರಹರ",
+                "stop_id": "22193",
+                "lat": 12.95914,
+                "lon": 77.65962
+              },
+              {
+                "name": "HAL Main Gate",
+                "name_kn": "ಹಲ್ ಮೈಂ ಗಟೆ",
+                "stop_id": "22003",
+                "lat": 12.95821,
+                "lon": 77.66821
+              },
+              {
+                "name": "HAL Admin Gate",
+                "name_kn": "ಹಲ್ ದ್ಮಿಂ ಗಟೆ",
+                "stop_id": "39489",
+                "lat": 12.95813,
+                "lon": 77.66949
+              },
+              {
+                "name": "Helicopter Division",
+                "name_kn": "ಹೆಲಿಕೊಪ್ಟೆರ್ ದಿವಿಸಿೊಂ",
+                "stop_id": "22021",
+                "lat": 12.95582,
+                "lon": 77.67735
+              },
+              {
+                "name": "HAL Kalyana Mantap",
+                "name_kn": "ಹಲ್ ಕಲೆನ ಮಂಟಪ್",
+                "stop_id": "22001",
+                "lat": 12.9546,
+                "lon": 77.68215
+              },
+              {
+                "name": "Yamalur Cross",
+                "name_kn": "ಯಮಲುರ್ ಕ್ರೊಸ್ಸ್",
+                "stop_id": "22627",
+                "lat": 12.95525,
+                "lon": 77.68829
+              },
+              {
+                "name": "Marathahalli",
+                "name_kn": "ಮರತಹಲ್ಲಿ",
+                "stop_id": "22260",
+                "lat": 12.95626,
+                "lon": 77.69409
+              },
+              {
+                "name": "Marathahalli Bridge",
+                "name_kn": "ಮರತಹಲ್ಲಿ ಬ್ರಿದ್ಗೆ",
+                "stop_id": "22668",
+                "lat": 12.9569,
+                "lon": 77.70215
+              },
+              {
+                "name": "Munnekolalu Cross (Spice Garden)",
+                "name_kn": "ಮುಂನೆಕೊಲಲು ಕ್ರೊಸ್ಸ್ (ಸ್ಪಿಕೆ ಗರ್ದೆಂ)",
+                "stop_id": "21038",
+                "lat": 12.9564,
+                "lon": 77.70927
+              },
+              {
+                "name": "Kundalahalli Gate",
+                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಗಟೆ",
+                "stop_id": "20960",
+                "lat": 12.95674,
+                "lon": 77.71499
+              },
+              {
+                "name": "Kundalahalli",
+                "name_kn": "ಕುಂದಲಹಲ್ಲಿ",
+                "stop_id": "20956",
+                "lat": 12.95832,
+                "lon": 77.71566
+              },
+              {
+                "name": "BEML Layout Gate",
+                "name_kn": "ಬೆಂಲ್ ಲಯೌಟ್ ಗಟೆ",
+                "stop_id": "20640",
+                "lat": 12.96083,
+                "lon": 77.71641
+              },
+              {
+                "name": "AECS Layout Cross",
+                "name_kn": "ಅೆಕ್ಸ್ ಲಯೌಟ್ ಕ್ರೊಸ್ಸ್",
+                "stop_id": "20596",
+                "lat": 12.96511,
+                "lon": 77.71827
+              },
+              {
+                "name": "CMRIT College",
+                "name_kn": "ಕ್ಂರಿಟ್ ಕೊಲ್ಲೆಗೆ",
+                "stop_id": "20722",
+                "lat": 12.96764,
+                "lon": 77.71389
+              },
+              {
+                "name": "Kundalahalli Colony",
+                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಕೊಲೊನೆ",
+                "stop_id": "20958",
+                "lat": 12.97022,
+                "lon": 77.71248
+              },
+              {
+                "name": "Graphite India",
+                "name_kn": "ಗ್ರಫಿಟೆ ಿಂದಿ",
+                "stop_id": "20802",
+                "lat": 12.97821,
+                "lon": 77.71135
+              },
+              {
+                "name": "SAP Labs",
+                "name_kn": "ಸಪ್ ಲಬ್ಸ್",
+                "stop_id": "21153",
+                "lat": 12.9778,
+                "lon": 77.7144
+              },
+              {
+                "name": "Kundalahalli Metro Station",
+                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಮೆಟ್ರೊ ಸ್ಟಟಿೊಂ",
+                "stop_id": "38798",
+                "lat": 12.97753,
+                "lon": 77.71632
+              },
+              {
+                "name": "I Gate",
+                "name_kn": "ಇ ಗಟೆ",
+                "stop_id": "20849",
+                "lat": 12.97734,
+                "lon": 77.71863
+              },
+              {
+                "name": "KTPO",
+                "name_kn": "ಕ್ಟ್ಪೊ",
+                "stop_id": "20949",
+                "lat": 12.97702,
+                "lon": 77.72225
+              },
+              {
+                "name": "White Field Bus Station (Vydehi Hospital)",
+                "name_kn": "ವ್ಹಿಟೆ ೞಿೆಲ್ದ್ ಬುಸ್ ಸ್ಟಟಿೊಂ (ವೆದೆಹಿ ಹೊಸ್ಪಿಟಲ್)",
+                "stop_id": "23656",
+                "lat": 12.9774,
+                "lon": 77.72693
+              },
+              {
+                "name": "Sathya Sai Hospital",
+                "name_kn": "ಸತೆ ಸೈ ಹೊಸ್ಪಿಟಲ್",
+                "stop_id": "21161",
+                "lat": 12.9823,
+                "lon": 77.72773
+              },
+              {
+                "name": "Big Bazzar ITPL",
+                "name_kn": "ಬಿಗ್ ಬಜ಼್ಜ಼ರ್ ಿಟ್ಪ್ಲ್",
+                "stop_id": "20670",
+                "lat": 12.98823,
+                "lon": 77.73197
+              },
+              {
+                "name": "Pattandur Agrahara Gate",
+                "name_kn": "ಪಟಂದುರ್ ಗ್ರಹರ ಗಟೆ",
+                "stop_id": "21079",
+                "lat": 12.98803,
+                "lon": 77.73354
+              },
+              {
+                "name": "ITPL",
+                "name_kn": "ಇಟ್ಪ್ಲ್",
+                "stop_id": "20866",
+                "lat": 12.98766,
+                "lon": 77.73704
+              },
+              {
+                "name": "GR Tech Park ITPL",
+                "name_kn": "ಗ್ರ್ ಟೆಚ್ ಪರ್ಕ್ ಿಟ್ಪ್ಲ್",
+                "stop_id": "20801",
+                "lat": 12.98681,
+                "lon": 77.74338
+              },
+              {
+                "name": "BPL",
+                "name_kn": "ಬ್ಪ್ಲ್",
+                "stop_id": "20680",
+                "lat": 12.98525,
+                "lon": 77.74828
+              },
+              {
+                "name": "Hope Farm",
+                "name_kn": "ಹೊಪೆ ೞರ್ಂ",
+                "stop_id": "37509",
+                "lat": 12.9843,
+                "lon": 77.75148
+              },
+              {
+                "name": "Kadugodi Bridge",
+                "name_kn": "ಕದುಗೊದಿ ಬ್ರಿದ್ಗೆ",
+                "stop_id": "20901",
+                "lat": 12.99448,
+                "lon": 77.75769
+              },
+              {
+                "name": "Kadugodi Bus Station",
+                "name_kn": "ಕದುಗೊದಿ ಬುಸ್ ಸ್ಟಟಿೊಂ",
+                "stop_id": "20902",
+                "lat": 12.99563,
+                "lon": 77.75855
+              }
+            ]
+          },
+          {
+            "Route": "KBS-1I",
+            "RouteId": 1710,
+            "RouteParentId": 1019,
+            "Destination": "Kadugodi Bus Station",
+            "Via": "",
+            "Area": "Kempegowda Bus Station",
+            "PlatformNumber": "1",
+            "KannadaDestination": "ಕದುಗೊದಿ ಬುಸ್ ಸ್ಟಟಿೊಂ",
+            "KannadaArea": "ಕೆಂಪೇಗೌಡ ಬಸ್ ನಿಲ್ದಾಣ",
+            "KannadaVia": "",
+            "FromStationId": 21914,
+            "Stops": [
+              {
+                "name": "Domlur",
+                "name_kn": "ದೊಂಲುರ್",
+                "stop_id": "21914",
+                "lat": 12.96111,
+                "lon": 77.63809
+              },
+              {
+                "name": "Domlur Flyover",
+                "name_kn": "ದೊಂಲುರ್ ೞ್ಲೆೊವೆರ್",
+                "stop_id": "21917",
+                "lat": 12.96048,
+                "lon": 77.64352
+              },
+              {
+                "name": "Kodihalli",
+                "name_kn": "ಕೊದಿಹಲ್ಲಿ",
+                "stop_id": "22178",
+                "lat": 12.96,
+                "lon": 77.64758
+              },
+              {
+                "name": "NAL/Manipal Hospital",
+                "name_kn": "ನಲ್/ಮನಿಪಲ್ ಹೊಸ್ಪಿಟಲ್",
+                "stop_id": "22336",
+                "lat": 12.95964,
+                "lon": 77.65076
+              },
+              {
+                "name": "Murugeshpalya",
+                "name_kn": "ಮುರುಗೆಶ್ಪಲೆ",
+                "stop_id": "22316",
+                "lat": 12.95936,
+                "lon": 77.65618
+              },
+              {
+                "name": "Konena Agrahara",
+                "name_kn": "ಕೊನೆನ ಗ್ರಹರ",
+                "stop_id": "22193",
+                "lat": 12.95914,
+                "lon": 77.65962
+              },
+              {
+                "name": "HAL Main Gate",
+                "name_kn": "ಹಲ್ ಮೈಂ ಗಟೆ",
+                "stop_id": "22003",
+                "lat": 12.95821,
+                "lon": 77.66821
+              },
+              {
+                "name": "HAL Admin Gate",
+                "name_kn": "ಹಲ್ ದ್ಮಿಂ ಗಟೆ",
+                "stop_id": "39489",
+                "lat": 12.95813,
+                "lon": 77.66949
+              },
+              {
+                "name": "Helicopter Division",
+                "name_kn": "ಹೆಲಿಕೊಪ್ಟೆರ್ ದಿವಿಸಿೊಂ",
+                "stop_id": "22021",
+                "lat": 12.95582,
+                "lon": 77.67735
+              },
+              {
+                "name": "HAL Kalyana Mantap",
+                "name_kn": "ಹಲ್ ಕಲೆನ ಮಂಟಪ್",
+                "stop_id": "22001",
+                "lat": 12.9546,
+                "lon": 77.68215
+              },
+              {
+                "name": "Yamalur Cross",
+                "name_kn": "ಯಮಲುರ್ ಕ್ರೊಸ್ಸ್",
+                "stop_id": "22627",
+                "lat": 12.95525,
+                "lon": 77.68829
+              },
+              {
+                "name": "Marathahalli",
+                "name_kn": "ಮರತಹಲ್ಲಿ",
+                "stop_id": "22260",
+                "lat": 12.95626,
+                "lon": 77.69409
+              },
+              {
+                "name": "Marathahalli Bridge",
+                "name_kn": "ಮರತಹಲ್ಲಿ ಬ್ರಿದ್ಗೆ",
+                "stop_id": "22668",
+                "lat": 12.9569,
+                "lon": 77.70215
+              },
+              {
+                "name": "Munnekolalu Cross (Spice Garden)",
+                "name_kn": "ಮುಂನೆಕೊಲಲು ಕ್ರೊಸ್ಸ್ (ಸ್ಪಿಕೆ ಗರ್ದೆಂ)",
+                "stop_id": "21038",
+                "lat": 12.9564,
+                "lon": 77.70927
+              },
+              {
+                "name": "Kundalahalli Gate",
+                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಗಟೆ",
+                "stop_id": "20960",
+                "lat": 12.95674,
+                "lon": 77.71499
+              },
+              {
+                "name": "Kundalahalli",
+                "name_kn": "ಕುಂದಲಹಲ್ಲಿ",
+                "stop_id": "20956",
+                "lat": 12.95832,
+                "lon": 77.71566
+              },
+              {
+                "name": "BEML Layout Gate",
+                "name_kn": "ಬೆಂಲ್ ಲಯೌಟ್ ಗಟೆ",
+                "stop_id": "20640",
+                "lat": 12.96083,
+                "lon": 77.71641
+              },
+              {
+                "name": "AECS Layout Cross",
+                "name_kn": "ಅೆಕ್ಸ್ ಲಯೌಟ್ ಕ್ರೊಸ್ಸ್",
+                "stop_id": "20596",
+                "lat": 12.96511,
+                "lon": 77.71827
+              },
+              {
+                "name": "CMRIT College",
+                "name_kn": "ಕ್ಂರಿಟ್ ಕೊಲ್ಲೆಗೆ",
+                "stop_id": "20722",
+                "lat": 12.96764,
+                "lon": 77.71389
+              },
+              {
+                "name": "Kundalahalli Colony",
+                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಕೊಲೊನೆ",
+                "stop_id": "20958",
+                "lat": 12.97022,
+                "lon": 77.71248
+              },
+              {
+                "name": "Graphite India",
+                "name_kn": "ಗ್ರಫಿಟೆ ಿಂದಿ",
+                "stop_id": "20802",
+                "lat": 12.97821,
+                "lon": 77.71135
+              },
+              {
+                "name": "SAP Labs",
+                "name_kn": "ಸಪ್ ಲಬ್ಸ್",
+                "stop_id": "21153",
+                "lat": 12.9778,
+                "lon": 77.7144
+              },
+              {
+                "name": "Kundalahalli Metro Station",
+                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಮೆಟ್ರೊ ಸ್ಟಟಿೊಂ",
+                "stop_id": "38798",
+                "lat": 12.97753,
+                "lon": 77.71632
+              },
+              {
+                "name": "I Gate",
+                "name_kn": "ಇ ಗಟೆ",
+                "stop_id": "20849",
+                "lat": 12.97734,
+                "lon": 77.71863
+              },
+              {
+                "name": "KTPO",
+                "name_kn": "ಕ್ಟ್ಪೊ",
+                "stop_id": "20949",
+                "lat": 12.97702,
+                "lon": 77.72225
+              },
+              {
+                "name": "White Field Bus Station (Vydehi Hospital)",
+                "name_kn": "ವ್ಹಿಟೆ ೞಿೆಲ್ದ್ ಬುಸ್ ಸ್ಟಟಿೊಂ (ವೆದೆಹಿ ಹೊಸ್ಪಿಟಲ್)",
+                "stop_id": "23656",
+                "lat": 12.9774,
+                "lon": 77.72693
+              },
+              {
+                "name": "Sathya Sai Hospital",
+                "name_kn": "ಸತೆ ಸೈ ಹೊಸ್ಪಿಟಲ್",
+                "stop_id": "21161",
+                "lat": 12.9823,
+                "lon": 77.72773
+              },
+              {
+                "name": "Big Bazzar ITPL",
+                "name_kn": "ಬಿಗ್ ಬಜ಼್ಜ಼ರ್ ಿಟ್ಪ್ಲ್",
+                "stop_id": "20670",
+                "lat": 12.98823,
+                "lon": 77.73197
+              },
+              {
+                "name": "Pattandur Agrahara Gate",
+                "name_kn": "ಪಟಂದುರ್ ಗ್ರಹರ ಗಟೆ",
+                "stop_id": "21079",
+                "lat": 12.98803,
+                "lon": 77.73354
+              },
+              {
+                "name": "ITPL",
+                "name_kn": "ಇಟ್ಪ್ಲ್",
+                "stop_id": "20866",
+                "lat": 12.98766,
+                "lon": 77.73704
+              },
+              {
+                "name": "GR Tech Park ITPL",
+                "name_kn": "ಗ್ರ್ ಟೆಚ್ ಪರ್ಕ್ ಿಟ್ಪ್ಲ್",
+                "stop_id": "20801",
+                "lat": 12.98681,
+                "lon": 77.74338
+              },
+              {
+                "name": "BPL",
+                "name_kn": "ಬ್ಪ್ಲ್",
+                "stop_id": "20680",
+                "lat": 12.98525,
+                "lon": 77.74828
+              },
+              {
+                "name": "Hope Farm",
+                "name_kn": "ಹೊಪೆ ೞರ್ಂ",
+                "stop_id": "37509",
+                "lat": 12.9843,
+                "lon": 77.75148
+              },
+              {
+                "name": "Kadugodi Bridge",
+                "name_kn": "ಕದುಗೊದಿ ಬ್ರಿದ್ಗೆ",
+                "stop_id": "20901",
+                "lat": 12.99448,
+                "lon": 77.75769
+              },
+              {
+                "name": "Kadugodi Bus Station",
+                "name_kn": "ಕದುಗೊದಿ ಬುಸ್ ಸ್ಟಟಿೊಂ",
+                "stop_id": "20902",
+                "lat": 12.99563,
+                "lon": 77.75855
+              }
+            ]
+          },
+          {
+            "Route": "V-335E",
+            "RouteId": 1855,
+            "RouteParentId": 1097,
+            "Destination": "Kadugodi Bus Station",
+            "Via": "",
+            "Area": "Kempegowda Bus Station",
+            "PlatformNumber": "1",
+            "KannadaDestination": "ಕದುಗೊದಿ ಬುಸ್ ಸ್ಟಟಿೊಂ",
+            "KannadaArea": "ಕೆಂಪೇಗೌಡ ಬಸ್ ನಿಲ್ದಾಣ",
+            "KannadaVia": "",
+            "FromStationId": 21914,
+            "Stops": [
+              {
+                "name": "Domlur",
+                "name_kn": "ದೊಂಲುರ್",
+                "stop_id": "21914",
+                "lat": 12.96111,
+                "lon": 77.63809
+              },
+              {
+                "name": "Domlur Flyover",
+                "name_kn": "ದೊಂಲುರ್ ೞ್ಲೆೊವೆರ್",
+                "stop_id": "21917",
+                "lat": 12.96048,
+                "lon": 77.64352
+              },
+              {
+                "name": "Kodihalli",
+                "name_kn": "ಕೊದಿಹಲ್ಲಿ",
+                "stop_id": "22178",
+                "lat": 12.96,
+                "lon": 77.64758
+              },
+              {
+                "name": "NAL/Manipal Hospital",
+                "name_kn": "ನಲ್/ಮನಿಪಲ್ ಹೊಸ್ಪಿಟಲ್",
+                "stop_id": "22336",
+                "lat": 12.95964,
+                "lon": 77.65076
+              },
+              {
+                "name": "Murugeshpalya",
+                "name_kn": "ಮುರುಗೆಶ್ಪಲೆ",
+                "stop_id": "22316",
+                "lat": 12.95936,
+                "lon": 77.65618
+              },
+              {
+                "name": "Konena Agrahara",
+                "name_kn": "ಕೊನೆನ ಗ್ರಹರ",
+                "stop_id": "22193",
+                "lat": 12.95914,
+                "lon": 77.65962
+              },
+              {
+                "name": "HAL Main Gate",
+                "name_kn": "ಹಲ್ ಮೈಂ ಗಟೆ",
+                "stop_id": "22003",
+                "lat": 12.95821,
+                "lon": 77.66821
+              },
+              {
+                "name": "Helicopter Division",
+                "name_kn": "ಹೆಲಿಕೊಪ್ಟೆರ್ ದಿವಿಸಿೊಂ",
+                "stop_id": "22021",
+                "lat": 12.95582,
+                "lon": 77.67735
+              },
+              {
+                "name": "HAL Kalyana Mantap",
+                "name_kn": "ಹಲ್ ಕಲೆನ ಮಂಟಪ್",
+                "stop_id": "22001",
+                "lat": 12.9546,
+                "lon": 77.68215
+              },
+              {
+                "name": "Yamalur Cross",
+                "name_kn": "ಯಮಲುರ್ ಕ್ರೊಸ್ಸ್",
+                "stop_id": "22627",
+                "lat": 12.95525,
+                "lon": 77.68829
+              },
+              {
+                "name": "Marathahalli",
+                "name_kn": "ಮರತಹಲ್ಲಿ",
+                "stop_id": "22260",
+                "lat": 12.95626,
+                "lon": 77.69409
+              },
+              {
+                "name": "Marathahalli Bridge",
+                "name_kn": "ಮರತಹಲ್ಲಿ ಬ್ರಿದ್ಗೆ",
+                "stop_id": "22668",
+                "lat": 12.9569,
+                "lon": 77.70215
+              },
+              {
+                "name": "Munnekolalu Cross (Spice Garden)",
+                "name_kn": "ಮುಂನೆಕೊಲಲು ಕ್ರೊಸ್ಸ್ (ಸ್ಪಿಕೆ ಗರ್ದೆಂ)",
+                "stop_id": "21038",
+                "lat": 12.9564,
+                "lon": 77.70927
+              },
+              {
+                "name": "Kundalahalli Gate",
+                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಗಟೆ",
+                "stop_id": "20960",
+                "lat": 12.95674,
+                "lon": 77.71499
+              },
+              {
+                "name": "Kundalahalli",
+                "name_kn": "ಕುಂದಲಹಲ್ಲಿ",
+                "stop_id": "20956",
+                "lat": 12.95832,
+                "lon": 77.71566
+              },
+              {
+                "name": "BEML Layout Gate",
+                "name_kn": "ಬೆಂಲ್ ಲಯೌಟ್ ಗಟೆ",
+                "stop_id": "20640",
+                "lat": 12.96083,
+                "lon": 77.71641
+              },
+              {
+                "name": "AECS Layout Cross",
+                "name_kn": "ಅೆಕ್ಸ್ ಲಯೌಟ್ ಕ್ರೊಸ್ಸ್",
+                "stop_id": "20596",
+                "lat": 12.96511,
+                "lon": 77.71827
+              },
+              {
+                "name": "CMRIT College",
+                "name_kn": "ಕ್ಂರಿಟ್ ಕೊಲ್ಲೆಗೆ",
+                "stop_id": "20722",
+                "lat": 12.96764,
+                "lon": 77.71389
+              },
+              {
+                "name": "Kundalahalli Colony",
+                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಕೊಲೊನೆ",
+                "stop_id": "20958",
+                "lat": 12.97022,
+                "lon": 77.71248
+              },
+              {
+                "name": "Graphite India",
+                "name_kn": "ಗ್ರಫಿಟೆ ಿಂದಿ",
+                "stop_id": "20802",
+                "lat": 12.97821,
+                "lon": 77.71135
+              },
+              {
+                "name": "SAP Labs",
+                "name_kn": "ಸಪ್ ಲಬ್ಸ್",
+                "stop_id": "21153",
+                "lat": 12.9778,
+                "lon": 77.7144
+              },
+              {
+                "name": "Kundalahalli Metro Station",
+                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಮೆಟ್ರೊ ಸ್ಟಟಿೊಂ",
+                "stop_id": "38798",
+                "lat": 12.97753,
+                "lon": 77.71632
+              },
+              {
+                "name": "I Gate",
+                "name_kn": "ಇ ಗಟೆ",
+                "stop_id": "20849",
+                "lat": 12.97734,
+                "lon": 77.71863
+              },
+              {
+                "name": "KTPO",
+                "name_kn": "ಕ್ಟ್ಪೊ",
+                "stop_id": "20949",
+                "lat": 12.97702,
+                "lon": 77.72225
+              },
+              {
+                "name": "White Field Bus Station (Vydehi Hospital)",
+                "name_kn": "ವ್ಹಿಟೆ ೞಿೆಲ್ದ್ ಬುಸ್ ಸ್ಟಟಿೊಂ (ವೆದೆಹಿ ಹೊಸ್ಪಿಟಲ್)",
+                "stop_id": "23656",
+                "lat": 12.9774,
+                "lon": 77.72693
+              },
+              {
+                "name": "Sathya Sai Hospital",
+                "name_kn": "ಸತೆ ಸೈ ಹೊಸ್ಪಿಟಲ್",
+                "stop_id": "21161",
+                "lat": 12.9823,
+                "lon": 77.72773
+              },
+              {
+                "name": "Big Bazzar ITPL",
+                "name_kn": "ಬಿಗ್ ಬಜ಼್ಜ಼ರ್ ಿಟ್ಪ್ಲ್",
+                "stop_id": "20670",
+                "lat": 12.98823,
+                "lon": 77.73197
+              },
+              {
+                "name": "Pattandur Agrahara Gate",
+                "name_kn": "ಪಟಂದುರ್ ಗ್ರಹರ ಗಟೆ",
+                "stop_id": "21079",
+                "lat": 12.98803,
+                "lon": 77.73354
+              },
+              {
+                "name": "ITPL",
+                "name_kn": "ಇಟ್ಪ್ಲ್",
+                "stop_id": "20866",
+                "lat": 12.98766,
+                "lon": 77.73704
+              },
+              {
+                "name": "GR Tech Park ITPL",
+                "name_kn": "ಗ್ರ್ ಟೆಚ್ ಪರ್ಕ್ ಿಟ್ಪ್ಲ್",
+                "stop_id": "20801",
+                "lat": 12.98681,
+                "lon": 77.74338
+              },
+              {
+                "name": "BPL",
+                "name_kn": "ಬ್ಪ್ಲ್",
+                "stop_id": "20680",
+                "lat": 12.98525,
+                "lon": 77.74828
+              },
+              {
+                "name": "Hope Farm",
+                "name_kn": "ಹೊಪೆ ೞರ್ಂ",
+                "stop_id": "37509",
+                "lat": 12.9843,
+                "lon": 77.75148
+              },
+              {
+                "name": "Kadugodi Bridge",
+                "name_kn": "ಕದುಗೊದಿ ಬ್ರಿದ್ಗೆ",
+                "stop_id": "20901",
+                "lat": 12.99448,
+                "lon": 77.75769
+              },
+              {
+                "name": "Kadugodi Bus Station",
+                "name_kn": "ಕದುಗೊದಿ ಬುಸ್ ಸ್ಟಟಿೊಂ",
+                "stop_id": "20902",
+                "lat": 12.99563,
+                "lon": 77.75855
+              }
+            ]
+          },
+          {
+            "Route": "333-N",
+            "RouteId": 4711,
+            "RouteParentId": 2583,
+            "Destination": "Seetharampalya",
+            "Via": "",
+            "Area": "Kempegowda Bus Station",
+            "PlatformNumber": "1",
+            "KannadaDestination": "ಸೀತರಂಪಲೆ",
+            "KannadaArea": "ಕೆಂಪೇಗೌಡ ಬಸ್ ನಿಲ್ದಾಣ",
+            "KannadaVia": "",
+            "FromStationId": 21914,
+            "Stops": [
+              {
+                "name": "Domlur",
+                "name_kn": "ದೊಂಲುರ್",
+                "stop_id": "21914",
+                "lat": 12.96111,
+                "lon": 77.63809
+              },
+              {
+                "name": "Domlur Flyover",
+                "name_kn": "ದೊಂಲುರ್ ೞ್ಲೆೊವೆರ್",
+                "stop_id": "21917",
+                "lat": 12.96048,
+                "lon": 77.64352
+              },
+              {
+                "name": "Kodihalli",
+                "name_kn": "ಕೊದಿಹಲ್ಲಿ",
+                "stop_id": "22178",
+                "lat": 12.96,
+                "lon": 77.64758
+              },
+              {
+                "name": "NAL/Manipal Hospital",
+                "name_kn": "ನಲ್/ಮನಿಪಲ್ ಹೊಸ್ಪಿಟಲ್",
+                "stop_id": "22336",
+                "lat": 12.95964,
+                "lon": 77.65076
+              },
+              {
+                "name": "Murugeshpalya",
+                "name_kn": "ಮುರುಗೆಶ್ಪಲೆ",
+                "stop_id": "22316",
+                "lat": 12.95936,
+                "lon": 77.65618
+              },
+              {
+                "name": "Konena Agrahara",
+                "name_kn": "ಕೊನೆನ ಗ್ರಹರ",
+                "stop_id": "22193",
+                "lat": 12.95914,
+                "lon": 77.65962
+              },
+              {
+                "name": "HAL Main Gate",
+                "name_kn": "ಹಲ್ ಮೈಂ ಗಟೆ",
+                "stop_id": "22003",
+                "lat": 12.95821,
+                "lon": 77.66821
+              },
+              {
+                "name": "HAL Admin Gate",
+                "name_kn": "ಹಲ್ ದ್ಮಿಂ ಗಟೆ",
+                "stop_id": "39489",
+                "lat": 12.95813,
+                "lon": 77.66949
+              },
+              {
+                "name": "Helicopter Division",
+                "name_kn": "ಹೆಲಿಕೊಪ್ಟೆರ್ ದಿವಿಸಿೊಂ",
+                "stop_id": "22021",
+                "lat": 12.95582,
+                "lon": 77.67735
+              },
+              {
+                "name": "HAL Kalyana Mantap",
+                "name_kn": "ಹಲ್ ಕಲೆನ ಮಂಟಪ್",
+                "stop_id": "22001",
+                "lat": 12.9546,
+                "lon": 77.68215
+              },
+              {
+                "name": "Yamalur Cross",
+                "name_kn": "ಯಮಲುರ್ ಕ್ರೊಸ್ಸ್",
+                "stop_id": "22627",
+                "lat": 12.95525,
+                "lon": 77.68829
+              },
+              {
+                "name": "Marathahalli",
+                "name_kn": "ಮರತಹಲ್ಲಿ",
+                "stop_id": "22260",
+                "lat": 12.95626,
+                "lon": 77.69409
+              },
+              {
+                "name": "Marathahalli Bridge",
+                "name_kn": "ಮರತಹಲ್ಲಿ ಬ್ರಿದ್ಗೆ",
+                "stop_id": "22668",
+                "lat": 12.9569,
+                "lon": 77.70215
+              },
+              {
+                "name": "Munnekolalu Cross (Spice Garden)",
+                "name_kn": "ಮುಂನೆಕೊಲಲು ಕ್ರೊಸ್ಸ್ (ಸ್ಪಿಕೆ ಗರ್ದೆಂ)",
+                "stop_id": "21038",
+                "lat": 12.9564,
+                "lon": 77.70927
+              },
+              {
+                "name": "Kundalahalli Gate",
+                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಗಟೆ",
+                "stop_id": "20960",
+                "lat": 12.95674,
+                "lon": 77.71499
+              },
+              {
+                "name": "Kundalahalli",
+                "name_kn": "ಕುಂದಲಹಲ್ಲಿ",
+                "stop_id": "20956",
+                "lat": 12.95832,
+                "lon": 77.71566
+              },
+              {
+                "name": "BEML Layout Gate",
+                "name_kn": "ಬೆಂಲ್ ಲಯೌಟ್ ಗಟೆ",
+                "stop_id": "20640",
+                "lat": 12.96083,
+                "lon": 77.71641
+              },
+              {
+                "name": "AECS Layout Cross",
+                "name_kn": "ಅೆಕ್ಸ್ ಲಯೌಟ್ ಕ್ರೊಸ್ಸ್",
+                "stop_id": "20596",
+                "lat": 12.96511,
+                "lon": 77.71827
+              },
+              {
+                "name": "CMRIT College",
+                "name_kn": "ಕ್ಂರಿಟ್ ಕೊಲ್ಲೆಗೆ",
+                "stop_id": "20722",
+                "lat": 12.96764,
+                "lon": 77.71389
+              },
+              {
+                "name": "Kundalahalli Colony",
+                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಕೊಲೊನೆ",
+                "stop_id": "20958",
+                "lat": 12.97022,
+                "lon": 77.71248
+              },
+              {
+                "name": "Graphite India",
+                "name_kn": "ಗ್ರಫಿಟೆ ಿಂದಿ",
+                "stop_id": "20802",
+                "lat": 12.97821,
+                "lon": 77.71135
+              },
+              {
+                "name": "SAP Labs",
+                "name_kn": "ಸಪ್ ಲಬ್ಸ್",
+                "stop_id": "21153",
+                "lat": 12.9778,
+                "lon": 77.7144
+              },
+              {
+                "name": "Kundalahalli Metro Station",
+                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಮೆಟ್ರೊ ಸ್ಟಟಿೊಂ",
+                "stop_id": "38798",
+                "lat": 12.97753,
+                "lon": 77.71632
+              },
+              {
+                "name": "I Gate",
+                "name_kn": "ಇ ಗಟೆ",
+                "stop_id": "20849",
+                "lat": 12.97734,
+                "lon": 77.71863
+              },
+              {
+                "name": "Seetharampalya",
+                "name_kn": "ಸೀತರಂಪಲೆ",
+                "stop_id": "28222",
+                "lat": 12.98044,
+                "lon": 77.7219
+              }
+            ]
+          },
+          {
+            "Route": "335-M",
+            "RouteId": 4740,
+            "RouteParentId": 2595,
+            "Destination": "Mahalakshmi Layout",
+            "Via": "",
+            "Area": "Mahalakshmi Layout",
+            "PlatformNumber": "1",
+            "KannadaDestination": "ಮಹಲಕ್ಷ್ಮಿ ಲಯೌಟ್",
+            "KannadaArea": "ಮಹಾಲಕ್ಷ್ಮಿ ಬಡಾವಣೆ",
+            "KannadaVia": "",
+            "FromStationId": 21914,
+            "Stops": [
+              {
+                "name": "Domlur Flyover",
+                "name_kn": "ದೊಂಲುರ್ ೞ್ಲೆೊವೆರ್",
+                "stop_id": "21915",
+                "lat": 12.96045,
+                "lon": 77.64251
+              },
+              {
+                "name": "Domlur",
+                "name_kn": "ದೊಂಲುರ್",
+                "stop_id": "21913",
+                "lat": 12.96122,
+                "lon": 77.63667
+              },
+              {
+                "name": "Commando Hospital",
+                "name_kn": "ಕೊಮ್ಮಂದೊ ಹೊಸ್ಪಿಟಲ್",
+                "stop_id": "21865",
+                "lat": 12.96268,
+                "lon": 77.62756
+              },
+              {
+                "name": "Military Accounts Office",
+                "name_kn": "ಮಿಲಿಟರೆ ಕ್ಕೌಂಟ್ಸ್ ೊೞ್ೞಿಕೆ",
+                "stop_id": "22288",
+                "lat": 12.96691,
+                "lon": 77.62117
+              },
+              {
+                "name": "Kendriya Vidyalaya ASC Center",
+                "name_kn": "ಕೆಂದ್ರಿಯ ವಿಠೆಲಯ ಸ್ಕ್ ಕೆಂಟೆರ್",
+                "stop_id": "31011",
+                "lat": 12.96676,
+                "lon": 77.61259
+              },
+              {
+                "name": "Life Style (Sacred Heart School)",
+                "name_kn": "ಲಿೞೆ ಸ್ಟೆಲೆ (ಸಕ್ರೆದ್ ಹೆರ್ಟ್ ಸ್ಚೂಲ್)",
+                "stop_id": "20970",
+                "lat": 12.96692,
+                "lon": 77.61018
+              },
+              {
+                "name": "Richmond Circle",
+                "name_kn": "ರಿಚ್ಮೊಂದ್ ಕಿರ್ಕ್ಲೆ",
+                "stop_id": "21126",
+                "lat": 12.9658,
+                "lon": 77.60433
+              },
+              {
+                "name": "Pallavi Talkies",
+                "name_kn": "ಪಲ್ಲವಿ ಟಲ್ಕಿೆಸ್",
+                "stop_id": "22667",
+                "lat": 12.9679,
+                "lon": 77.59102
+              },
+              {
+                "name": "Corporation",
+                "name_kn": "ಕೊರ್ಪೊರಟಿೊಂ",
+                "stop_id": "20725",
+                "lat": 12.96839,
+                "lon": 77.58675
+              },
+              {
+                "name": "Mysore Bank",
+                "name_kn": "ಮೆಸೊರೆ ಬಂಕ್",
+                "stop_id": "35383",
+                "lat": 12.97253,
+                "lon": 77.58199
+              },
+              {
+                "name": "Kempegowda Bus Station",
+                "name_kn": "ಕೆಂಪೆಗೌದ ಬುಸ್ ಸ್ಟಟಿೊಂ",
+                "stop_id": "20922",
+                "lat": 12.97749,
+                "lon": 77.57327
+              },
+              {
+                "name": "Okalipura",
+                "name_kn": "ಒಕಲಿಪುರ",
+                "stop_id": "35387",
+                "lat": 12.98229,
+                "lon": 77.56783
+              },
+              {
+                "name": "Sujatha Talkies",
+                "name_kn": "ಸುಜತ ಟಲ್ಕಿೆಸ್",
+                "stop_id": "21200",
+                "lat": 12.98246,
+                "lon": 77.56208
+              },
+              {
+                "name": "Rajajinagara Entrance",
+                "name_kn": "ರಜಜಿನಗರ ೆಂಟ್ರಂಕೆ",
+                "stop_id": "35263",
+                "lat": 12.98428,
+                "lon": 77.55721
+              },
+              {
+                "name": "Bashyam Circle Rajajinagara",
+                "name_kn": "ಬಶೆಂ ಕಿರ್ಕ್ಲೆ ರಜಜಿನಗರ",
+                "stop_id": "29788",
+                "lat": 12.98458,
+                "lon": 77.55414
+              },
+              {
+                "name": "Rajajinagara Old Police Station",
+                "name_kn": "ರಜಜಿನಗರ ೊಲ್ದ್ ಪೊಲಿಕೆ ಸ್ಟಟಿೊಂ",
+                "stop_id": "21072",
+                "lat": 12.98928,
+                "lon": 77.55438
+              },
+              {
+                "name": "ESI Hospital Rajajinagara",
+                "name_kn": "ಎಸಿ ಹೊಸ್ಪಿಟಲ್ ರಜಜಿನಗರ",
+                "stop_id": "20776",
+                "lat": 12.99041,
+                "lon": 77.55256
+              },
+              {
+                "name": "Basaveshwara College",
+                "name_kn": "ಬಸವೆಶ್ವರ ಕೊಲ್ಲೆಗೆ",
+                "stop_id": "20629",
+                "lat": 12.99448,
+                "lon": 77.5527
+              },
+              {
+                "name": "Rajajinagara 2nd Block",
+                "name_kn": "ರಜಜಿನಗರ 2ಂದ್ ಬ್ಲೊಕ್ಕ್",
+                "stop_id": "22901",
+                "lat": 12.99607,
+                "lon": 77.55144
+              },
+              {
+                "name": "Navarang Theatre",
+                "name_kn": "ನವರಙ್ ತೆಟ್ರೆ",
+                "stop_id": "35290",
+                "lat": 12.99825,
+                "lon": 77.55096
+              },
+              {
+                "name": "Canara Bank Rajajinagara 1st Block",
+                "name_kn": "ಕನರ ಬಂಕ್ ರಜಜಿನಗರ 1ಸ್ಟ್ ಬ್ಲೊಕ್ಕ್",
+                "stop_id": "24187",
+                "lat": 13.00089,
+                "lon": 77.55044
+              },
+              {
+                "name": "Diacon Hospital",
+                "name_kn": "ದಿಕೊಂ ಹೊಸ್ಪಿಟಲ್",
+                "stop_id": "22893",
+                "lat": 13.00379,
+                "lon": 77.55003
+              },
+              {
+                "name": "1st Block Rajajinagara",
+                "name_kn": "1ಸ್ಟ್ ಬ್ಲೊಕ್ಕ್ ರಜಜಿನಗರ",
+                "stop_id": "20576",
+                "lat": 13.00515,
+                "lon": 77.54887
+              },
+              {
+                "name": "Mahalakshmi Layout Entrance",
+                "name_kn": "ಮಹಲಕ್ಷ್ಮಿ ಲಯೌಟ್ ೆಂಟ್ರಂಕೆ",
+                "stop_id": "24188",
+                "lat": 13.00779,
+                "lon": 77.548
+              },
+              {
+                "name": "Shrinivasa Temple",
+                "name_kn": "ಶ್ರಿನಿವಸ ಟೆಂಪ್ಲೆ",
+                "stop_id": "24189",
+                "lat": 13.00833,
+                "lon": 77.54506
+              },
+              {
+                "name": "Ganesha Temple Mahalaskhmi Layout",
+                "name_kn": "ಗನೆಶ ಟೆಂಪ್ಲೆ ಮಹಲಸ್ಖ್ಮಿ ಲಯೌಟ್",
+                "stop_id": "24190",
+                "lat": 13.00862,
+                "lon": 77.5432
+              },
+              {
+                "name": "Mahalakshmi Layout",
+                "name_kn": "ಮಹಲಕ್ಷ್ಮಿ ಲಯೌಟ್",
+                "stop_id": "24191",
+                "lat": 13.01208,
+                "lon": 77.54401
+              }
+            ]
+          },
+          {
+            "Route": "V-331A",
+            "RouteId": 11394,
+            "RouteParentId": 6075,
+            "Destination": "Kadugodi Bus Station",
+            "Via": "",
+            "Area": "Shivajinagara Bus Station",
+            "PlatformNumber": "1",
+            "KannadaDestination": "ಕದುಗೊದಿ ಬುಸ್ ಸ್ಟಟಿೊಂ",
+            "KannadaArea": "ಶಿವಾಜಿನಗರ ಬಸ್ ನಿಲ್ದಾಣ",
+            "KannadaVia": "",
+            "FromStationId": 21914,
+            "Stops": [
+              {
+                "name": "Domlur",
+                "name_kn": "ದೊಂಲುರ್",
+                "stop_id": "21914",
+                "lat": 12.96111,
+                "lon": 77.63809
+              },
+              {
+                "name": "Domlur Flyover",
+                "name_kn": "ದೊಂಲುರ್ ೞ್ಲೆೊವೆರ್",
+                "stop_id": "21917",
+                "lat": 12.96048,
+                "lon": 77.64352
+              },
+              {
+                "name": "Kodihalli",
+                "name_kn": "ಕೊದಿಹಲ್ಲಿ",
+                "stop_id": "22178",
+                "lat": 12.96,
+                "lon": 77.64758
+              },
+              {
+                "name": "NAL/Manipal Hospital",
+                "name_kn": "ನಲ್/ಮನಿಪಲ್ ಹೊಸ್ಪಿಟಲ್",
+                "stop_id": "22336",
+                "lat": 12.95964,
+                "lon": 77.65076
+              },
+              {
+                "name": "Murugeshpalya",
+                "name_kn": "ಮುರುಗೆಶ್ಪಲೆ",
+                "stop_id": "22316",
+                "lat": 12.95936,
+                "lon": 77.65618
+              },
+              {
+                "name": "Konena Agrahara",
+                "name_kn": "ಕೊನೆನ ಗ್ರಹರ",
+                "stop_id": "22193",
+                "lat": 12.95914,
+                "lon": 77.65962
+              },
+              {
+                "name": "HAL Main Gate",
+                "name_kn": "ಹಲ್ ಮೈಂ ಗಟೆ",
+                "stop_id": "22003",
+                "lat": 12.95821,
+                "lon": 77.66821
+              },
+              {
+                "name": "HAL Admin Gate",
+                "name_kn": "ಹಲ್ ದ್ಮಿಂ ಗಟೆ",
+                "stop_id": "39489",
+                "lat": 12.95813,
+                "lon": 77.66949
+              },
+              {
+                "name": "Helicopter Division",
+                "name_kn": "ಹೆಲಿಕೊಪ್ಟೆರ್ ದಿವಿಸಿೊಂ",
+                "stop_id": "22021",
+                "lat": 12.95582,
+                "lon": 77.67735
+              },
+              {
+                "name": "HAL Kalyana Mantap",
+                "name_kn": "ಹಲ್ ಕಲೆನ ಮಂಟಪ್",
+                "stop_id": "22001",
+                "lat": 12.9546,
+                "lon": 77.68215
+              },
+              {
+                "name": "Yamalur Cross",
+                "name_kn": "ಯಮಲುರ್ ಕ್ರೊಸ್ಸ್",
+                "stop_id": "22627",
+                "lat": 12.95525,
+                "lon": 77.68829
+              },
+              {
+                "name": "Marathahalli",
+                "name_kn": "ಮರತಹಲ್ಲಿ",
+                "stop_id": "22260",
+                "lat": 12.95626,
+                "lon": 77.69409
+              },
+              {
+                "name": "Marathahalli Bridge",
+                "name_kn": "ಮರತಹಲ್ಲಿ ಬ್ರಿದ್ಗೆ",
+                "stop_id": "22668",
+                "lat": 12.9569,
+                "lon": 77.70215
+              },
+              {
+                "name": "Munnekolalu Cross (Spice Garden)",
+                "name_kn": "ಮುಂನೆಕೊಲಲು ಕ್ರೊಸ್ಸ್ (ಸ್ಪಿಕೆ ಗರ್ದೆಂ)",
+                "stop_id": "21038",
+                "lat": 12.9564,
+                "lon": 77.70927
+              },
+              {
+                "name": "Kundalahalli Gate",
+                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಗಟೆ",
+                "stop_id": "20960",
+                "lat": 12.95674,
+                "lon": 77.71499
+              },
+              {
+                "name": "Kundalahalli",
+                "name_kn": "ಕುಂದಲಹಲ್ಲಿ",
+                "stop_id": "20956",
+                "lat": 12.95832,
+                "lon": 77.71566
+              },
+              {
+                "name": "BEML Layout Gate",
+                "name_kn": "ಬೆಂಲ್ ಲಯೌಟ್ ಗಟೆ",
+                "stop_id": "20640",
+                "lat": 12.96083,
+                "lon": 77.71641
+              },
+              {
+                "name": "AECS Layout Cross",
+                "name_kn": "ಅೆಕ್ಸ್ ಲಯೌಟ್ ಕ್ರೊಸ್ಸ್",
+                "stop_id": "20596",
+                "lat": 12.96511,
+                "lon": 77.71827
+              },
+              {
+                "name": "CMRIT College",
+                "name_kn": "ಕ್ಂರಿಟ್ ಕೊಲ್ಲೆಗೆ",
+                "stop_id": "20722",
+                "lat": 12.96764,
+                "lon": 77.71389
+              },
+              {
+                "name": "Kundalahalli Colony",
+                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಕೊಲೊನೆ",
+                "stop_id": "20958",
+                "lat": 12.97022,
+                "lon": 77.71248
+              },
+              {
+                "name": "Graphite India",
+                "name_kn": "ಗ್ರಫಿಟೆ ಿಂದಿ",
+                "stop_id": "20802",
+                "lat": 12.97821,
+                "lon": 77.71135
+              },
+              {
+                "name": "SAP Labs",
+                "name_kn": "ಸಪ್ ಲಬ್ಸ್",
+                "stop_id": "21153",
+                "lat": 12.9778,
+                "lon": 77.7144
+              },
+              {
+                "name": "Kundalahalli Metro Station",
+                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಮೆಟ್ರೊ ಸ್ಟಟಿೊಂ",
+                "stop_id": "38798",
+                "lat": 12.97753,
+                "lon": 77.71632
+              },
+              {
+                "name": "I Gate",
+                "name_kn": "ಇ ಗಟೆ",
+                "stop_id": "20849",
+                "lat": 12.97734,
+                "lon": 77.71863
+              },
+              {
+                "name": "KTPO",
+                "name_kn": "ಕ್ಟ್ಪೊ",
+                "stop_id": "20949",
+                "lat": 12.97702,
+                "lon": 77.72225
+              },
+              {
+                "name": "White Field Bus Station (Vydehi Hospital)",
+                "name_kn": "ವ್ಹಿಟೆ ೞಿೆಲ್ದ್ ಬುಸ್ ಸ್ಟಟಿೊಂ (ವೆದೆಹಿ ಹೊಸ್ಪಿಟಲ್)",
+                "stop_id": "23656",
+                "lat": 12.9774,
+                "lon": 77.72693
+              },
+              {
+                "name": "Sathya Sai Hospital",
+                "name_kn": "ಸತೆ ಸೈ ಹೊಸ್ಪಿಟಲ್",
+                "stop_id": "21161",
+                "lat": 12.9823,
+                "lon": 77.72773
+              },
+              {
+                "name": "Big Bazzar ITPL",
+                "name_kn": "ಬಿಗ್ ಬಜ಼್ಜ಼ರ್ ಿಟ್ಪ್ಲ್",
+                "stop_id": "20670",
+                "lat": 12.98823,
+                "lon": 77.73197
+              },
+              {
+                "name": "Pattandur Agrahara Gate",
+                "name_kn": "ಪಟಂದುರ್ ಗ್ರಹರ ಗಟೆ",
+                "stop_id": "21079",
+                "lat": 12.98803,
+                "lon": 77.73354
+              },
+              {
+                "name": "ITPL",
+                "name_kn": "ಇಟ್ಪ್ಲ್",
+                "stop_id": "20866",
+                "lat": 12.98766,
+                "lon": 77.73704
+              },
+              {
+                "name": "GR Tech Park ITPL",
+                "name_kn": "ಗ್ರ್ ಟೆಚ್ ಪರ್ಕ್ ಿಟ್ಪ್ಲ್",
+                "stop_id": "20801",
+                "lat": 12.98681,
+                "lon": 77.74338
+              },
+              {
+                "name": "BPL",
+                "name_kn": "ಬ್ಪ್ಲ್",
+                "stop_id": "20680",
+                "lat": 12.98525,
+                "lon": 77.74828
+              },
+              {
+                "name": "Hope Farm",
+                "name_kn": "ಹೊಪೆ ೞರ್ಂ",
+                "stop_id": "37509",
+                "lat": 12.9843,
+                "lon": 77.75148
+              },
+              {
+                "name": "Kadugodi Bridge",
+                "name_kn": "ಕದುಗೊದಿ ಬ್ರಿದ್ಗೆ",
+                "stop_id": "20901",
+                "lat": 12.99448,
+                "lon": 77.75769
+              },
+              {
+                "name": "Kadugodi Bus Station",
+                "name_kn": "ಕದುಗೊದಿ ಬುಸ್ ಸ್ಟಟಿೊಂ",
+                "stop_id": "20902",
+                "lat": 12.99563,
+                "lon": 77.75855
+              }
+            ]
+          },
+          {
+            "Route": "331-A SBS-KDG",
+            "RouteId": 13646,
+            "RouteParentId": 7261,
+            "Destination": "Kadugodi Bus Station",
+            "Via": "",
+            "Area": "Shivajinagara Bus Station",
+            "PlatformNumber": "1",
+            "KannadaDestination": "ಕದುಗೊದಿ ಬುಸ್ ಸ್ಟಟಿೊಂ",
+            "KannadaArea": "ಶಿವಾಜಿನಗರ ಬಸ್ ನಿಲ್ದಾಣ",
+            "KannadaVia": "",
+            "FromStationId": 21914,
+            "Stops": [
+              {
+                "name": "Domlur",
+                "name_kn": "ದೊಂಲುರ್",
+                "stop_id": "21914",
+                "lat": 12.96111,
+                "lon": 77.63809
+              },
+              {
+                "name": "Domlur Flyover",
+                "name_kn": "ದೊಂಲುರ್ ೞ್ಲೆೊವೆರ್",
+                "stop_id": "21917",
+                "lat": 12.96048,
+                "lon": 77.64352
+              },
+              {
+                "name": "Kodihalli",
+                "name_kn": "ಕೊದಿಹಲ್ಲಿ",
+                "stop_id": "22178",
+                "lat": 12.96,
+                "lon": 77.64758
+              },
+              {
+                "name": "NAL/Manipal Hospital",
+                "name_kn": "ನಲ್/ಮನಿಪಲ್ ಹೊಸ್ಪಿಟಲ್",
+                "stop_id": "22336",
+                "lat": 12.95964,
+                "lon": 77.65076
+              },
+              {
+                "name": "Murugeshpalya",
+                "name_kn": "ಮುರುಗೆಶ್ಪಲೆ",
+                "stop_id": "22316",
+                "lat": 12.95936,
+                "lon": 77.65618
+              },
+              {
+                "name": "Konena Agrahara",
+                "name_kn": "ಕೊನೆನ ಗ್ರಹರ",
+                "stop_id": "22193",
+                "lat": 12.95914,
+                "lon": 77.65962
+              },
+              {
+                "name": "HAL Main Gate",
+                "name_kn": "ಹಲ್ ಮೈಂ ಗಟೆ",
+                "stop_id": "22003",
+                "lat": 12.95821,
+                "lon": 77.66821
+              },
+              {
+                "name": "HAL Admin Gate",
+                "name_kn": "ಹಲ್ ದ್ಮಿಂ ಗಟೆ",
+                "stop_id": "39489",
+                "lat": 12.95813,
+                "lon": 77.66949
+              },
+              {
+                "name": "Helicopter Division",
+                "name_kn": "ಹೆಲಿಕೊಪ್ಟೆರ್ ದಿವಿಸಿೊಂ",
+                "stop_id": "22021",
+                "lat": 12.95582,
+                "lon": 77.67735
+              },
+              {
+                "name": "HAL Kalyana Mantap",
+                "name_kn": "ಹಲ್ ಕಲೆನ ಮಂಟಪ್",
+                "stop_id": "22001",
+                "lat": 12.9546,
+                "lon": 77.68215
+              },
+              {
+                "name": "Yamalur Cross",
+                "name_kn": "ಯಮಲುರ್ ಕ್ರೊಸ್ಸ್",
+                "stop_id": "22627",
+                "lat": 12.95525,
+                "lon": 77.68829
+              },
+              {
+                "name": "Marathahalli",
+                "name_kn": "ಮರತಹಲ್ಲಿ",
+                "stop_id": "22260",
+                "lat": 12.95626,
+                "lon": 77.69409
+              },
+              {
+                "name": "Marathahalli Bridge",
+                "name_kn": "ಮರತಹಲ್ಲಿ ಬ್ರಿದ್ಗೆ",
+                "stop_id": "22668",
+                "lat": 12.9569,
+                "lon": 77.70215
+              },
+              {
+                "name": "Munnekolalu Cross (Spice Garden)",
+                "name_kn": "ಮುಂನೆಕೊಲಲು ಕ್ರೊಸ್ಸ್ (ಸ್ಪಿಕೆ ಗರ್ದೆಂ)",
+                "stop_id": "21038",
+                "lat": 12.9564,
+                "lon": 77.70927
+              },
+              {
+                "name": "Kundalahalli Gate",
+                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಗಟೆ",
+                "stop_id": "20960",
+                "lat": 12.95674,
+                "lon": 77.71499
+              },
+              {
+                "name": "Kundalahalli",
+                "name_kn": "ಕುಂದಲಹಲ್ಲಿ",
+                "stop_id": "20956",
+                "lat": 12.95832,
+                "lon": 77.71566
+              },
+              {
+                "name": "BEML Layout Gate",
+                "name_kn": "ಬೆಂಲ್ ಲಯೌಟ್ ಗಟೆ",
+                "stop_id": "20640",
+                "lat": 12.96083,
+                "lon": 77.71641
+              },
+              {
+                "name": "AECS Layout Cross",
+                "name_kn": "ಅೆಕ್ಸ್ ಲಯೌಟ್ ಕ್ರೊಸ್ಸ್",
+                "stop_id": "20596",
+                "lat": 12.96511,
+                "lon": 77.71827
+              },
+              {
+                "name": "CMRIT College",
+                "name_kn": "ಕ್ಂರಿಟ್ ಕೊಲ್ಲೆಗೆ",
+                "stop_id": "20722",
+                "lat": 12.96764,
+                "lon": 77.71389
+              },
+              {
+                "name": "Kundalahalli Colony",
+                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಕೊಲೊನೆ",
+                "stop_id": "20958",
+                "lat": 12.97022,
+                "lon": 77.71248
+              },
+              {
+                "name": "Graphite India",
+                "name_kn": "ಗ್ರಫಿಟೆ ಿಂದಿ",
+                "stop_id": "20802",
+                "lat": 12.97821,
+                "lon": 77.71135
+              },
+              {
+                "name": "SAP Labs",
+                "name_kn": "ಸಪ್ ಲಬ್ಸ್",
+                "stop_id": "21153",
+                "lat": 12.9778,
+                "lon": 77.7144
+              },
+              {
+                "name": "Kundalahalli Metro Station",
+                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಮೆಟ್ರೊ ಸ್ಟಟಿೊಂ",
+                "stop_id": "38798",
+                "lat": 12.97753,
+                "lon": 77.71632
+              },
+              {
+                "name": "I Gate",
+                "name_kn": "ಇ ಗಟೆ",
+                "stop_id": "20849",
+                "lat": 12.97734,
+                "lon": 77.71863
+              },
+              {
+                "name": "KTPO",
+                "name_kn": "ಕ್ಟ್ಪೊ",
+                "stop_id": "20949",
+                "lat": 12.97702,
+                "lon": 77.72225
+              },
+              {
+                "name": "White Field Bus Station (Vydehi Hospital)",
+                "name_kn": "ವ್ಹಿಟೆ ೞಿೆಲ್ದ್ ಬುಸ್ ಸ್ಟಟಿೊಂ (ವೆದೆಹಿ ಹೊಸ್ಪಿಟಲ್)",
+                "stop_id": "23656",
+                "lat": 12.9774,
+                "lon": 77.72693
+              },
+              {
+                "name": "Sathya Sai Hospital",
+                "name_kn": "ಸತೆ ಸೈ ಹೊಸ್ಪಿಟಲ್",
+                "stop_id": "21161",
+                "lat": 12.9823,
+                "lon": 77.72773
+              },
+              {
+                "name": "Big Bazzar ITPL",
+                "name_kn": "ಬಿಗ್ ಬಜ಼್ಜ಼ರ್ ಿಟ್ಪ್ಲ್",
+                "stop_id": "20670",
+                "lat": 12.98823,
+                "lon": 77.73197
+              },
+              {
+                "name": "Pattandur Agrahara Gate",
+                "name_kn": "ಪಟಂದುರ್ ಗ್ರಹರ ಗಟೆ",
+                "stop_id": "21079",
+                "lat": 12.98803,
+                "lon": 77.73354
+              },
+              {
+                "name": "ITPL",
+                "name_kn": "ಇಟ್ಪ್ಲ್",
+                "stop_id": "20866",
+                "lat": 12.98766,
+                "lon": 77.73704
+              },
+              {
+                "name": "GR Tech Park ITPL",
+                "name_kn": "ಗ್ರ್ ಟೆಚ್ ಪರ್ಕ್ ಿಟ್ಪ್ಲ್",
+                "stop_id": "20801",
+                "lat": 12.98681,
+                "lon": 77.74338
+              },
+              {
+                "name": "BPL",
+                "name_kn": "ಬ್ಪ್ಲ್",
+                "stop_id": "20680",
+                "lat": 12.98525,
+                "lon": 77.74828
+              },
+              {
+                "name": "Hope Farm",
+                "name_kn": "ಹೊಪೆ ೞರ್ಂ",
+                "stop_id": "20836",
+                "lat": 12.98429,
+                "lon": 77.75261
               },
               {
                 "name": "Kadugodi Bridge",
@@ -6218,1693 +7905,6 @@
                 "stop_id": "22046",
                 "lat": 13.0787,
                 "lon": 77.78774
-              }
-            ]
-          },
-          {
-            "Route": "335-E",
-            "RouteId": 1700,
-            "RouteParentId": 1014,
-            "Destination": "Kadugodi Bus Station",
-            "Via": "",
-            "Area": "Kempegowda Bus Station",
-            "PlatformNumber": "1",
-            "KannadaDestination": "ಕದುಗೊದಿ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-            "KannadaArea": "ಕೆಂಪೇಗೌಡ ಬಸ್ ನಿಲ್ದಾಣ",
-            "KannadaVia": "",
-            "FromStationId": 21914,
-            "Stops": [
-              {
-                "name": "Domlur",
-                "name_kn": "ದೊಂಲುರ್",
-                "stop_id": "21914",
-                "lat": 12.96111,
-                "lon": 77.63809
-              },
-              {
-                "name": "Domlur Flyover",
-                "name_kn": "ದೊಂಲುರ್ ೞ್ಲೆೊವೆರ್",
-                "stop_id": "21917",
-                "lat": 12.96048,
-                "lon": 77.64352
-              },
-              {
-                "name": "Kodihalli",
-                "name_kn": "ಕೊದಿಹಲ್ಲಿ",
-                "stop_id": "22178",
-                "lat": 12.96,
-                "lon": 77.64758
-              },
-              {
-                "name": "NAL/Manipal Hospital",
-                "name_kn": "ನಲ್/ಮನಿಪಲ್ ಹೊಸ್ಪಿಟಲ್",
-                "stop_id": "22336",
-                "lat": 12.95964,
-                "lon": 77.65076
-              },
-              {
-                "name": "Murugeshpalya",
-                "name_kn": "ಮುರುಗೆಶ್ಪಲೆ",
-                "stop_id": "22316",
-                "lat": 12.95936,
-                "lon": 77.65618
-              },
-              {
-                "name": "Konena Agrahara",
-                "name_kn": "ಕೊನೆನ ಗ್ರಹರ",
-                "stop_id": "22193",
-                "lat": 12.95914,
-                "lon": 77.65962
-              },
-              {
-                "name": "HAL Main Gate",
-                "name_kn": "ಹಲ್ ಮೈಂ ಗಟೆ",
-                "stop_id": "22003",
-                "lat": 12.95821,
-                "lon": 77.66821
-              },
-              {
-                "name": "HAL Admin Gate",
-                "name_kn": "ಹಲ್ ದ್ಮಿಂ ಗಟೆ",
-                "stop_id": "39489",
-                "lat": 12.95813,
-                "lon": 77.66949
-              },
-              {
-                "name": "Helicopter Division",
-                "name_kn": "ಹೆಲಿಕೊಪ್ಟೆರ್ ದಿವಿಸಿೊಂ",
-                "stop_id": "22021",
-                "lat": 12.95582,
-                "lon": 77.67735
-              },
-              {
-                "name": "HAL Kalyana Mantap",
-                "name_kn": "ಹಲ್ ಕಲೆನ ಮಂಟಪ್",
-                "stop_id": "22001",
-                "lat": 12.9546,
-                "lon": 77.68215
-              },
-              {
-                "name": "Yamalur Cross",
-                "name_kn": "ಯಮಲುರ್ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "22627",
-                "lat": 12.95525,
-                "lon": 77.68829
-              },
-              {
-                "name": "Marathahalli",
-                "name_kn": "ಮರತಹಲ್ಲಿ",
-                "stop_id": "22260",
-                "lat": 12.95626,
-                "lon": 77.69409
-              },
-              {
-                "name": "Marathahalli Bridge",
-                "name_kn": "ಮರತಹಲ್ಲಿ ಬ್ರಿದ್ಗೆ",
-                "stop_id": "22668",
-                "lat": 12.9569,
-                "lon": 77.70215
-              },
-              {
-                "name": "Munnekolalu Cross (Spice Garden)",
-                "name_kn": "ಮುಂನೆಕೊಲಲು ಕ್ರೊಸ್ಸ್ (ಸ್ಪಿಕೆ ಗರ್ದೆಂ)",
-                "stop_id": "21038",
-                "lat": 12.9564,
-                "lon": 77.70927
-              },
-              {
-                "name": "Kundalahalli Gate",
-                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಗಟೆ",
-                "stop_id": "20960",
-                "lat": 12.95674,
-                "lon": 77.71499
-              },
-              {
-                "name": "Kundalahalli",
-                "name_kn": "ಕುಂದಲಹಲ್ಲಿ",
-                "stop_id": "20956",
-                "lat": 12.95832,
-                "lon": 77.71566
-              },
-              {
-                "name": "BEML Layout Gate",
-                "name_kn": "ಬೆಂಲ್ ಲಯೌಟ್ ಗಟೆ",
-                "stop_id": "20640",
-                "lat": 12.96083,
-                "lon": 77.71641
-              },
-              {
-                "name": "AECS Layout Cross",
-                "name_kn": "ಅೆಕ್ಸ್ ಲಯೌಟ್ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "20596",
-                "lat": 12.96511,
-                "lon": 77.71827
-              },
-              {
-                "name": "CMRIT College",
-                "name_kn": "ಕ್ಂರಿಟ್ ಕೊಲ್ಲೆಗೆ",
-                "stop_id": "20722",
-                "lat": 12.96764,
-                "lon": 77.71389
-              },
-              {
-                "name": "Kundalahalli Colony",
-                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಕೊಲೊನೆ",
-                "stop_id": "20958",
-                "lat": 12.97022,
-                "lon": 77.71248
-              },
-              {
-                "name": "Graphite India",
-                "name_kn": "ಗ್ರಫಿಟೆ ಿಂದಿ",
-                "stop_id": "20802",
-                "lat": 12.97821,
-                "lon": 77.71135
-              },
-              {
-                "name": "SAP Labs",
-                "name_kn": "ಸಪ್ ಲಬ್ಸ್",
-                "stop_id": "21153",
-                "lat": 12.9778,
-                "lon": 77.7144
-              },
-              {
-                "name": "Kundalahalli Metro Station",
-                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಮೆಟ್ರೊ ಸ್ಟಟಿೊಂ",
-                "stop_id": "38798",
-                "lat": 12.97753,
-                "lon": 77.71632
-              },
-              {
-                "name": "I Gate",
-                "name_kn": "ಇ ಗಟೆ",
-                "stop_id": "20849",
-                "lat": 12.97734,
-                "lon": 77.71863
-              },
-              {
-                "name": "KTPO",
-                "name_kn": "ಕ್ಟ್ಪೊ",
-                "stop_id": "20949",
-                "lat": 12.97702,
-                "lon": 77.72225
-              },
-              {
-                "name": "White Field Bus Station (Vydehi Hospital)",
-                "name_kn": "ವ್ಹಿಟೆ ೞಿೆಲ್ದ್ ಬುಸ್ ಸ್ಟಟಿೊಂ (ವೆದೆಹಿ ಹೊಸ್ಪಿಟಲ್)",
-                "stop_id": "23656",
-                "lat": 12.9774,
-                "lon": 77.72693
-              },
-              {
-                "name": "Sathya Sai Hospital",
-                "name_kn": "ಸತೆ ಸೈ ಹೊಸ್ಪಿಟಲ್",
-                "stop_id": "21161",
-                "lat": 12.9823,
-                "lon": 77.72773
-              },
-              {
-                "name": "Big Bazzar ITPL",
-                "name_kn": "ಬಿಗ್ ಬಜ಼್ಜ಼ರ್ ಿಟ್ಪ್ಲ್",
-                "stop_id": "20670",
-                "lat": 12.98823,
-                "lon": 77.73197
-              },
-              {
-                "name": "Pattandur Agrahara Gate",
-                "name_kn": "ಪಟಂದುರ್ ಗ್ರಹರ ಗಟೆ",
-                "stop_id": "21079",
-                "lat": 12.98803,
-                "lon": 77.73354
-              },
-              {
-                "name": "ITPL",
-                "name_kn": "ಇಟ್ಪ್ಲ್",
-                "stop_id": "20866",
-                "lat": 12.98766,
-                "lon": 77.73704
-              },
-              {
-                "name": "GR Tech Park ITPL",
-                "name_kn": "ಗ್ರ್ ಟೆಚ್ ಪರ್ಕ್ ಿಟ್ಪ್ಲ್",
-                "stop_id": "20801",
-                "lat": 12.98681,
-                "lon": 77.74338
-              },
-              {
-                "name": "BPL",
-                "name_kn": "ಬ್ಪ್ಲ್",
-                "stop_id": "20680",
-                "lat": 12.98525,
-                "lon": 77.74828
-              },
-              {
-                "name": "Hope Farm",
-                "name_kn": "ಹೊಪೆ ೞರ್ಂ",
-                "stop_id": "37509",
-                "lat": 12.9843,
-                "lon": 77.75148
-              },
-              {
-                "name": "Kadugodi Bridge",
-                "name_kn": "ಕದುಗೊದಿ ಬ್ರಿದ್ಗೆ",
-                "stop_id": "20901",
-                "lat": 12.99448,
-                "lon": 77.75769
-              },
-              {
-                "name": "Kadugodi Bus Station",
-                "name_kn": "ಕದುಗೊದಿ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-                "stop_id": "20902",
-                "lat": 12.99563,
-                "lon": 77.75855
-              }
-            ]
-          },
-          {
-            "Route": "KBS-1I",
-            "RouteId": 1710,
-            "RouteParentId": 1019,
-            "Destination": "Kadugodi Bus Station",
-            "Via": "",
-            "Area": "Kempegowda Bus Station",
-            "PlatformNumber": "1",
-            "KannadaDestination": "ಕದುಗೊದಿ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-            "KannadaArea": "ಕೆಂಪೇಗೌಡ ಬಸ್ ನಿಲ್ದಾಣ",
-            "KannadaVia": "",
-            "FromStationId": 21914,
-            "Stops": [
-              {
-                "name": "Domlur",
-                "name_kn": "ದೊಂಲುರ್",
-                "stop_id": "21914",
-                "lat": 12.96111,
-                "lon": 77.63809
-              },
-              {
-                "name": "Domlur Flyover",
-                "name_kn": "ದೊಂಲುರ್ ೞ್ಲೆೊವೆರ್",
-                "stop_id": "21917",
-                "lat": 12.96048,
-                "lon": 77.64352
-              },
-              {
-                "name": "Kodihalli",
-                "name_kn": "ಕೊದಿಹಲ್ಲಿ",
-                "stop_id": "22178",
-                "lat": 12.96,
-                "lon": 77.64758
-              },
-              {
-                "name": "NAL/Manipal Hospital",
-                "name_kn": "ನಲ್/ಮನಿಪಲ್ ಹೊಸ್ಪಿಟಲ್",
-                "stop_id": "22336",
-                "lat": 12.95964,
-                "lon": 77.65076
-              },
-              {
-                "name": "Murugeshpalya",
-                "name_kn": "ಮುರುಗೆಶ್ಪಲೆ",
-                "stop_id": "22316",
-                "lat": 12.95936,
-                "lon": 77.65618
-              },
-              {
-                "name": "Konena Agrahara",
-                "name_kn": "ಕೊನೆನ ಗ್ರಹರ",
-                "stop_id": "22193",
-                "lat": 12.95914,
-                "lon": 77.65962
-              },
-              {
-                "name": "HAL Main Gate",
-                "name_kn": "ಹಲ್ ಮೈಂ ಗಟೆ",
-                "stop_id": "22003",
-                "lat": 12.95821,
-                "lon": 77.66821
-              },
-              {
-                "name": "HAL Admin Gate",
-                "name_kn": "ಹಲ್ ದ್ಮಿಂ ಗಟೆ",
-                "stop_id": "39489",
-                "lat": 12.95813,
-                "lon": 77.66949
-              },
-              {
-                "name": "Helicopter Division",
-                "name_kn": "ಹೆಲಿಕೊಪ್ಟೆರ್ ದಿವಿಸಿೊಂ",
-                "stop_id": "22021",
-                "lat": 12.95582,
-                "lon": 77.67735
-              },
-              {
-                "name": "HAL Kalyana Mantap",
-                "name_kn": "ಹಲ್ ಕಲೆನ ಮಂಟಪ್",
-                "stop_id": "22001",
-                "lat": 12.9546,
-                "lon": 77.68215
-              },
-              {
-                "name": "Yamalur Cross",
-                "name_kn": "ಯಮಲುರ್ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "22627",
-                "lat": 12.95525,
-                "lon": 77.68829
-              },
-              {
-                "name": "Marathahalli",
-                "name_kn": "ಮರತಹಲ್ಲಿ",
-                "stop_id": "22260",
-                "lat": 12.95626,
-                "lon": 77.69409
-              },
-              {
-                "name": "Marathahalli Bridge",
-                "name_kn": "ಮರತಹಲ್ಲಿ ಬ್ರಿದ್ಗೆ",
-                "stop_id": "22668",
-                "lat": 12.9569,
-                "lon": 77.70215
-              },
-              {
-                "name": "Munnekolalu Cross (Spice Garden)",
-                "name_kn": "ಮುಂನೆಕೊಲಲು ಕ್ರೊಸ್ಸ್ (ಸ್ಪಿಕೆ ಗರ್ದೆಂ)",
-                "stop_id": "21038",
-                "lat": 12.9564,
-                "lon": 77.70927
-              },
-              {
-                "name": "Kundalahalli Gate",
-                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಗಟೆ",
-                "stop_id": "20960",
-                "lat": 12.95674,
-                "lon": 77.71499
-              },
-              {
-                "name": "Kundalahalli",
-                "name_kn": "ಕುಂದಲಹಲ್ಲಿ",
-                "stop_id": "20956",
-                "lat": 12.95832,
-                "lon": 77.71566
-              },
-              {
-                "name": "BEML Layout Gate",
-                "name_kn": "ಬೆಂಲ್ ಲಯೌಟ್ ಗಟೆ",
-                "stop_id": "20640",
-                "lat": 12.96083,
-                "lon": 77.71641
-              },
-              {
-                "name": "AECS Layout Cross",
-                "name_kn": "ಅೆಕ್ಸ್ ಲಯೌಟ್ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "20596",
-                "lat": 12.96511,
-                "lon": 77.71827
-              },
-              {
-                "name": "CMRIT College",
-                "name_kn": "ಕ್ಂರಿಟ್ ಕೊಲ್ಲೆಗೆ",
-                "stop_id": "20722",
-                "lat": 12.96764,
-                "lon": 77.71389
-              },
-              {
-                "name": "Kundalahalli Colony",
-                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಕೊಲೊನೆ",
-                "stop_id": "20958",
-                "lat": 12.97022,
-                "lon": 77.71248
-              },
-              {
-                "name": "Graphite India",
-                "name_kn": "ಗ್ರಫಿಟೆ ಿಂದಿ",
-                "stop_id": "20802",
-                "lat": 12.97821,
-                "lon": 77.71135
-              },
-              {
-                "name": "SAP Labs",
-                "name_kn": "ಸಪ್ ಲಬ್ಸ್",
-                "stop_id": "21153",
-                "lat": 12.9778,
-                "lon": 77.7144
-              },
-              {
-                "name": "Kundalahalli Metro Station",
-                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಮೆಟ್ರೊ ಸ್ಟಟಿೊಂ",
-                "stop_id": "38798",
-                "lat": 12.97753,
-                "lon": 77.71632
-              },
-              {
-                "name": "I Gate",
-                "name_kn": "ಇ ಗಟೆ",
-                "stop_id": "20849",
-                "lat": 12.97734,
-                "lon": 77.71863
-              },
-              {
-                "name": "KTPO",
-                "name_kn": "ಕ್ಟ್ಪೊ",
-                "stop_id": "20949",
-                "lat": 12.97702,
-                "lon": 77.72225
-              },
-              {
-                "name": "White Field Bus Station (Vydehi Hospital)",
-                "name_kn": "ವ್ಹಿಟೆ ೞಿೆಲ್ದ್ ಬುಸ್ ಸ್ಟಟಿೊಂ (ವೆದೆಹಿ ಹೊಸ್ಪಿಟಲ್)",
-                "stop_id": "23656",
-                "lat": 12.9774,
-                "lon": 77.72693
-              },
-              {
-                "name": "Sathya Sai Hospital",
-                "name_kn": "ಸತೆ ಸೈ ಹೊಸ್ಪಿಟಲ್",
-                "stop_id": "21161",
-                "lat": 12.9823,
-                "lon": 77.72773
-              },
-              {
-                "name": "Big Bazzar ITPL",
-                "name_kn": "ಬಿಗ್ ಬಜ಼್ಜ಼ರ್ ಿಟ್ಪ್ಲ್",
-                "stop_id": "20670",
-                "lat": 12.98823,
-                "lon": 77.73197
-              },
-              {
-                "name": "Pattandur Agrahara Gate",
-                "name_kn": "ಪಟಂದುರ್ ಗ್ರಹರ ಗಟೆ",
-                "stop_id": "21079",
-                "lat": 12.98803,
-                "lon": 77.73354
-              },
-              {
-                "name": "ITPL",
-                "name_kn": "ಇಟ್ಪ್ಲ್",
-                "stop_id": "20866",
-                "lat": 12.98766,
-                "lon": 77.73704
-              },
-              {
-                "name": "GR Tech Park ITPL",
-                "name_kn": "ಗ್ರ್ ಟೆಚ್ ಪರ್ಕ್ ಿಟ್ಪ್ಲ್",
-                "stop_id": "20801",
-                "lat": 12.98681,
-                "lon": 77.74338
-              },
-              {
-                "name": "BPL",
-                "name_kn": "ಬ್ಪ್ಲ್",
-                "stop_id": "20680",
-                "lat": 12.98525,
-                "lon": 77.74828
-              },
-              {
-                "name": "Hope Farm",
-                "name_kn": "ಹೊಪೆ ೞರ್ಂ",
-                "stop_id": "37509",
-                "lat": 12.9843,
-                "lon": 77.75148
-              },
-              {
-                "name": "Kadugodi Bridge",
-                "name_kn": "ಕದುಗೊದಿ ಬ್ರಿದ್ಗೆ",
-                "stop_id": "20901",
-                "lat": 12.99448,
-                "lon": 77.75769
-              },
-              {
-                "name": "Kadugodi Bus Station",
-                "name_kn": "ಕದುಗೊದಿ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-                "stop_id": "20902",
-                "lat": 12.99563,
-                "lon": 77.75855
-              }
-            ]
-          },
-          {
-            "Route": "V-335E",
-            "RouteId": 1855,
-            "RouteParentId": 1097,
-            "Destination": "Kadugodi Bus Station",
-            "Via": "",
-            "Area": "Kempegowda Bus Station",
-            "PlatformNumber": "1",
-            "KannadaDestination": "ಕದುಗೊದಿ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-            "KannadaArea": "ಕೆಂಪೇಗೌಡ ಬಸ್ ನಿಲ್ದಾಣ",
-            "KannadaVia": "",
-            "FromStationId": 21914,
-            "Stops": [
-              {
-                "name": "Domlur",
-                "name_kn": "ದೊಂಲುರ್",
-                "stop_id": "21914",
-                "lat": 12.96111,
-                "lon": 77.63809
-              },
-              {
-                "name": "Domlur Flyover",
-                "name_kn": "ದೊಂಲುರ್ ೞ್ಲೆೊವೆರ್",
-                "stop_id": "21917",
-                "lat": 12.96048,
-                "lon": 77.64352
-              },
-              {
-                "name": "Kodihalli",
-                "name_kn": "ಕೊದಿಹಲ್ಲಿ",
-                "stop_id": "22178",
-                "lat": 12.96,
-                "lon": 77.64758
-              },
-              {
-                "name": "NAL/Manipal Hospital",
-                "name_kn": "ನಲ್/ಮನಿಪಲ್ ಹೊಸ್ಪಿಟಲ್",
-                "stop_id": "22336",
-                "lat": 12.95964,
-                "lon": 77.65076
-              },
-              {
-                "name": "Murugeshpalya",
-                "name_kn": "ಮುರುಗೆಶ್ಪಲೆ",
-                "stop_id": "22316",
-                "lat": 12.95936,
-                "lon": 77.65618
-              },
-              {
-                "name": "Konena Agrahara",
-                "name_kn": "ಕೊನೆನ ಗ್ರಹರ",
-                "stop_id": "22193",
-                "lat": 12.95914,
-                "lon": 77.65962
-              },
-              {
-                "name": "HAL Main Gate",
-                "name_kn": "ಹಲ್ ಮೈಂ ಗಟೆ",
-                "stop_id": "22003",
-                "lat": 12.95821,
-                "lon": 77.66821
-              },
-              {
-                "name": "Helicopter Division",
-                "name_kn": "ಹೆಲಿಕೊಪ್ಟೆರ್ ದಿವಿಸಿೊಂ",
-                "stop_id": "22021",
-                "lat": 12.95582,
-                "lon": 77.67735
-              },
-              {
-                "name": "HAL Kalyana Mantap",
-                "name_kn": "ಹಲ್ ಕಲೆನ ಮಂಟಪ್",
-                "stop_id": "22001",
-                "lat": 12.9546,
-                "lon": 77.68215
-              },
-              {
-                "name": "Yamalur Cross",
-                "name_kn": "ಯಮಲುರ್ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "22627",
-                "lat": 12.95525,
-                "lon": 77.68829
-              },
-              {
-                "name": "Marathahalli",
-                "name_kn": "ಮರತಹಲ್ಲಿ",
-                "stop_id": "22260",
-                "lat": 12.95626,
-                "lon": 77.69409
-              },
-              {
-                "name": "Marathahalli Bridge",
-                "name_kn": "ಮರತಹಲ್ಲಿ ಬ್ರಿದ್ಗೆ",
-                "stop_id": "22668",
-                "lat": 12.9569,
-                "lon": 77.70215
-              },
-              {
-                "name": "Munnekolalu Cross (Spice Garden)",
-                "name_kn": "ಮುಂನೆಕೊಲಲು ಕ್ರೊಸ್ಸ್ (ಸ್ಪಿಕೆ ಗರ್ದೆಂ)",
-                "stop_id": "21038",
-                "lat": 12.9564,
-                "lon": 77.70927
-              },
-              {
-                "name": "Kundalahalli Gate",
-                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಗಟೆ",
-                "stop_id": "20960",
-                "lat": 12.95674,
-                "lon": 77.71499
-              },
-              {
-                "name": "Kundalahalli",
-                "name_kn": "ಕುಂದಲಹಲ್ಲಿ",
-                "stop_id": "20956",
-                "lat": 12.95832,
-                "lon": 77.71566
-              },
-              {
-                "name": "BEML Layout Gate",
-                "name_kn": "ಬೆಂಲ್ ಲಯೌಟ್ ಗಟೆ",
-                "stop_id": "20640",
-                "lat": 12.96083,
-                "lon": 77.71641
-              },
-              {
-                "name": "AECS Layout Cross",
-                "name_kn": "ಅೆಕ್ಸ್ ಲಯೌಟ್ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "20596",
-                "lat": 12.96511,
-                "lon": 77.71827
-              },
-              {
-                "name": "CMRIT College",
-                "name_kn": "ಕ್ಂರಿಟ್ ಕೊಲ್ಲೆಗೆ",
-                "stop_id": "20722",
-                "lat": 12.96764,
-                "lon": 77.71389
-              },
-              {
-                "name": "Kundalahalli Colony",
-                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಕೊಲೊನೆ",
-                "stop_id": "20958",
-                "lat": 12.97022,
-                "lon": 77.71248
-              },
-              {
-                "name": "Graphite India",
-                "name_kn": "ಗ್ರಫಿಟೆ ಿಂದಿ",
-                "stop_id": "20802",
-                "lat": 12.97821,
-                "lon": 77.71135
-              },
-              {
-                "name": "SAP Labs",
-                "name_kn": "ಸಪ್ ಲಬ್ಸ್",
-                "stop_id": "21153",
-                "lat": 12.9778,
-                "lon": 77.7144
-              },
-              {
-                "name": "Kundalahalli Metro Station",
-                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಮೆಟ್ರೊ ಸ್ಟಟಿೊಂ",
-                "stop_id": "38798",
-                "lat": 12.97753,
-                "lon": 77.71632
-              },
-              {
-                "name": "I Gate",
-                "name_kn": "ಇ ಗಟೆ",
-                "stop_id": "20849",
-                "lat": 12.97734,
-                "lon": 77.71863
-              },
-              {
-                "name": "KTPO",
-                "name_kn": "ಕ್ಟ್ಪೊ",
-                "stop_id": "20949",
-                "lat": 12.97702,
-                "lon": 77.72225
-              },
-              {
-                "name": "White Field Bus Station (Vydehi Hospital)",
-                "name_kn": "ವ್ಹಿಟೆ ೞಿೆಲ್ದ್ ಬುಸ್ ಸ್ಟಟಿೊಂ (ವೆದೆಹಿ ಹೊಸ್ಪಿಟಲ್)",
-                "stop_id": "23656",
-                "lat": 12.9774,
-                "lon": 77.72693
-              },
-              {
-                "name": "Sathya Sai Hospital",
-                "name_kn": "ಸತೆ ಸೈ ಹೊಸ್ಪಿಟಲ್",
-                "stop_id": "21161",
-                "lat": 12.9823,
-                "lon": 77.72773
-              },
-              {
-                "name": "Big Bazzar ITPL",
-                "name_kn": "ಬಿಗ್ ಬಜ಼್ಜ಼ರ್ ಿಟ್ಪ್ಲ್",
-                "stop_id": "20670",
-                "lat": 12.98823,
-                "lon": 77.73197
-              },
-              {
-                "name": "Pattandur Agrahara Gate",
-                "name_kn": "ಪಟಂದುರ್ ಗ್ರಹರ ಗಟೆ",
-                "stop_id": "21079",
-                "lat": 12.98803,
-                "lon": 77.73354
-              },
-              {
-                "name": "ITPL",
-                "name_kn": "ಇಟ್ಪ್ಲ್",
-                "stop_id": "20866",
-                "lat": 12.98766,
-                "lon": 77.73704
-              },
-              {
-                "name": "GR Tech Park ITPL",
-                "name_kn": "ಗ್ರ್ ಟೆಚ್ ಪರ್ಕ್ ಿಟ್ಪ್ಲ್",
-                "stop_id": "20801",
-                "lat": 12.98681,
-                "lon": 77.74338
-              },
-              {
-                "name": "BPL",
-                "name_kn": "ಬ್ಪ್ಲ್",
-                "stop_id": "20680",
-                "lat": 12.98525,
-                "lon": 77.74828
-              },
-              {
-                "name": "Hope Farm",
-                "name_kn": "ಹೊಪೆ ೞರ್ಂ",
-                "stop_id": "37509",
-                "lat": 12.9843,
-                "lon": 77.75148
-              },
-              {
-                "name": "Kadugodi Bridge",
-                "name_kn": "ಕದುಗೊದಿ ಬ್ರಿದ್ಗೆ",
-                "stop_id": "20901",
-                "lat": 12.99448,
-                "lon": 77.75769
-              },
-              {
-                "name": "Kadugodi Bus Station",
-                "name_kn": "ಕದುಗೊದಿ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-                "stop_id": "20902",
-                "lat": 12.99563,
-                "lon": 77.75855
-              }
-            ]
-          },
-          {
-            "Route": "333-N",
-            "RouteId": 4711,
-            "RouteParentId": 2583,
-            "Destination": "Seetharampalya",
-            "Via": "",
-            "Area": "Kempegowda Bus Station",
-            "PlatformNumber": "1",
-            "KannadaDestination": "ಸೀತರಂಪಲೆ",
-            "KannadaArea": "ಕೆಂಪೇಗೌಡ ಬಸ್ ನಿಲ್ದಾಣ",
-            "KannadaVia": "",
-            "FromStationId": 21914,
-            "Stops": [
-              {
-                "name": "Domlur",
-                "name_kn": "ದೊಂಲುರ್",
-                "stop_id": "21914",
-                "lat": 12.96111,
-                "lon": 77.63809
-              },
-              {
-                "name": "Domlur Flyover",
-                "name_kn": "ದೊಂಲುರ್ ೞ್ಲೆೊವೆರ್",
-                "stop_id": "21917",
-                "lat": 12.96048,
-                "lon": 77.64352
-              },
-              {
-                "name": "Kodihalli",
-                "name_kn": "ಕೊದಿಹಲ್ಲಿ",
-                "stop_id": "22178",
-                "lat": 12.96,
-                "lon": 77.64758
-              },
-              {
-                "name": "NAL/Manipal Hospital",
-                "name_kn": "ನಲ್/ಮನಿಪಲ್ ಹೊಸ್ಪಿಟಲ್",
-                "stop_id": "22336",
-                "lat": 12.95964,
-                "lon": 77.65076
-              },
-              {
-                "name": "Murugeshpalya",
-                "name_kn": "ಮುರುಗೆಶ್ಪಲೆ",
-                "stop_id": "22316",
-                "lat": 12.95936,
-                "lon": 77.65618
-              },
-              {
-                "name": "Konena Agrahara",
-                "name_kn": "ಕೊನೆನ ಗ್ರಹರ",
-                "stop_id": "22193",
-                "lat": 12.95914,
-                "lon": 77.65962
-              },
-              {
-                "name": "HAL Main Gate",
-                "name_kn": "ಹಲ್ ಮೈಂ ಗಟೆ",
-                "stop_id": "22003",
-                "lat": 12.95821,
-                "lon": 77.66821
-              },
-              {
-                "name": "HAL Admin Gate",
-                "name_kn": "ಹಲ್ ದ್ಮಿಂ ಗಟೆ",
-                "stop_id": "39489",
-                "lat": 12.95813,
-                "lon": 77.66949
-              },
-              {
-                "name": "Helicopter Division",
-                "name_kn": "ಹೆಲಿಕೊಪ್ಟೆರ್ ದಿವಿಸಿೊಂ",
-                "stop_id": "22021",
-                "lat": 12.95582,
-                "lon": 77.67735
-              },
-              {
-                "name": "HAL Kalyana Mantap",
-                "name_kn": "ಹಲ್ ಕಲೆನ ಮಂಟಪ್",
-                "stop_id": "22001",
-                "lat": 12.9546,
-                "lon": 77.68215
-              },
-              {
-                "name": "Yamalur Cross",
-                "name_kn": "ಯಮಲುರ್ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "22627",
-                "lat": 12.95525,
-                "lon": 77.68829
-              },
-              {
-                "name": "Marathahalli",
-                "name_kn": "ಮರತಹಲ್ಲಿ",
-                "stop_id": "22260",
-                "lat": 12.95626,
-                "lon": 77.69409
-              },
-              {
-                "name": "Marathahalli Bridge",
-                "name_kn": "ಮರತಹಲ್ಲಿ ಬ್ರಿದ್ಗೆ",
-                "stop_id": "22668",
-                "lat": 12.9569,
-                "lon": 77.70215
-              },
-              {
-                "name": "Munnekolalu Cross (Spice Garden)",
-                "name_kn": "ಮುಂನೆಕೊಲಲು ಕ್ರೊಸ್ಸ್ (ಸ್ಪಿಕೆ ಗರ್ದೆಂ)",
-                "stop_id": "21038",
-                "lat": 12.9564,
-                "lon": 77.70927
-              },
-              {
-                "name": "Kundalahalli Gate",
-                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಗಟೆ",
-                "stop_id": "20960",
-                "lat": 12.95674,
-                "lon": 77.71499
-              },
-              {
-                "name": "Kundalahalli",
-                "name_kn": "ಕುಂದಲಹಲ್ಲಿ",
-                "stop_id": "20956",
-                "lat": 12.95832,
-                "lon": 77.71566
-              },
-              {
-                "name": "BEML Layout Gate",
-                "name_kn": "ಬೆಂಲ್ ಲಯೌಟ್ ಗಟೆ",
-                "stop_id": "20640",
-                "lat": 12.96083,
-                "lon": 77.71641
-              },
-              {
-                "name": "AECS Layout Cross",
-                "name_kn": "ಅೆಕ್ಸ್ ಲಯೌಟ್ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "20596",
-                "lat": 12.96511,
-                "lon": 77.71827
-              },
-              {
-                "name": "CMRIT College",
-                "name_kn": "ಕ್ಂರಿಟ್ ಕೊಲ್ಲೆಗೆ",
-                "stop_id": "20722",
-                "lat": 12.96764,
-                "lon": 77.71389
-              },
-              {
-                "name": "Kundalahalli Colony",
-                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಕೊಲೊನೆ",
-                "stop_id": "20958",
-                "lat": 12.97022,
-                "lon": 77.71248
-              },
-              {
-                "name": "Graphite India",
-                "name_kn": "ಗ್ರಫಿಟೆ ಿಂದಿ",
-                "stop_id": "20802",
-                "lat": 12.97821,
-                "lon": 77.71135
-              },
-              {
-                "name": "SAP Labs",
-                "name_kn": "ಸಪ್ ಲಬ್ಸ್",
-                "stop_id": "21153",
-                "lat": 12.9778,
-                "lon": 77.7144
-              },
-              {
-                "name": "Kundalahalli Metro Station",
-                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಮೆಟ್ರೊ ಸ್ಟಟಿೊಂ",
-                "stop_id": "38798",
-                "lat": 12.97753,
-                "lon": 77.71632
-              },
-              {
-                "name": "I Gate",
-                "name_kn": "ಇ ಗಟೆ",
-                "stop_id": "20849",
-                "lat": 12.97734,
-                "lon": 77.71863
-              },
-              {
-                "name": "Seetharampalya",
-                "name_kn": "ಸೀತರಂಪಲೆ",
-                "stop_id": "28222",
-                "lat": 12.98044,
-                "lon": 77.7219
-              }
-            ]
-          },
-          {
-            "Route": "335-M",
-            "RouteId": 4740,
-            "RouteParentId": 2595,
-            "Destination": "Mahalakshmi Layout",
-            "Via": "",
-            "Area": "Mahalakshmi Layout",
-            "PlatformNumber": "1",
-            "KannadaDestination": "ಮಹಲಕ್ಷ್ಮಿ ಲಯೌಟ್",
-            "KannadaArea": "ಮಹಾಲಕ್ಷ್ಮಿ ಬಡಾವಣೆ",
-            "KannadaVia": "",
-            "FromStationId": 21914,
-            "Stops": [
-              {
-                "name": "Domlur Flyover",
-                "name_kn": "ದೊಂಲುರ್ ೞ್ಲೆೊವೆರ್",
-                "stop_id": "21915",
-                "lat": 12.96045,
-                "lon": 77.64251
-              },
-              {
-                "name": "Domlur",
-                "name_kn": "ದೊಂಲುರ್",
-                "stop_id": "21913",
-                "lat": 12.96122,
-                "lon": 77.63667
-              },
-              {
-                "name": "Commando Hospital",
-                "name_kn": "ಕೊಮ್ಮಂದೊ ಹೊಸ್ಪಿಟಲ್",
-                "stop_id": "21865",
-                "lat": 12.96268,
-                "lon": 77.62756
-              },
-              {
-                "name": "Military Accounts Office",
-                "name_kn": "ಮಿಲಿಟರೆ ಕ್ಕೌಂಟ್ಸ್ ೊೞ್ೞಿಕೆ",
-                "stop_id": "22288",
-                "lat": 12.96691,
-                "lon": 77.62117
-              },
-              {
-                "name": "Kendriya Vidyalaya ASC Center",
-                "name_kn": "ಕೆಂದ್ರಿಯ ವಿಠೆಲಯ ಸ್ಕ್ ಕೆಂಟೆರ್",
-                "stop_id": "31011",
-                "lat": 12.96676,
-                "lon": 77.61259
-              },
-              {
-                "name": "Life Style (Sacred Heart School)",
-                "name_kn": "ಲಿೞೆ ಸ್ಟೆಲೆ (ಸಕ್ರೆದ್ ಹೆರ್ಟ್ ಸ್ಚೂಲ್)",
-                "stop_id": "20970",
-                "lat": 12.96692,
-                "lon": 77.61018
-              },
-              {
-                "name": "Richmond Circle",
-                "name_kn": "ರಿಚ್ಮೊಂದ್ ಕಿರ್ಕ್ಲೆ",
-                "stop_id": "21126",
-                "lat": 12.9658,
-                "lon": 77.60433
-              },
-              {
-                "name": "Pallavi Talkies",
-                "name_kn": "ಪಲ್ಲವಿ ಟಲ್ಕಿೆಸ್",
-                "stop_id": "22667",
-                "lat": 12.9679,
-                "lon": 77.59102
-              },
-              {
-                "name": "Corporation",
-                "name_kn": "ಕೊರ್ಪೊರಟಿೊಂ",
-                "stop_id": "20725",
-                "lat": 12.96839,
-                "lon": 77.58675
-              },
-              {
-                "name": "Mysore Bank",
-                "name_kn": "ಮೆಸೊರೆ ಬಂಕ್",
-                "stop_id": "35383",
-                "lat": 12.97253,
-                "lon": 77.58199
-              },
-              {
-                "name": "Kempegowda Bus Station",
-                "name_kn": "ಕೆಂಪೆಗೌದ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-                "stop_id": "20922",
-                "lat": 12.97749,
-                "lon": 77.57327
-              },
-              {
-                "name": "Okalipura",
-                "name_kn": "ಒಕಲಿಪುರ",
-                "stop_id": "35387",
-                "lat": 12.98229,
-                "lon": 77.56783
-              },
-              {
-                "name": "Sujatha Talkies",
-                "name_kn": "ಸುಜತ ಟಲ್ಕಿೆಸ್",
-                "stop_id": "21200",
-                "lat": 12.98246,
-                "lon": 77.56208
-              },
-              {
-                "name": "Rajajinagara Entrance",
-                "name_kn": "ರಜಜಿನಗರ ೆಂಟ್ರಂಕೆ",
-                "stop_id": "35263",
-                "lat": 12.98428,
-                "lon": 77.55721
-              },
-              {
-                "name": "Bashyam Circle Rajajinagara",
-                "name_kn": "ಬಶೆಂ ಕಿರ್ಕ್ಲೆ ರಜಜಿನಗರ",
-                "stop_id": "29788",
-                "lat": 12.98458,
-                "lon": 77.55414
-              },
-              {
-                "name": "Rajajinagara Old Police Station",
-                "name_kn": "ರಜಜಿನಗರ ೊಲ್ದ್ ಪೊಲಿಕೆ ಸ್ಟಟಿೊಂ",
-                "stop_id": "21072",
-                "lat": 12.98928,
-                "lon": 77.55438
-              },
-              {
-                "name": "ESI Hospital Rajajinagara",
-                "name_kn": "ಎಸಿ ಹೊಸ್ಪಿಟಲ್ ರಜಜಿನಗರ",
-                "stop_id": "20776",
-                "lat": 12.99041,
-                "lon": 77.55256
-              },
-              {
-                "name": "Basaveshwara College",
-                "name_kn": "ಬಸವೆಶ್ವರ ಕೊಲ್ಲೆಗೆ",
-                "stop_id": "20629",
-                "lat": 12.99448,
-                "lon": 77.5527
-              },
-              {
-                "name": "Rajajinagara 2nd Block",
-                "name_kn": "ರಜಜಿನಗರ 2ಂದ್ ಬ್ಲೊಕ್ಕ್",
-                "stop_id": "22901",
-                "lat": 12.99607,
-                "lon": 77.55144
-              },
-              {
-                "name": "Navarang Theatre",
-                "name_kn": "ನವರಙ್ ತೆಟ್ರೆ",
-                "stop_id": "35290",
-                "lat": 12.99825,
-                "lon": 77.55096
-              },
-              {
-                "name": "Canara Bank Rajajinagara 1st Block",
-                "name_kn": "ಕನರ ಬಂಕ್ ರಜಜಿನಗರ 1ಸ್ಟ್ ಬ್ಲೊಕ್ಕ್",
-                "stop_id": "24187",
-                "lat": 13.00089,
-                "lon": 77.55044
-              },
-              {
-                "name": "Diacon Hospital",
-                "name_kn": "ದಿಕೊಂ ಹೊಸ್ಪಿಟಲ್",
-                "stop_id": "22893",
-                "lat": 13.00379,
-                "lon": 77.55003
-              },
-              {
-                "name": "1st Block Rajajinagara",
-                "name_kn": "1ಸ್ಟ್ ಬ್ಲೊಕ್ಕ್ ರಜಜಿನಗರ",
-                "stop_id": "20576",
-                "lat": 13.00515,
-                "lon": 77.54887
-              },
-              {
-                "name": "Mahalakshmi Layout Entrance",
-                "name_kn": "ಮಹಲಕ್ಷ್ಮಿ ಲಯೌಟ್ ೆಂಟ್ರಂಕೆ",
-                "stop_id": "24188",
-                "lat": 13.00779,
-                "lon": 77.548
-              },
-              {
-                "name": "Shrinivasa Temple",
-                "name_kn": "ಶ್ರಿನಿವಸ ಟೆಂಪ್ಲೆ",
-                "stop_id": "24189",
-                "lat": 13.00833,
-                "lon": 77.54506
-              },
-              {
-                "name": "Ganesha Temple Mahalaskhmi Layout",
-                "name_kn": "ಗನೆಶ ಟೆಂಪ್ಲೆ ಮಹಲಸ್ಖ್ಮಿ ಲಯೌಟ್",
-                "stop_id": "24190",
-                "lat": 13.00862,
-                "lon": 77.5432
-              },
-              {
-                "name": "Mahalakshmi Layout",
-                "name_kn": "ಮಹಲಕ್ಷ್ಮಿ ಲಯೌಟ್",
-                "stop_id": "24191",
-                "lat": 13.01208,
-                "lon": 77.54401
-              }
-            ]
-          },
-          {
-            "Route": "V-331A",
-            "RouteId": 11394,
-            "RouteParentId": 6075,
-            "Destination": "Kadugodi Bus Station",
-            "Via": "",
-            "Area": "Shivajinagara Bus Station",
-            "PlatformNumber": "1",
-            "KannadaDestination": "ಕದುಗೊದಿ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-            "KannadaArea": "ಶಿವಾಜಿನಗರ ಬಸ್ ನಿಲ್ದಾಣ",
-            "KannadaVia": "",
-            "FromStationId": 21914,
-            "Stops": [
-              {
-                "name": "Domlur",
-                "name_kn": "ದೊಂಲುರ್",
-                "stop_id": "21914",
-                "lat": 12.96111,
-                "lon": 77.63809
-              },
-              {
-                "name": "Domlur Flyover",
-                "name_kn": "ದೊಂಲುರ್ ೞ್ಲೆೊವೆರ್",
-                "stop_id": "21917",
-                "lat": 12.96048,
-                "lon": 77.64352
-              },
-              {
-                "name": "Kodihalli",
-                "name_kn": "ಕೊದಿಹಲ್ಲಿ",
-                "stop_id": "22178",
-                "lat": 12.96,
-                "lon": 77.64758
-              },
-              {
-                "name": "NAL/Manipal Hospital",
-                "name_kn": "ನಲ್/ಮನಿಪಲ್ ಹೊಸ್ಪಿಟಲ್",
-                "stop_id": "22336",
-                "lat": 12.95964,
-                "lon": 77.65076
-              },
-              {
-                "name": "Murugeshpalya",
-                "name_kn": "ಮುರುಗೆಶ್ಪಲೆ",
-                "stop_id": "22316",
-                "lat": 12.95936,
-                "lon": 77.65618
-              },
-              {
-                "name": "Konena Agrahara",
-                "name_kn": "ಕೊನೆನ ಗ್ರಹರ",
-                "stop_id": "22193",
-                "lat": 12.95914,
-                "lon": 77.65962
-              },
-              {
-                "name": "HAL Main Gate",
-                "name_kn": "ಹಲ್ ಮೈಂ ಗಟೆ",
-                "stop_id": "22003",
-                "lat": 12.95821,
-                "lon": 77.66821
-              },
-              {
-                "name": "HAL Admin Gate",
-                "name_kn": "ಹಲ್ ದ್ಮಿಂ ಗಟೆ",
-                "stop_id": "39489",
-                "lat": 12.95813,
-                "lon": 77.66949
-              },
-              {
-                "name": "Helicopter Division",
-                "name_kn": "ಹೆಲಿಕೊಪ್ಟೆರ್ ದಿವಿಸಿೊಂ",
-                "stop_id": "22021",
-                "lat": 12.95582,
-                "lon": 77.67735
-              },
-              {
-                "name": "HAL Kalyana Mantap",
-                "name_kn": "ಹಲ್ ಕಲೆನ ಮಂಟಪ್",
-                "stop_id": "22001",
-                "lat": 12.9546,
-                "lon": 77.68215
-              },
-              {
-                "name": "Yamalur Cross",
-                "name_kn": "ಯಮಲುರ್ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "22627",
-                "lat": 12.95525,
-                "lon": 77.68829
-              },
-              {
-                "name": "Marathahalli",
-                "name_kn": "ಮರತಹಲ್ಲಿ",
-                "stop_id": "22260",
-                "lat": 12.95626,
-                "lon": 77.69409
-              },
-              {
-                "name": "Marathahalli Bridge",
-                "name_kn": "ಮರತಹಲ್ಲಿ ಬ್ರಿದ್ಗೆ",
-                "stop_id": "22668",
-                "lat": 12.9569,
-                "lon": 77.70215
-              },
-              {
-                "name": "Munnekolalu Cross (Spice Garden)",
-                "name_kn": "ಮುಂನೆಕೊಲಲು ಕ್ರೊಸ್ಸ್ (ಸ್ಪಿಕೆ ಗರ್ದೆಂ)",
-                "stop_id": "21038",
-                "lat": 12.9564,
-                "lon": 77.70927
-              },
-              {
-                "name": "Kundalahalli Gate",
-                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಗಟೆ",
-                "stop_id": "20960",
-                "lat": 12.95674,
-                "lon": 77.71499
-              },
-              {
-                "name": "Kundalahalli",
-                "name_kn": "ಕುಂದಲಹಲ್ಲಿ",
-                "stop_id": "20956",
-                "lat": 12.95832,
-                "lon": 77.71566
-              },
-              {
-                "name": "BEML Layout Gate",
-                "name_kn": "ಬೆಂಲ್ ಲಯೌಟ್ ಗಟೆ",
-                "stop_id": "20640",
-                "lat": 12.96083,
-                "lon": 77.71641
-              },
-              {
-                "name": "AECS Layout Cross",
-                "name_kn": "ಅೆಕ್ಸ್ ಲಯೌಟ್ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "20596",
-                "lat": 12.96511,
-                "lon": 77.71827
-              },
-              {
-                "name": "CMRIT College",
-                "name_kn": "ಕ್ಂರಿಟ್ ಕೊಲ್ಲೆಗೆ",
-                "stop_id": "20722",
-                "lat": 12.96764,
-                "lon": 77.71389
-              },
-              {
-                "name": "Kundalahalli Colony",
-                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಕೊಲೊನೆ",
-                "stop_id": "20958",
-                "lat": 12.97022,
-                "lon": 77.71248
-              },
-              {
-                "name": "Graphite India",
-                "name_kn": "ಗ್ರಫಿಟೆ ಿಂದಿ",
-                "stop_id": "20802",
-                "lat": 12.97821,
-                "lon": 77.71135
-              },
-              {
-                "name": "SAP Labs",
-                "name_kn": "ಸಪ್ ಲಬ್ಸ್",
-                "stop_id": "21153",
-                "lat": 12.9778,
-                "lon": 77.7144
-              },
-              {
-                "name": "Kundalahalli Metro Station",
-                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಮೆಟ್ರೊ ಸ್ಟಟಿೊಂ",
-                "stop_id": "38798",
-                "lat": 12.97753,
-                "lon": 77.71632
-              },
-              {
-                "name": "I Gate",
-                "name_kn": "ಇ ಗಟೆ",
-                "stop_id": "20849",
-                "lat": 12.97734,
-                "lon": 77.71863
-              },
-              {
-                "name": "KTPO",
-                "name_kn": "ಕ್ಟ್ಪೊ",
-                "stop_id": "20949",
-                "lat": 12.97702,
-                "lon": 77.72225
-              },
-              {
-                "name": "White Field Bus Station (Vydehi Hospital)",
-                "name_kn": "ವ್ಹಿಟೆ ೞಿೆಲ್ದ್ ಬುಸ್ ಸ್ಟಟಿೊಂ (ವೆದೆಹಿ ಹೊಸ್ಪಿಟಲ್)",
-                "stop_id": "23656",
-                "lat": 12.9774,
-                "lon": 77.72693
-              },
-              {
-                "name": "Sathya Sai Hospital",
-                "name_kn": "ಸತೆ ಸೈ ಹೊಸ್ಪಿಟಲ್",
-                "stop_id": "21161",
-                "lat": 12.9823,
-                "lon": 77.72773
-              },
-              {
-                "name": "Big Bazzar ITPL",
-                "name_kn": "ಬಿಗ್ ಬಜ಼್ಜ಼ರ್ ಿಟ್ಪ್ಲ್",
-                "stop_id": "20670",
-                "lat": 12.98823,
-                "lon": 77.73197
-              },
-              {
-                "name": "Pattandur Agrahara Gate",
-                "name_kn": "ಪಟಂದುರ್ ಗ್ರಹರ ಗಟೆ",
-                "stop_id": "21079",
-                "lat": 12.98803,
-                "lon": 77.73354
-              },
-              {
-                "name": "ITPL",
-                "name_kn": "ಇಟ್ಪ್ಲ್",
-                "stop_id": "20866",
-                "lat": 12.98766,
-                "lon": 77.73704
-              },
-              {
-                "name": "GR Tech Park ITPL",
-                "name_kn": "ಗ್ರ್ ಟೆಚ್ ಪರ್ಕ್ ಿಟ್ಪ್ಲ್",
-                "stop_id": "20801",
-                "lat": 12.98681,
-                "lon": 77.74338
-              },
-              {
-                "name": "BPL",
-                "name_kn": "ಬ್ಪ್ಲ್",
-                "stop_id": "20680",
-                "lat": 12.98525,
-                "lon": 77.74828
-              },
-              {
-                "name": "Hope Farm",
-                "name_kn": "ಹೊಪೆ ೞರ್ಂ",
-                "stop_id": "37509",
-                "lat": 12.9843,
-                "lon": 77.75148
-              },
-              {
-                "name": "Kadugodi Bridge",
-                "name_kn": "ಕದುಗೊದಿ ಬ್ರಿದ್ಗೆ",
-                "stop_id": "20901",
-                "lat": 12.99448,
-                "lon": 77.75769
-              },
-              {
-                "name": "Kadugodi Bus Station",
-                "name_kn": "ಕದುಗೊದಿ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-                "stop_id": "20902",
-                "lat": 12.99563,
-                "lon": 77.75855
-              }
-            ]
-          },
-          {
-            "Route": "331-A SBS-KDG",
-            "RouteId": 13646,
-            "RouteParentId": 7261,
-            "Destination": "Kadugodi Bus Station",
-            "Via": "",
-            "Area": "Shivajinagara Bus Station",
-            "PlatformNumber": "1",
-            "KannadaDestination": "ಕದುಗೊದಿ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-            "KannadaArea": "ಶಿವಾಜಿನಗರ ಬಸ್ ನಿಲ್ದಾಣ",
-            "KannadaVia": "",
-            "FromStationId": 21914,
-            "Stops": [
-              {
-                "name": "Domlur",
-                "name_kn": "ದೊಂಲುರ್",
-                "stop_id": "21914",
-                "lat": 12.96111,
-                "lon": 77.63809
-              },
-              {
-                "name": "Domlur Flyover",
-                "name_kn": "ದೊಂಲುರ್ ೞ್ಲೆೊವೆರ್",
-                "stop_id": "21917",
-                "lat": 12.96048,
-                "lon": 77.64352
-              },
-              {
-                "name": "Kodihalli",
-                "name_kn": "ಕೊದಿಹಲ್ಲಿ",
-                "stop_id": "22178",
-                "lat": 12.96,
-                "lon": 77.64758
-              },
-              {
-                "name": "NAL/Manipal Hospital",
-                "name_kn": "ನಲ್/ಮನಿಪಲ್ ಹೊಸ್ಪಿಟಲ್",
-                "stop_id": "22336",
-                "lat": 12.95964,
-                "lon": 77.65076
-              },
-              {
-                "name": "Murugeshpalya",
-                "name_kn": "ಮುರುಗೆಶ್ಪಲೆ",
-                "stop_id": "22316",
-                "lat": 12.95936,
-                "lon": 77.65618
-              },
-              {
-                "name": "Konena Agrahara",
-                "name_kn": "ಕೊನೆನ ಗ್ರಹರ",
-                "stop_id": "22193",
-                "lat": 12.95914,
-                "lon": 77.65962
-              },
-              {
-                "name": "HAL Main Gate",
-                "name_kn": "ಹಲ್ ಮೈಂ ಗಟೆ",
-                "stop_id": "22003",
-                "lat": 12.95821,
-                "lon": 77.66821
-              },
-              {
-                "name": "HAL Admin Gate",
-                "name_kn": "ಹಲ್ ದ್ಮಿಂ ಗಟೆ",
-                "stop_id": "39489",
-                "lat": 12.95813,
-                "lon": 77.66949
-              },
-              {
-                "name": "Helicopter Division",
-                "name_kn": "ಹೆಲಿಕೊಪ್ಟೆರ್ ದಿವಿಸಿೊಂ",
-                "stop_id": "22021",
-                "lat": 12.95582,
-                "lon": 77.67735
-              },
-              {
-                "name": "HAL Kalyana Mantap",
-                "name_kn": "ಹಲ್ ಕಲೆನ ಮಂಟಪ್",
-                "stop_id": "22001",
-                "lat": 12.9546,
-                "lon": 77.68215
-              },
-              {
-                "name": "Yamalur Cross",
-                "name_kn": "ಯಮಲುರ್ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "22627",
-                "lat": 12.95525,
-                "lon": 77.68829
-              },
-              {
-                "name": "Marathahalli",
-                "name_kn": "ಮರತಹಲ್ಲಿ",
-                "stop_id": "22260",
-                "lat": 12.95626,
-                "lon": 77.69409
-              },
-              {
-                "name": "Marathahalli Bridge",
-                "name_kn": "ಮರತಹಲ್ಲಿ ಬ್ರಿದ್ಗೆ",
-                "stop_id": "22668",
-                "lat": 12.9569,
-                "lon": 77.70215
-              },
-              {
-                "name": "Munnekolalu Cross (Spice Garden)",
-                "name_kn": "ಮುಂನೆಕೊಲಲು ಕ್ರೊಸ್ಸ್ (ಸ್ಪಿಕೆ ಗರ್ದೆಂ)",
-                "stop_id": "21038",
-                "lat": 12.9564,
-                "lon": 77.70927
-              },
-              {
-                "name": "Kundalahalli Gate",
-                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಗಟೆ",
-                "stop_id": "20960",
-                "lat": 12.95674,
-                "lon": 77.71499
-              },
-              {
-                "name": "Kundalahalli",
-                "name_kn": "ಕುಂದಲಹಲ್ಲಿ",
-                "stop_id": "20956",
-                "lat": 12.95832,
-                "lon": 77.71566
-              },
-              {
-                "name": "BEML Layout Gate",
-                "name_kn": "ಬೆಂಲ್ ಲಯೌಟ್ ಗಟೆ",
-                "stop_id": "20640",
-                "lat": 12.96083,
-                "lon": 77.71641
-              },
-              {
-                "name": "AECS Layout Cross",
-                "name_kn": "ಅೆಕ್ಸ್ ಲಯೌಟ್ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "20596",
-                "lat": 12.96511,
-                "lon": 77.71827
-              },
-              {
-                "name": "CMRIT College",
-                "name_kn": "ಕ್ಂರಿಟ್ ಕೊಲ್ಲೆಗೆ",
-                "stop_id": "20722",
-                "lat": 12.96764,
-                "lon": 77.71389
-              },
-              {
-                "name": "Kundalahalli Colony",
-                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಕೊಲೊನೆ",
-                "stop_id": "20958",
-                "lat": 12.97022,
-                "lon": 77.71248
-              },
-              {
-                "name": "Graphite India",
-                "name_kn": "ಗ್ರಫಿಟೆ ಿಂದಿ",
-                "stop_id": "20802",
-                "lat": 12.97821,
-                "lon": 77.71135
-              },
-              {
-                "name": "SAP Labs",
-                "name_kn": "ಸಪ್ ಲಬ್ಸ್",
-                "stop_id": "21153",
-                "lat": 12.9778,
-                "lon": 77.7144
-              },
-              {
-                "name": "Kundalahalli Metro Station",
-                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಮೆಟ್ರೊ ಸ್ಟಟಿೊಂ",
-                "stop_id": "38798",
-                "lat": 12.97753,
-                "lon": 77.71632
-              },
-              {
-                "name": "I Gate",
-                "name_kn": "ಇ ಗಟೆ",
-                "stop_id": "20849",
-                "lat": 12.97734,
-                "lon": 77.71863
-              },
-              {
-                "name": "KTPO",
-                "name_kn": "ಕ್ಟ್ಪೊ",
-                "stop_id": "20949",
-                "lat": 12.97702,
-                "lon": 77.72225
-              },
-              {
-                "name": "White Field Bus Station (Vydehi Hospital)",
-                "name_kn": "ವ್ಹಿಟೆ ೞಿೆಲ್ದ್ ಬುಸ್ ಸ್ಟಟಿೊಂ (ವೆದೆಹಿ ಹೊಸ್ಪಿಟಲ್)",
-                "stop_id": "23656",
-                "lat": 12.9774,
-                "lon": 77.72693
-              },
-              {
-                "name": "Sathya Sai Hospital",
-                "name_kn": "ಸತೆ ಸೈ ಹೊಸ್ಪಿಟಲ್",
-                "stop_id": "21161",
-                "lat": 12.9823,
-                "lon": 77.72773
-              },
-              {
-                "name": "Big Bazzar ITPL",
-                "name_kn": "ಬಿಗ್ ಬಜ಼್ಜ಼ರ್ ಿಟ್ಪ್ಲ್",
-                "stop_id": "20670",
-                "lat": 12.98823,
-                "lon": 77.73197
-              },
-              {
-                "name": "Pattandur Agrahara Gate",
-                "name_kn": "ಪಟಂದುರ್ ಗ್ರಹರ ಗಟೆ",
-                "stop_id": "21079",
-                "lat": 12.98803,
-                "lon": 77.73354
-              },
-              {
-                "name": "ITPL",
-                "name_kn": "ಇಟ್ಪ್ಲ್",
-                "stop_id": "20866",
-                "lat": 12.98766,
-                "lon": 77.73704
-              },
-              {
-                "name": "GR Tech Park ITPL",
-                "name_kn": "ಗ್ರ್ ಟೆಚ್ ಪರ್ಕ್ ಿಟ್ಪ್ಲ್",
-                "stop_id": "20801",
-                "lat": 12.98681,
-                "lon": 77.74338
-              },
-              {
-                "name": "BPL",
-                "name_kn": "ಬ್ಪ್ಲ್",
-                "stop_id": "20680",
-                "lat": 12.98525,
-                "lon": 77.74828
-              },
-              {
-                "name": "Hope Farm",
-                "name_kn": "ಹೊಪೆ ೞರ್ಂ",
-                "stop_id": "20836",
-                "lat": 12.98429,
-                "lon": 77.75261
-              },
-              {
-                "name": "Kadugodi Bridge",
-                "name_kn": "ಕದುಗೊದಿ ಬ್ರಿದ್ಗೆ",
-                "stop_id": "20901",
-                "lat": 12.99448,
-                "lon": 77.75769
-              },
-              {
-                "name": "Kadugodi Bus Station",
-                "name_kn": "ಕದುಗೊದಿ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-                "stop_id": "20902",
-                "lat": 12.99563,
-                "lon": 77.75855
               }
             ]
           }

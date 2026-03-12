@@ -11,6 +11,16 @@
       "bay-number": null
     },
     {
+      "route-number": "502-A GNP-HBL",
+      "route-name": "GNP-HBL",
+      "from-station-id": 37817,
+      "route-id": 7336,
+      "route-parent-id": 3941,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
       "route-number": "237-C",
       "route-name": "SBS-BMBS",
       "from-station-id": 35407,
@@ -41,26 +51,6 @@
       "bay-number": null
     },
     {
-      "route-number": "502-A GNP-HBL",
-      "route-name": "GNP-HBL",
-      "from-station-id": 37817,
-      "route-id": 7336,
-      "route-parent-id": 3941,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "242-B SNBS-TVK (Calla Bus)",
-      "route-name": "TVK-SNBS",
-      "from-station-id": 21266,
-      "route-id": 10779,
-      "route-parent-id": 5747,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
       "route-number": "TR-4 VTTMC-NGV",
       "route-name": "VJN-NGV",
       "from-station-id": 35395,
@@ -86,6 +76,106 @@
       "from-station-id": 37817,
       "route-id": 2207,
       "route-parent-id": 1283,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "238-U KBS-BUCADM",
+      "route-name": "BUCADM-KBS",
+      "from-station-id": 37817,
+      "route-id": 2388,
+      "route-parent-id": 1379,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "238-C",
+      "route-name": "BMBS-KBS",
+      "from-station-id": 37817,
+      "route-id": 2566,
+      "route-parent-id": 1478,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "238-UC",
+      "route-name": "VSL-KBS",
+      "from-station-id": 37817,
+      "route-id": 3267,
+      "route-parent-id": 1839,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "238-W",
+      "route-name": "NRP-KBS",
+      "from-station-id": 37817,
+      "route-id": 3295,
+      "route-parent-id": 1852,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "238-Y",
+      "route-name": "ITILO-KBS",
+      "from-station-id": 37817,
+      "route-id": 3299,
+      "route-parent-id": 1855,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "238-U BUADM-VJN-VSD",
+      "route-name": "BUADM-VSD",
+      "from-station-id": 37817,
+      "route-id": 7778,
+      "route-parent-id": 4183,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "238-US",
+      "route-name": "SGBS-KBS",
+      "from-station-id": 37817,
+      "route-id": 10627,
+      "route-parent-id": 5663,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "238-U",
+      "route-name": "MDPC-KBS",
+      "from-station-id": 37817,
+      "route-id": 10629,
+      "route-parent-id": 5664,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "238-U SBS-MDPC",
+      "route-name": "MDPC-SBS",
+      "from-station-id": 37817,
+      "route-id": 10671,
+      "route-parent-id": 5686,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "242-B SNBS-TVK (Calla Bus)",
+      "route-name": "TVK-SNBS",
+      "from-station-id": 21266,
+      "route-id": 10779,
+      "route-parent-id": 5747,
       "platform-name": null,
       "platform-number": null,
       "bay-number": null

@@ -1,16 +1,6 @@
 {
   "Unknown": [
     {
-      "route-number": "43-C MRBS-HSKH",
-      "route-name": "MRBS-HSK",
-      "from-station-id": 21042,
-      "route-id": 15046,
-      "route-parent-id": 8063,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
       "route-number": "237-J",
       "route-name": "JNN-PSN",
       "from-station-id": 21042,
@@ -26,6 +16,16 @@
       "from-station-id": 21042,
       "route-id": 1874,
       "route-parent-id": 1107,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "KBS-DPJN",
+      "route-name": "KBS-DPJN",
+      "from-station-id": 21042,
+      "route-id": 1930,
+      "route-parent-id": 1138,
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
@@ -76,16 +76,6 @@
       "from-station-id": 21042,
       "route-id": 3093,
       "route-parent-id": 1753,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "KIA-10",
-      "route-name": "MRBS-KIA",
-      "from-station-id": 21042,
-      "route-id": 3812,
-      "route-parent-id": 2124,
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
@@ -501,11 +491,21 @@
       "bay-number": null
     },
     {
-      "route-number": "KBS-DPJN",
-      "route-name": "KBS-DPJN",
+      "route-number": "43-C MRBS-HSKH",
+      "route-name": "MRBS-HSK",
       "from-station-id": 21042,
-      "route-id": 1930,
-      "route-parent-id": 1138,
+      "route-id": 15046,
+      "route-parent-id": 8063,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "KIA-10",
+      "route-name": "MRBS-KIA",
+      "from-station-id": 21042,
+      "route-id": 3812,
+      "route-parent-id": 2124,
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
@@ -601,26 +601,6 @@
       "bay-number": null
     },
     {
-      "route-number": "V-500KS",
-      "route-name": "MRBS-KDG",
-      "from-station-id": 21042,
-      "route-id": 3970,
-      "route-parent-id": 2205,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "410-FA MRBS-BSK",
-      "route-name": "MRBS-BSK",
-      "from-station-id": 21042,
-      "route-id": 7885,
-      "route-parent-id": 4238,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
       "route-number": "222-A KWS-KBS",
       "route-name": "KBS-KWS",
       "from-station-id": 21042,
@@ -646,6 +626,26 @@
       "from-station-id": 21042,
       "route-id": 1951,
       "route-parent-id": 1149,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "V-500KS",
+      "route-name": "MRBS-KDG",
+      "from-station-id": 21042,
+      "route-id": 3970,
+      "route-parent-id": 2205,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "410-FA MRBS-BSK",
+      "route-name": "MRBS-BSK",
+      "from-station-id": 21042,
+      "route-id": 7885,
+      "route-parent-id": 4238,
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
@@ -851,11 +851,41 @@
       "bay-number": null
     },
     {
-      "route-number": "226-M",
-      "route-name": "KMT-BDD",
+      "route-number": "G-6",
+      "route-name": "SNBS-SHIRKE",
       "from-station-id": 21042,
-      "route-id": 1922,
-      "route-parent-id": 1134,
+      "route-id": 1830,
+      "route-parent-id": 1083,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "222-C",
+      "route-name": "KBS-UPDB",
+      "from-station-id": 21042,
+      "route-id": 1935,
+      "route-parent-id": 1141,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "222-F",
+      "route-name": "KBS-SHIRKE",
+      "from-station-id": 21042,
+      "route-id": 1937,
+      "route-parent-id": 1142,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "222-H",
+      "route-name": "KBS-SNNH",
+      "from-station-id": 21042,
+      "route-id": 1939,
+      "route-parent-id": 1143,
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
@@ -866,6 +896,46 @@
       "from-station-id": 21042,
       "route-id": 1941,
       "route-parent-id": 1144,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "222-N",
+      "route-name": "KBS-JBWSH",
+      "from-station-id": 21042,
+      "route-id": 1943,
+      "route-parent-id": 1145,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "222-K",
+      "route-name": "SBS-SHIRKE",
+      "from-station-id": 21042,
+      "route-id": 2258,
+      "route-parent-id": 1312,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "G-6 FLYOVER",
+      "route-name": "SNBS-SHIRK",
+      "from-station-id": 21042,
+      "route-id": 7413,
+      "route-parent-id": 3984,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "226-M",
+      "route-name": "KMT-BDD",
+      "from-station-id": 21042,
+      "route-id": 1922,
+      "route-parent-id": 1134,
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
@@ -916,76 +986,6 @@
       "from-station-id": 21042,
       "route-id": 15133,
       "route-parent-id": 8108,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "G-6",
-      "route-name": "SNBS-SHIRKE",
-      "from-station-id": 21042,
-      "route-id": 1830,
-      "route-parent-id": 1083,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "222-C",
-      "route-name": "KBS-UPDB",
-      "from-station-id": 21042,
-      "route-id": 1935,
-      "route-parent-id": 1141,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "222-F",
-      "route-name": "KBS-SHIRKE",
-      "from-station-id": 21042,
-      "route-id": 1937,
-      "route-parent-id": 1142,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "222-H",
-      "route-name": "KBS-SNNH",
-      "from-station-id": 21042,
-      "route-id": 1939,
-      "route-parent-id": 1143,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "222-N",
-      "route-name": "KBS-JBWSH",
-      "from-station-id": 21042,
-      "route-id": 1943,
-      "route-parent-id": 1145,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "222-K",
-      "route-name": "SBS-SHIRKE",
-      "from-station-id": 21042,
-      "route-id": 2258,
-      "route-parent-id": 1312,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "G-6 FLYOVER",
-      "route-name": "SNBS-SHIRK",
-      "from-station-id": 21042,
-      "route-id": 7413,
-      "route-parent-id": 3984,
       "platform-name": null,
       "platform-number": null,
       "bay-number": null

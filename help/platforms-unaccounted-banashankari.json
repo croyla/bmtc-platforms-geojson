@@ -211,16 +211,6 @@
       "bay-number": null
     },
     {
-      "route-number": "KMT-MMI-BSK-KSLO",
-      "route-name": "KSLO-BSK-MMI-KMT",
-      "from-station-id": 20623,
-      "route-id": 1909,
-      "route-parent-id": 1128,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
       "route-number": "378-E D34-BSK",
       "route-name": "BSK-D34",
       "from-station-id": 20623,
@@ -241,31 +231,11 @@
       "bay-number": null
     },
     {
-      "route-number": "213-K KBS-GAT",
-      "route-name": "GAT-KBS",
+      "route-number": "KMT-MMI-BSK-KSLO",
+      "route-name": "KSLO-BSK-MMI-KMT",
       "from-station-id": 20623,
-      "route-id": 3339,
-      "route-parent-id": 1876,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "210 PPLO-KMT",
-      "route-name": "PPLO-KMT",
-      "from-station-id": 20623,
-      "route-id": 7234,
-      "route-parent-id": 3891,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "213-VD KMT-HRHD",
-      "route-name": "HRHD-VSD",
-      "from-station-id": 20624,
-      "route-id": 16376,
-      "route-parent-id": 8770,
+      "route-id": 1909,
+      "route-parent-id": 1128,
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
@@ -306,6 +276,36 @@
       "from-station-id": 20623,
       "route-id": 10980,
       "route-parent-id": 5858,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "213-K KBS-GAT",
+      "route-name": "GAT-KBS",
+      "from-station-id": 20623,
+      "route-id": 3339,
+      "route-parent-id": 1876,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "210 PPLO-KMT",
+      "route-name": "PPLO-KMT",
+      "from-station-id": 20623,
+      "route-id": 7234,
+      "route-parent-id": 3891,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "213-VD KMT-HRHD",
+      "route-name": "HRHD-VSD",
+      "from-station-id": 20624,
+      "route-id": 16376,
+      "route-parent-id": 8770,
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
