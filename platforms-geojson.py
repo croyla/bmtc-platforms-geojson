@@ -790,8 +790,17 @@ def build_geojson(
         else:
             platforms_routes["UNSORTED"].append(route_data)
 
+    # Exclusive platforms: routes must come from direct API assignment only (not cross-check)
+    exclusive_platforms = set()
+    for feature in platforms_geojson['features']:
+        if feature['properties'].get('Exclusive'):
+            plat_name = str(feature['properties'].get('Platform', '')).strip().upper()
+            exclusive_platforms.add(plat_name)
+
     # Additional step: Cross-check stop sequences against stop_platforms
-    # If a route passes through a stop in stop_platforms, add it to that platform too
+    # If a route passes through a stop in stop_platforms, add it to that platform too.
+    # Exclusive platforms are skipped — a route merely passing through their stop
+    # must not be pulled in, as it would then be incorrectly treated as exclusive.
     print('Cross-checking stop sequences against stop-platforms...')
     additional_assignments = 0
     for route_data in schedule_times["Received"]:
@@ -809,6 +818,9 @@ def build_geojson(
             if stop_id in stop_platforms:
                 platform = stop_platforms[stop_id].upper()
 
+                if platform in exclusive_platforms:
+                    break  # Don't cross-check into exclusive platforms
+
                 # Add to this platform if not already there
                 if platform in platforms_routes:
                     if route_id not in platform_route_ids[platform]:
@@ -820,19 +832,14 @@ def build_geojson(
 
     print(f'Added {additional_assignments} additional route assignments based on stop sequences')
 
-    # Enforce exclusive platforms: routes on an exclusive platform must not appear elsewhere
-    exclusive_platforms = set()
-    for feature in platforms_geojson['features']:
-        if feature['properties'].get('Exclusive'):
-            plat_name = str(feature['properties'].get('Platform', '')).strip().upper()
-            exclusive_platforms.add(plat_name)
+    # Enforce exclusive platforms: collect route IDs from direct API assignments only
+    # (cross-check was blocked above), then remove them from all other platforms.
+    exclusive_route_ids = set()
+    for plat_name in exclusive_platforms:
+        for route_data in platforms_routes.get(plat_name, []):
+            exclusive_route_ids.add(route_data['route-id'])
 
-    if exclusive_platforms:
-        exclusive_route_ids = set()
-        for plat_name in exclusive_platforms:
-            for route_data in platforms_routes.get(plat_name, []):
-                exclusive_route_ids.add(route_data['route-id'])
-
+    if exclusive_route_ids:
         removed_count = 0
         for plat_name in list(platforms_routes.keys()):
             if plat_name in exclusive_platforms:
