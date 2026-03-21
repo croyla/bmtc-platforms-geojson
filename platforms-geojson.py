@@ -820,6 +820,34 @@ def build_geojson(
 
     print(f'Added {additional_assignments} additional route assignments based on stop sequences')
 
+    # Enforce exclusive platforms: routes on an exclusive platform must not appear elsewhere
+    exclusive_platforms = set()
+    for feature in platforms_geojson['features']:
+        if feature['properties'].get('Exclusive'):
+            plat_name = str(feature['properties'].get('Platform', '')).strip().upper()
+            exclusive_platforms.add(plat_name)
+
+    if exclusive_platforms:
+        exclusive_route_ids = set()
+        for plat_name in exclusive_platforms:
+            for route_data in platforms_routes.get(plat_name, []):
+                exclusive_route_ids.add(route_data['route-id'])
+
+        removed_count = 0
+        for plat_name in list(platforms_routes.keys()):
+            if plat_name in exclusive_platforms:
+                continue
+            before = len(platforms_routes[plat_name])
+            platforms_routes[plat_name] = [
+                r for r in platforms_routes[plat_name]
+                if r['route-id'] not in exclusive_route_ids
+            ]
+            removed_count += before - len(platforms_routes[plat_name])
+            platform_route_ids[plat_name] -= exclusive_route_ids
+
+        if removed_count:
+            print(f'Removed {removed_count} route assignments enforced by exclusive platforms: {exclusive_platforms}')
+
     # Collect API stop IDs per platform:
     # - from-station-id of routes assigned here (if it's one of our stop_ids)
     # - any of our stop_ids appearing in the route's stop sequence
