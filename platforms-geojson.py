@@ -539,11 +539,12 @@ def fetch_route_parent_ids(route_numbers):
     return parent_ids
 
 
-def fetch_route_stops(route_parent_id, stop_ids, from_station_id=None):
+def fetch_route_stops(route_parent_id, stop_ids, from_station_id=None, route_id=None):
     """Use SearchByRouteDetails_v4 to get stop sequence for a route.
     Returns list of {stop_id, stop_name} for the correct direction.
 
     Direction selection priority:
+    0. Match route_id directly against the routeid in each direction's metadata.
     1. If from_station_id is given, pick the direction where from_station_id appears
        before one of our stop_ids (bus came from there, now departing onward).
     2. Pick the direction that starts at one of our stop_ids.
@@ -579,6 +580,13 @@ def fetch_route_stops(route_parent_id, stop_ids, from_station_id=None):
             {'stop_id': str(stop.get('stationid', '')), 'stop_name': stop.get('stationname', ''), 'stop_lat': stop.get('centerlat', 0), 'stop_lon': stop.get('centerlong', 0)}
             for stop in data
         ]
+
+    # Strategy 0: match route_id against the routeid embedded in each direction's stop data
+    if route_id:
+        for direction in ['up', 'down']:
+            data = result.get(direction, {}).get('data', [])
+            if data and str(data[0].get('routeid', '')) == str(route_id):
+                return direction_stops(direction)
 
     # Strategy 1: use from_station_id to pick the direction where the bus came from
     # (from_station_id appears before our stop_id in the sequence)
@@ -635,14 +643,18 @@ def fetch_all_route_stops(schedule_times, stop_ids):
 
     for route_data in schedule_times["Received"]:
         route_id = route_data["route-id"]
+        # if route_id not in [1666, 1670]:
+        #     print('Skipping route for stop sequence', route_id)
+        #     continue
         parent_id = route_data.get('route-parent-id', '')
         from_station_id = route_data.get('from-station-id', '')
         if not parent_id:
             continue
 
-        stops = fetch_route_stops(parent_id, stop_ids, from_station_id)
+        stops = fetch_route_stops(parent_id, stop_ids, from_station_id, route_id)
         if stops:
             route_stops[route_id] = stops
+            # print(f'stops for route {route_id}', stops.__str__())
 
     print(f'  Fetched stop sequences for {len(route_stops)} routes')
     return route_stops

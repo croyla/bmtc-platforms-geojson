@@ -2,6 +2,396 @@
   "Failed": [],
   "Received": [
     {
+      "route-number": "13",
+      "route-name": "SBS-BSK",
+      "from-station-id": 23640,
+      "route-id": 1666,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "1",
+      "bay-number": null
+    },
+    {
+      "route-number": "13-C",
+      "route-name": "SBS-KSLO",
+      "from-station-id": 23640,
+      "route-id": 1672,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "1",
+      "bay-number": null
+    },
+    {
+      "route-number": "SNBS-LBGM-KMT",
+      "route-name": "SNBS-KMT",
+      "from-station-id": 21167,
+      "route-id": 1791,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
+    },
+    {
+      "route-number": "13-E",
+      "route-name": "SBS-BSK3",
+      "from-station-id": 23640,
+      "route-id": 1842,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "1",
+      "bay-number": null
+    },
+    {
+      "route-number": "13-A",
+      "route-name": "SBS-KSLO2",
+      "from-station-id": 23640,
+      "route-id": 1974,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "1",
+      "bay-number": null
+    },
+    {
+      "route-number": "13-B",
+      "route-name": "SBS-PNBNR",
+      "from-station-id": 23640,
+      "route-id": 1978,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "1",
+      "bay-number": null
+    },
+    {
+      "route-number": "27",
+      "route-name": "SBS-MDN",
+      "from-station-id": 23640,
+      "route-id": 1979,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "1",
+      "bay-number": null
+    },
+    {
+      "route-number": "375-J",
+      "route-name": "SNBS-TPR",
+      "from-station-id": 21166,
+      "route-id": 1993,
+      "route-parent-id": "",
+      "platform-name": "8",
+      "platform-number": "8",
+      "bay-number": 3
+    },
+    {
+      "route-number": "13-D",
+      "route-name": "SBS-KDHP",
+      "from-station-id": 23640,
+      "route-id": 2858,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "1",
+      "bay-number": null
+    },
+    {
+      "route-number": "13-F",
+      "route-name": "SBS-CKA",
+      "from-station-id": 23640,
+      "route-id": 2860,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "13-H",
+      "route-name": "SBS-AGSL",
+      "from-station-id": 23640,
+      "route-id": 2862,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "1",
+      "bay-number": null
+    },
+    {
+      "route-number": "13-J",
+      "route-name": "SBS-HSK",
+      "from-station-id": 23640,
+      "route-id": 2866,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "1",
+      "bay-number": null
+    },
+    {
+      "route-number": "13-K",
+      "route-name": "SBS-MJN",
+      "from-station-id": 23640,
+      "route-id": 2873,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "1",
+      "bay-number": null
+    },
+    {
+      "route-number": "210-FA",
+      "route-name": "SBS-PPLO",
+      "from-station-id": 23640,
+      "route-id": 3470,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "1",
+      "bay-number": null
+    },
+    {
+      "route-number": "210-G",
+      "route-name": "SBS-VSP",
+      "from-station-id": 23640,
+      "route-id": 3790,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "1",
+      "bay-number": null
+    },
+    {
+      "route-number": "210-Q",
+      "route-name": "SBS-CKLS",
+      "from-station-id": 23640,
+      "route-id": 3799,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "1",
+      "bay-number": null
+    },
+    {
+      "route-number": "168-A",
+      "route-name": "JBN KMT",
+      "from-station-id": 21167,
+      "route-id": 3823,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
+    },
+    {
+      "route-number": "215-U",
+      "route-name": "SBS-HNG",
+      "from-station-id": 23640,
+      "route-id": 4213,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "1",
+      "bay-number": null
+    },
+    {
+      "route-number": "210-T",
+      "route-name": " SBS-PTGT",
+      "from-station-id": 23640,
+      "route-id": 4357,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "1",
+      "bay-number": null
+    },
+    {
+      "route-number": "210-G SBS-ISRLO-PPLO",
+      "route-name": "SBS-PPLO",
+      "from-station-id": 23640,
+      "route-id": 4479,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "1",
+      "bay-number": null
+    },
+    {
+      "route-number": "32",
+      "route-name": "SBS-NRC",
+      "from-station-id": 23640,
+      "route-id": 6066,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "1",
+      "bay-number": null
+    },
+    {
+      "route-number": "13 PPLO-SBS",
+      "route-name": "SBS-PPLO",
+      "from-station-id": 23640,
+      "route-id": 6140,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "1",
+      "bay-number": null
+    },
+    {
+      "route-number": "37-E",
+      "route-name": "SBS-GNR",
+      "from-station-id": 23640,
+      "route-id": 7074,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "1",
+      "bay-number": null
+    },
+    {
+      "route-number": "34-A",
+      "route-name": "SBS-BSK3",
+      "from-station-id": 23640,
+      "route-id": 7184,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "1",
+      "bay-number": null
+    },
+    {
+      "route-number": "34",
+      "route-name": "SBS-HSK",
+      "from-station-id": 23640,
+      "route-id": 7194,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "1",
+      "bay-number": null
+    },
+    {
+      "route-number": "215-U SBS-ANP",
+      "route-name": "SBS-AJP",
+      "from-station-id": 23640,
+      "route-id": 8184,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "1",
+      "bay-number": null
+    },
+    {
+      "route-number": "22-A",
+      "route-name": "SBS-BRS",
+      "from-station-id": 23640,
+      "route-id": 10466,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "1",
+      "bay-number": null
+    },
+    {
+      "route-number": "34-C SBS-PMLO",
+      "route-name": "SBS-PMLO",
+      "from-station-id": 23640,
+      "route-id": 10939,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "1",
+      "bay-number": null
+    },
+    {
+      "route-number": "215-S",
+      "route-name": "SBS-JSD",
+      "from-station-id": 23640,
+      "route-id": 11899,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "1",
+      "bay-number": null
+    },
+    {
+      "route-number": "MF-16A",
+      "route-name": "SNBS-SNBS",
+      "from-station-id": 21167,
+      "route-id": 13401,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
+    },
+    {
+      "route-number": "217-E",
+      "route-name": "SBS-MAT",
+      "from-station-id": 23640,
+      "route-id": 13457,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "1",
+      "bay-number": null
+    },
+    {
+      "route-number": "215-N D44-SBS",
+      "route-name": "SBS-D44",
+      "from-station-id": 23640,
+      "route-id": 15442,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "1",
+      "bay-number": null
+    },
+    {
+      "route-number": "215-S SJBS-JSD",
+      "route-name": "SJBS-JSD",
+      "from-station-id": 23640,
+      "route-id": 15902,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "CALLBUS-03 PPLO-SNBS",
+      "route-name": "SNBS-PPLO",
+      "from-station-id": 23640,
+      "route-id": 16182,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "27 KVN-SNBS",
+      "route-name": "SNBS-KVS",
+      "from-station-id": 23640,
+      "route-id": 16353,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "214-A SBS-JBS-TTG",
+      "route-name": "SBS-TTG",
+      "from-station-id": 23640,
+      "route-id": 16386,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "13-C SBS-PPLO",
+      "route-name": "SBS-PPLO",
+      "from-station-id": 23640,
+      "route-id": 16656,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "13-S",
+      "route-name": "STP-BSK",
+      "from-station-id": 23640,
+      "route-id": 16677,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "37 LBMS-SBS",
+      "route-name": "SBS-LBMS",
+      "from-station-id": 23640,
+      "route-id": 16747,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
       "route-number": "KBS-3A",
       "route-name": "KBS-ATB",
       "from-station-id": 21166,
@@ -202,20 +592,20 @@
       "bay-number": 3
     },
     {
-      "route-number": "KMT-SNBS-KRMTTMC",
-      "route-name": "KMT-KRMTTMC",
+      "route-number": "174",
+      "route-name": "MLO-KRM",
       "from-station-id": 21166,
-      "route-id": 2969,
+      "route-id": 2971,
       "route-parent-id": "",
       "platform-name": "8",
       "platform-number": "8",
       "bay-number": 3
     },
     {
-      "route-number": "174",
-      "route-name": "MLO-KRM",
+      "route-number": "348-C",
+      "route-name": "KBS-SSP",
       "from-station-id": 21166,
-      "route-id": 2971,
+      "route-id": 3237,
       "route-parent-id": "",
       "platform-name": "8",
       "platform-number": "8",
@@ -286,16 +676,6 @@
       "route-name": "KBS-BNP",
       "from-station-id": 21166,
       "route-id": 3616,
-      "route-parent-id": "",
-      "platform-name": "8",
-      "platform-number": "8",
-      "bay-number": 3
-    },
-    {
-      "route-number": "342-JB",
-      "route-name": "KBS-VGKH",
-      "from-station-id": 21166,
-      "route-id": 3751,
       "route-parent-id": "",
       "platform-name": "8",
       "platform-number": "8",
@@ -552,6 +932,16 @@
       "bay-number": 3
     },
     {
+      "route-number": "369-K VSD-DLF",
+      "route-name": "VSD-DLF",
+      "from-station-id": 21166,
+      "route-id": 8231,
+      "route-parent-id": "",
+      "platform-name": "8",
+      "platform-number": "8",
+      "bay-number": 3
+    },
+    {
       "route-number": "365 KBS-JRML",
       "route-name": "KBS-JMLO",
       "from-station-id": 21166,
@@ -702,10 +1092,30 @@
       "bay-number": 3
     },
     {
+      "route-number": "346-CK",
+      "route-name": "KBS-KSDBA",
+      "from-station-id": 21166,
+      "route-id": 10215,
+      "route-parent-id": "",
+      "platform-name": "8",
+      "platform-number": "8",
+      "bay-number": 3
+    },
+    {
       "route-number": "346-N",
       "route-name": "KBS-DDT",
       "from-station-id": 21166,
       "route-id": 10219,
+      "route-parent-id": "",
+      "platform-name": "8",
+      "platform-number": "8",
+      "bay-number": 3
+    },
+    {
+      "route-number": "342-H KBS-HSS",
+      "route-name": "KBS-HSS",
+      "from-station-id": 21166,
+      "route-id": 10327,
       "route-parent-id": "",
       "platform-name": "8",
       "platform-number": "8",
@@ -726,6 +1136,16 @@
       "route-name": "SBS-BTMS",
       "from-station-id": 21166,
       "route-id": 10573,
+      "route-parent-id": "",
+      "platform-name": "8",
+      "platform-number": "8",
+      "bay-number": 3
+    },
+    {
+      "route-number": "166",
+      "route-name": "SBS-KRM1",
+      "from-station-id": 21166,
+      "route-id": 10581,
       "route-parent-id": "",
       "platform-name": "8",
       "platform-number": "8",
@@ -786,6 +1206,16 @@
       "route-name": "KIA-RMM",
       "from-station-id": 21166,
       "route-id": 12136,
+      "route-parent-id": "",
+      "platform-name": "8",
+      "platform-number": "8",
+      "bay-number": 3
+    },
+    {
+      "route-number": "KBS-3F FLY VSD-ELC-ATB",
+      "route-name": "VSD-ATB",
+      "from-station-id": 21166,
+      "route-id": 12196,
       "route-parent-id": "",
       "platform-name": "8",
       "platform-number": "8",
@@ -872,6 +1302,16 @@
       "bay-number": 3
     },
     {
+      "route-number": "365-JA KBS-VSD-JDLF",
+      "route-name": "KBS-VSD-JDLF",
+      "from-station-id": 21166,
+      "route-id": 14932,
+      "route-parent-id": "",
+      "platform-name": "8",
+      "platform-number": "8",
+      "bay-number": 3
+    },
+    {
       "route-number": "359-A",
       "route-name": "KBS-ABS",
       "from-station-id": 21166,
@@ -922,10 +1362,30 @@
       "bay-number": 3
     },
     {
+      "route-number": "342 D42G-CPWD-VSD",
+      "route-name": "VSD-D42G",
+      "from-station-id": 21166,
+      "route-id": 15382,
+      "route-parent-id": "",
+      "platform-name": "8",
+      "platform-number": "8",
+      "bay-number": 3
+    },
+    {
       "route-number": "365-DB",
       "route-name": "KBS-BTRD",
       "from-station-id": 21166,
       "route-id": 15472,
+      "route-parent-id": "",
+      "platform-name": "8",
+      "platform-number": "8",
+      "bay-number": 3
+    },
+    {
+      "route-number": "168-D KBS-KVN",
+      "route-name": "KBS-KVN",
+      "from-station-id": 21166,
+      "route-id": 15476,
       "route-parent-id": "",
       "platform-name": "8",
       "platform-number": "8",
@@ -982,356 +1442,6 @@
       "bay-number": null
     },
     {
-      "route-number": "375-J",
-      "route-name": "SNBS-TPR",
-      "from-station-id": 21166,
-      "route-id": 1993,
-      "route-parent-id": "",
-      "platform-name": "8",
-      "platform-number": "8",
-      "bay-number": 3
-    },
-    {
-      "route-number": "MF-16A",
-      "route-name": "SNBS-SNBS",
-      "from-station-id": 21167,
-      "route-id": 13401,
-      "route-parent-id": "",
-      "platform-name": "2",
-      "platform-number": "2",
-      "bay-number": 4
-    },
-    {
-      "route-number": "13",
-      "route-name": "SBS-BSK",
-      "from-station-id": 23640,
-      "route-id": 1666,
-      "route-parent-id": "",
-      "platform-name": "",
-      "platform-number": "1",
-      "bay-number": null
-    },
-    {
-      "route-number": "13-C",
-      "route-name": "SBS-KSLO",
-      "from-station-id": 23640,
-      "route-id": 1672,
-      "route-parent-id": "",
-      "platform-name": "",
-      "platform-number": "1",
-      "bay-number": null
-    },
-    {
-      "route-number": "SNBS-LBGM-KMT",
-      "route-name": "SNBS-KMT",
-      "from-station-id": 21167,
-      "route-id": 1791,
-      "route-parent-id": "",
-      "platform-name": "2",
-      "platform-number": "2",
-      "bay-number": 4
-    },
-    {
-      "route-number": "13-E",
-      "route-name": "SBS-BSK3",
-      "from-station-id": 23640,
-      "route-id": 1842,
-      "route-parent-id": "",
-      "platform-name": "",
-      "platform-number": "1",
-      "bay-number": null
-    },
-    {
-      "route-number": "13-A",
-      "route-name": "SBS-KSLO2",
-      "from-station-id": 23640,
-      "route-id": 1974,
-      "route-parent-id": "",
-      "platform-name": "",
-      "platform-number": "1",
-      "bay-number": null
-    },
-    {
-      "route-number": "13-B",
-      "route-name": "SBS-PNBNR",
-      "from-station-id": 23640,
-      "route-id": 1978,
-      "route-parent-id": "",
-      "platform-name": "",
-      "platform-number": "1",
-      "bay-number": null
-    },
-    {
-      "route-number": "27",
-      "route-name": "SBS-MDN",
-      "from-station-id": 23640,
-      "route-id": 1979,
-      "route-parent-id": "",
-      "platform-name": "",
-      "platform-number": "1",
-      "bay-number": null
-    },
-    {
-      "route-number": "13-D",
-      "route-name": "SBS-KDHP",
-      "from-station-id": 23640,
-      "route-id": 2858,
-      "route-parent-id": "",
-      "platform-name": "",
-      "platform-number": "1",
-      "bay-number": null
-    },
-    {
-      "route-number": "13-F",
-      "route-name": "SBS-CKA",
-      "from-station-id": 23640,
-      "route-id": 2860,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "13-H",
-      "route-name": "SBS-AGSL",
-      "from-station-id": 23640,
-      "route-id": 2862,
-      "route-parent-id": "",
-      "platform-name": "",
-      "platform-number": "1",
-      "bay-number": null
-    },
-    {
-      "route-number": "13-J",
-      "route-name": "SBS-HSK",
-      "from-station-id": 23640,
-      "route-id": 2866,
-      "route-parent-id": "",
-      "platform-name": "",
-      "platform-number": "1",
-      "bay-number": null
-    },
-    {
-      "route-number": "13-K",
-      "route-name": "SBS-MJN",
-      "from-station-id": 23640,
-      "route-id": 2873,
-      "route-parent-id": "",
-      "platform-name": "",
-      "platform-number": "1",
-      "bay-number": null
-    },
-    {
-      "route-number": "210-FA",
-      "route-name": "SBS-PPLO",
-      "from-station-id": 23640,
-      "route-id": 3470,
-      "route-parent-id": "",
-      "platform-name": "",
-      "platform-number": "1",
-      "bay-number": null
-    },
-    {
-      "route-number": "210-G",
-      "route-name": "SBS-VSP",
-      "from-station-id": 23640,
-      "route-id": 3790,
-      "route-parent-id": "",
-      "platform-name": "",
-      "platform-number": "1",
-      "bay-number": null
-    },
-    {
-      "route-number": "210-Q",
-      "route-name": "SBS-CKLS",
-      "from-station-id": 23640,
-      "route-id": 3799,
-      "route-parent-id": "",
-      "platform-name": "",
-      "platform-number": "1",
-      "bay-number": null
-    },
-    {
-      "route-number": "168-A",
-      "route-name": "JBN KMT",
-      "from-station-id": 21167,
-      "route-id": 3823,
-      "route-parent-id": "",
-      "platform-name": "2",
-      "platform-number": "2",
-      "bay-number": 4
-    },
-    {
-      "route-number": "215-U",
-      "route-name": "SBS-HNG",
-      "from-station-id": 23640,
-      "route-id": 4213,
-      "route-parent-id": "",
-      "platform-name": "",
-      "platform-number": "1",
-      "bay-number": null
-    },
-    {
-      "route-number": "210-T",
-      "route-name": " SBS-PTGT",
-      "from-station-id": 23640,
-      "route-id": 4357,
-      "route-parent-id": "",
-      "platform-name": "",
-      "platform-number": "1",
-      "bay-number": null
-    },
-    {
-      "route-number": "210-G SBS-ISRLO-PPLO",
-      "route-name": "SBS-PPLO",
-      "from-station-id": 23640,
-      "route-id": 4479,
-      "route-parent-id": "",
-      "platform-name": "",
-      "platform-number": "1",
-      "bay-number": null
-    },
-    {
-      "route-number": "32",
-      "route-name": "SBS-NRC",
-      "from-station-id": 23640,
-      "route-id": 6066,
-      "route-parent-id": "",
-      "platform-name": "",
-      "platform-number": "1",
-      "bay-number": null
-    },
-    {
-      "route-number": "13 PPLO-SBS",
-      "route-name": "SBS-PPLO",
-      "from-station-id": 23640,
-      "route-id": 6140,
-      "route-parent-id": "",
-      "platform-name": "",
-      "platform-number": "1",
-      "bay-number": null
-    },
-    {
-      "route-number": "37-E",
-      "route-name": "SBS-GNR",
-      "from-station-id": 23640,
-      "route-id": 7074,
-      "route-parent-id": "",
-      "platform-name": "",
-      "platform-number": "1",
-      "bay-number": null
-    },
-    {
-      "route-number": "34-A",
-      "route-name": "SBS-BSK3",
-      "from-station-id": 23640,
-      "route-id": 7184,
-      "route-parent-id": "",
-      "platform-name": "",
-      "platform-number": "1",
-      "bay-number": null
-    },
-    {
-      "route-number": "34",
-      "route-name": "SBS-HSK",
-      "from-station-id": 23640,
-      "route-id": 7194,
-      "route-parent-id": "",
-      "platform-name": "",
-      "platform-number": "1",
-      "bay-number": null
-    },
-    {
-      "route-number": "215-U SBS-ANP",
-      "route-name": "SBS-AJP",
-      "from-station-id": 23640,
-      "route-id": 8184,
-      "route-parent-id": "",
-      "platform-name": "",
-      "platform-number": "1",
-      "bay-number": null
-    },
-    {
-      "route-number": "22-A",
-      "route-name": "SBS-BRS",
-      "from-station-id": 23640,
-      "route-id": 10466,
-      "route-parent-id": "",
-      "platform-name": "",
-      "platform-number": "1",
-      "bay-number": null
-    },
-    {
-      "route-number": "215-S",
-      "route-name": "SBS-JSD",
-      "from-station-id": 23640,
-      "route-id": 11899,
-      "route-parent-id": "",
-      "platform-name": "",
-      "platform-number": "1",
-      "bay-number": null
-    },
-    {
-      "route-number": "215-N D44-SBS",
-      "route-name": "SBS-D44",
-      "from-station-id": 23640,
-      "route-id": 15442,
-      "route-parent-id": "",
-      "platform-name": "",
-      "platform-number": "1",
-      "bay-number": null
-    },
-    {
-      "route-number": "27 KVN-SNBS",
-      "route-name": "SNBS-KVS",
-      "from-station-id": 23640,
-      "route-id": 16353,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "214-A SBS-JBS-TTG",
-      "route-name": "SBS-TTG",
-      "from-station-id": 23640,
-      "route-id": 16386,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "13-C SBS-PPLO",
-      "route-name": "SBS-PPLO",
-      "from-station-id": 23640,
-      "route-id": 16656,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "13-S",
-      "route-name": "STP-BSK",
-      "from-station-id": 23640,
-      "route-id": 16677,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "37 LBMS-SBS",
-      "route-name": "SBS-LBMS",
-      "from-station-id": 23640,
-      "route-id": 16747,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
       "route-number": "37",
       "route-name": "SBS-SNR",
       "from-station-id": 23640,
@@ -1349,6 +1459,26 @@
       "route-parent-id": "",
       "platform-name": "",
       "platform-number": "1",
+      "bay-number": null
+    },
+    {
+      "route-number": "G-6 SNBS-LMG-D12G",
+      "route-name": "SNBS-D12G",
+      "from-station-id": 21166,
+      "route-id": 15416,
+      "route-parent-id": "",
+      "platform-name": "8",
+      "platform-number": "8",
+      "bay-number": 3
+    },
+    {
+      "route-number": "37 SBS-WPLS",
+      "route-name": "SBS-WPLS",
+      "from-station-id": 23640,
+      "route-id": 16318,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
       "bay-number": null
     },
     {
@@ -1370,26 +1500,6 @@
       "platform-name": "8",
       "platform-number": "8",
       "bay-number": 3
-    },
-    {
-      "route-number": "D3-SNBS",
-      "route-name": "SNBS-D3",
-      "from-station-id": 21167,
-      "route-id": 1661,
-      "route-parent-id": "",
-      "platform-name": "2",
-      "platform-number": "2",
-      "bay-number": 4
-    },
-    {
-      "route-number": "D2-SNBS",
-      "route-name": "SNBS-D2",
-      "from-station-id": 21167,
-      "route-id": 1677,
-      "route-parent-id": "",
-      "platform-name": "2",
-      "platform-number": "2",
-      "bay-number": 4
     },
     {
       "route-number": "KBS-3A",
@@ -1712,6 +1822,16 @@
       "bay-number": 4
     },
     {
+      "route-number": "CALLBUS-10",
+      "route-name": "SNBS-YSTF",
+      "from-station-id": 21167,
+      "route-id": 2238,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
+    },
+    {
       "route-number": "349-C",
       "route-name": "HSKR-KBS",
       "from-station-id": 21167,
@@ -1872,16 +1992,6 @@
       "bay-number": 4
     },
     {
-      "route-number": "342-JB",
-      "route-name": "VGKH-KBS",
-      "from-station-id": 21167,
-      "route-id": 3752,
-      "route-parent-id": "",
-      "platform-name": "2",
-      "platform-number": "2",
-      "bay-number": 4
-    },
-    {
       "route-number": "171-H",
       "route-name": "NGV-KBS",
       "from-station-id": 21167,
@@ -1976,6 +2086,16 @@
       "route-name": "PTGT-SBS",
       "from-station-id": 21167,
       "route-id": 4358,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
+    },
+    {
+      "route-number": "315 SNBS-KRPGH",
+      "route-name": "SNBS-KRPGH",
+      "from-station-id": 21167,
+      "route-id": 4397,
       "route-parent-id": "",
       "platform-name": "2",
       "platform-number": "2",
@@ -2090,6 +2210,16 @@
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
+    },
+    {
+      "route-number": "13 PPLO-SBS",
+      "route-name": "PPLO-SBS",
+      "from-station-id": 21167,
+      "route-id": 6134,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
     },
     {
       "route-number": "343-K",
@@ -2222,10 +2352,30 @@
       "bay-number": null
     },
     {
+      "route-number": "G-6 FLYOVER",
+      "route-name": "SNBS-SHIRK",
+      "from-station-id": 21167,
+      "route-id": 7413,
+      "route-parent-id": "",
+      "platform-name": "1",
+      "platform-number": "1",
+      "bay-number": 4
+    },
+    {
       "route-number": "G-6 D12G-SBT",
       "route-name": "SBT-D12G",
       "from-station-id": 21167,
       "route-id": 7421,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
+    },
+    {
+      "route-number": "235-A SNBS-NBDA",
+      "route-name": "SNBS-NBDA",
+      "from-station-id": 21167,
+      "route-id": 7425,
       "route-parent-id": "",
       "platform-name": "2",
       "platform-number": "2",
@@ -2252,10 +2402,30 @@
       "bay-number": 4
     },
     {
+      "route-number": "CHAKRA-6",
+      "route-name": "CCC-CCC",
+      "from-station-id": 21167,
+      "route-id": 8202,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
+    },
+    {
       "route-number": "369-J",
       "route-name": "CKP-KBS",
       "from-station-id": 21167,
       "route-id": 8208,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
+    },
+    {
+      "route-number": "NDC-SNBS-KBS",
+      "route-name": "NYD-KBS",
+      "from-station-id": 21167,
+      "route-id": 8221,
       "route-parent-id": "",
       "platform-name": "2",
       "platform-number": "2",
@@ -2292,6 +2462,16 @@
       "bay-number": null
     },
     {
+      "route-number": "CALL BUS-8",
+      "route-name": "SNBS-CKB",
+      "from-station-id": 21167,
+      "route-id": 8781,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
+    },
+    {
       "route-number": "G-11 SNBS-BLR",
       "route-name": "SNBS-BLR",
       "from-station-id": 21167,
@@ -2326,6 +2506,16 @@
       "route-name": "MRS-KBS",
       "from-station-id": 21167,
       "route-id": 9149,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
+    },
+    {
+      "route-number": "89-E SNBS-CVN",
+      "route-name": "SNBS-CVN",
+      "from-station-id": 21167,
+      "route-id": 9161,
       "route-parent-id": "",
       "platform-name": "2",
       "platform-number": "2",
@@ -2372,6 +2562,16 @@
       "bay-number": 4
     },
     {
+      "route-number": "369-K KBS-DLF",
+      "route-name": "DLF-KBS",
+      "from-station-id": 21167,
+      "route-id": 9349,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
+    },
+    {
       "route-number": "171-F",
       "route-name": "NGVKRM-KBS",
       "from-station-id": 21167,
@@ -2396,6 +2596,16 @@
       "route-name": "CNP-KBS",
       "from-station-id": 21167,
       "route-id": 9532,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
+    },
+    {
+      "route-number": "356",
+      "route-name": "CNP-KBS",
+      "from-station-id": 21167,
+      "route-id": 9667,
       "route-parent-id": "",
       "platform-name": "2",
       "platform-number": "2",
@@ -2432,10 +2642,50 @@
       "bay-number": 4
     },
     {
+      "route-number": "G-6 BEML5-SNBS",
+      "route-name": "SNBS-BEML5",
+      "from-station-id": 21167,
+      "route-id": 10081,
+      "route-parent-id": "",
+      "platform-name": "1",
+      "platform-number": "1",
+      "bay-number": 4
+    },
+    {
+      "route-number": "346-CK",
+      "route-name": "KSBDA-KBS",
+      "from-station-id": 21167,
+      "route-id": 10217,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
+    },
+    {
       "route-number": "346-N",
       "route-name": "DDT-KBS",
       "from-station-id": 21167,
       "route-id": 10221,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
+    },
+    {
+      "route-number": "KRPGH-RBM-BMS-SNBS",
+      "route-name": "SNBS-KRPGH",
+      "from-station-id": 21167,
+      "route-id": 10234,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
+    },
+    {
+      "route-number": "171 KBS-SNCA",
+      "route-name": "SNCA-KBS",
+      "from-station-id": 21167,
+      "route-id": 10357,
       "route-parent-id": "",
       "platform-name": "2",
       "platform-number": "2",
@@ -2472,6 +2722,16 @@
       "bay-number": 4
     },
     {
+      "route-number": "144-E SNBS-SPHS",
+      "route-name": "SNBS-SPHS",
+      "from-station-id": 21167,
+      "route-id": 10835,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
+    },
+    {
       "route-number": "G-2 MH-SNBS",
       "route-name": "SNBS-MH",
       "from-station-id": 21167,
@@ -2480,6 +2740,16 @@
       "platform-name": "2",
       "platform-number": "2",
       "bay-number": 4
+    },
+    {
+      "route-number": "34-C SBS-PMLO",
+      "route-name": "PMLO-SBS",
+      "from-station-id": 23667,
+      "route-id": 10940,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
     },
     {
       "route-number": "347-B",
@@ -2552,6 +2822,26 @@
       "bay-number": 4
     },
     {
+      "route-number": "SNBS-BMETAG",
+      "route-name": "SNBS-BMETAG",
+      "from-station-id": 21167,
+      "route-id": 11955,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
+    },
+    {
+      "route-number": "215-S D34G-JBS-BCGS",
+      "route-name": "D34G-JBS-BCGS",
+      "from-station-id": 21167,
+      "route-id": 12105,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
+    },
+    {
       "route-number": "KIA-14",
       "route-name": "RMM-KIA",
       "from-station-id": 21167,
@@ -2602,10 +2892,40 @@
       "bay-number": 4
     },
     {
+      "route-number": "217-E",
+      "route-name": "MAT-SBS",
+      "from-station-id": 21167,
+      "route-id": 13458,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
+    },
+    {
       "route-number": "342-F KBS-KMS",
       "route-name": "KMS-KBS",
       "from-station-id": 21167,
       "route-id": 13875,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
+    },
+    {
+      "route-number": "168-D KBS-SJWA",
+      "route-name": "SJWA-KBS",
+      "from-station-id": 21167,
+      "route-id": 14048,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
+    },
+    {
+      "route-number": "27 BTT-VSD-SBS",
+      "route-name": "BTT-SBS",
+      "from-station-id": 21167,
+      "route-id": 14252,
       "route-parent-id": "",
       "platform-name": "2",
       "platform-number": "2",
@@ -2646,6 +2966,16 @@
       "route-name": "SNBS-HSK",
       "from-station-id": 21167,
       "route-id": 14648,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
+    },
+    {
+      "route-number": "317-SB SNBS-HSMT-HSK",
+      "route-name": "SNBS-HSK",
+      "from-station-id": 21167,
+      "route-id": 14808,
       "route-parent-id": "",
       "platform-name": "2",
       "platform-number": "2",
@@ -2732,6 +3062,16 @@
       "bay-number": 4
     },
     {
+      "route-number": "342 D42G-CPWD-VSD",
+      "route-name": "D42G-VSD",
+      "from-station-id": 21167,
+      "route-id": 15381,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
+    },
+    {
       "route-number": "354-C KBS-AJBN",
       "route-name": "AJBN-KBS",
       "from-station-id": 21167,
@@ -2742,10 +3082,30 @@
       "bay-number": 4
     },
     {
+      "route-number": "CALLBUS-7",
+      "route-name": "SNBS-D45G",
+      "from-station-id": 21167,
+      "route-id": 15462,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
+    },
+    {
       "route-number": "365-DB",
       "route-name": "BTRD-KBS",
       "from-station-id": 21167,
       "route-id": 15473,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
+    },
+    {
+      "route-number": "168-D KBS-KVN",
+      "route-name": "KVN-KBS",
+      "from-station-id": 21167,
+      "route-id": 15477,
       "route-parent-id": "",
       "platform-name": "2",
       "platform-number": "2",
@@ -2772,6 +3132,16 @@
       "bay-number": 4
     },
     {
+      "route-number": "342-H D42G-SJBHS",
+      "route-name": "D42G-SJBHS",
+      "from-station-id": 21167,
+      "route-id": 15633,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
+    },
+    {
       "route-number": "171 KBS-NGV-KRMTTCMC",
       "route-name": "KRMTTMC-NGV-KBS",
       "from-station-id": 21167,
@@ -2792,6 +3162,16 @@
       "bay-number": 4
     },
     {
+      "route-number": "215-S SJBS-JSD",
+      "route-name": "JSD-SJBS",
+      "from-station-id": 21167,
+      "route-id": 15903,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
+    },
+    {
       "route-number": "343-K VPL-VSD-KBS",
       "route-name": "VPL-VSD-KBS",
       "from-station-id": 21167,
@@ -2800,6 +3180,16 @@
       "platform-name": "2",
       "platform-number": "2",
       "bay-number": 4
+    },
+    {
+      "route-number": "37 SBS-WPLS",
+      "route-name": "WPLS-SBS",
+      "from-station-id": 23667,
+      "route-id": 16319,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
     },
     {
       "route-number": "214-A SBS-JBS-TTG",
@@ -2822,6 +3212,26 @@
       "bay-number": null
     },
     {
+      "route-number": "271-F SNBS-HGV",
+      "route-name": "SNBS-HSG",
+      "from-station-id": 21167,
+      "route-id": 16395,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
+    },
+    {
+      "route-number": "89-C SNBS-CVN",
+      "route-name": "SNBS-CVN",
+      "from-station-id": 21167,
+      "route-id": 16422,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
+    },
+    {
       "route-number": "349-A KBS-HDH",
       "route-name": "HND-KBS",
       "from-station-id": 21167,
@@ -2836,6 +3246,26 @@
       "route-name": "BSK-STP",
       "from-station-id": 21167,
       "route-id": 16678,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
+    },
+    {
+      "route-number": "D3-SNBS",
+      "route-name": "SNBS-D3",
+      "from-station-id": 21167,
+      "route-id": 1661,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 4
+    },
+    {
+      "route-number": "D2-SNBS",
+      "route-name": "SNBS-D2",
+      "from-station-id": 21167,
+      "route-id": 1677,
       "route-parent-id": "",
       "platform-name": "2",
       "platform-number": "2",
@@ -2872,14 +3302,34 @@
       "bay-number": null
     },
     {
-      "route-number": "G-6 FLYOVER DOWN",
-      "route-name": "SNBS-SHIRK",
-      "from-station-id": 21167,
-      "route-id": 7413,
+      "route-number": "CALLBUS-02 ANP-SNBS DOWN",
+      "route-name": "SNBSTTMC-AJP",
+      "from-station-id": 21166,
+      "route-id": 8241,
       "route-parent-id": "",
-      "platform-name": "1",
-      "platform-number": "1",
-      "bay-number": "4"
+      "platform-name": "8",
+      "platform-number": "8",
+      "bay-number": "3"
+    },
+    {
+      "route-number": "KBS-5H SNBSTTMC-KGP UP",
+      "route-name": "SNBSTTMC-KGP",
+      "from-station-id": 21166,
+      "route-id": 8246,
+      "route-parent-id": "",
+      "platform-name": "8",
+      "platform-number": "8",
+      "bay-number": "3"
+    },
+    {
+      "route-number": "CSB-SNBS DOWN",
+      "route-name": "SNBS-CSB",
+      "from-station-id": 21166,
+      "route-id": 14014,
+      "route-parent-id": "",
+      "platform-name": "8",
+      "platform-number": "8",
+      "bay-number": "3"
     }
   ]
 }
