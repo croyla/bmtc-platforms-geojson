@@ -306,7 +306,8 @@
       "type": "Feature",
       "properties": {
         "Platform": 5,
-        "Color": "#DE3D82"
+        "Color": "#DE3D82",
+        "Unreliable": true
       },
       "geometry": {
         "coordinates": [

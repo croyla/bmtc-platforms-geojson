@@ -5,7 +5,8 @@
       "id": 3,
       "type": "Feature",
       "properties": {
-        "Platform": 1
+        "Platform": 1,
+        "Color": "#017f5f"
       },
       "geometry": {
         "coordinates": [
@@ -19,7 +20,8 @@
       "id": 4,
       "type": "Feature",
       "properties": {
-        "Platform": "6B"
+        "Platform": "6B",
+        "Color": "#017f5f"
       },
       "geometry": {
         "coordinates": [
@@ -33,7 +35,8 @@
       "id": 5,
       "type": "Feature",
       "properties": {
-        "Platform": "6C"
+        "Platform": "6C",
+        "Color": "#017f5f"
       },
       "geometry": {
         "coordinates": [
@@ -47,7 +50,8 @@
       "id": 6,
       "type": "Feature",
       "properties": {
-        "Platform": "5B"
+        "Platform": "5B",
+        "Color": "#017f5f"
       },
       "geometry": {
         "coordinates": [
@@ -61,7 +65,8 @@
       "id": 13,
       "type": "Feature",
       "properties": {
-        "Platform": 1
+        "Platform": 1,
+        "Color": "#017f5f"
       },
       "geometry": {
         "coordinates": [
@@ -75,7 +80,8 @@
       "id": 14,
       "type": "Feature",
       "properties": {
-        "Platform": "1A"
+        "Platform": "1A",
+        "Color": "#017f5f"
       },
       "geometry": {
         "coordinates": [
@@ -89,7 +95,8 @@
       "id": 16,
       "type": "Feature",
       "properties": {
-        "Platform": "2A"
+        "Platform": "2A",
+        "Color": "#017f5f"
       },
       "geometry": {
         "coordinates": [
@@ -103,7 +110,8 @@
       "id": 17,
       "type": "Feature",
       "properties": {
-        "Platform": "2B"
+        "Platform": "2B",
+        "Color": "#017f5f"
       },
       "geometry": {
         "coordinates": [
@@ -117,7 +125,8 @@
       "id": 19,
       "type": "Feature",
       "properties": {
-        "Platform": 7
+        "Platform": 7,
+        "Color": "#017f5f"
       },
       "geometry": {
         "coordinates": [
@@ -131,7 +140,8 @@
       "id": "f087d74f6b8080c88d944a7a0853143f",
       "type": "Feature",
       "properties": {
-        "Platform": 6
+        "Platform": 6,
+        "Color": "#017f5f"
       },
       "geometry": {
         "coordinates": [
@@ -145,7 +155,8 @@
       "id": "43eba2dcd7d66eaf254c8967bad060df",
       "type": "Feature",
       "properties": {
-        "Platform": "6A"
+        "Platform": "6A",
+        "Color": "#017f5f"
       },
       "geometry": {
         "coordinates": [
@@ -159,7 +170,8 @@
       "id": "53aac842ec7f490b83b2954daaf26b33",
       "type": "Feature",
       "properties": {
-        "Platform": "5A"
+        "Platform": "5A",
+        "Color": "#017f5f"
       },
       "geometry": {
         "coordinates": [
@@ -173,7 +185,8 @@
       "id": "04ceeb3007b4d84ff23c7d96d8920f22",
       "type": "Feature",
       "properties": {
-        "Platform": 5
+        "Platform": 5,
+        "Color": "#017f5f"
       },
       "geometry": {
         "coordinates": [
@@ -187,7 +200,8 @@
       "id": "2ee472a9425f954eddbbe4d126964dbc",
       "type": "Feature",
       "properties": {
-        "Platform": 4
+        "Platform": 4,
+        "Color": "#017f5f"
       },
       "geometry": {
         "coordinates": [
@@ -201,7 +215,8 @@
       "id": "ffb22b25457b19c6a5fa318e6712d3eb",
       "type": "Feature",
       "properties": {
-        "Platform": "3B"
+        "Platform": "3B",
+        "Color": "#017f5f"
       },
       "geometry": {
         "coordinates": [
@@ -215,7 +230,8 @@
       "id": "4586dfe92a2c6df4c19333cca50948b2",
       "type": "Feature",
       "properties": {
-        "Platform": "3A"
+        "Platform": "3A",
+        "Color": "#017f5f"
       },
       "geometry": {
         "coordinates": [
@@ -229,7 +245,8 @@
       "id": "3d4dae90d5760eb318215dfdcca26900",
       "type": "Feature",
       "properties": {
-        "Platform": 3
+        "Platform": 3,
+        "Color": "#017f5f"
       },
       "geometry": {
         "coordinates": [
@@ -243,7 +260,8 @@
       "id": "267c24fd7640336ff61366cef0663d52",
       "type": "Feature",
       "properties": {
-        "Platform": 2
+        "Platform": 2,
+        "Color": "#017f5f"
       },
       "geometry": {
         "coordinates": [
@@ -257,7 +275,9 @@
       "id": "e5a7df78a7a31f333472f816955d5f93",
       "type": "Feature",
       "properties": {
-        "Platform": "Main Jn."
+        "Platform": "Junction",
+        "Icon": "J",
+        "Color": "#077f01"
       },
       "geometry": {
         "coordinates": [
@@ -271,7 +291,9 @@
       "id": "0e44c234ac4a75da590e8cbed687ebe2",
       "type": "Feature",
       "properties": {
-        "Platform": "Bangalore Fort"
+        "Platform": "Fort",
+        "Icon": "F",
+        "Color": "#077f01"
       },
       "geometry": {
         "coordinates": [
@@ -285,7 +307,9 @@
       "id": "a10f9603e0e9e375ee422483906b4868",
       "type": "Feature",
       "properties": {
-        "Platform": "Opp. Post Office"
+        "Platform": "West",
+        "Icon": "W",
+        "Color": "#077f01"
       },
       "geometry": {
         "coordinates": [
@@ -299,7 +323,9 @@
       "id": "e3b4470cb020284c7c7cb377f26680f5",
       "type": "Feature",
       "properties": {
-        "Platform": "Post Office"
+        "Platform": "East",
+        "Icon": "E",
+        "Color": "#077f01"
       },
       "geometry": {
         "coordinates": [
@@ -313,7 +339,9 @@
       "id": "39979dbf06a2bb25d476ee5a8710f54a",
       "type": "Feature",
       "properties": {
-        "Platform": "Masjid East"
+        "Platform": "Park",
+        "Icon": "P",
+        "Color": "#077f01"
       },
       "geometry": {
         "coordinates": [
@@ -327,7 +355,9 @@
       "id": "4282e3109e15d04972633eee7e527bd1",
       "type": "Feature",
       "properties": {
-        "Platform": "Masjid West"
+        "Platform": "SJP Road",
+        "Icon": "S",
+        "Color": "#077f01"
       },
       "geometry": {
         "coordinates": [

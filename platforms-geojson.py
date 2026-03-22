@@ -409,6 +409,56 @@ def fetch_missing_routes_by_id(missing_route_ids, routes_en, overrides):
     return received
 
 
+def fetch_trip_counts(route_ids):
+    """Fetch trip counts for each route using GetTimetableByRouteid_v3."""
+    print(f'Fetching trip counts for {len(route_ids)} routes...')
+
+    tomorrow = (datetime.datetime.now() + datetime.timedelta(days=1)).strftime('%Y-%m-%d')
+    start_time = f'{tomorrow} 00:01'
+    end_time = f'{tomorrow} 23:59'
+
+    trip_counts = {}
+    lock = threading.Lock()
+
+    def fetch_one(route_id):
+        data = json.dumps({
+            "routeid": route_id,
+            "starttime": start_time,
+            "endtime": end_time,
+            "current_date": tomorrow
+        })
+        cache_desc = f'GetTimetableByRouteid_v3_{route_id}'
+        cached = get_cached_response(cache_desc, data)
+        if cached is not None:
+            response = cached
+        else:
+            try:
+                response = requests.post(
+                    f'{API_URL}GetTimetableByRouteid_v3',
+                    headers=REQUEST_HEADERS_EN,
+                    data=data,
+                    timeout=30
+                ).json()
+                store_cached_response(cache_desc, data, response)
+            except Exception as e:
+                print(f'  Error fetching trip count for route {route_id}: {e}')
+                return route_id, 0
+
+        if response.get('Issuccess') is True and response.get('data'):
+            trips = response['data'][0].get('tripdetails', [])
+            return route_id, len(trips)
+        return route_id, 0
+
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as executor:
+        for route_id, count in executor.map(fetch_one, route_ids):
+            with lock:
+                trip_counts[route_id] = count
+
+    zero_count = sum(1 for c in trip_counts.values() if c == 0)
+    print(f'  Trip counts fetched: {len(trip_counts)} routes, {zero_count} with no trips')
+    return trip_counts
+
+
 # ──────────────────────────────────────────────
 # Kannada translations via Varnam API
 # ──────────────────────────────────────────────
@@ -538,7 +588,6 @@ def fetch_route_parent_ids(route_numbers):
     print(f'  Found parent IDs for {len(parent_ids)}/{len(route_numbers)} routes')
     return parent_ids
 
-
 def fetch_route_stops(route_parent_id, stop_ids, from_station_id=None, route_id=None):
     """Use SearchByRouteDetails_v4 to get stop sequence for a route.
     Returns list of {stop_id, stop_name} for the correct direction.
@@ -659,7 +708,6 @@ def fetch_all_route_stops(schedule_times, stop_ids):
     print(f'  Fetched stop sequences for {len(route_stops)} routes')
     return route_stops
 
-
 # ──────────────────────────────────────────────
 # Build output GeoJSON
 # ──────────────────────────────────────────────
@@ -731,7 +779,8 @@ def replacements(s: str) -> str:
 
 def build_geojson(
     schedule_times, routes_en, routes_kn, stop_platforms,
-    platforms_geojson, overrides, stop_ids, kn_cache, route_stops_api, file_nickname
+    platforms_geojson, overrides, stop_ids, kn_cache, route_stops_api, file_nickname,
+    trip_counts=None
 ):
     """Build the output GeoJSON matching the current app format."""
     print('Building output GeoJSON...')
@@ -866,6 +915,29 @@ def build_geojson(
 
         if removed_count:
             print(f'Removed {removed_count} route assignments enforced by exclusive platforms: {exclusive_platforms}')
+
+    # Filter routes below each platform's MinTrips threshold (default 1)
+    if trip_counts is not None:
+        platform_min_trips = {}
+        for feature in platforms_geojson['features']:
+            plat_name = str(feature['properties'].get('Platform', '')).strip().upper()
+            platform_min_trips[plat_name] = feature['properties'].get('MinTrips', 1)
+
+        removed_count = 0
+        for plat_name in list(platforms_routes.keys()):
+            if plat_name in ('UNKNOWN', 'UNSORTED'):
+                continue
+            min_trips = platform_min_trips.get(plat_name, 1)
+            before = len(platforms_routes[plat_name])
+            platforms_routes[plat_name] = [
+                r for r in platforms_routes[plat_name]
+                if trip_counts.get(r['route-id'], 0) >= min_trips
+            ]
+            removed_count += before - len(platforms_routes[plat_name])
+            platform_route_ids[plat_name] = {r['route-id'] for r in platforms_routes[plat_name]}
+
+        if removed_count:
+            print(f'Removed {removed_count} routes below MinTrips threshold')
 
     # Collect API stop IDs per platform:
     # - from-station-id of routes assigned here (if it's one of our stop_ids)
@@ -1100,6 +1172,10 @@ def main():
     # Step 4: Fetch stop sequences from API (SearchRoute_v2 + SearchByRouteDetails_v4)
     route_stops_api = fetch_all_route_stops(schedule_times, stop_ids)
 
+    # Step 4b: Fetch trip counts for all received routes
+    all_route_ids = [r['route-id'] for r in schedule_times['Received']]
+    trip_counts = fetch_trip_counts(all_route_ids)
+
     # Step 5: Build Kannada cache
     kn_cache = {}
     # Load existing Kannada translations if available
@@ -1118,7 +1194,7 @@ def main():
     geojson, platforms_routes = build_geojson(
         schedule_times, routes_en, routes_kn, stop_platforms,
         platforms_geojson, overrides, stop_ids, kn_cache,
-        route_stops_api, file_nickname
+        route_stops_api, file_nickname, trip_counts
     )
 
     # Write output

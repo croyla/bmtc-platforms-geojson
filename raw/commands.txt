@@ -4,7 +4,7 @@ python3 platforms-geojson.py 21042 38815 bapujinagar 15 > bapujinagar.log &
 python3 platforms-geojson.py 21923 21914 21915 35937 25137 21916 domlur 15 > domlur.log &
 python3 platforms-geojson.py 21544 21545 23374 23691 jayanagar 15 > jayanagar.log &
 python3 platforms-geojson.py 20944 20945 36640 20940 20941 20942 20943 21557 22199 22201 36229 31256 kalasipalya 15 > kalasipalya.log &
-python3 platforms-geojson.py 20925 20926 35360 36259 kengeri 15 > kengeri.log &
+python3 platforms-geojson.py 20925 20926 kengeri 15 > kengeri.log &
 python3 platforms-geojson.py 20686 20687 35932 kuvempunagar 15 > kuvempunagar.log &
 python3 platforms-geojson.py 20921 20922 35931 38880 majestic 15 > majestic.log &
 python3 platforms-geojson.py 21166 21167 23640 23667 shantinagar 15 > shantinagar.log &

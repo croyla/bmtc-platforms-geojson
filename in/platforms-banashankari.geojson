@@ -7,7 +7,8 @@
       "properties": {
         "Platform": "1",
         "OpenHour": 6.5,
-        "CloseHour": 23
+        "CloseHour": 23,
+        "Color": "#B50000"
       },
       "geometry": {
         "coordinates": [
@@ -23,7 +24,8 @@
       "properties": {
         "Platform": "2",
         "OpenHour": 6.5,
-        "CloseHour": 23
+        "CloseHour": 23,
+        "Color": "#0085B5"
       },
       "geometry": {
         "coordinates": [
@@ -39,7 +41,8 @@
       "properties": {
         "Platform": "3",
         "OpenHour": 6.5,
-        "CloseHour": 23
+        "CloseHour": 23,
+        "Color": "#B50000"
       },
       "geometry": {
         "coordinates": [
@@ -55,7 +58,8 @@
       "properties": {
         "Platform": "4",
         "OpenHour": 6.5,
-        "CloseHour": 23
+        "CloseHour": 23,
+        "Color": "#0085B5"
       },
       "geometry": {
         "coordinates": [
@@ -71,7 +75,8 @@
       "properties": {
         "Platform": "5",
         "OpenHour": 6.5,
-        "CloseHour": 23
+        "CloseHour": 23,
+        "Color": "#0085B5"
       },
       "geometry": {
         "coordinates": [
@@ -87,7 +92,8 @@
       "properties": {
         "Platform": "6",
         "OpenHour": 6.5,
-        "CloseHour": 23
+        "CloseHour": 23,
+        "Color": "#0085B5"
       },
       "geometry": {
         "coordinates": [
@@ -103,7 +109,8 @@
       "properties": {
         "Platform": "7",
         "OpenHour": 6.5,
-        "CloseHour": 23
+        "CloseHour": 23,
+        "Color": "#3BB500"
       },
       "geometry": {
         "coordinates": [
@@ -119,7 +126,8 @@
       "properties": {
         "Platform": "8",
         "OpenHour": 6.5,
-        "CloseHour": 23
+        "CloseHour": 23,
+        "Color": "#3BB500"
       },
       "geometry": {
         "coordinates": [
@@ -135,7 +143,8 @@
       "properties": {
         "Platform": "9",
         "OpenHour": 6.5,
-        "CloseHour": 23
+        "CloseHour": 23,
+        "Color": "#3BB500"
       },
       "geometry": {
         "coordinates": [
@@ -150,7 +159,8 @@
       "type": "Feature",
       "properties": {
         "Platform": "East",
-        "Icon": "E"
+        "Icon": "E",
+        "Color": "#0085B5"
       },
       "geometry": {
         "coordinates": [
@@ -179,7 +189,8 @@
       "type": "Feature",
       "properties": {
         "Platform": "South",
-        "Icon": "S"
+        "Icon": "S",
+        "Color": "#B50000"
       },
       "geometry": {
         "coordinates": [
@@ -196,7 +207,8 @@
         "Platform": "Main",
         "Icon": "M",
         "CloseHour": 6.5,
-        "OpenHour": 23
+        "OpenHour": 23,
+        "Color": "#B50000"
       },
       "geometry": {
         "coordinates": [
@@ -211,7 +223,8 @@
       "type": "Feature",
       "properties": {
         "Platform": "West",
-        "Icon": "W"
+        "Icon": "W",
+        "Color": "#3BB500"
       },
       "geometry": {
         "coordinates": [

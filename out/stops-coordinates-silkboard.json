@@ -79,26 +79,6 @@
     "lat": 12.99645,
     "lon": 77.66857
   },
-  "33931": {
-    "name": "Military Dairy Farm (Esteem Mall)",
-    "lat": 13.04974,
-    "lon": 77.59271
-  },
-  "23528": {
-    "name": "Kodigehalli Gate",
-    "lat": 13.05711,
-    "lon": 77.59323
-  },
-  "35107": {
-    "name": "Byatarayanapura",
-    "lat": 13.06646,
-    "lon": 77.59299
-  },
-  "25432": {
-    "name": "GKVK GATE",
-    "lat": 13.07254,
-    "lon": 77.59245
-  },
   "20790": {
     "name": "Goraguntepalya",
     "lat": 13.02895,
@@ -129,55 +109,10 @@
     "lat": 13.04283,
     "lon": 77.51276
   },
-  "20789": {
-    "name": "Goraguntepalya",
-    "lat": 13.02835,
-    "lon": 77.54123
-  },
-  "21017": {
-    "name": "MEI Factory",
-    "lat": 13.02652,
-    "lon": 77.54439
-  },
-  "21132": {
-    "name": "RMC Yard (Yeshawanthapura New Railway Station)",
-    "lat": 13.02462,
-    "lon": 77.54776
-  },
-  "20792": {
-    "name": "Govardhan Talkies",
-    "lat": 13.01853,
-    "lon": 77.55339
-  },
   "20851": {
     "name": "Ibbaluru",
     "lat": 12.9216,
     "lon": 77.66176
-  },
-  "20670": {
-    "name": "Big Bazzar ITPL",
-    "lat": 12.98823,
-    "lon": 77.73197
-  },
-  "21079": {
-    "name": "Pattandur Agrahara Gate",
-    "lat": 12.98803,
-    "lon": 77.73354
-  },
-  "20866": {
-    "name": "ITPL",
-    "lat": 12.98766,
-    "lon": 77.73704
-  },
-  "20801": {
-    "name": "GR Tech Park ITPL",
-    "lat": 12.98681,
-    "lon": 77.74338
-  },
-  "20680": {
-    "name": "BPL",
-    "lat": 12.98525,
-    "lon": 77.74828
   },
   "21113": {
     "name": "KR Pura Railway Station",
@@ -198,66 +133,6 @@
     "name": "Brooke Bond",
     "lat": 12.96392,
     "lon": 77.74833
-  },
-  "20960": {
-    "name": "Kundalahalli Gate",
-    "lat": 12.95674,
-    "lon": 77.71499
-  },
-  "20956": {
-    "name": "Kundalahalli",
-    "lat": 12.95832,
-    "lon": 77.71566
-  },
-  "20640": {
-    "name": "BEML Layout Gate",
-    "lat": 12.96083,
-    "lon": 77.71641
-  },
-  "20596": {
-    "name": "AECS Layout Cross",
-    "lat": 12.96511,
-    "lon": 77.71827
-  },
-  "20722": {
-    "name": "CMRIT College",
-    "lat": 12.96764,
-    "lon": 77.71389
-  },
-  "20958": {
-    "name": "Kundalahalli Colony",
-    "lat": 12.97022,
-    "lon": 77.71248
-  },
-  "20802": {
-    "name": "Graphite India",
-    "lat": 12.97821,
-    "lon": 77.71135
-  },
-  "21153": {
-    "name": "SAP Labs",
-    "lat": 12.9778,
-    "lon": 77.7144
-  },
-  "38798": {
-    "name": "Kundalahalli Metro Station",
-    "lat": 12.97753,
-    "lon": 77.71632
-  },
-  "20849": {
-    "name": "I Gate",
-    "lat": 12.97734,
-    "lon": 77.71863
-  },
-  "20949": {
-    "name": "KTPO",
-    "lat": 12.97702,
-    "lon": 77.72225
-  },
-  "23656": {
-    "name": "White Field Bus Station (Vydehi Hospital)",
-    "lat": 12.9774,
-    "lon": 77.72693
   },
   "20946": {
     "name": "KR Pura Govt Hospital",
@@ -314,70 +189,15 @@
     "lat": 13.02948,
     "lon": 77.63125
   },
-  "25819": {
-    "name": "Hebbala Bridge",
-    "lat": 13.0432,
-    "lon": 77.5903
-  },
   "20823": {
     "name": "Hebbala Bridge",
     "lat": 13.04259,
     "lon": 77.5925
   },
-  "30642": {
-    "name": "Kalkere Cross",
-    "lat": 13.02127,
-    "lon": 77.67891
-  },
   "21695": {
     "name": "B Channasandra Bridge(Ramamurthy Nagara Ring Road)",
     "lat": 13.01318,
     "lon": 77.66272
-  },
-  "34419": {
-    "name": "RK Apartment",
-    "lat": 13.01465,
-    "lon": 77.66531
-  },
-  "32982": {
-    "name": "Hoysala Nagara",
-    "lat": 13.01669,
-    "lon": 77.66888
-  },
-  "33975": {
-    "name": "Muneshwara Nagara",
-    "lat": 13.01793,
-    "lon": 77.67123
-  },
-  "34309": {
-    "name": "Raghavendra Circle",
-    "lat": 13.01995,
-    "lon": 77.67441
-  },
-  "33576": {
-    "name": "Koshys Hospital Kalkere",
-    "lat": 13.02077,
-    "lon": 77.67708
-  },
-  "29472": {
-    "name": "Akshayanagara",
-    "lat": 13.02072,
-    "lon": 77.68339
-  },
-  "32021": {
-    "name": "Bhakthi Yoga Ashrama",
-    "lat": 13.02262,
-    "lon": 77.6893
-  },
-  "29511": {
-    "name": "Anandapura",
-    "lat": 13.02423,
-    "lon": 77.69285
-  },
-  "34768": {
-    "name": "TC Palya",
-    "lat": 13.0216,
-    "lon": 77.69998
   },
   "22420": {
     "name": "Ramamurthy Nagara Police Station",
@@ -478,11 +298,6 @@
     "name": "Kuvempu Circle",
     "lat": 13.04457,
     "lon": 77.56281
-  },
-  "39174": {
-    "name": "Depot-10 Gate",
-    "lat": 13.02577,
-    "lon": 77.63181
   },
   "20915": {
     "name": "Kasthurinagara",
@@ -609,11 +424,6 @@
     "lat": 12.99563,
     "lon": 77.75855
   },
-  "35279": {
-    "name": "Hennur Junction",
-    "lat": 13.02751,
-    "lon": 77.63268
-  },
   "35570": {
     "name": "8th Mile Dasarahalli",
     "lat": 13.0451,
@@ -719,11 +529,6 @@
     "lat": 13.07734,
     "lon": 77.43133
   },
-  "21161": {
-    "name": "Sathya Sai Hospital",
-    "lat": 12.9823,
-    "lon": 77.72773
-  },
   "24270": {
     "name": "Chowdeshwarinagara JP Park",
     "lat": 13.03272,
@@ -748,20 +553,5 @@
     "name": "BEL Circle",
     "lat": 13.04339,
     "lon": 77.55713
-  },
-  "25427": {
-    "name": "GKVK",
-    "lat": 13.07792,
-    "lon": 77.58007
-  },
-  "33932": {
-    "name": "Military Dairy Farm (Esteem Mall)",
-    "lat": 13.04943,
-    "lon": 77.59324
-  },
-  "31591": {
-    "name": "Vidyaniketan School Hebbala",
-    "lat": 13.04769,
-    "lon": 77.59644
   }
 }

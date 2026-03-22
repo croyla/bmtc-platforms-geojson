@@ -2,63 +2,91 @@
   "type": "FeatureCollection",
   "features": [
     {
+      "id": "4deea8f5a62d0b02baad914b73b403e1",
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          77.48708456754686,
-          12.913792920676238
-        ]
-      },
       "properties": {
         "Platform": "1",
         "Color": "#9800D1",
-        "Alias": ["1A"]
+        "Alias": [
+          "1A"
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          77.48708456754686,
+          12.913792920676238
+        ],
+        "type": "Point"
       }
     },
     {
+      "id": "ca62ee774a84b9a4d490a16bf40e7556",
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          77.4872374534607,
-          12.913745862029169
-        ]
-      },
       "properties": {
         "Platform": "2",
         "Color": "#9800D1",
-        "Alias": ["2A"]
+        "Alias": [
+          "2A"
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          77.4872374534607,
+          12.913745862029169
+        ],
+        "type": "Point"
       }
     },
     {
+      "id": "f0362477176b57b99c3f4f5f0c2c9dcb",
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          77.48736083507539,
-          12.9137223327023
-        ]
-      },
       "properties": {
         "Platform": "3",
         "Color": "#9800D1",
-        "Alias": ["3A"]
+        "Alias": [
+          "3A"
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          77.48736083507539,
+          12.9137223327023
+        ],
+        "type": "Point"
       }
     },
     {
+      "id": "038df1866f0343d4ef5e217d40eae061",
       "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          77.48749226331712,
-          12.91368834589293
-        ]
-      },
       "properties": {
         "Platform": "4",
         "Color": "#9800D1",
-        "Alias": ["4A"]
+        "Alias": [
+          "4A"
+        ]
+      },
+      "geometry": {
+        "coordinates": [
+          77.48749226331712,
+          12.91368834589293
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "5e4bee1a6b97ed16135d810541ebbd0a",
+      "type": "Feature",
+      "properties": {
+        "Platform": "North",
+        "Icon": "N",
+        "Exclusive": true
+      },
+      "geometry": {
+        "coordinates": [
+          77.48663904366424,
+          12.914344368447374
+        ],
+        "type": "Point"
       }
     }
   ]

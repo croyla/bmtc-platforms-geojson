@@ -6,33 +6,55 @@ in geojson file format.
 Output files are in `out/`. These contain `platforms-routes-<stopname>.geojson`
 Every feature is a point. Each feature represents a platform. Each feature contains the following properties:
 
-| Property | Value  | Optional | Description                                                                             |
-|----------|--------|----------|-----------------------------------------------------------------------------------------|
-| Platform | String | no       | A human-readable unique name of the platform                                            |
-| Alias    | List   | yes      | A list of names the BMTC-API asociates with this platform (E.g B2 and 2)                |
-| Routes   | List   | no       | A list of objects that pass through this platform (According to BMTC and our overrides) |
+| Property  | Value          | Optional | Description                                                                             |
+|-----------|----------------|----------|-----------------------------------------------------------------------------------------|
+| Platform  | String         | no       | A human-readable unique name of the platform                                            |
+| Alias     | List           | yes      | A list of names the BMTC-API asociates with this platform (E.g B2 and 2)                |
+| Icon      | String         | yes      | A character of the platform used for rendering on maps                                  |
+| Color     | String Hexcode | no       | A hex color code to identify with the platform                                          |
+| OpenHour  | Decimal Number | no       | Opening hour of this platform as a number (e.g 6:30 AM -> 6.5, 7 PM -> 19)              |
+| CloseHour | Decimal Number | no       | Closing hour of this platform as a number                                               |
+| Routes    | List           | no       | A list of objects that pass through this platform (According to BMTC and our overrides) |
+| ApiIds    | List           | no       | A list of API stop ID strings that are referenced for this platform                     |
 
 A route object contains the following properties:
 
-| Property    | Value           | Description                                                                                                         |
-|-------------|-----------------|---------------------------------------------------------------------------------------------------------------------|
-| Name        | String          | The route number of this route                                                                                      |
-| Destination | String          | The destination stop name of this route                                                                             |
-| From        | Integer         | The BMTC-API ID for the stop this platform/route is associated with                                                 |
-| UniqueName  | String          | The "routename" value provided by the BMTC-API or labelled as shor-name in the gtfs, this doesnt have to be unique. |
-| Id          | Integer         | The BMTC-API ID for this route                                                                                      |
-| BayReported | Null or Integer | The bay this is reported to be in.                                                                                  |
-| Stops       | List            | A list of stop names this route is known to go through, this is not necessarily exhaustive.                         |
+| Property           | Value          | Description                                                                      |
+|--------------------|----------------|----------------------------------------------------------------------------------|
+| Route              | String         | The human-readable public facing name of this route                              |
+| RouteId            | Number         | The BMTC-API id of this route (direction specific id)                            |
+| RouteParentId      | Number         | The BMTC-API id of this route, used for live tracking (direction indifferent id) |
+| Destination        | String         | The destination stop name of this route                                          |
+| PlatformNumber     | String         | The reported platform of this route                                              |
+| FromStationId      | Number         | The BMTC-API ID for the stop this platform/route is associated with              |
+| KannadaDestination | String         | The kannada destination name for this route (as per BMTC-API)                    |
+| Stops              | List           | An ordered list of stop objects this route goes through                          |
+
+A stop object contains the following properties:
+
+| Property | Value          | Description                                                                |
+|----------|----------------|----------------------------------------------------------------------------|
+| name     | String         | English name of the stop                                                   |
+| name_kn  | String         | Kannada name of the stop, as per BMTC-API or transliterated via Varnam API |
+| stop_id  | String         | The BMTC-API id of this stop                                               |
+| lat      | Decimal Number | The center latitude of this stop, as per BMTC-API                          |
+| lon      | Decimal Number | The center longitude of this stop, as per BMTC-API                         |
+
 
 ### Input Files
 Input files are in `in/`. These contain the platform location for each stop. These files are user-contributed geojson files. The naming format is `platforms-<stopname>.geojson`
 These are processed and populated by the script.
 Every feature is a point. Each feature represents a platform. Each feature contains the following properties:
 
-| Property | Value  | Optional | Description                                                              |
-|----------|--------|----------|--------------------------------------------------------------------------|
-| Platform | String | no       | A human-readable unique name of the platform                             |
-| Alias    | List   | yes      | A list of names the BMTC-API asociates with this platform (E.g B2 and 2) |
+| Property  | Value          | Optional | Description                                                                     |
+|-----------|----------------|----------|---------------------------------------------------------------------------------|
+| Platform  | String         | no       | A human-readable unique name of the platform                                    |
+| Alias     | List           | yes      | A list of names the BMTC-API asociates with this platform (E.g B2 and 2)        |
+| Exclusive | Boolean        | yes      | Whether the routes in this platform should be exclusive to this platform or not |
+| Icon      | String         | yes      | A character of the platform used for rendering on maps                          |
+| Color     | String Hexcode | yes      | A hex color code to identify with the platform                                  |
+| OpenHour  | Decimal Number | yes      | Opening hour of this platform as a number (e.g 6:30 AM -> 6.5, 7 PM -> 19)      |
+| CloseHour | Decimal Number | yes      | Closing hour of this platform as a number                                       |
 
 Additionally, there are two json files, `overrides.json` and `stops-platforms.json`
 
