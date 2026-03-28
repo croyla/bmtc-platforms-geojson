@@ -14,26 +14,6 @@
     "lat": 12.92166,
     "lon": 77.62146
   },
-  "21232": {
-    "name": "Town Hall",
-    "lat": 12.96355,
-    "lon": 77.58375
-  },
-  "35387": {
-    "name": "Okalipura",
-    "lat": 12.98229,
-    "lon": 77.56783
-  },
-  "20922": {
-    "name": "Kempegowda Bus Station",
-    "lat": 12.97749,
-    "lon": 77.57327
-  },
-  "21914": {
-    "name": "Domlur",
-    "lat": 12.96111,
-    "lon": 77.63809
-  },
   "21917": {
     "name": "Domlur Flyover",
     "lat": 12.96048,
@@ -119,60 +99,10 @@
     "lat": 12.95704,
     "lon": 77.74039
   },
-  "21915": {
-    "name": "Domlur Flyover",
-    "lat": 12.96045,
-    "lon": 77.64251
-  },
-  "21913": {
-    "name": "Domlur",
-    "lat": 12.96122,
-    "lon": 77.63667
-  },
-  "21865": {
-    "name": "Commando Hospital",
-    "lat": 12.96268,
-    "lon": 77.62756
-  },
-  "22288": {
-    "name": "Military Accounts Office",
-    "lat": 12.96691,
-    "lon": 77.62117
-  },
-  "31011": {
-    "name": "Kendriya Vidyalaya ASC Center",
-    "lat": 12.96676,
-    "lon": 77.61259
-  },
   "20970": {
     "name": "Life Style (Sacred Heart School)",
     "lat": 12.96692,
     "lon": 77.61018
-  },
-  "21126": {
-    "name": "Richmond Circle",
-    "lat": 12.9658,
-    "lon": 77.60433
-  },
-  "22667": {
-    "name": "Pallavi Talkies",
-    "lat": 12.9679,
-    "lon": 77.59102
-  },
-  "20725": {
-    "name": "Corporation",
-    "lat": 12.96839,
-    "lon": 77.58675
-  },
-  "35383": {
-    "name": "Mysore Bank",
-    "lat": 12.97253,
-    "lon": 77.58199
-  },
-  "21200": {
-    "name": "Sujatha Talkies",
-    "lat": 12.98246,
-    "lon": 77.56208
   },
   "21173": {
     "name": "Shivajinagara Bus Station",
@@ -219,40 +149,10 @@
     "lat": 12.92405,
     "lon": 77.55264
   },
-  "20927": {
-    "name": "KH Road",
-    "lat": 12.95759,
-    "lon": 77.59286
-  },
-  "21166": {
-    "name": "Shanthinagara Bus Station",
-    "lat": 12.95449,
-    "lon": 77.59258
-  },
   "36441": {
     "name": "Kalyananagara Bus Stand",
     "lat": 13.02642,
     "lon": 77.63839
-  },
-  "21229": {
-    "name": "Tin Factory",
-    "lat": 12.99698,
-    "lon": 77.66937
-  },
-  "20863": {
-    "name": "ITI Colony Gate",
-    "lat": 13.00532,
-    "lon": 77.68522
-  },
-  "22207": {
-    "name": "KR Pura Market",
-    "lat": 13.00841,
-    "lon": 77.69403
-  },
-  "24153": {
-    "name": "BEML Gate",
-    "lat": 12.9713,
-    "lon": 77.6588
   },
   "22388": {
     "name": "Indiranagara Police Station/KFC",
@@ -293,26 +193,6 @@
     "name": "Hosmat Hospital (DIG Office)",
     "lat": 12.96893,
     "lon": 77.61529
-  },
-  "32517": {
-    "name": "Dodda Nekkundi Junction",
-    "lat": 12.95607,
-    "lon": 77.69166
-  },
-  "25050": {
-    "name": "Dodda Nekkundi Cross",
-    "lat": 12.96793,
-    "lon": 77.6933
-  },
-  "22755": {
-    "name": "Military Accounts Office",
-    "lat": 12.96707,
-    "lon": 77.6203
-  },
-  "22693": {
-    "name": "Trinity Circle",
-    "lat": 12.97071,
-    "lon": 77.61959
   },
   "22255": {
     "name": "Manipal Centre MG Road",
@@ -369,31 +249,6 @@
     "lat": 13.02248,
     "lon": 77.63714
   },
-  "20727": {
-    "name": "Corporation",
-    "lat": 12.96701,
-    "lon": 77.58822
-  },
-  "22226": {
-    "name": "Lido Talkies",
-    "lat": 12.97277,
-    "lon": 77.62074
-  },
-  "22006": {
-    "name": "Halasuru Police Station",
-    "lat": 12.97516,
-    "lon": 77.62544
-  },
-  "21921": {
-    "name": "Double Road Indiranagara",
-    "lat": 12.97843,
-    "lon": 77.63654
-  },
-  "33037": {
-    "name": "Indiranagara Metro Station",
-    "lat": 12.97849,
-    "lon": 77.63848
-  },
   "20704": {
     "name": "Central Silk Board Metro Station",
     "lat": 12.91674,
@@ -419,41 +274,6 @@
     "lat": 12.91657,
     "lon": 77.60427
   },
-  "23894": {
-    "name": "Koramangala 1st Block",
-    "lat": 12.92501,
-    "lon": 77.63448
-  },
-  "23895": {
-    "name": "Jakkasandra",
-    "lat": 12.92481,
-    "lon": 77.63802
-  },
-  "20805": {
-    "name": "Halasuru",
-    "lat": 12.97949,
-    "lon": 77.62949
-  },
-  "22527": {
-    "name": "Swamy Vivekananda Metro Station/Isolation Hospital",
-    "lat": 12.9858,
-    "lon": 77.64501
-  },
-  "21060": {
-    "name": "NGEF",
-    "lat": 12.98787,
-    "lon": 77.64987
-  },
-  "20634": {
-    "name": "Bayyappanahalli Metro Station",
-    "lat": 12.99001,
-    "lon": 77.65454
-  },
-  "20656": {
-    "name": "Benniganahalli",
-    "lat": 12.99428,
-    "lon": 77.6633
-  },
   "20671": {
     "name": "Binnamangala",
     "lat": 12.98384,
@@ -463,11 +283,6 @@
     "name": "Depot-06 Gate",
     "lat": 12.9824,
     "lon": 77.6344
-  },
-  "22199": {
-    "name": "KR Market",
-    "lat": 12.96437,
-    "lon": 77.57736
   },
   "22577": {
     "name": "Varthur kodi",
@@ -734,11 +549,6 @@
     "lat": 12.97703,
     "lon": 77.75104
   },
-  "23194": {
-    "name": "Kalamandira Marathahalli Bridge",
-    "lat": 12.95993,
-    "lon": 77.70143
-  },
   "22048": {
     "name": "Hosakote Flower Market",
     "lat": 13.07531,
@@ -754,35 +564,15 @@
     "lat": 13.07339,
     "lon": 77.78294
   },
-  "24060": {
-    "name": "Sharada Colony",
-    "lat": 12.99239,
-    "lon": 77.53358
-  },
-  "35141": {
-    "name": "Kamalanagara",
-    "lat": 12.99268,
-    "lon": 77.53082
-  },
-  "24062": {
-    "name": "Kamalanagara BEML Layout",
-    "lat": 12.9929,
-    "lon": 77.52925
-  },
-  "21031": {
-    "name": "Multiplex Marathahalli",
-    "lat": 12.95227,
-    "lon": 77.70002
-  },
-  "20749": {
-    "name": "Depot-25 Gate",
-    "lat": 12.91936,
-    "lon": 77.64255
-  },
   "38049": {
     "name": "Coffee Day Hope Farm",
     "lat": 12.97998,
     "lon": 77.75162
+  },
+  "20902": {
+    "name": "Kadugodi Bus Station",
+    "lat": 12.99563,
+    "lon": 77.75855
   },
   "21713": {
     "name": "Banashankari Hunasemara",
@@ -829,21 +619,6 @@
     "lat": 12.95469,
     "lon": 77.62074
   },
-  "35103": {
-    "name": "Sony World 80ft Road Koramangala",
-    "lat": 12.93694,
-    "lon": 77.62734
-  },
-  "35263": {
-    "name": "Rajajinagara Entrance",
-    "lat": 12.98428,
-    "lon": 77.55721
-  },
-  "21785": {
-    "name": "BRV Talkies Cubbon Road",
-    "lat": 12.97911,
-    "lon": 77.60273
-  },
   "23733": {
     "name": "Indira Nursing Home",
     "lat": 12.92907,
@@ -853,56 +628,6 @@
     "name": "KIMS College",
     "lat": 12.92718,
     "lon": 77.56176
-  },
-  "21918": {
-    "name": "Domlur Flyover",
-    "lat": 12.95799,
-    "lon": 77.64146
-  },
-  "22289": {
-    "name": "Military Bridge",
-    "lat": 12.94599,
-    "lon": 77.64015
-  },
-  "23925": {
-    "name": "BDA Complex HSR Layout",
-    "lat": 12.91293,
-    "lon": 77.63814
-  },
-  "37770": {
-    "name": "Ramesh Nagara Cross",
-    "lat": 12.95467,
-    "lon": 77.67995
-  },
-  "34375": {
-    "name": "Rameshnagara",
-    "lat": 12.96411,
-    "lon": 77.68213
-  },
-  "21719": {
-    "name": "Basavanagara",
-    "lat": 12.96664,
-    "lon": 77.68279
-  },
-  "35189": {
-    "name": "HAL Main Gate",
-    "lat": 12.95852,
-    "lon": 77.66629
-  },
-  "23646": {
-    "name": "Annasandrapalya Cross",
-    "lat": 12.96044,
-    "lon": 77.66607
-  },
-  "35810": {
-    "name": "Jeevan Bheemanagara Cross1",
-    "lat": 12.96687,
-    "lon": 77.66151
-  },
-  "36497": {
-    "name": "BEML Factory",
-    "lat": 12.97146,
-    "lon": 77.65908
   },
   "21677": {
     "name": "Austin Town",
@@ -949,26 +674,6 @@
     "lat": 12.98525,
     "lon": 77.64246
   },
-  "21496": {
-    "name": "Dasarahalli Kere",
-    "lat": 12.98595,
-    "lon": 77.54179
-  },
-  "37596": {
-    "name": "Marathahalli Bridge",
-    "lat": 12.95715,
-    "lon": 77.70096
-  },
-  "32516": {
-    "name": "Dodda Nekkundi",
-    "lat": 12.97146,
-    "lon": 77.69418
-  },
-  "24059": {
-    "name": "Basaveshwaranagara New Bus Stand",
-    "lat": 12.98832,
-    "lon": 77.5336
-  },
   "21727": {
     "name": "Bayyappanahalli Gate",
     "lat": 12.99157,
@@ -1014,70 +719,10 @@
     "lat": 12.99847,
     "lon": 77.62384
   },
-  "21932": {
-    "name": "Electric B Station",
-    "lat": 12.97405,
-    "lon": 77.61394
-  },
-  "38187": {
-    "name": "Trinity Metro Station",
-    "lat": 12.97295,
-    "lon": 77.61689
-  },
-  "36276": {
-    "name": "Kadu bisanahalli",
-    "lat": 12.93934,
-    "lon": 77.6957
-  },
-  "23705": {
-    "name": "Panathuru",
-    "lat": 12.93657,
-    "lon": 77.70368
-  },
-  "21924": {
-    "name": "Dr BR Ambedkar Bus Terminal (Domlur)",
-    "lat": 12.96191,
-    "lon": 77.63853
-  },
   "21923": {
     "name": "Dr BR Ambedkar Bus Terminal (Domlur)",
     "lat": 12.96163,
     "lon": 77.63881
-  },
-  "23320": {
-    "name": "Munnekolalu Junction",
-    "lat": 12.95646,
-    "lon": 77.7049
-  },
-  "23321": {
-    "name": "Munnekolalu",
-    "lat": 12.94854,
-    "lon": 77.70802
-  },
-  "21648": {
-    "name": "Annasandrapalya",
-    "lat": 12.96444,
-    "lon": 77.67236
-  },
-  "28511": {
-    "name": "Lal Bahaddur Shastri Nagara",
-    "lat": 12.96927,
-    "lon": 77.67022
-  },
-  "31921": {
-    "name": "Bashyam Circle Rajajinagara",
-    "lat": 12.98441,
-    "lon": 77.55398
-  },
-  "21506": {
-    "name": "Dhobi Ghat Rajajinagara",
-    "lat": 12.98701,
-    "lon": 77.55087
-  },
-  "21538": {
-    "name": "Industrial Town Rajajinagara",
-    "lat": 12.98447,
-    "lon": 77.54837
   },
   "31869": {
     "name": "Banashankari Post Office",
@@ -1088,21 +733,6 @@
     "name": "Nagalakshmi Kalyana Mantapa",
     "lat": 12.9274,
     "lon": 77.56794
-  },
-  "35937": {
-    "name": "Domlur Flyover",
-    "lat": 12.9606,
-    "lon": 77.64155
-  },
-  "32660": {
-    "name": "GBJ Colony Gate Doddanekkundi",
-    "lat": 12.95753,
-    "lon": 77.69134
-  },
-  "23511": {
-    "name": "Bhoganahalli",
-    "lat": 12.92644,
-    "lon": 77.70108
   },
   "33590": {
     "name": "Krishnasagara",
@@ -1119,49 +749,19 @@
     "lat": 12.93651,
     "lon": 77.55954
   },
+  "24979": {
+    "name": "Dhoopanahalli",
+    "lat": 12.96336,
+    "lon": 77.64146
+  },
   "39474": {
     "name": "ESI Hospital Indiranagara",
     "lat": 12.97094,
     "lon": 77.63594
   },
-  "20812": {
-    "name": "Havanur Circle",
-    "lat": 12.98797,
-    "lon": 77.53717
-  },
-  "36748": {
-    "name": "HAL ARDC",
-    "lat": 12.96185,
-    "lon": 77.68527
-  },
-  "31637": {
-    "name": "Wind Tunnel Road (Murugeshpalya)",
-    "lat": 12.9592,
-    "lon": 77.65427
-  },
-  "32702": {
-    "name": "Golf Club HAL",
-    "lat": 12.95262,
-    "lon": 77.65257
-  },
-  "32217": {
-    "name": "Challaghatta",
-    "lat": 12.94603,
-    "lon": 77.64913
-  },
-  "29616": {
-    "name": "B Nagasandra",
-    "lat": 12.94436,
-    "lon": 77.65279
-  },
-  "23703": {
-    "name": "Yamalur",
-    "lat": 12.94844,
-    "lon": 77.68076
-  },
-  "30969": {
-    "name": "Kempapura",
-    "lat": 12.94658,
-    "lon": 77.67305
+  "39472": {
+    "name": "Cambridge Hospital",
+    "lat": 12.97191,
+    "lon": 77.62726
   }
 }
