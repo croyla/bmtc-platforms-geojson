@@ -2,94 +2,131 @@
   "type": "FeatureCollection",
   "features": [
     {
+      "id": "230fbb51c20694c0ae0a507840bd56f6",
       "type": "Feature",
+      "properties": {
+        "Platform": "1"
+      },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           77.58443534374237,
           12.928469557267771
-        ]
-      },
-      "properties": {
-        "Platform": "1"
+        ],
+        "type": "Point"
       }
     },
     {
+      "id": "c3d16d91ebf22e9f4774dee218aaf8f9",
       "type": "Feature",
+      "properties": {
+        "Platform": "2"
+      },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           77.5843119621277,
           12.928485242559685
-        ]
-      },
-      "properties": {
-        "Platform": "2"
+        ],
+        "type": "Point"
       }
     },
     {
+      "id": "845d3ffa899a0cf421c778387839bf92",
       "type": "Feature",
+      "properties": {
+        "Platform": "2A"
+      },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           77.58457213640214,
           12.928456486190415
-        ]
-      },
-      "properties": {
-        "Platform": "2A"
+        ],
+        "type": "Point"
       }
     },
     {
+      "id": "01c1ef1a0cee3ee56d8b0b94e869108d",
       "type": "Feature",
+      "properties": {
+        "Platform": "3"
+      },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           77.5846177339554,
           12.928527069999975
-        ]
-      },
-      "properties": {
-        "Platform": "3"
+        ],
+        "type": "Point"
       }
     },
     {
+      "id": "da94b69212a8412fb190bfa3ecf0bc35",
       "type": "Feature",
+      "properties": {
+        "Platform": "4"
+      },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           77.58425295352937,
           12.92857151164761
-        ]
-      },
-      "properties": {
-        "Platform": "4"
+        ],
+        "type": "Point"
       }
     },
     {
+      "id": "bf3d24712760764fc3cdda9e152c8cc1",
       "type": "Feature",
+      "properties": {
+        "Platform": "5"
+      },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           77.5846016407013,
           12.928576740076224
-        ]
-      },
-      "properties": {
-        "Platform": "5"
+        ],
+        "type": "Point"
       }
     },
     {
+      "id": "741d4005670d87badc308662ab2f7085",
       "type": "Feature",
+      "properties": {
+        "Platform": "6"
+      },
       "geometry": {
-        "type": "Point",
         "coordinates": [
           77.58401960134508,
           12.928461714621433
-        ]
-      },
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "d98715111e5965c3ae763195a3ab3031",
+      "type": "Feature",
       "properties": {
-        "Platform": "6"
+        "Platform": "South",
+        "Icon": "S"
+      },
+      "geometry": {
+        "coordinates": [
+          77.58365982123007,
+          12.928028906101815
+        ],
+        "type": "Point"
+      }
+    },
+    {
+      "id": "1ca0497d050b4e2a6b4291e0d4d6d651",
+      "type": "Feature",
+      "properties": {
+        "Platform": "North",
+        "Icon": "N"
+      },
+      "geometry": {
+        "coordinates": [
+          77.5838218326196,
+          12.928715949054407
+        ],
+        "type": "Point"
       }
     }
   ]
