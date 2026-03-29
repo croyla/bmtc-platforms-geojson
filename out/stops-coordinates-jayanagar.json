@@ -129,26 +129,6 @@
     "lat": 12.97253,
     "lon": 77.58199
   },
-  "35403": {
-    "name": "Sirsi Circle",
-    "lat": 12.96022,
-    "lon": 77.55921
-  },
-  "21043": {
-    "name": "Mysore Road TollGate",
-    "lat": 12.95768,
-    "lon": 77.55319
-  },
-  "21057": {
-    "name": "New Guddadahalli",
-    "lat": 12.95641,
-    "lon": 77.54761
-  },
-  "21042": {
-    "name": "Mysore Road Bus Station",
-    "lat": 12.9536,
-    "lon": 77.54378
-  },
   "20925": {
     "name": "Kengeri Bus Station",
     "lat": 12.91379,
@@ -169,30 +149,10 @@
     "lat": 12.98396,
     "lon": 77.60323
   },
-  "20852": {
-    "name": "Income Tax Layout",
-    "lat": 12.96007,
-    "lon": 77.53112
-  },
-  "20779": {
-    "name": "Ganesha Temple Chandra Layout",
-    "lat": 12.95803,
-    "lon": 77.52876
-  },
-  "20712": {
-    "name": "Chandra Layout Circle",
-    "lat": 12.95815,
-    "lon": 77.5265
-  },
   "21629": {
     "name": "12th Block Nagarabhavi",
     "lat": 12.96018,
     "lon": 77.51398
-  },
-  "20715": {
-    "name": "Chandra Public School",
-    "lat": 12.96029,
-    "lon": 77.52954
   },
   "39679": {
     "name": "Attiguppe Metro Station",
@@ -1224,11 +1184,6 @@
     "lat": 12.89635,
     "lon": 77.55242
   },
-  "21722": {
-    "name": "Basavanagudi Police Station",
-    "lat": 12.9416,
-    "lon": 77.57376
-  },
   "22512": {
     "name": "Srinivasa Nagara",
     "lat": 12.93787,
@@ -1258,16 +1213,6 @@
     "name": "Vidyapeeta Circle",
     "lat": 12.93521,
     "lon": 77.56066
-  },
-  "21119": {
-    "name": "Ramakrishna Ashrama",
-    "lat": 12.94898,
-    "lon": 77.56765
-  },
-  "20644": {
-    "name": "Bengaluru High School",
-    "lat": 12.95209,
-    "lon": 77.56749
   },
   "22068": {
     "name": "Indian Express",
@@ -1408,36 +1353,6 @@
     "name": "Koramangala Water Tank",
     "lat": 12.92789,
     "lon": 77.62123
-  },
-  "23374": {
-    "name": "Jayanagara Bus Station",
-    "lat": 12.92864,
-    "lon": 77.58475
-  },
-  "34523": {
-    "name": "Shanthi Talkies",
-    "lat": 12.93669,
-    "lon": 77.57899
-  },
-  "29994": {
-    "name": "Bharathi Nursing Home Jayanagara",
-    "lat": 12.93682,
-    "lon": 77.57395
-  },
-  "34051": {
-    "name": "Nagasandra Circle",
-    "lat": 12.93687,
-    "lon": 77.57193
-  },
-  "23685": {
-    "name": "Nettakallappa Circle",
-    "lat": 12.93945,
-    "lon": 77.57204
-  },
-  "35197": {
-    "name": "Gandhi Bazaar",
-    "lat": 12.94622,
-    "lon": 77.57014
   },
   "20607": {
     "name": "Apex Bank",
@@ -1904,11 +1819,6 @@
     "lat": 12.92317,
     "lon": 77.59363
   },
-  "22776": {
-    "name": "Chandra Layout",
-    "lat": 12.95925,
-    "lon": 77.52671
-  },
   "23733": {
     "name": "Indira Nursing Home",
     "lat": 12.92907,
@@ -2068,16 +1978,6 @@
     "name": "9th Block Jayanagara (40th Cross)",
     "lat": 12.91969,
     "lon": 77.59247
-  },
-  "20710": {
-    "name": "Chamarajapet",
-    "lat": 12.95707,
-    "lon": 77.56705
-  },
-  "21117": {
-    "name": "Rama Mandira Chamarajapet",
-    "lat": 12.957,
-    "lon": 77.56302
   },
   "32624": {
     "name": "Ganapathipura",
@@ -2264,11 +2164,6 @@
     "lat": 12.91957,
     "lon": 77.59284
   },
-  "21233": {
-    "name": "TR Mill",
-    "lat": 12.95683,
-    "lon": 77.55921
-  },
   "37682": {
     "name": "Bata Show Room banashankari",
     "lat": 12.92348,
@@ -2314,6 +2209,16 @@
     "lat": 12.87718,
     "lon": 77.60221
   },
+  "31506": {
+    "name": "Udupi Garden Petrol Bunk",
+    "lat": 12.91717,
+    "lon": 77.61007
+  },
+  "22884": {
+    "name": "17th Main Hopcoms BTM Layout",
+    "lat": 12.91953,
+    "lon": 77.61028
+  },
   "31869": {
     "name": "Banashankari Post Office",
     "lat": 12.92623,
@@ -2323,6 +2228,11 @@
     "name": "Nagalakshmi Kalyana Mantapa",
     "lat": 12.9274,
     "lon": 77.56794
+  },
+  "38115": {
+    "name": "Sanjay Gandhi Hospital",
+    "lat": 12.92687,
+    "lon": 77.5936
   },
   "34472": {
     "name": "Sarakki Signal",
@@ -2418,6 +2328,16 @@
     "name": "Kengeri",
     "lat": 12.91237,
     "lon": 77.4854
+  },
+  "35288": {
+    "name": "Gangothri Circle",
+    "lat": 12.91967,
+    "lon": 77.61291
+  },
+  "26230": {
+    "name": "Jai Bheema Nagara",
+    "lat": 12.91946,
+    "lon": 77.61567
   },
   "39361": {
     "name": "Arakere Gate",

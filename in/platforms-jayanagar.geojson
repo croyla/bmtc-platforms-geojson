@@ -134,8 +134,7 @@
       "type": "Feature",
       "properties": {
         "Platform": "4th Block",
-        "Icon": "B",
-        "Exclusive": true
+        "Icon": "B"
       },
       "geometry": {
         "coordinates": [
