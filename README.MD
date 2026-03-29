@@ -1,6 +1,7 @@
 ## [Unofficial] BMTC Platform information in GeoJSON
 Unofficial GeoJSONs platform-route information for bus stands in bengaluru
 in geojson file format.
+See a running viz at [platforms.blrtransit.com](https://platforms.blrtransit.com/)
 
 ### Output Files
 Output files are in `out/`. These contain `platforms-routes-<stopname>.geojson`
@@ -66,10 +67,10 @@ The `overrides.json` handles overriding the API data, and is structured like so:
   }
 }
 ```
-The `stops-platforms.json` handles instances where a separate stop is to be treated like a platform, it is structured like below:
+The `in/stops-platforms-<stopname>.json` handles instances where a separate stop is to be treated like a platform, it is structured like below:
 ```
 {
-  stop_id: platform_name
+  comma_separated_stop_ids: platform_name
 }
 ```
 ### Raw Files
