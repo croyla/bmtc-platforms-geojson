@@ -128,6 +128,22 @@
         ],
         "type": "Point"
       }
+    },
+    {
+      "id": "4b545df9d73bee14400f835e5d32e2f2",
+      "type": "Feature",
+      "properties": {
+        "Platform": "4th Block",
+        "Icon": "B",
+        "Exclusive": true
+      },
+      "geometry": {
+        "coordinates": [
+          77.58601634043782,
+          12.92919281239331
+        ],
+        "type": "Point"
+      }
     }
   ]
 }
