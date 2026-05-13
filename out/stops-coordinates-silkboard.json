@@ -44,35 +44,15 @@
     "lat": 12.9564,
     "lon": 77.70927
   },
-  "22215": {
-    "name": "Kundalahalli Gate",
-    "lat": 12.95593,
-    "lon": 77.71574
-  },
-  "22557": {
-    "name": "Thubarahalli",
-    "lat": 12.95592,
-    "lon": 77.72057
-  },
-  "22487": {
-    "name": "Siddapura",
-    "lat": 12.95634,
-    "lon": 77.73191
-  },
-  "22412": {
-    "name": "Ramagondanahalli",
-    "lat": 12.95704,
-    "lon": 77.74039
-  },
   "21288": {
     "name": "Yeshawanthapura Bus Station",
     "lat": 13.01801,
     "lon": 77.55662
   },
-  "22206": {
+  "22207": {
     "name": "KR Pura Market",
-    "lat": 13.00821,
-    "lon": 77.69535
+    "lat": 13.00841,
+    "lon": 77.69403
   },
   "21228": {
     "name": "Tin Factory",
@@ -114,30 +94,100 @@
     "lat": 12.9216,
     "lon": 77.66176
   },
+  "20670": {
+    "name": "Big Bazzar ITPL",
+    "lat": 12.98823,
+    "lon": 77.73197
+  },
+  "21079": {
+    "name": "Pattandur Agrahara Gate",
+    "lat": 12.98803,
+    "lon": 77.73354
+  },
+  "20866": {
+    "name": "ITPL",
+    "lat": 12.98766,
+    "lon": 77.73704
+  },
+  "20801": {
+    "name": "GR Tech Park ITPL",
+    "lat": 12.98681,
+    "lon": 77.74338
+  },
+  "20680": {
+    "name": "BPL",
+    "lat": 12.98525,
+    "lon": 77.74828
+  },
   "21113": {
     "name": "KR Pura Railway Station",
     "lat": 12.99998,
     "lon": 77.67654
   },
-  "22577": {
-    "name": "Varthur kodi",
-    "lat": 12.95897,
-    "lon": 77.74642
+  "21734": {
+    "name": "BEL Circle",
+    "lat": 13.04588,
+    "lon": 77.55654
   },
-  "21942": {
-    "name": "Forum Mall",
-    "lat": 12.95977,
-    "lon": 77.74683
+  "20960": {
+    "name": "Kundalahalli Gate",
+    "lat": 12.95674,
+    "lon": 77.71499
   },
-  "21784": {
-    "name": "Brooke Bond",
-    "lat": 12.96392,
-    "lon": 77.74833
+  "20956": {
+    "name": "Kundalahalli",
+    "lat": 12.95832,
+    "lon": 77.71566
   },
-  "20946": {
-    "name": "KR Pura Govt Hospital",
-    "lat": 13.00798,
-    "lon": 77.69271
+  "20640": {
+    "name": "BEML Layout Gate",
+    "lat": 12.96083,
+    "lon": 77.71641
+  },
+  "20596": {
+    "name": "AECS Layout Cross",
+    "lat": 12.96511,
+    "lon": 77.71827
+  },
+  "20722": {
+    "name": "CMRIT College",
+    "lat": 12.96764,
+    "lon": 77.71389
+  },
+  "20958": {
+    "name": "Kundalahalli Colony",
+    "lat": 12.97022,
+    "lon": 77.71248
+  },
+  "20802": {
+    "name": "Graphite India",
+    "lat": 12.97821,
+    "lon": 77.71135
+  },
+  "21153": {
+    "name": "SAP Labs",
+    "lat": 12.9778,
+    "lon": 77.7144
+  },
+  "38798": {
+    "name": "Kundalahalli Metro Station",
+    "lat": 12.97753,
+    "lon": 77.71632
+  },
+  "20849": {
+    "name": "I Gate",
+    "lat": 12.97734,
+    "lon": 77.71863
+  },
+  "20949": {
+    "name": "KTPO",
+    "lat": 12.97702,
+    "lon": 77.72225
+  },
+  "23656": {
+    "name": "White Field Bus Station (Vydehi Hospital)",
+    "lat": 12.9774,
+    "lon": 77.72693
   },
   "20836": {
     "name": "Hope Farm",
@@ -148,21 +198,6 @@
     "name": "Kadugodi Bridge",
     "lat": 12.99448,
     "lon": 77.75769
-  },
-  "22621": {
-    "name": "White Field Post Office",
-    "lat": 12.97056,
-    "lon": 77.75
-  },
-  "22442": {
-    "name": "Sai Baba General Hospital",
-    "lat": 12.97383,
-    "lon": 77.75042
-  },
-  "22315": {
-    "name": "Munish Singh Hospital",
-    "lat": 12.97703,
-    "lon": 77.75104
   },
   "20707": {
     "name": "Central Silk Board",
@@ -299,6 +334,11 @@
     "lat": 13.04457,
     "lon": 77.56281
   },
+  "39174": {
+    "name": "Depot-10 Gate",
+    "lat": 13.02577,
+    "lon": 77.63181
+  },
   "20915": {
     "name": "Kasthurinagara",
     "lat": 13.00404,
@@ -414,15 +454,15 @@
     "lat": 13.07966,
     "lon": 77.42419
   },
-  "38049": {
-    "name": "Coffee Day Hope Farm",
-    "lat": 12.97998,
-    "lon": 77.75162
-  },
   "20902": {
     "name": "Kadugodi Bus Station",
     "lat": 12.99563,
     "lon": 77.75855
+  },
+  "35279": {
+    "name": "Hennur Junction",
+    "lat": 13.02751,
+    "lon": 77.63268
   },
   "35570": {
     "name": "8th Mile Dasarahalli",
@@ -529,6 +569,11 @@
     "lat": 13.07734,
     "lon": 77.43133
   },
+  "21161": {
+    "name": "Sathya Sai Hospital",
+    "lat": 12.9823,
+    "lon": 77.72773
+  },
   "24270": {
     "name": "Chowdeshwarinagara JP Park",
     "lat": 13.03272,
@@ -548,6 +593,11 @@
     "name": "Marathahalli Bridge",
     "lat": 12.95488,
     "lon": 77.70053
+  },
+  "21735": {
+    "name": "BEL Factory",
+    "lat": 13.04887,
+    "lon": 77.55861
   },
   "29841": {
     "name": "BEL Circle",

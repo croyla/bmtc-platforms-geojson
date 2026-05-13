@@ -189,6 +189,11 @@
     "lat": 13.09784,
     "lon": 77.59167
   },
+  "22356": {
+    "name": "NES Office",
+    "lat": 13.09766,
+    "lon": 77.59166
+  },
   "34534": {
     "name": "Sheshadripuram College",
     "lat": 13.10022,
@@ -203,16 +208,6 @@
     "name": "Puttenahalli",
     "lat": 13.10995,
     "lon": 77.58022
-  },
-  "21623": {
-    "name": "Vijayanagara",
-    "lat": 12.97197,
-    "lon": 77.53786
-  },
-  "21010": {
-    "name": "Maruthi Mandira",
-    "lat": 12.96784,
-    "lon": 77.53629
   },
   "21267": {
     "name": "Vijayanagara Bus Station",
@@ -689,11 +684,6 @@
     "lat": 12.96136,
     "lon": 77.56889
   },
-  "22698": {
-    "name": "Kodays Circle",
-    "lat": 12.98022,
-    "lon": 77.57151
-  },
   "22077": {
     "name": "Indo American Hybrid Farm",
     "lat": 12.90402,
@@ -778,21 +768,6 @@
     "name": "Town Hall",
     "lat": 12.96384,
     "lon": 77.58434
-  },
-  "24128": {
-    "name": "City Civil Court",
-    "lat": 12.97343,
-    "lon": 77.58243
-  },
-  "22197": {
-    "name": "KR Circle",
-    "lat": 12.97556,
-    "lon": 77.58637
-  },
-  "26121": {
-    "name": "Indian Express",
-    "lat": 12.98387,
-    "lon": 77.59645
   },
   "21076": {
     "name": "Palace Ground",
@@ -1159,6 +1134,11 @@
     "lat": 12.98225,
     "lon": 77.58852
   },
+  "23357": {
+    "name": "High Ground Police Station",
+    "lat": 12.98909,
+    "lon": 77.58873
+  },
   "21097": {
     "name": "RT Nagara Police Station",
     "lat": 13.02495,
@@ -1193,6 +1173,11 @@
     "name": "KR Market",
     "lat": 12.96437,
     "lon": 77.57736
+  },
+  "27263": {
+    "name": "Vidhana Soudha",
+    "lat": 12.98104,
+    "lon": 77.58853
   },
   "35057": {
     "name": "Bengaluru Dairy Circle",
@@ -1358,11 +1343,6 @@
     "name": "Hoskerehalli Cross",
     "lat": 12.93247,
     "lon": 77.54519
-  },
-  "22068": {
-    "name": "Indian Express",
-    "lat": 12.98421,
-    "lon": 77.59735
   },
   "22644": {
     "name": "Yelahanka Santhe Circle",
@@ -1614,6 +1594,16 @@
     "lat": 12.77805,
     "lon": 77.77034
   },
+  "23991": {
+    "name": "Electronic City 378",
+    "lat": 12.84697,
+    "lon": 77.6707
+  },
+  "23992": {
+    "name": "Siemens",
+    "lat": 12.84542,
+    "lon": 77.66228
+  },
   "20662": {
     "name": "BHEL",
     "lat": 12.84492,
@@ -1713,6 +1703,11 @@
     "name": "Yelahanka Santhe Circle",
     "lat": 13.09844,
     "lon": 77.5968
+  },
+  "21545": {
+    "name": "Jayanagara Bus Station",
+    "lat": 12.92802,
+    "lon": 77.58364
   },
   "21448": {
     "name": "Jayanagara 40th Cross",
@@ -2034,6 +2029,11 @@
     "lat": 12.83594,
     "lon": 77.65742
   },
+  "34041": {
+    "name": "Nagarabhavi Circle",
+    "lat": 12.95907,
+    "lon": 77.51686
+  },
   "22896": {
     "name": "1st Stage 3rd Block Nagarabhavi (Nayandahalli)",
     "lat": 12.95302,
@@ -2209,6 +2209,11 @@
     "lat": 13.17288,
     "lon": 77.63336
   },
+  "27855": {
+    "name": "Raj Bhavan",
+    "lat": 12.98331,
+    "lon": 77.59229
+  },
   "23925": {
     "name": "BDA Complex HSR Layout",
     "lat": 12.91293,
@@ -2374,6 +2379,11 @@
     "lat": 13.11037,
     "lon": 77.44365
   },
+  "21735": {
+    "name": "BEL Factory",
+    "lat": 13.04887,
+    "lon": 77.55861
+  },
   "33317": {
     "name": "Kannalli",
     "lat": 12.96757,
@@ -2448,6 +2458,11 @@
     "name": "Ullala Satellite Town Cross",
     "lat": 12.96215,
     "lon": 77.47858
+  },
+  "39567": {
+    "name": "Manuvana",
+    "lat": 12.97448,
+    "lon": 77.54483
   },
   "24379": {
     "name": "Cauvery Nagara",
@@ -2553,6 +2568,21 @@
     "name": "Chikkegowdanapalya Junction",
     "lat": 12.8782,
     "lon": 77.51661
+  },
+  "25329": {
+    "name": "Gangondanahalli Masjid",
+    "lat": 12.94965,
+    "lon": 77.52684
+  },
+  "25436": {
+    "name": "GKW Layout",
+    "lat": 12.96802,
+    "lon": 77.52845
+  },
+  "36352": {
+    "name": "Vinayaka Layout",
+    "lat": 12.96486,
+    "lon": 77.53038
   },
   "34878": {
     "name": "Vijayanagara Bus Station",
@@ -2688,6 +2718,11 @@
     "name": "Hampi Nagara 7th Main",
     "lat": 12.96211,
     "lon": 77.53758
+  },
+  "36351": {
+    "name": "Subbanna Garden",
+    "lat": 12.96464,
+    "lon": 77.53225
   },
   "23348": {
     "name": "Manorayanapalya",

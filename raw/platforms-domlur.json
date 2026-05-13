@@ -2,20 +2,30 @@
   "Failed": [],
   "Received": [
     {
-      "route-number": "334-E",
-      "route-name": "DBS-HSK",
+      "route-number": "315-G",
+      "route-name": "DBS-KRP",
       "from-station-id": 21923,
-      "route-id": 3034,
+      "route-id": 7193,
       "route-parent-id": "",
       "platform-name": "5",
       "platform-number": "5",
       "bay-number": 2
     },
     {
-      "route-number": "334-E DBS-KDG",
-      "route-name": "BRAB-KDG",
+      "route-number": "136",
+      "route-name": "DML-SBS",
       "from-station-id": 21923,
-      "route-id": 12166,
+      "route-id": 15284,
+      "route-parent-id": "",
+      "platform-name": "1",
+      "platform-number": "1",
+      "bay-number": 1
+    },
+    {
+      "route-number": "334-E",
+      "route-name": "DBS-HSK",
+      "from-station-id": 21923,
+      "route-id": 3034,
       "route-parent-id": "",
       "platform-name": "5",
       "platform-number": "5",
@@ -52,6 +62,16 @@
       "bay-number": 1
     },
     {
+      "route-number": "SBS-13K DML-KDG",
+      "route-name": "DML-KDG",
+      "from-station-id": 21923,
+      "route-id": 10757,
+      "route-parent-id": "",
+      "platform-name": "5",
+      "platform-number": "5",
+      "bay-number": 2
+    },
+    {
       "route-number": "412 KLN-BRAB DMLR",
       "route-name": "BRAD-KLN",
       "from-station-id": 21923,
@@ -60,16 +80,6 @@
       "platform-name": "5",
       "platform-number": "5",
       "bay-number": 2
-    },
-    {
-      "route-number": "136 DOWN",
-      "route-name": "DML-SBS",
-      "from-station-id": 21923,
-      "route-id": 15284,
-      "route-parent-id": "",
-      "platform-name": "1",
-      "platform-number": "1",
-      "bay-number": "1"
     }
   ]
 }
