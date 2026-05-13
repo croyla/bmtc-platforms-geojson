@@ -154,6 +154,21 @@
     "lat": 13.02642,
     "lon": 77.63839
   },
+  "21229": {
+    "name": "Tin Factory",
+    "lat": 12.99698,
+    "lon": 77.66937
+  },
+  "20863": {
+    "name": "ITI Colony Gate",
+    "lat": 13.00532,
+    "lon": 77.68522
+  },
+  "22207": {
+    "name": "KR Pura Market",
+    "lat": 13.00841,
+    "lon": 77.69403
+  },
   "22388": {
     "name": "Indiranagara Police Station/KFC",
     "lat": 12.97833,
@@ -249,6 +264,16 @@
     "lat": 13.02248,
     "lon": 77.63714
   },
+  "21921": {
+    "name": "Double Road Indiranagara",
+    "lat": 12.97843,
+    "lon": 77.63654
+  },
+  "33037": {
+    "name": "Indiranagara Metro Station",
+    "lat": 12.97849,
+    "lon": 77.63848
+  },
   "20704": {
     "name": "Central Silk Board Metro Station",
     "lat": 12.91674,
@@ -273,6 +298,26 @@
     "name": "MICO Layout BTM",
     "lat": 12.91657,
     "lon": 77.60427
+  },
+  "22527": {
+    "name": "Swamy Vivekananda Metro Station/Isolation Hospital",
+    "lat": 12.9858,
+    "lon": 77.64501
+  },
+  "21060": {
+    "name": "NGEF",
+    "lat": 12.98787,
+    "lon": 77.64987
+  },
+  "20634": {
+    "name": "Bayyappanahalli Metro Station",
+    "lat": 12.99001,
+    "lon": 77.65454
+  },
+  "20656": {
+    "name": "Benniganahalli",
+    "lat": 12.99428,
+    "lon": 77.6633
   },
   "20671": {
     "name": "Binnamangala",
@@ -308,16 +353,6 @@
     "name": "Kathriguppe",
     "lat": 12.92535,
     "lon": 77.54989
-  },
-  "31628": {
-    "name": "Vivekananda Nagara",
-    "lat": 12.9304,
-    "lon": 77.55325
-  },
-  "35690": {
-    "name": "Vidyapeeta Circle",
-    "lat": 12.93521,
-    "lon": 77.56066
   },
   "21791": {
     "name": "Budigere Cross",
@@ -559,6 +594,11 @@
     "lat": 13.0787,
     "lon": 77.78774
   },
+  "20876": {
+    "name": "Janatha Bazar Banashankari",
+    "lat": 12.92837,
+    "lon": 77.54577
+  },
   "37604": {
     "name": "Hosakote BEO office",
     "lat": 13.07339,
@@ -568,11 +608,6 @@
     "name": "Coffee Day Hope Farm",
     "lat": 12.97998,
     "lon": 77.75162
-  },
-  "20902": {
-    "name": "Kadugodi Bus Station",
-    "lat": 12.99563,
-    "lon": 77.75855
   },
   "21713": {
     "name": "Banashankari Hunasemara",
@@ -719,6 +754,26 @@
     "lat": 12.99847,
     "lon": 77.62384
   },
+  "22045": {
+    "name": "Hoskerehalli Cross",
+    "lat": 12.93293,
+    "lon": 77.5454
+  },
+  "22471": {
+    "name": "Seetha Circle",
+    "lat": 12.93705,
+    "lon": 77.54882
+  },
+  "21717": {
+    "name": "Bank Colony",
+    "lat": 12.93861,
+    "lon": 77.55326
+  },
+  "22511": {
+    "name": "Srinivasa Nagara",
+    "lat": 12.93816,
+    "lon": 77.55687
+  },
   "21923": {
     "name": "Dr BR Ambedkar Bus Terminal (Domlur)",
     "lat": 12.96163,
@@ -734,20 +789,10 @@
     "lat": 12.9274,
     "lon": 77.56794
   },
-  "33590": {
-    "name": "Krishnasagara",
-    "lat": 12.932,
-    "lon": 77.55565
-  },
-  "33057": {
-    "name": "ITI Layout",
-    "lat": 12.93346,
-    "lon": 77.55777
-  },
-  "34519": {
-    "name": "Shankarnagh Circle",
-    "lat": 12.93651,
-    "lon": 77.55954
+  "35951": {
+    "name": "Hosakerehalli  Junction",
+    "lat": 12.93067,
+    "lon": 77.54353
   },
   "24979": {
     "name": "Dhoopanahalli",

@@ -982,6 +982,21 @@
         ],
         "type": "Point"
       }
+    },
+    {
+      "id": "b0f1cc203b01a2676062491cf7857665",
+      "type": "Feature",
+      "properties": {
+        "Platform": "KSRTC",
+        "Icon": "K"
+      },
+      "geometry": {
+        "coordinates": [
+          77.57191542662156,
+          12.977136338291004
+        ],
+        "type": "Point"
+      }
     }
   ]
 }
