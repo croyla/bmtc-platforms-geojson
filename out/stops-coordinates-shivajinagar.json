@@ -169,6 +169,56 @@
     "lat": 12.9888,
     "lon": 77.49952
   },
+  "21530": {
+    "name": "Herohalli Cross",
+    "lat": 12.98726,
+    "lon": 77.4925
+  },
+  "21456": {
+    "name": "Anjananagara",
+    "lat": 12.98614,
+    "lon": 77.48847
+  },
+  "21508": {
+    "name": "East West College Cross",
+    "lat": 12.98559,
+    "lon": 77.48632
+  },
+  "21475": {
+    "name": "Byadarahalli",
+    "lat": 12.98504,
+    "lon": 77.48214
+  },
+  "21493": {
+    "name": "College Cross Byadarahalli",
+    "lat": 12.98553,
+    "lon": 77.47951
+  },
+  "21516": {
+    "name": "Gollarahatti",
+    "lat": 12.98913,
+    "lon": 77.47157
+  },
+  "21547": {
+    "name": "Kachohalli Gate",
+    "lat": 12.99042,
+    "lon": 77.4688
+  },
+  "21488": {
+    "name": "Chikka Gollarahatti",
+    "lat": 12.99142,
+    "lon": 77.4656
+  },
+  "21510": {
+    "name": "Forest Gate",
+    "lat": 12.99176,
+    "lon": 77.45971
+  },
+  "21562": {
+    "name": "Machohalli Gate",
+    "lat": 12.99081,
+    "lon": 77.45445
+  },
   "20922": {
     "name": "Kempegowda Bus Station",
     "lat": 12.97749,
@@ -334,6 +384,36 @@
     "lat": 13.09919,
     "lon": 77.59731
   },
+  "31953": {
+    "name": "Bellahalli Cross",
+    "lat": 13.10144,
+    "lon": 77.63606
+  },
+  "31950": {
+    "name": "Bellahalli",
+    "lat": 13.09923,
+    "lon": 77.64223
+  },
+  "32365": {
+    "name": "Christal House Learning School",
+    "lat": 13.09439,
+    "lon": 77.65173
+  },
+  "31843": {
+    "name": "Yarappanahalli",
+    "lat": 13.08523,
+    "lon": 77.68714
+  },
+  "24751": {
+    "name": "D Group Employees Layout",
+    "lat": 13.09134,
+    "lon": 77.69091
+  },
+  "35035": {
+    "name": "Yarappana Bande",
+    "lat": 13.09432,
+    "lon": 77.68537
+  },
   "31952": {
     "name": "Bellahalli Cross",
     "lat": 13.10196,
@@ -368,6 +448,11 @@
     "name": "Kogilu Cross",
     "lat": 13.10356,
     "lon": 77.60108
+  },
+  "22645": {
+    "name": "Yelahanka Santhe Circle",
+    "lat": 13.09852,
+    "lon": 77.59698
   },
   "22356": {
     "name": "NES Office",
@@ -484,6 +569,11 @@
     "lat": 12.95815,
     "lon": 77.5265
   },
+  "35430": {
+    "name": "Jyothi Nagara",
+    "lat": 12.95926,
+    "lon": 77.52164
+  },
   "35384": {
     "name": "Nagarabhavi Circle",
     "lat": 12.95829,
@@ -529,6 +619,11 @@
     "lat": 12.96784,
     "lon": 77.50223
   },
+  "29207": {
+    "name": "Nagarabhavi Vishweshwaraiah Sports Club",
+    "lat": 12.96908,
+    "lon": 77.49946
+  },
   "35463": {
     "name": "Annapoorneshwari nagara Cross",
     "lat": 12.96998,
@@ -539,10 +634,45 @@
     "lat": 12.97139,
     "lon": 77.48796
   },
+  "39651": {
+    "name": "Muddinapalya",
+    "lat": 12.96613,
+    "lon": 77.4877
+  },
+  "39908": {
+    "name": "SMV 5th Stage (Revive Hospital)",
+    "lat": 12.96698,
+    "lon": 77.48368
+  },
+  "33498": {
+    "name": "KLE Society College",
+    "lat": 12.96802,
+    "lon": 77.48144
+  },
+  "24513": {
+    "name": "Chikka Kodigehalli",
+    "lat": 12.97202,
+    "lon": 77.46492
+  },
+  "32559": {
+    "name": "Dombarahatti Dongadipura Cross",
+    "lat": 12.97213,
+    "lon": 77.46048
+  },
+  "33316": {
+    "name": "Kannalli",
+    "lat": 12.96763,
+    "lon": 77.45896
+  },
   "35395": {
     "name": "Vijayanagara Bus Station",
     "lat": 12.96558,
     "lon": 77.53492
+  },
+  "20855": {
+    "name": "Indian Express",
+    "lat": 12.98408,
+    "lon": 77.59827
   },
   "21173": {
     "name": "Shivajinagara Bus Station",
@@ -849,6 +979,11 @@
     "lat": 13.03736,
     "lon": 77.71053
   },
+  "30069": {
+    "name": "Bidarahalli Cross",
+    "lat": 13.05703,
+    "lon": 77.71504
+  },
   "32067": {
     "name": "Bidarahalli School",
     "lat": 13.06012,
@@ -938,11 +1073,6 @@
     "name": "Marasandra",
     "lat": 13.09966,
     "lon": 77.71519
-  },
-  "24153": {
-    "name": "BEML Gate",
-    "lat": 12.9713,
-    "lon": 77.6588
   },
   "27670": {
     "name": "JBN Petrol Bunk",
@@ -1048,6 +1178,41 @@
     "name": "Chikkajala",
     "lat": 13.17277,
     "lon": 77.63318
+  },
+  "31944": {
+    "name": "Beguru",
+    "lat": 13.18356,
+    "lon": 77.67974
+  },
+  "38072": {
+    "name": "Kempegowda International Airport Back Gate",
+    "lat": 13.1982,
+    "lon": 77.67968
+  },
+  "37968": {
+    "name": "Cargo Village",
+    "lat": 13.19967,
+    "lon": 77.68231
+  },
+  "37969": {
+    "name": "DHFL",
+    "lat": 13.19963,
+    "lon": 77.69561
+  },
+  "38069": {
+    "name": "Kempegowda International Airport",
+    "lat": 13.19975,
+    "lon": 77.70514
+  },
+  "29836": {
+    "name": "Beguru",
+    "lat": 13.18348,
+    "lon": 77.67967
+  },
+  "32304": {
+    "name": "Chikkajala",
+    "lat": 13.17273,
+    "lon": 77.63369
   },
   "22481": {
     "name": "Sheshadripuram College",
@@ -1264,20 +1429,10 @@
     "lat": 13.10271,
     "lon": 77.58558
   },
-  "23081": {
-    "name": "Ananthapura Gate",
-    "lat": 13.1146,
-    "lon": 77.57901
-  },
-  "32384": {
-    "name": "C R P F Yelahanka",
-    "lat": 13.12278,
-    "lon": 77.57552
-  },
-  "34069": {
-    "name": "Nagenahalli Gate",
-    "lat": 13.13001,
-    "lon": 77.57132
+  "34337": {
+    "name": "Rajanukunte",
+    "lat": 13.17167,
+    "lon": 77.56446
   },
   "22226": {
     "name": "Lido Talkies",
@@ -1503,11 +1658,6 @@
     "name": "Bagalagunte",
     "lat": 13.05657,
     "lon": 77.50728
-  },
-  "20869": {
-    "name": "Jalahalli Cross",
-    "lat": 13.0399,
-    "lon": 77.51879
   },
   "23893": {
     "name": "St francis College",
@@ -1904,16 +2054,6 @@
     "lat": 12.96392,
     "lon": 77.74833
   },
-  "35180": {
-    "name": "White Field Post Office",
-    "lat": 12.96982,
-    "lon": 77.75016
-  },
-  "23557": {
-    "name": "Gandhipura",
-    "lat": 12.96969,
-    "lon": 77.7524
-  },
   "22620": {
     "name": "White Field Post Office",
     "lat": 12.96932,
@@ -2084,6 +2224,56 @@
     "lat": 13.09354,
     "lon": 77.52789
   },
+  "21549": {
+    "name": "Kadabagere Cross",
+    "lat": 12.98911,
+    "lon": 77.44966
+  },
+  "21599": {
+    "name": "Seegehalli Gate",
+    "lat": 12.98401,
+    "lon": 77.44389
+  },
+  "21526": {
+    "name": "Hamsa Farm",
+    "lat": 12.9817,
+    "lon": 77.4397
+  },
+  "21486": {
+    "name": "Channenahalli Arch",
+    "lat": 12.97977,
+    "lon": 77.43546
+  },
+  "21484": {
+    "name": "Channenahalli",
+    "lat": 12.97786,
+    "lon": 77.43052
+  },
+  "21533": {
+    "name": "Honaganahatti",
+    "lat": 12.9742,
+    "lon": 77.42116
+  },
+  "21482": {
+    "name": "Channadasipalya",
+    "lat": 12.97085,
+    "lon": 77.41485
+  },
+  "21558": {
+    "name": "Lakkuppe",
+    "lat": 12.96992,
+    "lon": 77.41006
+  },
+  "21512": {
+    "name": "Ganesha Temple Tavarekere",
+    "lat": 12.9671,
+    "lon": 77.40341
+  },
+  "21610": {
+    "name": "Tavarekere",
+    "lat": 12.96581,
+    "lon": 77.40014
+  },
   "21098": {
     "name": "Sadashivanagara Police Station",
     "lat": 13.01553,
@@ -2153,11 +2343,6 @@
     "name": "Tennis Court Thindlu",
     "lat": 13.06825,
     "lon": 77.56946
-  },
-  "35277": {
-    "name": "Thindlu",
-    "lat": 13.07339,
-    "lon": 77.56674
   },
   "22295": {
     "name": "Monotype Corporation",
@@ -2238,11 +2423,6 @@
     "name": "Uttarahalli Bus Stand",
     "lat": 12.90521,
     "lon": 77.5432
-  },
-  "22395": {
-    "name": "Poornaprajna Layout",
-    "lat": 12.90882,
-    "lon": 77.53585
   },
   "22569": {
     "name": "Uttarahalli Bus Stand",
@@ -2513,6 +2693,81 @@
     "name": "Yelahanka Old Town",
     "lat": 13.10063,
     "lon": 77.59453
+  },
+  "31983": {
+    "name": "Bettahalasuru Cross",
+    "lat": 13.15676,
+    "lon": 77.62261
+  },
+  "26575": {
+    "name": "Sonnappanahalli",
+    "lat": 13.15612,
+    "lon": 77.6172
+  },
+  "31984": {
+    "name": "Bettahalasuru Hospital",
+    "lat": 13.15926,
+    "lon": 77.61143
+  },
+  "31980": {
+    "name": "Bettahalasuru Circle",
+    "lat": 13.16108,
+    "lon": 77.61102
+  },
+  "29919": {
+    "name": "Bettahalasuru Village",
+    "lat": 13.16278,
+    "lon": 77.60861
+  },
+  "34110": {
+    "name": "Narayanapura",
+    "lat": 13.16259,
+    "lon": 77.60144
+  },
+  "32802": {
+    "name": "Gurukula School Tharahunase",
+    "lat": 13.17175,
+    "lon": 77.5989
+  },
+  "25217": {
+    "name": "Embassy School",
+    "lat": 13.17384,
+    "lon": 77.59546
+  },
+  "25877": {
+    "name": "High School Tharahunase",
+    "lat": 13.17693,
+    "lon": 77.59023
+  },
+  "34798": {
+    "name": "Tharahunase",
+    "lat": 13.17859,
+    "lon": 77.58859
+  },
+  "31802": {
+    "name": "Thimmasandra",
+    "lat": 13.17202,
+    "lon": 77.58133
+  },
+  "35008": {
+    "name": "Thimmasandra Circle",
+    "lat": 13.16981,
+    "lon": 77.58048
+  },
+  "22981": {
+    "name": "Addiganahalli Extension",
+    "lat": 13.1728,
+    "lon": 77.57126
+  },
+  "35549": {
+    "name": "Addiganahalli",
+    "lat": 13.17292,
+    "lon": 77.56963
+  },
+  "27630": {
+    "name": "Parvathipura",
+    "lat": 13.17272,
+    "lon": 77.56628
   },
   "24081": {
     "name": "Koppa Gate",
@@ -2799,41 +3054,6 @@
     "lat": 12.97403,
     "lon": 77.83877
   },
-  "34467": {
-    "name": "Santhe Devanagondhi",
-    "lat": 12.96585,
-    "lon": 77.83932
-  },
-  "33902": {
-    "name": "Medahalli Cross",
-    "lat": 12.96545,
-    "lon": 77.84349
-  },
-  "32106": {
-    "name": "BN Bachegowda Badavane Colony",
-    "lat": 12.96278,
-    "lon": 77.84512
-  },
-  "25732": {
-    "name": "Handenahalli",
-    "lat": 12.95841,
-    "lon": 77.84709
-  },
-  "29331": {
-    "name": "Narayanakere",
-    "lat": 12.94391,
-    "lon": 77.85785
-  },
-  "33666": {
-    "name": "Lakkur",
-    "lat": 12.92771,
-    "lon": 77.88626
-  },
-  "27770": {
-    "name": "Pura",
-    "lat": 12.94028,
-    "lon": 77.88498
-  },
   "20836": {
     "name": "Hope Farm",
     "lat": 12.98429,
@@ -2919,6 +3139,16 @@
     "lat": 13.0372,
     "lon": 77.69297
   },
+  "29820": {
+    "name": "BDS Nagara",
+    "lat": 13.0657,
+    "lon": 77.64308
+  },
+  "38711": {
+    "name": "Teachers Colony Geddalahalli",
+    "lat": 13.05521,
+    "lon": 77.63908
+  },
   "33593": {
     "name": "Kristu Jayanti College",
     "lat": 13.05877,
@@ -2928,6 +3158,31 @@
     "name": "K Narayanapura",
     "lat": 13.06333,
     "lon": 77.64216
+  },
+  "21984": {
+    "name": "Gubbi Cross",
+    "lat": 13.06454,
+    "lon": 77.65167
+  },
+  "21761": {
+    "name": "Bible  College Byrathi",
+    "lat": 13.07137,
+    "lon": 77.6514
+  },
+  "22396": {
+    "name": "Poornaprajna School",
+    "lat": 13.07534,
+    "lon": 77.65149
+  },
+  "30326": {
+    "name": "Byrathi Bande",
+    "lat": 13.07794,
+    "lon": 77.65355
+  },
+  "35042": {
+    "name": "Depot-48 Gate",
+    "lat": 13.07753,
+    "lon": 77.65469
   },
   "23685": {
     "name": "Nettakallappa Circle",
@@ -3014,6 +3269,11 @@
     "lat": 12.97454,
     "lon": 77.75065
   },
+  "34380": {
+    "name": "Rampura",
+    "lat": 13.05158,
+    "lon": 77.69135
+  },
   "34379": {
     "name": "Rampura",
     "lat": 13.05175,
@@ -3038,6 +3298,21 @@
     "name": "Srirama Layout Avalahalli Road",
     "lat": 13.03973,
     "lon": 77.72934
+  },
+  "30572": {
+    "name": "Kadugenahalli Gate",
+    "lat": 13.16835,
+    "lon": 77.63116
+  },
+  "34015": {
+    "name": "Mylanahalli",
+    "lat": 13.1855,
+    "lon": 77.69695
+  },
+  "32311": {
+    "name": "Chikkanahalli",
+    "lat": 13.18385,
+    "lon": 77.6882
   },
   "32914": {
     "name": "Herohalli Cross",
@@ -3073,11 +3348,6 @@
     "name": "MEI Layout Arch",
     "lat": 13.05997,
     "lon": 77.50685
-  },
-  "23194": {
-    "name": "Kalamandira Marathahalli Bridge",
-    "lat": 12.95993,
-    "lon": 77.70143
   },
   "21931": {
     "name": "Echalamara Vidyaranyapura",
@@ -3128,11 +3398,6 @@
     "name": "Jalli Machine",
     "lat": 13.086,
     "lon": 77.5556
-  },
-  "21833": {
-    "name": "Chikka Bettahalli",
-    "lat": 13.0895,
-    "lon": 77.55623
   },
   "28956": {
     "name": "Meenakunte Hosuru",
@@ -3224,6 +3489,26 @@
     "lat": 12.94826,
     "lon": 77.57918
   },
+  "30327": {
+    "name": "Byrathi Cross",
+    "lat": 13.05708,
+    "lon": 77.64845
+  },
+  "33646": {
+    "name": "Kyalasanahalli",
+    "lat": 13.05638,
+    "lon": 77.66021
+  },
+  "32082": {
+    "name": "Bileshivale",
+    "lat": 13.05454,
+    "lon": 77.67093
+  },
+  "27968": {
+    "name": "Rampura Cross",
+    "lat": 13.05212,
+    "lon": 77.68101
+  },
   "25863": {
     "name": "Hirandahalli",
     "lat": 13.04578,
@@ -3248,6 +3533,36 @@
     "name": "Rampura Cross",
     "lat": 13.05194,
     "lon": 77.68091
+  },
+  "21796": {
+    "name": "Byrathi Cross",
+    "lat": 13.05702,
+    "lon": 77.64822
+  },
+  "22302": {
+    "name": "MR Nursing College",
+    "lat": 13.05833,
+    "lon": 77.64863
+  },
+  "22195": {
+    "name": "Kothanuru",
+    "lat": 13.06181,
+    "lon": 77.64891
+  },
+  "21794": {
+    "name": "Byrathi Bande",
+    "lat": 13.07803,
+    "lon": 77.6534
+  },
+  "22331": {
+    "name": "Nagenahalli",
+    "lat": 13.08136,
+    "lon": 77.65328
+  },
+  "21836": {
+    "name": "Chikka Gubbi Cross",
+    "lat": 13.08427,
+    "lon": 77.65414
   },
   "23674": {
     "name": "Richmond Circle",
@@ -3289,11 +3604,6 @@
     "lat": 12.91989,
     "lon": 77.58068
   },
-  "21978": {
-    "name": "Gowdanapalya",
-    "lat": 12.91152,
-    "lon": 77.55591
-  },
   "20876": {
     "name": "Janatha Bazar Banashankari",
     "lat": 12.92837,
@@ -3308,16 +3618,6 @@
     "name": "Hosakerehalli Petrol Bunk",
     "lat": 12.933,
     "lon": 77.54018
-  },
-  "21089": {
-    "name": "PES College",
-    "lat": 12.93489,
-    "lon": 77.53707
-  },
-  "21250": {
-    "name": "Veerabhadranagara",
-    "lat": 12.93828,
-    "lon": 77.53343
   },
   "28141": {
     "name": "SanjeeviniNagara",
@@ -3429,6 +3729,36 @@
     "lat": 13.07243,
     "lon": 77.52355
   },
+  "22420": {
+    "name": "Ramamurthy Nagara Police Station",
+    "lat": 13.01206,
+    "lon": 77.66785
+  },
+  "22418": {
+    "name": "Ramamurthy Nagara Manipal",
+    "lat": 13.01172,
+    "lon": 77.67031
+  },
+  "22632": {
+    "name": "Yarayyanapalya",
+    "lat": 13.01157,
+    "lon": 77.67326
+  },
+  "22414": {
+    "name": "Ramamurthy Nagara Alada Mara",
+    "lat": 13.01146,
+    "lon": 77.67644
+  },
+  "22416": {
+    "name": "Ramamurthy Nagara Church",
+    "lat": 13.01177,
+    "lon": 77.67878
+  },
+  "22084": {
+    "name": "ITI Circle",
+    "lat": 13.0079,
+    "lon": 77.68338
+  },
   "20636": {
     "name": "BEL Circle",
     "lat": 13.04639,
@@ -3499,6 +3829,11 @@
     "lat": 12.93788,
     "lon": 77.56908
   },
+  "36715": {
+    "name": "Frazer Town",
+    "lat": 13.00098,
+    "lon": 77.61257
+  },
   "21854": {
     "name": "Mosque Road",
     "lat": 13.00067,
@@ -3508,6 +3843,11 @@
     "name": "Devis Road",
     "lat": 13.00426,
     "lon": 77.61968
+  },
+  "21826": {
+    "name": "Charls School Toll Gate",
+    "lat": 13.00616,
+    "lon": 77.62084
   },
   "22229": {
     "name": "Lingarajapura Bridge",
@@ -3574,6 +3914,51 @@
     "lat": 13.0528,
     "lon": 77.64602
   },
+  "30737": {
+    "name": "Kanakashree Layout Chikka Gubbi",
+    "lat": 13.08676,
+    "lon": 77.65457
+  },
+  "22153": {
+    "name": "Kannuru",
+    "lat": 13.09328,
+    "lon": 77.65423
+  },
+  "22131": {
+    "name": "Kadasonnappanahalli Gate",
+    "lat": 13.10154,
+    "lon": 77.65811
+  },
+  "22059": {
+    "name": "Hosuru Bande",
+    "lat": 13.10601,
+    "lon": 77.66071
+  },
+  "22532": {
+    "name": "Tavakkal Hospital",
+    "lat": 13.10594,
+    "lon": 77.66442
+  },
+  "22014": {
+    "name": "Hamsa Farm",
+    "lat": 13.10772,
+    "lon": 77.66564
+  },
+  "21810": {
+    "name": "Chakkalatti",
+    "lat": 13.12255,
+    "lon": 77.66823
+  },
+  "39135": {
+    "name": "Mary Immaculate School",
+    "lat": 13.12579,
+    "lon": 77.66782
+  },
+  "38654": {
+    "name": "Bagluru Old police Station",
+    "lat": 13.12952,
+    "lon": 77.66661
+  },
   "31859": {
     "name": "Bagalur Santhe Circle",
     "lat": 13.13351,
@@ -3584,15 +3969,65 @@
     "lat": 13.13461,
     "lon": 77.66794
   },
+  "29624": {
+    "name": "Bagalur Colony",
+    "lat": 13.14146,
+    "lon": 77.67118
+  },
+  "34119": {
+    "name": "Navodaya School Bagalur",
+    "lat": 13.14888,
+    "lon": 77.67468
+  },
+  "31081": {
+    "name": "KIADB Hoovinayakanahalli Gate",
+    "lat": 13.15591,
+    "lon": 77.68091
+  },
+  "31911": {
+    "name": "Basavanna Temple Hoovinayakanahalli",
+    "lat": 13.1679,
+    "lon": 77.6885
+  },
+  "31922": {
+    "name": "Bayalahalli Gate(Bande kodigehalli)",
+    "lat": 13.17001,
+    "lon": 77.68996
+  },
+  "29685": {
+    "name": "Bande kodigehalli",
+    "lat": 13.17202,
+    "lon": 77.69075
+  },
+  "31876": {
+    "name": "Bande Kodigehallipalya Cross",
+    "lat": 13.17275,
+    "lon": 77.691
+  },
+  "38623": {
+    "name": "Hunasuru Junction",
+    "lat": 13.18086,
+    "lon": 77.71474
+  },
+  "26064": {
+    "name": "Hunasuru",
+    "lat": 13.18006,
+    "lon": 77.71258
+  },
+  "38624": {
+    "name": "Hunasuru Junction",
+    "lat": 13.1809,
+    "lon": 77.71486
+  },
+  "29690": {
+    "name": "Bande Kodigehallipalya Cross",
+    "lat": 13.17283,
+    "lon": 77.69107
+  },
   "22170": {
     "name": "Kengunte Circle",
     "lat": 12.96064,
     "lon": 77.50435
-  },
-  "21031": {
-    "name": "Multiplex Marathahalli",
-    "lat": 12.95227,
-    "lon": 77.70002
   },
   "20749": {
     "name": "Depot-25 Gate",
@@ -3609,15 +4044,20 @@
     "lat": 13.00082,
     "lon": 77.61144
   },
+  "32193": {
+    "name": "Byrathi",
+    "lat": 13.05609,
+    "lon": 77.65198
+  },
+  "30099": {
+    "name": "Bileshivale",
+    "lat": 13.05459,
+    "lon": 77.67085
+  },
   "21080": {
     "name": "Peenya 2nd Stage",
     "lat": 13.01092,
     "lon": 77.50683
-  },
-  "21688": {
-    "name": "Ayyappa Temple Jalahalli Cross",
-    "lat": 13.04623,
-    "lon": 77.52243
   },
   "20870": {
     "name": "Jalahalli Cross",
@@ -3714,6 +4154,16 @@
     "lat": 12.99563,
     "lon": 77.75855
   },
+  "35587": {
+    "name": "4th Block HBR Layout",
+    "lat": 13.03435,
+    "lon": 77.63264
+  },
+  "35585": {
+    "name": "5th Block HBR Layout",
+    "lat": 13.03582,
+    "lon": 77.6315
+  },
   "21713": {
     "name": "Banashankari Hunasemara",
     "lat": 12.92084,
@@ -3738,6 +4188,21 @@
     "name": "Austin Town Neelasandra",
     "lat": 12.9616,
     "lon": 77.61254
+  },
+  "31417": {
+    "name": "Vidyanagara Chikkajala 1",
+    "lat": 13.15991,
+    "lon": 77.64068
+  },
+  "31518": {
+    "name": "Huttanahalli",
+    "lat": 13.16555,
+    "lon": 77.65147
+  },
+  "34894": {
+    "name": "Venkateshwara College",
+    "lat": 13.16037,
+    "lon": 77.63641
   },
   "22351": {
     "name": "Neelasandra Rose Garden",
@@ -4079,6 +4544,16 @@
     "lat": 13.07151,
     "lon": 77.42296
   },
+  "30325": {
+    "name": "Byrathi",
+    "lat": 13.05614,
+    "lon": 77.652
+  },
+  "32505": {
+    "name": "Dodda Gubbi",
+    "lat": 13.07093,
+    "lon": 77.67401
+  },
   "21161": {
     "name": "Sathya Sai Hospital",
     "lat": 12.9823,
@@ -4139,6 +4614,16 @@
     "lat": 13.13211,
     "lon": 77.66222
   },
+  "29452": {
+    "name": "Aerospace Bagalur",
+    "lat": 13.17289,
+    "lon": 77.73066
+  },
+  "24724": {
+    "name": "Country Club Bagaluru",
+    "lat": 13.12348,
+    "lon": 77.63937
+  },
   "33755": {
     "name": "Makanahalli",
     "lat": 13.0097,
@@ -4189,6 +4674,16 @@
     "lat": 13.00089,
     "lon": 77.55044
   },
+  "25806": {
+    "name": "Havanur Circle",
+    "lat": 12.98886,
+    "lon": 77.53775
+  },
+  "20890": {
+    "name": "Siddaiah Puranik Road Junction",
+    "lat": 12.98217,
+    "lon": 77.5373
+  },
   "21072": {
     "name": "Rajajinagara Old Police Station",
     "lat": 12.98928,
@@ -4228,11 +4723,6 @@
     "name": "Nandini Layout Bus Stand",
     "lat": 13.01183,
     "lon": 77.53574
-  },
-  "25298": {
-    "name": "Ganesha Temple Mahalakshmi Layout",
-    "lat": 13.00868,
-    "lon": 77.54313
   },
   "24194": {
     "name": "Basaveshwara College",
@@ -4349,11 +4839,6 @@
     "lat": 12.91293,
     "lon": 77.63814
   },
-  "22305": {
-    "name": "MS Palya",
-    "lat": 13.08178,
-    "lon": 77.54849
-  },
   "37770": {
     "name": "Ramesh Nagara Cross",
     "lat": 12.95467,
@@ -4369,30 +4854,10 @@
     "lat": 12.96664,
     "lon": 77.68279
   },
-  "21084": {
-    "name": "Peenya Satellite Bus Station (Basaveshwara)",
-    "lat": 13.04375,
-    "lon": 77.5253
-  },
-  "35189": {
-    "name": "HAL Main Gate",
-    "lat": 12.95852,
-    "lon": 77.66629
-  },
-  "35810": {
-    "name": "Jeevan Bheemanagara Cross1",
-    "lat": 12.96687,
-    "lon": 77.66151
-  },
   "31862": {
     "name": "Banaswadi Fire Station",
     "lat": 13.01131,
     "lon": 77.64604
-  },
-  "22400": {
-    "name": "Vidyaranyapura Post Office",
-    "lat": 13.07651,
-    "lon": 77.55825
   },
   "31626": {
     "name": "Vivek Nagara",
@@ -4413,6 +4878,11 @@
     "name": "Canara Bank Vidyaranyapura",
     "lat": 13.07171,
     "lon": 77.55609
+  },
+  "35535": {
+    "name": "Agrahara Layout",
+    "lat": 13.09838,
+    "lon": 77.62671
   },
   "23544": {
     "name": "GM Palya",
@@ -4444,15 +4914,20 @@
     "lat": 12.98173,
     "lon": 77.5951
   },
-  "22065": {
-    "name": "IAF Jalahalli",
-    "lat": 13.0536,
-    "lon": 77.5308
+  "33226": {
+    "name": "Kadayarappanahalli",
+    "lat": 13.18405,
+    "lon": 77.70526
   },
-  "22483": {
-    "name": "Shettyhalli Cross",
-    "lat": 13.05024,
-    "lon": 77.52568
+  "30565": {
+    "name": "Kadayarappanahalli",
+    "lat": 13.1841,
+    "lon": 77.70522
+  },
+  "31082": {
+    "name": "KIDB CIrcle Bagaluru",
+    "lat": 13.17501,
+    "lon": 77.71711
   },
   "22389": {
     "name": "Indiranagara Police Station/KFC",
@@ -4464,30 +4939,10 @@
     "lat": 12.97599,
     "lon": 77.82056
   },
-  "33645": {
-    "name": "Kuvempunagara",
-    "lat": 13.0696,
-    "lon": 77.54138
-  },
-  "29402": {
-    "name": "2nd stage Kuvempunagara",
-    "lat": 13.07313,
-    "lon": 77.54132
-  },
-  "34612": {
-    "name": "Singapura LT",
-    "lat": 13.07501,
-    "lon": 77.53983
-  },
   "34611": {
     "name": "Singapura",
     "lat": 13.07975,
     "lon": 77.53823
-  },
-  "31842": {
-    "name": "Vinayaka Nagara",
-    "lat": 13.0827,
-    "lon": 77.54308
   },
   "36469": {
     "name": "MS Palya",
@@ -4498,6 +4953,71 @@
     "name": "Vinayaka Nagara",
     "lat": 13.08258,
     "lon": 77.5433
+  },
+  "30567": {
+    "name": "Kadayarappanahalli Cross",
+    "lat": 13.18405,
+    "lon": 77.70432
+  },
+  "37948": {
+    "name": "B Marenahalli",
+    "lat": 13.17023,
+    "lon": 77.73952
+  },
+  "39575": {
+    "name": "Kaggalahalli Gate",
+    "lat": 13.17414,
+    "lon": 77.74387
+  },
+  "34361": {
+    "name": "Ramanahalli",
+    "lat": 13.18325,
+    "lon": 77.74411
+  },
+  "29631": {
+    "name": "Baladimmanahalli",
+    "lat": 13.18959,
+    "lon": 77.74336
+  },
+  "32002": {
+    "name": "Bettakote",
+    "lat": 13.19941,
+    "lon": 77.73925
+  },
+  "28005": {
+    "name": "Rayasandra Cross",
+    "lat": 13.21175,
+    "lon": 77.74139
+  },
+  "35537": {
+    "name": "Agalakote",
+    "lat": 13.21287,
+    "lon": 77.73615
+  },
+  "34406": {
+    "name": "Rayasandra",
+    "lat": 13.21876,
+    "lon": 77.72563
+  },
+  "32172": {
+    "name": "Bychapura Appartment",
+    "lat": 13.22216,
+    "lon": 77.71777
+  },
+  "32170": {
+    "name": "Bychapura",
+    "lat": 13.22421,
+    "lon": 77.71283
+  },
+  "35470": {
+    "name": "Anjaneya Temple Devanahalli",
+    "lat": 13.23506,
+    "lon": 77.713
+  },
+  "32687": {
+    "name": "Giriyamma Circle",
+    "lat": 13.24475,
+    "lon": 77.71315
   },
   "35060": {
     "name": "BK Circle",
@@ -4614,6 +5134,11 @@
     "lat": 12.92715,
     "lon": 77.58961
   },
+  "21698": {
+    "name": "Bagalur",
+    "lat": 13.13456,
+    "lon": 77.66816
+  },
   "22843": {
     "name": "YHK Hospital",
     "lat": 12.77945,
@@ -4689,11 +5214,6 @@
     "lat": 13.06952,
     "lon": 77.60166
   },
-  "23687": {
-    "name": "Immadihalli",
-    "lat": 12.96588,
-    "lon": 77.76326
-  },
   "33199": {
     "name": "K Narayanapura Main Bus Stand",
     "lat": 13.06639,
@@ -4759,11 +5279,6 @@
     "lat": 12.88558,
     "lon": 77.57487
   },
-  "32448": {
-    "name": "Devanagondi",
-    "lat": 12.97408,
-    "lon": 77.83873
-  },
   "24191": {
     "name": "Mahalakshmi Layout",
     "lat": 13.01208,
@@ -4819,6 +5334,21 @@
     "lat": 13.09966,
     "lon": 77.70782
   },
+  "34880": {
+    "name": "Vijaya School",
+    "lat": 13.13045,
+    "lon": 77.67249
+  },
+  "25026": {
+    "name": "Dodda Gubbi",
+    "lat": 13.07144,
+    "lon": 77.67359
+  },
+  "29504": {
+    "name": "Anagalipura Gate",
+    "lat": 13.07306,
+    "lon": 77.67885
+  },
   "36343": {
     "name": "Depot-27 Gate",
     "lat": 12.78003,
@@ -4829,6 +5359,11 @@
     "lat": 12.99596,
     "lon": 77.72624
   },
+  "34018": {
+    "name": "Mylanahalli",
+    "lat": 13.18408,
+    "lon": 77.69597
+  },
   "23758": {
     "name": "Water Tank",
     "lat": 12.90847,
@@ -4838,36 +5373,6 @@
     "name": "Kumaraswamy Layout 2nd Stage",
     "lat": 12.90584,
     "lon": 77.55814
-  },
-  "21735": {
-    "name": "BEL Factory",
-    "lat": 13.04887,
-    "lon": 77.55861
-  },
-  "22707": {
-    "name": "Jalahalli Police Station",
-    "lat": 13.04889,
-    "lon": 77.5495
-  },
-  "22708": {
-    "name": "HMT Auditorium",
-    "lat": 13.04921,
-    "lon": 77.54396
-  },
-  "22709": {
-    "name": "HMT Post Office",
-    "lat": 13.05049,
-    "lon": 77.54109
-  },
-  "22701": {
-    "name": "Shopping Complex HMT",
-    "lat": 13.04964,
-    "lon": 77.53772
-  },
-  "36601": {
-    "name": "Kammagondanahalli Bridge",
-    "lat": 13.05454,
-    "lon": 77.53273
   },
   "24024": {
     "name": "Thippasandra Gate",
@@ -5019,6 +5524,16 @@
     "lat": 12.87455,
     "lon": 77.58419
   },
+  "34043": {
+    "name": "Nagaresh Nagenahalli",
+    "lat": 13.07029,
+    "lon": 77.64259
+  },
+  "29211": {
+    "name": "Nagaraesh Nagenahalli Dinne",
+    "lat": 13.07727,
+    "lon": 77.64674
+  },
   "37895": {
     "name": "Kalyananagara 302",
     "lat": 13.02608,
@@ -5064,30 +5579,10 @@
     "lat": 13.01456,
     "lon": 77.65779
   },
-  "34862": {
-    "name": "Vishwanath Nagenahalli",
-    "lat": 13.03952,
-    "lon": 77.60496
-  },
   "34513": {
     "name": "Shanimahathma Temple",
     "lat": 12.8934,
     "lon": 77.54338
-  },
-  "34518": {
-    "name": "Shankara Nagara",
-    "lat": 13.01597,
-    "lon": 77.54378
-  },
-  "33585": {
-    "name": "Krishnananda Nagara",
-    "lat": 13.01816,
-    "lon": 77.54127
-  },
-  "30792": {
-    "name": "Kanteerava Studio",
-    "lat": 13.02154,
-    "lon": 77.53531
   },
   "21717": {
     "name": "Bank Colony",
@@ -5103,16 +5598,6 @@
     "name": "Balagere",
     "lat": 12.9396,
     "lon": 77.72902
-  },
-  "36276": {
-    "name": "Kadu bisanahalli",
-    "lat": 12.93934,
-    "lon": 77.6957
-  },
-  "23705": {
-    "name": "Panathuru",
-    "lat": 12.93657,
-    "lon": 77.70368
   },
   "22345": {
     "name": "Nanjundeshwara Stores",
@@ -5259,15 +5744,25 @@
     "lat": 12.95379,
     "lon": 77.61737
   },
-  "27906": {
-    "name": "Ramakrishna Nagara",
-    "lat": 13.01763,
-    "lon": 77.53428
+  "31872": {
+    "name": "Bande Bommasandra",
+    "lat": 13.07672,
+    "lon": 77.6809
   },
-  "26232": {
-    "name": "Jai Bhuvaneshwari Nagara",
-    "lat": 13.01422,
-    "lon": 77.53179
+  "29682": {
+    "name": "Bande Bommasandra Cross",
+    "lat": 13.08119,
+    "lon": 77.6824
+  },
+  "30540": {
+    "name": "Kada Agarahara Cross",
+    "lat": 13.07978,
+    "lon": 77.68549
+  },
+  "32506": {
+    "name": "Dodda Gubbi",
+    "lat": 13.07146,
+    "lon": 77.67375
   },
   "35560": {
     "name": "Abbigere Dinne",
@@ -5329,6 +5824,16 @@
     "lat": 13.06146,
     "lon": 77.62043
   },
+  "23320": {
+    "name": "Munnekolalu Junction",
+    "lat": 12.95646,
+    "lon": 77.7049
+  },
+  "23321": {
+    "name": "Munnekolalu",
+    "lat": 12.94854,
+    "lon": 77.70802
+  },
   "35268": {
     "name": "K Narayanapura Main Bus Stand",
     "lat": 13.06636,
@@ -5364,6 +5869,21 @@
     "lat": 13.07354,
     "lon": 77.54636
   },
+  "29484": {
+    "name": "Alpha College Chikka Gubbi",
+    "lat": 13.07701,
+    "lon": 77.66207
+  },
+  "32269": {
+    "name": "Chikka Gubbi",
+    "lat": 13.08052,
+    "lon": 77.66634
+  },
+  "25458": {
+    "name": "Gollahalli",
+    "lat": 13.08368,
+    "lon": 77.67538
+  },
   "35148": {
     "name": "Bhovipalya",
     "lat": 12.8935,
@@ -5383,6 +5903,16 @@
     "name": "Vidyaranyapura Bus Station",
     "lat": 13.08374,
     "lon": 77.5607
+  },
+  "35640": {
+    "name": "B Palya Razakapalya",
+    "lat": 13.14436,
+    "lon": 77.6594
+  },
+  "34408": {
+    "name": "Razakpalya",
+    "lat": 13.14592,
+    "lon": 77.65818
   },
   "31927": {
     "name": "BCC Layout",
@@ -5439,6 +5969,21 @@
     "lat": 12.91246,
     "lon": 77.53706
   },
+  "35495": {
+    "name": "Anagalipura",
+    "lat": 13.06838,
+    "lon": 77.68241
+  },
+  "29456": {
+    "name": "Agrahara Layout",
+    "lat": 13.09837,
+    "lon": 77.62683
+  },
+  "24652": {
+    "name": "Chokkanahalli",
+    "lat": 13.08235,
+    "lon": 77.62499
+  },
   "33143": {
     "name": "Dasarahalli Road Junction",
     "lat": 13.05583,
@@ -5489,10 +6034,30 @@
     "lat": 13.01628,
     "lon": 77.71696
   },
-  "37125": {
-    "name": "HMT Watch Factory",
-    "lat": 13.05037,
-    "lon": 77.53523
+  "22026": {
+    "name": "Hennur",
+    "lat": 13.03949,
+    "lon": 77.64171
+  },
+  "25854": {
+    "name": "Hennur Bande Sai Baba Temple",
+    "lat": 13.03907,
+    "lon": 77.644
+  },
+  "35694": {
+    "name": "Vaddarapalya",
+    "lat": 13.0387,
+    "lon": 77.64635
+  },
+  "34545": {
+    "name": "Shilpa Bakery Horamavu Road",
+    "lat": 13.03782,
+    "lon": 77.65059
+  },
+  "32944": {
+    "name": "Horamavu Agara",
+    "lat": 13.03676,
+    "lon": 77.65487
   },
   "27649": {
     "name": "Pattegarpalya Circle",
@@ -5533,16 +6098,6 @@
     "name": "Pitchguntarahalli",
     "lat": 13.00018,
     "lon": 77.88352
-  },
-  "23347": {
-    "name": "Ashwathkatte Manorayanapalya",
-    "lat": 13.028,
-    "lon": 77.60436
-  },
-  "32054": {
-    "name": "Bhuvaneshwari Nagara",
-    "lat": 13.03219,
-    "lon": 77.60473
   },
   "38686": {
     "name": "Bhattarahalli",
@@ -5589,11 +6144,6 @@
     "lat": 12.93866,
     "lon": 77.78159
   },
-  "25010": {
-    "name": "Dodda Bettahalli",
-    "lat": 13.0943,
-    "lon": 77.55426
-  },
   "21067": {
     "name": "North Road",
     "lat": 12.94816,
@@ -5638,6 +6188,11 @@
     "name": "MD Block",
     "lat": 12.99324,
     "lon": 77.56954
+  },
+  "34415": {
+    "name": "Reva College",
+    "lat": 13.11538,
+    "lon": 77.63416
   },
   "31494": {
     "name": "Thyamagondlu Cross",
@@ -5714,10 +6269,15 @@
     "lat": 13.01284,
     "lon": 77.55373
   },
-  "27746": {
-    "name": "Pramod Layout",
-    "lat": 12.93877,
-    "lon": 77.52878
+  "31624": {
+    "name": "Visthar Gate",
+    "lat": 13.06655,
+    "lon": 77.66016
+  },
+  "32420": {
+    "name": "Dattatreya Peeta Doddagubbi",
+    "lat": 13.06739,
+    "lon": 77.66465
   },
   "30348": {
     "name": "Kodigehalli Canara Bank Colony",
@@ -5729,35 +6289,15 @@
     "lat": 13.0715,
     "lon": 77.57667
   },
-  "34065": {
-    "name": "Nagenahalli",
-    "lat": 13.13116,
-    "lon": 77.57473
-  },
-  "32875": {
-    "name": "Harohalli",
-    "lat": 13.13068,
-    "lon": 77.58025
-  },
-  "25340": {
-    "name": "Gantaganahalli",
-    "lat": 13.14336,
-    "lon": 77.58862
-  },
-  "36395": {
-    "name": "ISRO Murugeshpalya",
-    "lat": 12.95961,
-    "lon": 77.65453
-  },
-  "23511": {
-    "name": "Bhoganahalli",
-    "lat": 12.92644,
-    "lon": 77.70108
-  },
   "34492": {
     "name": "Seegehalli",
     "lat": 13.01426,
     "lon": 77.71697
+  },
+  "32890": {
+    "name": "Hazarath Tippu Nagara",
+    "lat": 13.10343,
+    "lon": 77.62421
   },
   "28260": {
     "name": "Shankarnagh Circle",
@@ -5784,10 +6324,10 @@
     "lat": 12.93036,
     "lon": 77.55344
   },
-  "32414": {
-    "name": "Dasarahalli Hebbala",
-    "lat": 13.05627,
-    "lon": 77.61157
+  "38746": {
+    "name": "Bidarahalli Dargah",
+    "lat": 13.06834,
+    "lon": 77.70807
   },
   "35935": {
     "name": "Padmanabha Nagara",
@@ -5813,6 +6353,11 @@
     "name": "Commercial Street",
     "lat": 12.98163,
     "lon": 77.60822
+  },
+  "32960": {
+    "name": "Hosahalli Kodagalahatti",
+    "lat": 13.14173,
+    "lon": 77.64262
   },
   "33130": {
     "name": "JHBCS Layout",
@@ -5843,6 +6388,11 @@
     "name": "HRBR 1st Stage",
     "lat": 13.02217,
     "lon": 77.64744
+  },
+  "36757": {
+    "name": "Puneethrajakumar Circle",
+    "lat": 13.03994,
+    "lon": 77.65461
   },
   "39647": {
     "name": "Turahalli Cross",
@@ -5904,15 +6454,25 @@
     "lat": 12.99557,
     "lon": 77.61708
   },
+  "31848": {
+    "name": "Agrahara Layout Cross",
+    "lat": 13.10248,
+    "lon": 77.6277
+  },
   "28514": {
     "name": "Lavanya Talkies",
     "lat": 12.98611,
     "lon": 77.61542
   },
-  "27498": {
-    "name": "NITTE Meenakshi College",
-    "lat": 13.13102,
-    "lon": 77.5901
+  "28828": {
+    "name": "Marenahalli Bande",
+    "lat": 13.11026,
+    "lon": 77.68077
+  },
+  "33216": {
+    "name": "Kada Agrahara",
+    "lat": 13.07859,
+    "lon": 77.69179
   },
   "23756": {
     "name": "Jeevanahalli",
@@ -5938,6 +6498,16 @@
     "name": "Dasarahalli Hebbala",
     "lat": 13.05631,
     "lon": 77.61148
+  },
+  "39623": {
+    "name": "Kadusonnappanahalli",
+    "lat": 13.09918,
+    "lon": 77.66369
+  },
+  "39624": {
+    "name": "Kadusonnappanahalli Hospital",
+    "lat": 13.09829,
+    "lon": 77.66554
   },
   "38613": {
     "name": "Ganesh Mantapa",

@@ -16,7 +16,7 @@ else
   git checkout -b "$BRANCH"
 fi
 
-rm *.log
+rm -f *.log
 # ── 3. Call run.sh ────────────────────────────────────────────────────────────
 echo "Running commands"
 python3 platforms-geojson.py 20621 20623 20624 21711 banashankari 15 > banashankari.log &
