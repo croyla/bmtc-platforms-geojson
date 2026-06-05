@@ -1,16 +1,6 @@
 {
   "Unknown": [
     {
-      "route-number": "215-CA JMS-JSD",
-      "route-name": "JSD-JMS",
-      "from-station-id": 21544,
-      "route-id": 4272,
-      "route-parent-id": 2351,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
       "route-number": "MF-17",
       "route-name": "VDRP-JNMS",
       "from-station-id": 21544,
@@ -46,6 +36,26 @@
       "from-station-id": 23374,
       "route-id": 16239,
       "route-parent-id": 8693,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "MF-18 BSK-BGT-ANK",
+      "route-name": "ANK-BGT-BSK",
+      "from-station-id": 23374,
+      "route-id": 17287,
+      "route-parent-id": 9272,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "MF-18 BSK-BNZ",
+      "route-name": "BNZ-BSK",
+      "from-station-id": 23374,
+      "route-id": 17289,
+      "route-parent-id": 9273,
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
@@ -121,21 +131,21 @@
       "bay-number": null
     },
     {
-      "route-number": "80-A NLO-JP3",
-      "route-name": "JPN3-NLO",
+      "route-number": "213 SBS-SNBS-RGL",
+      "route-name": "RGL-SBS",
       "from-station-id": 21544,
-      "route-id": 6696,
-      "route-parent-id": 3608,
+      "route-id": 15721,
+      "route-parent-id": 8430,
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
     },
     {
-      "route-number": "217-E",
-      "route-name": "MAT-SBS",
+      "route-number": "27 KVN-SNBS",
+      "route-name": "KVN-SNBS",
       "from-station-id": 21544,
-      "route-id": 13458,
-      "route-parent-id": 7150,
+      "route-id": 16352,
+      "route-parent-id": 8757,
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
@@ -181,16 +191,6 @@
       "bay-number": null
     },
     {
-      "route-number": "D34G- PTH-KBS",
-      "route-name": "D34G-PTH-KBS",
-      "from-station-id": 21544,
-      "route-id": 15736,
-      "route-parent-id": 8439,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
       "route-number": "2",
       "route-name": "JPMS-KBS",
       "from-station-id": 21544,
@@ -206,6 +206,26 @@
       "from-station-id": 21544,
       "route-id": 17195,
       "route-parent-id": 9223,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "80-A NLO-JP3",
+      "route-name": "JPN3-NLO",
+      "from-station-id": 21544,
+      "route-id": 6696,
+      "route-parent-id": 3608,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "27 BTMW-VSD-SBS",
+      "route-name": "BTT-SBS",
+      "from-station-id": 21544,
+      "route-id": 14252,
+      "route-parent-id": 7620,
       "platform-name": null,
       "platform-number": null,
       "bay-number": null

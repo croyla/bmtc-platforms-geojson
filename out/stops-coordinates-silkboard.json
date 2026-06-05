@@ -44,6 +44,26 @@
     "lat": 12.9564,
     "lon": 77.70927
   },
+  "22215": {
+    "name": "Kundalahalli Gate",
+    "lat": 12.95593,
+    "lon": 77.71574
+  },
+  "22557": {
+    "name": "Thubarahalli",
+    "lat": 12.95592,
+    "lon": 77.72057
+  },
+  "22487": {
+    "name": "Siddapura",
+    "lat": 12.95634,
+    "lon": 77.73191
+  },
+  "22412": {
+    "name": "Ramagondanahalli",
+    "lat": 12.95704,
+    "lon": 77.74039
+  },
   "21288": {
     "name": "Yeshawanthapura Bus Station",
     "lat": 13.01801,
@@ -58,6 +78,11 @@
     "name": "Tin Factory",
     "lat": 12.99645,
     "lon": 77.66857
+  },
+  "21213": {
+    "name": "Tata Institute",
+    "lat": 13.01514,
+    "lon": 77.56382
   },
   "20790": {
     "name": "Goraguntepalya",
@@ -124,10 +149,50 @@
     "lat": 12.99998,
     "lon": 77.67654
   },
-  "21734": {
-    "name": "BEL Circle",
-    "lat": 13.04588,
-    "lon": 77.55654
+  "22577": {
+    "name": "Varthur kodi",
+    "lat": 12.95897,
+    "lon": 77.74642
+  },
+  "21942": {
+    "name": "Forum Mall",
+    "lat": 12.95977,
+    "lon": 77.74683
+  },
+  "21784": {
+    "name": "Brooke Bond",
+    "lat": 12.96392,
+    "lon": 77.74833
+  },
+  "28426": {
+    "name": "Kuvempu Circle",
+    "lat": 13.04337,
+    "lon": 77.56138
+  },
+  "32470": {
+    "name": "Devasandra Chikkamaranahalli",
+    "lat": 13.03638,
+    "lon": 77.56656
+  },
+  "33056": {
+    "name": "ITI Layout",
+    "lat": 13.03394,
+    "lon": 77.56869
+  },
+  "21029": {
+    "name": "MS Ramaiah Hospital",
+    "lat": 13.02698,
+    "lon": 77.57189
+  },
+  "20730": {
+    "name": "CPRI Quarters",
+    "lat": 13.02217,
+    "lon": 77.57224
+  },
+  "21099": {
+    "name": "Sadashivanagara Police Station",
+    "lat": 13.01587,
+    "lon": 77.57277
   },
   "20960": {
     "name": "Kundalahalli Gate",
@@ -198,6 +263,21 @@
     "name": "Kadugodi Bridge",
     "lat": 12.99448,
     "lon": 77.75769
+  },
+  "22621": {
+    "name": "White Field Post Office",
+    "lat": 12.97056,
+    "lon": 77.75
+  },
+  "22442": {
+    "name": "Sai Baba General Hospital",
+    "lat": 12.97383,
+    "lon": 77.75042
+  },
+  "22315": {
+    "name": "Munish Singh Hospital",
+    "lat": 12.97703,
+    "lon": 77.75104
   },
   "20707": {
     "name": "Central Silk Board",
@@ -454,15 +534,15 @@
     "lat": 13.07966,
     "lon": 77.42419
   },
+  "38049": {
+    "name": "Coffee Day Hope Farm",
+    "lat": 12.97998,
+    "lon": 77.75162
+  },
   "20902": {
     "name": "Kadugodi Bus Station",
     "lat": 12.99563,
     "lon": 77.75855
-  },
-  "35279": {
-    "name": "Hennur Junction",
-    "lat": 13.02751,
-    "lon": 77.63268
   },
   "35570": {
     "name": "8th Mile Dasarahalli",
@@ -593,11 +673,6 @@
     "name": "Marathahalli Bridge",
     "lat": 12.95488,
     "lon": 77.70053
-  },
-  "21735": {
-    "name": "BEL Factory",
-    "lat": 13.04887,
-    "lon": 77.55861
   },
   "29841": {
     "name": "BEL Circle",

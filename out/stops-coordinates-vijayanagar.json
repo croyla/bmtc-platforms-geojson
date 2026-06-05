@@ -69,6 +69,31 @@
     "lat": 12.9888,
     "lon": 77.49952
   },
+  "21530": {
+    "name": "Herohalli Cross",
+    "lat": 12.98726,
+    "lon": 77.4925
+  },
+  "21456": {
+    "name": "Anjananagara",
+    "lat": 12.98614,
+    "lon": 77.48847
+  },
+  "21508": {
+    "name": "East West College Cross",
+    "lat": 12.98559,
+    "lon": 77.48632
+  },
+  "21475": {
+    "name": "Byadarahalli",
+    "lat": 12.98504,
+    "lon": 77.48214
+  },
+  "21493": {
+    "name": "College Cross Byadarahalli",
+    "lat": 12.98553,
+    "lon": 77.47951
+  },
   "20976": {
     "name": "Magadi Road TollGate",
     "lat": 12.97462,
@@ -124,6 +149,16 @@
     "lat": 12.9682,
     "lon": 77.58936
   },
+  "21193": {
+    "name": "St Josephs Indian School/ Malya Hospital",
+    "lat": 12.97052,
+    "lon": 77.5943
+  },
+  "21125": {
+    "name": "Richmond Circle",
+    "lat": 12.96738,
+    "lon": 77.59946
+  },
   "20725": {
     "name": "Corporation",
     "lat": 12.96839,
@@ -133,6 +168,11 @@
     "name": "Mysore Bank",
     "lat": 12.97253,
     "lon": 77.58199
+  },
+  "21042": {
+    "name": "Mysore Road Bus Station",
+    "lat": 12.9536,
+    "lon": 77.54378
   },
   "20664": {
     "name": "BHEL",
@@ -329,16 +369,6 @@
     "lat": 12.96763,
     "lon": 77.45896
   },
-  "30384": {
-    "name": "Muddayanapalya Junction",
-    "lat": 12.97144,
-    "lon": 77.48801
-  },
-  "20715": {
-    "name": "Chandra Public School",
-    "lat": 12.96029,
-    "lon": 77.52954
-  },
   "35395": {
     "name": "Vijayanagara Bus Station",
     "lat": 12.96558,
@@ -398,46 +428,6 @@
     "name": "Yeshawanthapura Bus Station",
     "lat": 13.01801,
     "lon": 77.55662
-  },
-  "33871": {
-    "name": "Maruthi Temple Kamalanagara",
-    "lat": 12.99492,
-    "lon": 77.53549
-  },
-  "32773": {
-    "name": "Gudde Devastana Kamalanagara",
-    "lat": 12.99527,
-    "lon": 77.53327
-  },
-  "28846": {
-    "name": "Kamalanagara Market",
-    "lat": 12.99605,
-    "lon": 77.53071
-  },
-  "33287": {
-    "name": "Kamalanagara",
-    "lat": 12.99676,
-    "lon": 77.52737
-  },
-  "28258": {
-    "name": "Shankarnagh Bus Stand",
-    "lat": 12.99472,
-    "lon": 77.52677
-  },
-  "21274": {
-    "name": "Water Tank Kamalanagara",
-    "lat": 12.99546,
-    "lon": 77.53977
-  },
-  "21165": {
-    "name": "Shankar Mutt",
-    "lat": 12.99915,
-    "lon": 77.54161
-  },
-  "21028": {
-    "name": "Modi Hospital",
-    "lat": 12.99749,
-    "lon": 77.54586
   },
   "21050": {
     "name": "Rajajinagara Metro Station",
@@ -598,11 +588,6 @@
     "name": "Hebbagodi",
     "lat": 12.82752,
     "lon": 77.68224
-  },
-  "33635": {
-    "name": "Kurubarahalli",
-    "lat": 13.00085,
-    "lon": 77.53586
   },
   "21051": {
     "name": "Navarang Theatre",
@@ -813,6 +798,11 @@
     "name": "Hunasemara",
     "lat": 12.91966,
     "lon": 77.57423
+  },
+  "20739": {
+    "name": "Deepanjalinagara",
+    "lat": 12.9514,
+    "lon": 77.53724
   },
   "35407": {
     "name": "Vijayanagara",
@@ -1594,16 +1584,6 @@
     "lat": 12.77805,
     "lon": 77.77034
   },
-  "23991": {
-    "name": "Electronic City 378",
-    "lat": 12.84697,
-    "lon": 77.6707
-  },
-  "23992": {
-    "name": "Siemens",
-    "lat": 12.84542,
-    "lon": 77.66228
-  },
   "20662": {
     "name": "BHEL",
     "lat": 12.84492,
@@ -1728,16 +1708,6 @@
     "name": "MG Road",
     "lat": 12.97779,
     "lon": 77.60204
-  },
-  "35808": {
-    "name": "Shankar Mutt",
-    "lat": 12.99939,
-    "lon": 77.54103
-  },
-  "20592": {
-    "name": "8th Main Kamalanagara",
-    "lat": 12.99163,
-    "lon": 77.53839
   },
   "20636": {
     "name": "BEL Circle",
@@ -1904,6 +1874,11 @@
     "lat": 13.08893,
     "lon": 77.44564
   },
+  "36208": {
+    "name": "Bishop Coton Girls High School",
+    "lat": 12.96889,
+    "lon": 77.6014
+  },
   "22564": {
     "name": "Yeshawanthapura Tollgate",
     "lat": 13.01788,
@@ -2043,11 +2018,6 @@
     "name": "Siddaiah Puranik Road Junction",
     "lat": 12.98212,
     "lon": 77.53716
-  },
-  "20813": {
-    "name": "Havanur Circle",
-    "lat": 12.98898,
-    "lon": 77.53767
   },
   "24726": {
     "name": "CPRI",
@@ -2379,11 +2349,6 @@
     "lat": 13.11037,
     "lon": 77.44365
   },
-  "21735": {
-    "name": "BEL Factory",
-    "lat": 13.04887,
-    "lon": 77.55861
-  },
   "33317": {
     "name": "Kannalli",
     "lat": 12.96757,
@@ -2464,11 +2429,6 @@
     "lat": 12.97448,
     "lon": 77.54483
   },
-  "24379": {
-    "name": "Cauvery Nagara",
-    "lat": 12.99965,
-    "lon": 77.53048
-  },
   "34160": {
     "name": "NICE Road Veerabhadranagara",
     "lat": 12.93657,
@@ -2488,6 +2448,11 @@
     "name": "NICE Office",
     "lat": 12.87742,
     "lon": 77.49588
+  },
+  "37961": {
+    "name": "Nayandahalli Junction",
+    "lat": 12.94581,
+    "lon": 77.52832
   },
   "32327": {
     "name": "Chikkegowdanapalya",
@@ -2604,6 +2569,11 @@
     "lat": 12.91953,
     "lon": 77.61028
   },
+  "38815": {
+    "name": "Mysore Road Bus Station",
+    "lat": 12.95366,
+    "lon": 77.54391
+  },
   "33958": {
     "name": "MS Ramayya Hospital",
     "lat": 13.02847,
@@ -2679,15 +2649,15 @@
     "lat": 12.90716,
     "lon": 77.59991
   },
-  "34158": {
-    "name": "NICE Road Kanakapura Road Junction",
-    "lat": 12.85849,
-    "lon": 77.52611
-  },
   "39141": {
     "name": "Depot-22 Gate",
     "lat": 13.02016,
     "lon": 77.50191
+  },
+  "33699": {
+    "name": "Lingadeeranahalli",
+    "lat": 12.99895,
+    "lon": 77.479
   },
   "20565": {
     "name": "Peenya 14th Cross",
@@ -2723,6 +2693,16 @@
     "name": "Subbanna Garden",
     "lat": 12.96464,
     "lon": 77.53225
+  },
+  "30370": {
+    "name": "G Hosahalli Road Junction",
+    "lat": 12.98814,
+    "lon": 77.47534
+  },
+  "25251": {
+    "name": "G Hosahalli",
+    "lat": 12.99592,
+    "lon": 77.47847
   },
   "23348": {
     "name": "Manorayanapalya",
