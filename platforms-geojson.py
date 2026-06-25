@@ -14,7 +14,7 @@ import requests
 # Configuration
 # ──────────────────────────────────────────────
 
-GTFS_FOLDER = '../../../assets/bmtc-vonter/'  # Path to GTFS folder (needs stop_times.txt and stops.txt)
+GTFS_FOLDER = '../assets/bmtc'  # Path to GTFS folder (needs stop_times.txt and stops.txt)
 
 API_URL = 'https://bmtcmobileapi.karnataka.gov.in/WebAPI/'
 VARNAM_API_URL = 'https://api.varnamproject.com/tl/kn/{word}'
