@@ -14,7 +14,7 @@ import requests
 # Configuration
 # ──────────────────────────────────────────────
 
-GTFS_FOLDER = '../assets/bmtc'  # Path to GTFS folder (needs stop_times.txt and stops.txt)
+GTFS_FOLDER = '../../../assets/bmtc-vonter/'  # Path to GTFS folder (needs stop_times.txt and stops.txt)
 
 API_URL = 'https://bmtcmobileapi.karnataka.gov.in/WebAPI/'
 VARNAM_API_URL = 'https://api.varnamproject.com/tl/kn/{word}'
@@ -47,6 +47,12 @@ VARNAM_CONCURRENCY = 4
 def init_cache_db():
     conn = sqlite3.connect(CACHE_DB_PATH)
     cursor = conn.cursor()
+    # WAL + NORMAL sync: readers/writers no longer block each other on the whole
+    # file, and commits skip the extra fsync of the default rollback journal.
+    # Matters under MAX_WORKERS concurrent threads hammering this db on low CPU.
+    cursor.execute('PRAGMA journal_mode = WAL')
+    cursor.execute('PRAGMA synchronous = NORMAL')
+    cursor.execute('PRAGMA auto_vacuum = INCREMENTAL')
     cursor.execute('''
         CREATE TABLE IF NOT EXISTS api_cache (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -106,6 +112,11 @@ def cleanup_expired_cache():
         cursor.execute(f"DELETE FROM api_cache WHERE created_at <= datetime('now', '-{CACHE_DURATION_HOURS} hours')")
         deleted = cursor.rowcount
         conn.commit()
+        # Reclaim space freed by deletes (and by past runs, before auto_vacuum was
+        # enabled) a page at a time — cheap, and keeps the db file from growing
+        # unbounded with dead pages.
+        cursor.execute('PRAGMA incremental_vacuum')
+        conn.commit()
         conn.close()
         if deleted > 0:
             print(f'Cleaned up {deleted} expired cache entries')
@@ -118,49 +129,58 @@ def cleanup_expired_cache():
 # ──────────────────────────────────────────────
 
 def get_next_stops(stop_ids, nest_level=2):
-    """Find stops reachable from stop_ids within nest_level hops using GTFS data."""
+    """Find stops reachable from stop_ids within nest_level hops using GTFS data.
+
+    stop_times.txt is ~1.5M rows; loading it fully into a list of dicts easily
+    exceeds a few hundred MB of RAM. Rows for a given trip_id are contiguous in
+    the file (GTFS export guarantee, verified against this feed), so we stream
+    it and only hold one trip's stops in memory at a time, discarding trips
+    that don't touch any of our stop_ids.
+    """
     print(f'Loading GTFS stop_times for neighbor discovery (nest_level={nest_level})...')
 
-    with open(f"{GTFS_FOLDER}stop_times.txt", mode='r') as file:
-        reader = csv.DictReader(file)
-        stop_times = list(reader)
-
+    stop_ids_set = set(stop_ids)
     next_stops_total = {stop_id: [] for stop_id in stop_ids}
 
-    # Group by trip_id
-    stop_times_by_trip = {}
-    for st in stop_times:
-        stop_times_by_trip.setdefault(st['trip_id'], []).append(st)
-
-    for trip_id in stop_times_by_trip:
-        stop_times_by_trip[trip_id].sort(key=lambda x: int(x['stop_sequence']))
-
-    for stop_id in stop_ids:
-        for st in stop_times:
-            if st['stop_id'] != stop_id:
+    def process_trip(trip_stops):
+        # trip_stops: list of (stop_sequence, stop_id), already collected in file order
+        trip_stops.sort(key=lambda x: x[0])
+        for current_index, (_, stop_id) in enumerate(trip_stops):
+            if stop_id not in stop_ids_set:
                 continue
-
-            trip_id = st['trip_id']
-            trip_stop_times = stop_times_by_trip[trip_id]
-
-            current_index = next(
-                (i for i, x in enumerate(trip_stop_times) if x['stop_id'] == stop_id), None
-            )
-            if current_index is None:
-                continue
-
             for offset in range(nest_level):
                 idx = current_index + offset
-                if idx >= len(trip_stop_times) - 1:
+                if idx >= len(trip_stops) - 1:
                     break
 
-                curr = trip_stop_times[idx]['stop_id']
-                nxt = trip_stop_times[idx + 1]['stop_id']
+                curr = trip_stops[idx][1]
+                nxt = trip_stops[idx + 1][1]
 
                 if curr not in next_stops_total:
                     next_stops_total[curr] = []
                 if nxt not in next_stops_total[curr]:
                     next_stops_total[curr].append(nxt)
+
+    with open(f"{GTFS_FOLDER}stop_times.txt", mode='r', newline='') as file:
+        reader = csv.reader(file)
+        header = next(reader)
+        trip_idx = header.index('trip_id')
+        stop_idx = header.index('stop_id')
+        seq_idx = header.index('stop_sequence')
+
+        current_trip_id = None
+        current_trip_stops = []
+        for row in reader:
+            trip_id = row[trip_idx]
+            if trip_id != current_trip_id:
+                if current_trip_stops:
+                    process_trip(current_trip_stops)
+                current_trip_id = trip_id
+                current_trip_stops = []
+            current_trip_stops.append((int(row[seq_idx]), row[stop_idx]))
+
+        if current_trip_stops:
+            process_trip(current_trip_stops)
 
     print(f'Found neighbors for {len(next_stops_total)} stops')
     return next_stops_total
@@ -217,6 +237,7 @@ def fetch_platform_assignments(stop_ids, next_stops, overrides, nest_level=2):
     tomorrow_end = (datetime.datetime.now() + datetime.timedelta(days=1)).strftime('%Y-%m-%d 23:59')
 
     schedule_times = {"Failed": [], "Received": []}
+    received_index = {}  # route_id -> index in schedule_times["Received"], avoids O(n) scan per insert
     routes_done = set()
     routes_done_lock = threading.Lock()
     received_lock = threading.Lock()
@@ -321,14 +342,11 @@ def fetch_platform_assignments(stop_ids, next_stops, overrides, nest_level=2):
                                 }
 
                                 # Update if exists, otherwise add
-                                existing_index = None
-                                for i, existing in enumerate(schedule_times["Received"]):
-                                    if existing.get("route-id") == route_id:
-                                        existing_index = i
-                                        break
+                                existing_index = received_index.get(route_id)
                                 if existing_index is not None:
                                     schedule_times["Received"][existing_index] = new_entry
                                 else:
+                                    received_index[route_id] = len(schedule_times["Received"])
                                     schedule_times["Received"].append(new_entry)
 
                 if not has_failures:
