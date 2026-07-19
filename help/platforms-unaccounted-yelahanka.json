@@ -1,16 +1,6 @@
 {
   "Unknown": [
     {
-      "route-number": "YHKOT-GKVK",
-      "route-name": "YHK-GKVK",
-      "from-station-id": 22640,
-      "route-id": 2717,
-      "route-parent-id": 1563,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
       "route-number": "289 YHK-D48G",
       "route-name": "YHKOT-D48",
       "from-station-id": 22640,
@@ -81,6 +71,16 @@
       "bay-number": null
     },
     {
+      "route-number": "292-CA",
+      "route-name": "IAF-SBS",
+      "from-station-id": 22641,
+      "route-id": 8113,
+      "route-parent-id": 4357,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
       "route-number": "299-E YHKOT-GDH",
       "route-name": "YHKOT-GDH",
       "from-station-id": 22640,
@@ -111,6 +111,36 @@
       "bay-number": null
     },
     {
+      "route-number": "407-B NES-HGT-RJN-YHK",
+      "route-name": "YHK-RJN-NES",
+      "from-station-id": 22640,
+      "route-id": 16203,
+      "route-parent-id": 8677,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "407-C NES-IAF-RJN-YHK",
+      "route-name": "YHK-RJN-NES",
+      "from-station-id": 22640,
+      "route-id": 16205,
+      "route-parent-id": 8678,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "YHKOT-GKVK",
+      "route-name": "YHK-GKVK",
+      "from-station-id": 22640,
+      "route-id": 2717,
+      "route-parent-id": 1563,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
       "route-number": "PTH-YHKOT",
       "route-name": "YHKOT-PTH",
       "from-station-id": 22640,
@@ -119,16 +149,6 @@
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
-    },
-    {
-      "route-number": "285 BMSITY-YHKOT DOWN",
-      "route-name": "YHKOT-BMSITY",
-      "from-station-id": 22640,
-      "route-id": 5683,
-      "route-parent-id": 2038,
-      "platform-name": "",
-      "platform-number": "",
-      "bay-number": ""
     }
   ],
   "Unsorted": []

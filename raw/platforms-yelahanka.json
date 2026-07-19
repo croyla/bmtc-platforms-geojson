@@ -2,26 +2,6 @@
   "Failed": [],
   "Received": [
     {
-      "route-number": "284",
-      "route-name": "YHKOT-KBS",
-      "from-station-id": 22640,
-      "route-id": 2001,
-      "route-parent-id": "",
-      "platform-name": "3",
-      "platform-number": "3",
-      "bay-number": 3
-    },
-    {
-      "route-number": "280-A KMT-YHKOT",
-      "route-name": "YHKOT-KMT",
-      "from-station-id": 22640,
-      "route-id": 2013,
-      "route-parent-id": "",
-      "platform-name": "3",
-      "platform-number": "3",
-      "bay-number": 3
-    },
-    {
       "route-number": "290-E",
       "route-name": "YHKOT-SBS",
       "from-station-id": 22640,
@@ -30,16 +10,6 @@
       "platform-name": "3",
       "platform-number": "3",
       "bay-number": 3
-    },
-    {
-      "route-number": "401-A",
-      "route-name": "YHKOT-PSS",
-      "from-station-id": 22640,
-      "route-id": 2357,
-      "route-parent-id": "",
-      "platform-name": "2",
-      "platform-number": "2",
-      "bay-number": 2
     },
     {
       "route-number": "280-F",
@@ -52,40 +22,10 @@
       "bay-number": 3
     },
     {
-      "route-number": "401-R",
-      "route-name": "YHK-BEML5",
-      "from-station-id": 22640,
-      "route-id": 2457,
-      "route-parent-id": "",
-      "platform-name": "1",
-      "platform-number": "1",
-      "bay-number": 1
-    },
-    {
       "route-number": "289-A",
       "route-name": "YHKOT-BGLR",
       "from-station-id": 22640,
       "route-id": 2463,
-      "route-parent-id": "",
-      "platform-name": "3",
-      "platform-number": "3",
-      "bay-number": 3
-    },
-    {
-      "route-number": "401-B",
-      "route-name": "YHK-RPCLO",
-      "from-station-id": 22640,
-      "route-id": 2576,
-      "route-parent-id": "",
-      "platform-name": "1",
-      "platform-number": "1",
-      "bay-number": 1
-    },
-    {
-      "route-number": "401-E",
-      "route-name": "YHKOT-CLO",
-      "from-station-id": 22640,
-      "route-id": 2578,
       "route-parent-id": "",
       "platform-name": "3",
       "platform-number": "3",
@@ -112,86 +52,6 @@
       "bay-number": null
     },
     {
-      "route-number": "401-PS",
-      "route-name": "YHK-PSBS",
-      "from-station-id": 22640,
-      "route-id": 2690,
-      "route-parent-id": "",
-      "platform-name": "3",
-      "platform-number": "3",
-      "bay-number": 3
-    },
-    {
-      "route-number": "285-M YHK-DBP",
-      "route-name": "YHK-DBP",
-      "from-station-id": 22640,
-      "route-id": 2701,
-      "route-parent-id": "",
-      "platform-name": "3",
-      "platform-number": "3",
-      "bay-number": 3
-    },
-    {
-      "route-number": "401-MK",
-      "route-name": "YHK-KGR",
-      "from-station-id": 22640,
-      "route-id": 2706,
-      "route-parent-id": "",
-      "platform-name": "3",
-      "platform-number": "3",
-      "bay-number": 3
-    },
-    {
-      "route-number": "401-K",
-      "route-name": "YHK-KGR",
-      "from-station-id": 22640,
-      "route-id": 2708,
-      "route-parent-id": "",
-      "platform-name": "1",
-      "platform-number": "1",
-      "bay-number": 1
-    },
-    {
-      "route-number": "YHKOT-GKVK",
-      "route-name": "YHK-GKVK",
-      "from-station-id": 22640,
-      "route-id": 2717,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "401",
-      "route-name": "YHK-YBS",
-      "from-station-id": 22640,
-      "route-id": 2896,
-      "route-parent-id": "",
-      "platform-name": "2",
-      "platform-number": "2",
-      "bay-number": 2
-    },
-    {
-      "route-number": "285-MP",
-      "route-name": "YHKOT-DBP",
-      "from-station-id": 22640,
-      "route-id": 3753,
-      "route-parent-id": "",
-      "platform-name": "3",
-      "platform-number": "3",
-      "bay-number": 3
-    },
-    {
-      "route-number": "276-F",
-      "route-name": "YHKOT-KBS",
-      "from-station-id": 22640,
-      "route-id": 4629,
-      "route-parent-id": "",
-      "platform-name": "3",
-      "platform-number": "3",
-      "bay-number": 3
-    },
-    {
       "route-number": "278-A",
       "route-name": "YHKOT-BPS",
       "from-station-id": 22640,
@@ -200,16 +60,6 @@
       "platform-name": "3",
       "platform-number": "3",
       "bay-number": 3
-    },
-    {
-      "route-number": "401 YHKOT-D45G",
-      "route-name": "YLKOT-D45G",
-      "from-station-id": 22640,
-      "route-id": 4688,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
     },
     {
       "route-number": "290-EY",
@@ -272,70 +122,10 @@
       "bay-number": null
     },
     {
-      "route-number": "401-AF",
-      "route-name": "YHKOT-KGR",
-      "from-station-id": 22640,
-      "route-id": 5534,
-      "route-parent-id": "",
-      "platform-name": "3",
-      "platform-number": "3",
-      "bay-number": 3
-    },
-    {
-      "route-number": "401-AN",
-      "route-name": "YHKOT-NMG",
-      "from-station-id": 22640,
-      "route-id": 5575,
-      "route-parent-id": "",
-      "platform-name": "3",
-      "platform-number": "3",
-      "bay-number": 3
-    },
-    {
-      "route-number": "401-BB",
-      "route-name": "YHKOT-MRBS",
-      "from-station-id": 22640,
-      "route-id": 5691,
-      "route-parent-id": "",
-      "platform-name": "1",
-      "platform-number": "1",
-      "bay-number": 1
-    },
-    {
       "route-number": "282-C YHK-BLR",
       "route-name": "YHKOT-BGLR",
       "from-station-id": 22640,
       "route-id": 5704,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "407",
-      "route-name": "YHKOT-NMG",
-      "from-station-id": 22640,
-      "route-id": 6528,
-      "route-parent-id": "",
-      "platform-name": "1",
-      "platform-number": "1",
-      "bay-number": 1
-    },
-    {
-      "route-number": "407-F",
-      "route-name": "YHKOT-NMG",
-      "from-station-id": 22640,
-      "route-id": 6567,
-      "route-parent-id": "",
-      "platform-name": "1",
-      "platform-number": "1",
-      "bay-number": 1
-    },
-    {
-      "route-number": "401-A NMG-YHKOT",
-      "route-name": "YHKOT-NMG",
-      "from-station-id": 22640,
-      "route-id": 6629,
       "route-parent-id": "",
       "platform-name": null,
       "platform-number": null,
@@ -462,6 +252,16 @@
       "bay-number": 3
     },
     {
+      "route-number": "292-CA",
+      "route-name": "IAF-SBS",
+      "from-station-id": 22641,
+      "route-id": 8113,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
       "route-number": "289-CA",
       "route-name": "YHK-HNH",
       "from-station-id": 22640,
@@ -506,26 +306,6 @@
       "route-name": "YHK-VNP",
       "from-station-id": 22640,
       "route-id": 8486,
-      "route-parent-id": "",
-      "platform-name": "3",
-      "platform-number": "3",
-      "bay-number": 3
-    },
-    {
-      "route-number": "CHAKRA-10A",
-      "route-name": "HNRJ-HNRJ",
-      "from-station-id": 22640,
-      "route-id": 8554,
-      "route-parent-id": "",
-      "platform-name": "3",
-      "platform-number": "3",
-      "bay-number": 3
-    },
-    {
-      "route-number": "401-AK CKB-YHK",
-      "route-name": "YHK-CKB",
-      "from-station-id": 22640,
-      "route-id": 8613,
       "route-parent-id": "",
       "platform-name": "3",
       "platform-number": "3",
@@ -632,16 +412,6 @@
       "bay-number": null
     },
     {
-      "route-number": "CHAKRA-10A KLN-HNR",
-      "route-name": "KLN-HNR",
-      "from-station-id": 22640,
-      "route-id": 13298,
-      "route-parent-id": "",
-      "platform-name": "3",
-      "platform-number": "3",
-      "bay-number": 3
-    },
-    {
       "route-number": "292-A",
       "route-name": "YHKOT-SBS",
       "from-station-id": 22640,
@@ -652,20 +422,50 @@
       "bay-number": 3
     },
     {
-      "route-number": "406 YHKOT-NMG",
-      "route-name": "YHKOT-NMG",
+      "route-number": "314 BEMLF-SBS-YHK",
+      "route-name": "YHK-SBS-BEMLF",
       "from-station-id": 22640,
-      "route-id": 13531,
+      "route-id": 13803,
       "route-parent-id": "",
       "platform-name": "3",
       "platform-number": "3",
       "bay-number": 3
     },
     {
-      "route-number": "314 BEMLF-SBS-YHK",
-      "route-name": "YHK-SBS-BEMLF",
+      "route-number": "290-E ARMY-SBS-YHKOT",
+      "route-name": "YHKOT-ARMY",
       "from-station-id": 22640,
-      "route-id": 13803,
+      "route-id": 13824,
+      "route-parent-id": "",
+      "platform-name": "3",
+      "platform-number": "3",
+      "bay-number": 3
+    },
+    {
+      "route-number": "289-F YHKOT-LHAI",
+      "route-name": "YHKOT-LHAI",
+      "from-station-id": 22640,
+      "route-id": 13857,
+      "route-parent-id": "",
+      "platform-name": "3",
+      "platform-number": "3",
+      "bay-number": 3
+    },
+    {
+      "route-number": "282B D52G-VNC-YHKOT",
+      "route-name": "YHKOT-D52G",
+      "from-station-id": 22640,
+      "route-id": 14006,
+      "route-parent-id": "",
+      "platform-name": "3",
+      "platform-number": "3",
+      "bay-number": 3
+    },
+    {
+      "route-number": "289-P D52G-YHKOT",
+      "route-name": "YHK-D52G",
+      "from-station-id": 22640,
+      "route-id": 14018,
       "route-parent-id": "",
       "platform-name": "3",
       "platform-number": "3",
@@ -692,30 +492,10 @@
       "bay-number": 3
     },
     {
-      "route-number": "401-RD",
-      "route-name": "YHK-BEML5",
-      "from-station-id": 22640,
-      "route-id": 14467,
-      "route-parent-id": "",
-      "platform-name": "3",
-      "platform-number": "3",
-      "bay-number": 3
-    },
-    {
       "route-number": "289-V",
       "route-name": "YHK-DVH",
       "from-station-id": 22640,
       "route-id": 14528,
-      "route-parent-id": "",
-      "platform-name": "3",
-      "platform-number": "3",
-      "bay-number": 3
-    },
-    {
-      "route-number": "290-EJ NGWJN-GKVK-YHK",
-      "route-name": "YHKOT-NGWJN",
-      "from-station-id": 22640,
-      "route-id": 14655,
       "route-parent-id": "",
       "platform-name": "3",
       "platform-number": "3",
@@ -732,20 +512,10 @@
       "bay-number": 3
     },
     {
-      "route-number": "401-A D43G-YHKOT",
-      "route-name": "YHKOT-D43G",
+      "route-number": "290-E BCGHS-SBS-YHKOT",
+      "route-name": "YHKOT-BCGHS",
       "from-station-id": 22640,
-      "route-id": 14788,
-      "route-parent-id": "",
-      "platform-name": "3",
-      "platform-number": "3",
-      "bay-number": 3
-    },
-    {
-      "route-number": "285-MF YHKOT-KDH",
-      "route-name": "YHKOT-KDH",
-      "from-station-id": 22640,
-      "route-id": 15159,
+      "route-id": 15114,
       "route-parent-id": "",
       "platform-name": "3",
       "platform-number": "3",
@@ -812,16 +582,6 @@
       "bay-number": null
     },
     {
-      "route-number": "401-A PSS-SGP-YHK",
-      "route-name": "YHK-PSS",
-      "from-station-id": 22640,
-      "route-id": 16398,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
       "route-number": "289-K YHKOT-KDYH",
       "route-name": "YHKOT-KDYH",
       "from-station-id": 22640,
@@ -842,6 +602,286 @@
       "bay-number": null
     },
     {
+      "route-number": "290-EB SBS-YHK",
+      "route-name": "YHK-SBS",
+      "from-station-id": 22640,
+      "route-id": 17697,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "284",
+      "route-name": "YHKOT-KBS",
+      "from-station-id": 22640,
+      "route-id": 2001,
+      "route-parent-id": "",
+      "platform-name": "3",
+      "platform-number": "3",
+      "bay-number": 3
+    },
+    {
+      "route-number": "280-A KMT-YHKOT",
+      "route-name": "YHKOT-KMT",
+      "from-station-id": 22640,
+      "route-id": 2013,
+      "route-parent-id": "",
+      "platform-name": "3",
+      "platform-number": "3",
+      "bay-number": 3
+    },
+    {
+      "route-number": "401-A",
+      "route-name": "YHKOT-PSS",
+      "from-station-id": 22640,
+      "route-id": 2357,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 2
+    },
+    {
+      "route-number": "401-R",
+      "route-name": "YHK-BEML5",
+      "from-station-id": 22640,
+      "route-id": 2457,
+      "route-parent-id": "",
+      "platform-name": "1",
+      "platform-number": "1",
+      "bay-number": 1
+    },
+    {
+      "route-number": "401-B HRPC-YHKOT",
+      "route-name": "YHK-RPCLO",
+      "from-station-id": 22640,
+      "route-id": 2576,
+      "route-parent-id": "",
+      "platform-name": "1",
+      "platform-number": "1",
+      "bay-number": 1
+    },
+    {
+      "route-number": "401-E",
+      "route-name": "YHKOT-CLO",
+      "from-station-id": 22640,
+      "route-id": 2578,
+      "route-parent-id": "",
+      "platform-name": "3",
+      "platform-number": "3",
+      "bay-number": 3
+    },
+    {
+      "route-number": "401-PS",
+      "route-name": "YHK-PSBS",
+      "from-station-id": 22640,
+      "route-id": 2690,
+      "route-parent-id": "",
+      "platform-name": "3",
+      "platform-number": "3",
+      "bay-number": 3
+    },
+    {
+      "route-number": "285-M YHK-DBP",
+      "route-name": "YHK-DBP",
+      "from-station-id": 22640,
+      "route-id": 2701,
+      "route-parent-id": "",
+      "platform-name": "3",
+      "platform-number": "3",
+      "bay-number": 3
+    },
+    {
+      "route-number": "401-MK",
+      "route-name": "YHK-KGR",
+      "from-station-id": 22640,
+      "route-id": 2706,
+      "route-parent-id": "",
+      "platform-name": "3",
+      "platform-number": "3",
+      "bay-number": 3
+    },
+    {
+      "route-number": "401-K",
+      "route-name": "YHK-KGR",
+      "from-station-id": 22640,
+      "route-id": 2708,
+      "route-parent-id": "",
+      "platform-name": "1",
+      "platform-number": "1",
+      "bay-number": 1
+    },
+    {
+      "route-number": "YHKOT-GKVK",
+      "route-name": "YHK-GKVK",
+      "from-station-id": 22640,
+      "route-id": 2717,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "401",
+      "route-name": "YHK-YBS",
+      "from-station-id": 22640,
+      "route-id": 2896,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 2
+    },
+    {
+      "route-number": "285-MP",
+      "route-name": "YHKOT-DBP",
+      "from-station-id": 22640,
+      "route-id": 3753,
+      "route-parent-id": "",
+      "platform-name": "3",
+      "platform-number": "3",
+      "bay-number": 3
+    },
+    {
+      "route-number": "276-F",
+      "route-name": "YHKOT-KBS",
+      "from-station-id": 22640,
+      "route-id": 4629,
+      "route-parent-id": "",
+      "platform-name": "3",
+      "platform-number": "3",
+      "bay-number": 3
+    },
+    {
+      "route-number": "401 YHKOT-D45G",
+      "route-name": "YLKOT-D45G",
+      "from-station-id": 22640,
+      "route-id": 4688,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "401-AF",
+      "route-name": "YHKOT-KGR",
+      "from-station-id": 22640,
+      "route-id": 5534,
+      "route-parent-id": "",
+      "platform-name": "3",
+      "platform-number": "3",
+      "bay-number": 3
+    },
+    {
+      "route-number": "401-AN",
+      "route-name": "YHKOT-NMG",
+      "from-station-id": 22640,
+      "route-id": 5575,
+      "route-parent-id": "",
+      "platform-name": "3",
+      "platform-number": "3",
+      "bay-number": 3
+    },
+    {
+      "route-number": "407",
+      "route-name": "YHKOT-NMG",
+      "from-station-id": 22640,
+      "route-id": 6528,
+      "route-parent-id": "",
+      "platform-name": "1",
+      "platform-number": "1",
+      "bay-number": 1
+    },
+    {
+      "route-number": "407-F",
+      "route-name": "YHKOT-NMG",
+      "from-station-id": 22640,
+      "route-id": 6567,
+      "route-parent-id": "",
+      "platform-name": "1",
+      "platform-number": "1",
+      "bay-number": 1
+    },
+    {
+      "route-number": "401-A NMG-YHKOT",
+      "route-name": "YHKOT-NMG",
+      "from-station-id": 22640,
+      "route-id": 6629,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "401-AK CKB-YHK",
+      "route-name": "YHK-CKB",
+      "from-station-id": 22640,
+      "route-id": 8613,
+      "route-parent-id": "",
+      "platform-name": "3",
+      "platform-number": "3",
+      "bay-number": 3
+    },
+    {
+      "route-number": "406 YHKOT-NMG",
+      "route-name": "YHKOT-NMG",
+      "from-station-id": 22640,
+      "route-id": 13531,
+      "route-parent-id": "",
+      "platform-name": "3",
+      "platform-number": "3",
+      "bay-number": 3
+    },
+    {
+      "route-number": "401-RD",
+      "route-name": "YHK-BEML5",
+      "from-station-id": 22640,
+      "route-id": 14467,
+      "route-parent-id": "",
+      "platform-name": "3",
+      "platform-number": "3",
+      "bay-number": 3
+    },
+    {
+      "route-number": "290-EJ NGWJN-GKVK-YHK",
+      "route-name": "YHKOT-NGWJN",
+      "from-station-id": 22640,
+      "route-id": 14655,
+      "route-parent-id": "",
+      "platform-name": "3",
+      "platform-number": "3",
+      "bay-number": 3
+    },
+    {
+      "route-number": "401-A D43G-YHKOT",
+      "route-name": "YHKOT-D43G",
+      "from-station-id": 22640,
+      "route-id": 14788,
+      "route-parent-id": "",
+      "platform-name": "3",
+      "platform-number": "3",
+      "bay-number": 3
+    },
+    {
+      "route-number": "285-MF YHKOT-KDH",
+      "route-name": "YHKOT-KDH",
+      "from-station-id": 22640,
+      "route-id": 15159,
+      "route-parent-id": "",
+      "platform-name": "3",
+      "platform-number": "3",
+      "bay-number": 3
+    },
+    {
+      "route-number": "401-A PSS-SGP-YHK",
+      "route-name": "YHK-PSS",
+      "from-station-id": 22640,
+      "route-id": 16398,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
       "route-number": "PTH-YHKOT",
       "route-name": "YHKOT-PTH",
       "from-station-id": 22640,
@@ -850,76 +890,6 @@
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
-    },
-    {
-      "route-number": "292-CA",
-      "route-name": "IAF-SBS",
-      "from-station-id": 22641,
-      "route-id": 8113,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "289-P D52G-YHKOT",
-      "route-name": "YHK-D52G",
-      "from-station-id": 22640,
-      "route-id": 14018,
-      "route-parent-id": "",
-      "platform-name": "3",
-      "platform-number": "3",
-      "bay-number": 3
-    },
-    {
-      "route-number": "285 BMSITY-YHKOT DOWN",
-      "route-name": "YHKOT-BMSITY",
-      "from-station-id": 22640,
-      "route-id": 5683,
-      "route-parent-id": "",
-      "platform-name": "",
-      "platform-number": "",
-      "bay-number": ""
-    },
-    {
-      "route-number": "298-MP YHLOT-VJP UP",
-      "route-name": "YHKOT-VJP",
-      "from-station-id": 22640,
-      "route-id": 14559,
-      "route-parent-id": "",
-      "platform-name": "3",
-      "platform-number": "3",
-      "bay-number": "3"
-    },
-    {
-      "route-number": "289-AK UP",
-      "route-name": "YHKOT-BLR",
-      "from-station-id": 22640,
-      "route-id": 14966,
-      "route-parent-id": "",
-      "platform-name": "3",
-      "platform-number": "3",
-      "bay-number": "3"
-    },
-    {
-      "route-number": "401-RA CKP-YHKOT DOWN",
-      "route-name": "YHKOT-CKP",
-      "from-station-id": 22640,
-      "route-id": 15111,
-      "route-parent-id": "",
-      "platform-name": "3",
-      "platform-number": "3",
-      "bay-number": "3"
-    },
-    {
-      "route-number": "290-EY KBS-YHKOT DOWN",
-      "route-name": "YHKOT-KBS",
-      "from-station-id": 22640,
-      "route-id": 17011,
-      "route-parent-id": "",
-      "platform-name": "",
-      "platform-number": "",
-      "bay-number": ""
     }
   ]
 }
