@@ -1,11 +1,11 @@
 {
   "Unknown": [
     {
-      "route-number": "CLO-SNB",
-      "route-name": "CLO-SNB",
+      "route-number": "TR-4 VTTMC-NGV",
+      "route-name": "VJN-NGV",
       "from-station-id": 35395,
-      "route-id": 6472,
-      "route-parent-id": 3495,
+      "route-id": 15289,
+      "route-parent-id": 8194,
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
@@ -29,56 +29,6 @@
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
-    },
-    {
-      "route-number": "241-G MRBS-D35G",
-      "route-name": "MRBS-D35G",
-      "from-station-id": 35395,
-      "route-id": 14689,
-      "route-parent-id": 7871,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "180-A",
-      "route-name": "MRBS-KBR",
-      "from-station-id": 35395,
-      "route-id": 15759,
-      "route-parent-id": 8450,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "KMT-SNB",
-      "route-name": "KMT-SNB",
-      "from-station-id": 35395,
-      "route-id": 17290,
-      "route-parent-id": 9274,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "TR-4 VTTMC-NGV",
-      "route-name": "VJN-NGV",
-      "from-station-id": 35395,
-      "route-id": 15289,
-      "route-parent-id": 8194,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "VTTMC-MDP-NBC UP",
-      "route-name": "VTTMC-NBC",
-      "from-station-id": 35395,
-      "route-id": 13992,
-      "route-parent-id": 7474,
-      "platform-name": "",
-      "platform-number": "",
-      "bay-number": ""
     }
   ],
   "Unsorted": []

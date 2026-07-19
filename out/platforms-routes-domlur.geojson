@@ -620,6 +620,112 @@
         ],
         "Routes": [
           {
+            "Route": "315-G",
+            "RouteId": 7193,
+            "RouteParentId": 3868,
+            "Destination": "KR Pura Market",
+            "Via": "",
+            "Area": "Dr BR Ambedkar Bus Terminal (Domlur)",
+            "PlatformNumber": "5",
+            "KannadaDestination": "ಕ್ರ್ ಪುರ ಮರ್ಕೆಟ್",
+            "KannadaArea": "ಡಾ. ಬಿಆರ್ ಅಂಬೇಡ್ಕರ್ ಬಸ್ ಟರ್ಮಿನಲ್ (ದೊಮ್ಮಲುರು))",
+            "KannadaVia": "",
+            "FromStationId": 21923,
+            "Stops": [
+              {
+                "name": "Dr BR Ambedkar Bus Terminal (Domlur)",
+                "name_kn": "ದ್ರ್ ಬ್ರ್ ಂಬೆದ್ಕರ್ ಬುಸ್ ಟೆರ್ಮಿನಲ್ (ದೊಂಲುರ್)",
+                "stop_id": "21923",
+                "lat": 12.96163,
+                "lon": 77.63881
+              },
+              {
+                "name": "ESI Hospital Indiranagara",
+                "name_kn": "ಎಸಿ ಹೊಸ್ಪಿಟಲ್ ಿಂದಿರನಗರ",
+                "stop_id": "39474",
+                "lat": 12.97094,
+                "lon": 77.63594
+              },
+              {
+                "name": "Double Road Indiranagara",
+                "name_kn": "ದೌಬ್ಲೆ ರೊದ್ ಿಂದಿರನಗರ",
+                "stop_id": "21921",
+                "lat": 12.97843,
+                "lon": 77.63654
+              },
+              {
+                "name": "Indiranagara Metro Station",
+                "name_kn": "ಇಂದಿರನಗರ ಮೆಟ್ರೊ ಸ್ಟಟಿೊಂ",
+                "stop_id": "33037",
+                "lat": 12.97849,
+                "lon": 77.63848
+              },
+              {
+                "name": "Indiranagara Police Station/KFC",
+                "name_kn": "ಇಂದಿರನಗರ ಪೊಲಿಕೆ ಸ್ಟಟಿೊಂ/ಕ್ೞ್ಕ್",
+                "stop_id": "22389",
+                "lat": 12.97857,
+                "lon": 77.6408
+              },
+              {
+                "name": "Binnamangala",
+                "name_kn": "ಬಿಂನಮಙಲ",
+                "stop_id": "35957",
+                "lat": 12.98368,
+                "lon": 77.64049
+              },
+              {
+                "name": "Swamy Vivekananda Metro Station/Isolation Hospital",
+                "name_kn": "ಸ್ವಮೆ ವಿವೆಕನಂದ ಮೆಟ್ರೊ ಸ್ಟಟಿೊಂ/ಿಸೊಲಟಿೊಂ ಹೊಸ್ಪಿಟಲ್",
+                "stop_id": "22527",
+                "lat": 12.9858,
+                "lon": 77.64501
+              },
+              {
+                "name": "NGEF",
+                "name_kn": "ಙೆೞ್",
+                "stop_id": "21060",
+                "lat": 12.98787,
+                "lon": 77.64987
+              },
+              {
+                "name": "Bayyappanahalli Metro Station",
+                "name_kn": "ಬಯೆಪ್ಪನಹಲ್ಲಿ ಮೆಟ್ರೊ ಸ್ಟಟಿೊಂ",
+                "stop_id": "20634",
+                "lat": 12.99001,
+                "lon": 77.65454
+              },
+              {
+                "name": "Benniganahalli",
+                "name_kn": "ಬೆಂನಿಗನಹಲ್ಲಿ",
+                "stop_id": "20656",
+                "lat": 12.99428,
+                "lon": 77.6633
+              },
+              {
+                "name": "Tin Factory",
+                "name_kn": "ಟಿಂ ೞಕ್ಟೊರೆ",
+                "stop_id": "21229",
+                "lat": 12.99698,
+                "lon": 77.66937
+              },
+              {
+                "name": "ITI Colony Gate",
+                "name_kn": "ಇಟಿ ಕೊಲೊನೆ ಗಟೆ",
+                "stop_id": "20863",
+                "lat": 13.00532,
+                "lon": 77.68522
+              },
+              {
+                "name": "KR Pura Market",
+                "name_kn": "ಕ್ರ್ ಪುರ ಮರ್ಕೆಟ್",
+                "stop_id": "22207",
+                "lat": 13.00841,
+                "lon": 77.69403
+              }
+            ]
+          },
+          {
             "Route": "334-E",
             "RouteId": 3034,
             "RouteParentId": 1723,
@@ -960,6 +1066,217 @@
                 "stop_id": "22046",
                 "lat": 13.0787,
                 "lon": 77.78774
+              }
+            ]
+          },
+          {
+            "Route": "334-E DBS-KDG",
+            "RouteId": 12166,
+            "RouteParentId": 6478,
+            "Destination": "Kadugodi Bus Station",
+            "Via": "",
+            "Area": "Dr BR Ambedkar Bus Terminal (Domlur)",
+            "PlatformNumber": "5",
+            "KannadaDestination": "ಕದುಗೊದಿ ಬುಸ್ ಸ್ಟಟಿೊಂ",
+            "KannadaArea": "ಡಾ. ಬಿಆರ್ ಅಂಬೇಡ್ಕರ್ ಬಸ್ ಟರ್ಮಿನಲ್ (ದೊಮ್ಮಲುರು))",
+            "KannadaVia": "",
+            "FromStationId": 21923,
+            "Stops": [
+              {
+                "name": "Dr BR Ambedkar Bus Terminal (Domlur)",
+                "name_kn": "ದ್ರ್ ಬ್ರ್ ಂಬೆದ್ಕರ್ ಬುಸ್ ಟೆರ್ಮಿನಲ್ (ದೊಂಲುರ್)",
+                "stop_id": "21923",
+                "lat": 12.96163,
+                "lon": 77.63881
+              },
+              {
+                "name": "Domlur Flyover",
+                "name_kn": "ದೊಂಲುರ್ ೞ್ಲೆೊವೆರ್",
+                "stop_id": "21917",
+                "lat": 12.96048,
+                "lon": 77.64352
+              },
+              {
+                "name": "Kodihalli",
+                "name_kn": "ಕೊದಿಹಲ್ಲಿ",
+                "stop_id": "22178",
+                "lat": 12.96,
+                "lon": 77.64758
+              },
+              {
+                "name": "NAL/Manipal Hospital",
+                "name_kn": "ನಲ್/ಮನಿಪಲ್ ಹೊಸ್ಪಿಟಲ್",
+                "stop_id": "22336",
+                "lat": 12.95964,
+                "lon": 77.65076
+              },
+              {
+                "name": "Murugeshpalya",
+                "name_kn": "ಮುರುಗೆಶ್ಪಲೆ",
+                "stop_id": "22316",
+                "lat": 12.95936,
+                "lon": 77.65618
+              },
+              {
+                "name": "Konena Agrahara",
+                "name_kn": "ಕೊನೆನ ಗ್ರಹರ",
+                "stop_id": "22193",
+                "lat": 12.95914,
+                "lon": 77.65962
+              },
+              {
+                "name": "HAL Main Gate",
+                "name_kn": "ಹಲ್ ಮೈಂ ಗಟೆ",
+                "stop_id": "22003",
+                "lat": 12.95821,
+                "lon": 77.66821
+              },
+              {
+                "name": "HAL Admin Gate",
+                "name_kn": "ಹಲ್ ದ್ಮಿಂ ಗಟೆ",
+                "stop_id": "39489",
+                "lat": 12.95813,
+                "lon": 77.66949
+              },
+              {
+                "name": "Helicopter Division",
+                "name_kn": "ಹೆಲಿಕೊಪ್ಟೆರ್ ದಿವಿಸಿೊಂ",
+                "stop_id": "22021",
+                "lat": 12.95582,
+                "lon": 77.67735
+              },
+              {
+                "name": "HAL Kalyana Mantap",
+                "name_kn": "ಹಲ್ ಕಲೆನ ಮಂಟಪ್",
+                "stop_id": "22001",
+                "lat": 12.9546,
+                "lon": 77.68215
+              },
+              {
+                "name": "Yamalur Cross",
+                "name_kn": "ಯಮಲುರ್ ಕ್ರೊಸ್ಸ್",
+                "stop_id": "22627",
+                "lat": 12.95525,
+                "lon": 77.68829
+              },
+              {
+                "name": "Marathahalli",
+                "name_kn": "ಮರತಹಲ್ಲಿ",
+                "stop_id": "22260",
+                "lat": 12.95626,
+                "lon": 77.69409
+              },
+              {
+                "name": "Marathahalli Bridge",
+                "name_kn": "ಮರತಹಲ್ಲಿ ಬ್ರಿದ್ಗೆ",
+                "stop_id": "22668",
+                "lat": 12.9569,
+                "lon": 77.70215
+              },
+              {
+                "name": "Munnekolalu Cross (Spice Garden)",
+                "name_kn": "ಮುಂನೆಕೊಲಲು ಕ್ರೊಸ್ಸ್ (ಸ್ಪಿಕೆ ಗರ್ದೆಂ)",
+                "stop_id": "21038",
+                "lat": 12.9564,
+                "lon": 77.70927
+              },
+              {
+                "name": "Kundalahalli Gate",
+                "name_kn": "ಕುಂದಲಹಲ್ಲಿ ಗಟೆ",
+                "stop_id": "22215",
+                "lat": 12.95593,
+                "lon": 77.71574
+              },
+              {
+                "name": "Thubarahalli",
+                "name_kn": "ತುಬರಹಲ್ಲಿ",
+                "stop_id": "22557",
+                "lat": 12.95592,
+                "lon": 77.72057
+              },
+              {
+                "name": "Siddapura",
+                "name_kn": "ಸಿದ್ದಪುರ",
+                "stop_id": "22487",
+                "lat": 12.95634,
+                "lon": 77.73191
+              },
+              {
+                "name": "Ramagondanahalli",
+                "name_kn": "ರಮಗೊಂದನಹಲ್ಲಿ",
+                "stop_id": "22412",
+                "lat": 12.95704,
+                "lon": 77.74039
+              },
+              {
+                "name": "Varthur kodi",
+                "name_kn": "ವರ್ತುರ್ ಕೊದಿ",
+                "stop_id": "22577",
+                "lat": 12.95897,
+                "lon": 77.74642
+              },
+              {
+                "name": "Forum Mall",
+                "name_kn": "ೞೊರುಂ ಮಲ್ಲ್",
+                "stop_id": "21942",
+                "lat": 12.95977,
+                "lon": 77.74683
+              },
+              {
+                "name": "Brooke Bond",
+                "name_kn": "ಬ್ರೂಕೆ ಬೊಂದ್",
+                "stop_id": "21784",
+                "lat": 12.96392,
+                "lon": 77.74833
+              },
+              {
+                "name": "White Field Post Office",
+                "name_kn": "ವ್ಹಿಟೆ ೞಿೆಲ್ದ್ ಪೊಸ್ಟ್ ೊೞ್ೞಿಕೆ",
+                "stop_id": "22621",
+                "lat": 12.97056,
+                "lon": 77.75
+              },
+              {
+                "name": "Sai Baba General Hospital",
+                "name_kn": "ಸೈ ಬಬ ಗೆನೆರಲ್ ಹೊಸ್ಪಿಟಲ್",
+                "stop_id": "22442",
+                "lat": 12.97383,
+                "lon": 77.75042
+              },
+              {
+                "name": "Munish Singh Hospital",
+                "name_kn": "ಮುನಿಶ್ ಸಿಙ್ಹ್ ಹೊಸ್ಪಿಟಲ್",
+                "stop_id": "22315",
+                "lat": 12.97703,
+                "lon": 77.75104
+              },
+              {
+                "name": "Coffee Day Hope Farm",
+                "name_kn": "ಕೊೞ್ೞೀ ದಯ್ ಹೊಪೆ ೞರ್ಂ",
+                "stop_id": "38049",
+                "lat": 12.97998,
+                "lon": 77.75162
+              },
+              {
+                "name": "Hope Farm",
+                "name_kn": "ಹೊಪೆ ೞರ್ಂ",
+                "stop_id": "20836",
+                "lat": 12.98429,
+                "lon": 77.75261
+              },
+              {
+                "name": "Kadugodi Bridge",
+                "name_kn": "ಕದುಗೊದಿ ಬ್ರಿದ್ಗೆ",
+                "stop_id": "20901",
+                "lat": 12.99448,
+                "lon": 77.75769
+              },
+              {
+                "name": "Kadugodi Bus Station",
+                "name_kn": "ಕದುಗೊದಿ ಬುಸ್ ಸ್ಟಟಿೊಂ",
+                "stop_id": "20902",
+                "lat": 12.99563,
+                "lon": 77.75855
               }
             ]
           },
@@ -1367,112 +1684,6 @@
                 "stop_id": "30214",
                 "lat": 13.13512,
                 "lon": 77.74753
-              }
-            ]
-          },
-          {
-            "Route": "315-G",
-            "RouteId": 7193,
-            "RouteParentId": 3868,
-            "Destination": "KR Pura Market",
-            "Via": "",
-            "Area": "Dr BR Ambedkar Bus Terminal (Domlur)",
-            "PlatformNumber": "5",
-            "KannadaDestination": "ಕ್ರ್ ಪುರ ಮರ್ಕೆಟ್",
-            "KannadaArea": "ಡಾ. ಬಿಆರ್ ಅಂಬೇಡ್ಕರ್ ಬಸ್ ಟರ್ಮಿನಲ್ (ದೊಮ್ಮಲುರು))",
-            "KannadaVia": "",
-            "FromStationId": 21923,
-            "Stops": [
-              {
-                "name": "Dr BR Ambedkar Bus Terminal (Domlur)",
-                "name_kn": "ದ್ರ್ ಬ್ರ್ ಂಬೆದ್ಕರ್ ಬುಸ್ ಟೆರ್ಮಿನಲ್ (ದೊಂಲುರ್)",
-                "stop_id": "21923",
-                "lat": 12.96163,
-                "lon": 77.63881
-              },
-              {
-                "name": "ESI Hospital Indiranagara",
-                "name_kn": "ಎಸಿ ಹೊಸ್ಪಿಟಲ್ ಿಂದಿರನಗರ",
-                "stop_id": "39474",
-                "lat": 12.97094,
-                "lon": 77.63594
-              },
-              {
-                "name": "Double Road Indiranagara",
-                "name_kn": "ದೌಬ್ಲೆ ರೊದ್ ಿಂದಿರನಗರ",
-                "stop_id": "21921",
-                "lat": 12.97843,
-                "lon": 77.63654
-              },
-              {
-                "name": "Indiranagara Metro Station",
-                "name_kn": "ಇಂದಿರನಗರ ಮೆಟ್ರೊ ಸ್ಟಟಿೊಂ",
-                "stop_id": "33037",
-                "lat": 12.97849,
-                "lon": 77.63848
-              },
-              {
-                "name": "Indiranagara Police Station/KFC",
-                "name_kn": "ಇಂದಿರನಗರ ಪೊಲಿಕೆ ಸ್ಟಟಿೊಂ/ಕ್ೞ್ಕ್",
-                "stop_id": "22389",
-                "lat": 12.97857,
-                "lon": 77.6408
-              },
-              {
-                "name": "Binnamangala",
-                "name_kn": "ಬಿಂನಮಙಲ",
-                "stop_id": "35957",
-                "lat": 12.98368,
-                "lon": 77.64049
-              },
-              {
-                "name": "Swamy Vivekananda Metro Station/Isolation Hospital",
-                "name_kn": "ಸ್ವಮೆ ವಿವೆಕನಂದ ಮೆಟ್ರೊ ಸ್ಟಟಿೊಂ/ಿಸೊಲಟಿೊಂ ಹೊಸ್ಪಿಟಲ್",
-                "stop_id": "22527",
-                "lat": 12.9858,
-                "lon": 77.64501
-              },
-              {
-                "name": "NGEF",
-                "name_kn": "ಙೆೞ್",
-                "stop_id": "21060",
-                "lat": 12.98787,
-                "lon": 77.64987
-              },
-              {
-                "name": "Bayyappanahalli Metro Station",
-                "name_kn": "ಬಯೆಪ್ಪನಹಲ್ಲಿ ಮೆಟ್ರೊ ಸ್ಟಟಿೊಂ",
-                "stop_id": "20634",
-                "lat": 12.99001,
-                "lon": 77.65454
-              },
-              {
-                "name": "Benniganahalli",
-                "name_kn": "ಬೆಂನಿಗನಹಲ್ಲಿ",
-                "stop_id": "20656",
-                "lat": 12.99428,
-                "lon": 77.6633
-              },
-              {
-                "name": "Tin Factory",
-                "name_kn": "ಟಿಂ ೞಕ್ಟೊರೆ",
-                "stop_id": "21229",
-                "lat": 12.99698,
-                "lon": 77.66937
-              },
-              {
-                "name": "ITI Colony Gate",
-                "name_kn": "ಇಟಿ ಕೊಲೊನೆ ಗಟೆ",
-                "stop_id": "20863",
-                "lat": 13.00532,
-                "lon": 77.68522
-              },
-              {
-                "name": "KR Pura Market",
-                "name_kn": "ಕ್ರ್ ಪುರ ಮರ್ಕೆಟ್",
-                "stop_id": "22207",
-                "lat": 13.00841,
-                "lon": 77.69403
               }
             ]
           },
