@@ -11,16 +11,6 @@
       "bay-number": null
     },
     {
-      "route-number": "335-N",
-      "route-name": "KST-KDG",
-      "from-station-id": 35395,
-      "route-id": 7012,
-      "route-parent-id": 2599,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
       "route-number": "374-S NMG-KMT",
       "route-name": "KMT-NMG",
       "from-station-id": 35395,
@@ -29,6 +19,36 @@
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
+    },
+    {
+      "route-number": "240-MA DPJN-MGD",
+      "route-name": "DPJN-MGD",
+      "from-station-id": 35395,
+      "route-id": 16302,
+      "route-parent-id": 8731,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "223 CLO-HALARDC",
+      "route-name": "CLO-HALARDC",
+      "from-station-id": 35395,
+      "route-id": 17805,
+      "route-parent-id": 9575,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "VTTMC-MDP-NBC UP",
+      "route-name": "VTTMC-NBC",
+      "from-station-id": 35395,
+      "route-id": 13992,
+      "route-parent-id": 7474,
+      "platform-name": "",
+      "platform-number": "",
+      "bay-number": ""
     }
   ],
   "Unsorted": []

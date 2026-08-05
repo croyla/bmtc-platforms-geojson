@@ -11,6 +11,16 @@
       "bay-number": null
     },
     {
+      "route-number": "JPN6-BSK",
+      "route-name": "BSK-JPN6",
+      "from-station-id": 20623,
+      "route-id": 13716,
+      "route-parent-id": 7304,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
       "route-number": "MF-15 BSK-JSD",
       "route-name": "BSK-JSD",
       "from-station-id": 20623,
@@ -26,6 +36,16 @@
       "from-station-id": 20623,
       "route-id": 7234,
       "route-parent-id": 3891,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "KIA-5D",
+      "route-name": "AOL-KIA",
+      "from-station-id": 20623,
+      "route-id": 15792,
+      "route-parent-id": 8468,
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
@@ -131,21 +151,21 @@
       "bay-number": null
     },
     {
-      "route-number": "MF-19",
-      "route-name": "RVMS-VJNT",
-      "from-station-id": 20623,
-      "route-id": 16420,
-      "route-parent-id": 8794,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
       "route-number": "279-F",
       "route-name": "CSBS-NGH",
       "from-station-id": 20623,
       "route-id": 16947,
       "route-parent-id": 9073,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "MF-19",
+      "route-name": "JBS-VJN",
+      "from-station-id": 20623,
+      "route-id": 17774,
+      "route-parent-id": 9557,
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
@@ -176,16 +196,6 @@
       "from-station-id": 20623,
       "route-id": 13684,
       "route-parent-id": 7284,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "BSK-JNN",
-      "route-name": "BSK-JNN",
-      "from-station-id": 20623,
-      "route-id": 14097,
-      "route-parent-id": 7529,
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
@@ -225,7 +235,7 @@
       "route-name": "YBS-ELCW",
       "from-station-id": 20624,
       "route-id": 14805,
-      "route-parent-id": 7933,
+      "route-parent-id": "",
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
@@ -251,11 +261,31 @@
       "bay-number": null
     },
     {
+      "route-number": "365 BSK-JAPC",
+      "route-name": "BSK-JAPC",
+      "from-station-id": 20623,
+      "route-id": 17545,
+      "route-parent-id": 9426,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
       "route-number": "375-J",
       "route-name": "SNBS-TPR",
       "from-station-id": 20624,
       "route-id": 1993,
       "route-parent-id": 1172,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "VW-226HSR",
+      "route-name": "HSRBDA-WAP",
+      "from-station-id": 20623,
+      "route-id": 3979,
+      "route-parent-id": 2209,
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
@@ -365,7 +395,7 @@
       "route-name": "ELCW-YBS",
       "from-station-id": 20624,
       "route-id": 14806,
-      "route-parent-id": 7933,
+      "route-parent-id": "",
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
@@ -409,6 +439,26 @@
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
+    },
+    {
+      "route-number": "15-E KBS-KML",
+      "route-name": "KBS-BSK-KML",
+      "from-station-id": 20623,
+      "route-id": 17759,
+      "route-parent-id": 9548,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "BSK-JNN UP",
+      "route-name": "BSK-JNN",
+      "from-station-id": 20623,
+      "route-id": 14097,
+      "route-parent-id": 7529,
+      "platform-name": "",
+      "platform-number": "",
+      "bay-number": ""
     }
   ],
   "Unsorted": [

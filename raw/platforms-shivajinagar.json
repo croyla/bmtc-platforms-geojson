@@ -2,23 +2,10 @@
   "Failed": [
     {
       "from_stop": "21172",
-      "to_stop": "35138",
-      "response": {
-        "isException": true,
-        "Issuccess": false,
-        "exception": "Response not received in JSON.",
-        "Message": "Response not received in JSON."
-      },
-      "level": 0
-    },
-    {
-      "from_stop": "21172",
       "to_stop": "20857",
       "response": {
-        "isException": true,
-        "Issuccess": false,
-        "exception": "Response not received in JSON.",
-        "Message": "Response not received in JSON."
+        "Message": "Cannot find table 1.",
+        "isException": true
       },
       "level": 0
     },
@@ -26,10 +13,17 @@
       "from_stop": "21172",
       "to_stop": "22068",
       "response": {
-        "isException": true,
-        "Issuccess": false,
-        "exception": "Response not received in JSON.",
-        "Message": "Response not received in JSON."
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 0
+    },
+    {
+      "from_stop": "21172",
+      "to_stop": "35138",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
       },
       "level": 0
     },
@@ -37,21 +31,188 @@
       "from_stop": "21172",
       "to_stop": "20855",
       "response": {
-        "isException": true,
-        "Issuccess": false,
-        "exception": "Response not received in JSON.",
-        "Message": "Response not received in JSON."
+        "Message": "Cannot find table 1.",
+        "isException": true
       },
       "level": 0
+    },
+    {
+      "from_stop": "21172",
+      "to_stop": "23356",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 1
+    },
+    {
+      "from_stop": "21172",
+      "to_stop": "21130",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 2
+    },
+    {
+      "from_stop": "21172",
+      "to_stop": "21076",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 3
+    },
+    {
+      "from_stop": "21172",
+      "to_stop": "21019",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 4
+    },
+    {
+      "from_stop": "21172",
+      "to_stop": "20698",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 5
+    },
+    {
+      "from_stop": "21172",
+      "to_stop": "21254",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 6
+    },
+    {
+      "from_stop": "21172",
+      "to_stop": "20695",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 7
+    },
+    {
+      "from_stop": "21172",
+      "to_stop": "20820",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 8
+    },
+    {
+      "from_stop": "21172",
+      "to_stop": "33931",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 9
+    },
+    {
+      "from_stop": "21172",
+      "to_stop": "38168",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 10
+    },
+    {
+      "from_stop": "21172",
+      "to_stop": "39269",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 11
+    },
+    {
+      "from_stop": "21172",
+      "to_stop": "35151",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 12
+    },
+    {
+      "from_stop": "21172",
+      "to_stop": "39273",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 13
+    },
+    {
+      "from_stop": "21172",
+      "to_stop": "39274",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 14
     },
     {
       "from_stop": "21173",
       "to_stop": "20855",
       "response": {
-        "isException": true,
-        "Issuccess": false,
-        "exception": "Response not received in JSON.",
-        "Message": "Response not received in JSON."
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 0
+    },
+    {
+      "from_stop": "21173",
+      "to_stop": "20857",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 0
+    },
+    {
+      "from_stop": "21173",
+      "to_stop": "35138",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 0
+    },
+    {
+      "from_stop": "21173",
+      "to_stop": "20857",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 0
+    },
+    {
+      "from_stop": "21173",
+      "to_stop": "35138",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 0
+    },
+    {
+      "from_stop": "21173",
+      "to_stop": "22068",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
       },
       "level": 0
     },
@@ -68,56 +229,183 @@
     },
     {
       "from_stop": "21173",
+      "to_stop": "23356",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 1
+    },
+    {
+      "from_stop": "21173",
+      "to_stop": "21130",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 2
+    },
+    {
+      "from_stop": "21173",
+      "to_stop": "21076",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 3
+    },
+    {
+      "from_stop": "21173",
+      "to_stop": "21019",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 4
+    },
+    {
+      "from_stop": "21173",
+      "to_stop": "20698",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 5
+    },
+    {
+      "from_stop": "21173",
+      "to_stop": "21254",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 6
+    },
+    {
+      "from_stop": "21173",
+      "to_stop": "20695",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 7
+    },
+    {
+      "from_stop": "21173",
+      "to_stop": "20820",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 8
+    },
+    {
+      "from_stop": "21173",
+      "to_stop": "33931",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 9
+    },
+    {
+      "from_stop": "21173",
+      "to_stop": "38168",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 10
+    },
+    {
+      "from_stop": "21173",
+      "to_stop": "39269",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 11
+    },
+    {
+      "from_stop": "21173",
+      "to_stop": "35151",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 12
+    },
+    {
+      "from_stop": "21173",
+      "to_stop": "39273",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 13
+    },
+    {
+      "from_stop": "21173",
+      "to_stop": "39274",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 14
+    },
+    {
+      "from_stop": "35779",
       "to_stop": "35138",
       "response": {
-        "isException": true,
-        "Issuccess": false,
-        "exception": "Response not received in JSON.",
-        "Message": "Response not received in JSON."
+        "Message": "Cannot find table 1.",
+        "isException": true
       },
       "level": 0
     },
     {
-      "from_stop": "21173",
-      "to_stop": "35138",
-      "response": {
-        "isException": true,
-        "Issuccess": false,
-        "exception": "Response not received in JSON.",
-        "Message": "Response not received in JSON."
-      },
-      "level": 0
-    },
-    {
-      "from_stop": "21173",
+      "from_stop": "35779",
       "to_stop": "20857",
       "response": {
-        "isException": true,
-        "Issuccess": false,
-        "exception": "Response not received in JSON.",
-        "Message": "Response not received in JSON."
+        "Message": "Cannot find table 1.",
+        "isException": true
       },
       "level": 0
     },
     {
-      "from_stop": "21173",
-      "to_stop": "20857",
-      "response": {
-        "isException": true,
-        "Issuccess": false,
-        "exception": "Response not received in JSON.",
-        "Message": "Response not received in JSON."
-      },
-      "level": 0
-    },
-    {
-      "from_stop": "21173",
+      "from_stop": "35779",
       "to_stop": "22068",
       "response": {
-        "isException": true,
-        "Issuccess": false,
-        "exception": "Response not received in JSON.",
-        "Message": "Response not received in JSON."
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 0
+    },
+    {
+      "from_stop": "35779",
+      "to_stop": "22068",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 0
+    },
+    {
+      "from_stop": "35779",
+      "to_stop": "20857",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 0
+    },
+    {
+      "from_stop": "35779",
+      "to_stop": "35138",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
       },
       "level": 0
     },
@@ -125,101 +413,150 @@
       "from_stop": "35779",
       "to_stop": "20855",
       "response": {
-        "isException": true,
-        "Issuccess": false,
-        "exception": "Response not received in JSON.",
-        "Message": "Response not received in JSON."
+        "Message": "Cannot find table 1.",
+        "isException": true
       },
       "level": 0
     },
     {
       "from_stop": "35779",
-      "to_stop": "35138",
+      "to_stop": "23356",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 1
+    },
+    {
+      "from_stop": "35779",
+      "to_stop": "38574",
       "response": {
         "isException": true,
         "Issuccess": false,
         "exception": "Response not received in JSON.",
         "Message": "Response not received in JSON."
       },
-      "level": 0
+      "level": 1
     },
     {
       "from_stop": "35779",
-      "to_stop": "20857",
+      "to_stop": "21130",
       "response": {
-        "isException": true,
-        "Issuccess": false,
-        "exception": "Response not received in JSON.",
-        "Message": "Response not received in JSON."
+        "Message": "Cannot find table 1.",
+        "isException": true
       },
-      "level": 0
+      "level": 2
     },
     {
       "from_stop": "35779",
-      "to_stop": "22068",
+      "to_stop": "21076",
       "response": {
-        "isException": true,
-        "Issuccess": false,
-        "exception": "Response not received in JSON.",
-        "Message": "Response not received in JSON."
+        "Message": "Cannot find table 1.",
+        "isException": true
       },
-      "level": 0
+      "level": 3
     },
     {
       "from_stop": "35779",
-      "to_stop": "35138",
+      "to_stop": "21019",
       "response": {
-        "isException": true,
-        "Issuccess": false,
-        "exception": "Response not received in JSON.",
-        "Message": "Response not received in JSON."
+        "Message": "Cannot find table 1.",
+        "isException": true
       },
-      "level": 0
+      "level": 4
     },
     {
       "from_stop": "35779",
-      "to_stop": "20857",
+      "to_stop": "20698",
       "response": {
-        "isException": true,
-        "Issuccess": false,
-        "exception": "Response not received in JSON.",
-        "Message": "Response not received in JSON."
+        "Message": "Cannot find table 1.",
+        "isException": true
       },
-      "level": 0
+      "level": 5
     },
     {
       "from_stop": "35779",
-      "to_stop": "22068",
+      "to_stop": "21254",
       "response": {
-        "isException": true,
-        "Issuccess": false,
-        "exception": "Response not received in JSON.",
-        "Message": "Response not received in JSON."
+        "Message": "Cannot find table 1.",
+        "isException": true
       },
-      "level": 0
+      "level": 6
+    },
+    {
+      "from_stop": "35779",
+      "to_stop": "20695",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 7
+    },
+    {
+      "from_stop": "35779",
+      "to_stop": "20820",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 8
+    },
+    {
+      "from_stop": "35779",
+      "to_stop": "33931",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 9
+    },
+    {
+      "from_stop": "35779",
+      "to_stop": "38168",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 10
+    },
+    {
+      "from_stop": "35779",
+      "to_stop": "39269",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 11
+    },
+    {
+      "from_stop": "35779",
+      "to_stop": "35151",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 12
+    },
+    {
+      "from_stop": "35779",
+      "to_stop": "39273",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 13
+    },
+    {
+      "from_stop": "35779",
+      "to_stop": "39274",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 14
     }
   ],
   "Received": [
-    {
-      "route-number": "290 SBS-RSL-TNS",
-      "route-name": "SBS-TNS",
-      "from-station-id": 21172,
-      "route-id": 11541,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "290-G SBS-RSL-BTP",
-      "route-name": "SBS-BTP",
-      "from-station-id": 21172,
-      "route-id": 11543,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
     {
       "route-number": "127",
       "route-name": "SBS-JVH",
@@ -241,10 +578,360 @@
       "bay-number": null
     },
     {
+      "route-number": "SBS-SJHSTMS",
+      "route-name": "SBS-SJHSTMS",
+      "from-station-id": 21172,
+      "route-id": 5427,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
       "route-number": "KBS-SBS-MEG",
       "route-name": "KBS-MEG",
       "from-station-id": 35779,
       "route-id": 13642,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "290 SBS-RSL-TNS",
+      "route-name": "SBS-TNS",
+      "from-station-id": 21172,
+      "route-id": 11541,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "290-G SBS-RSL-BTP",
+      "route-name": "SBS-BTP",
+      "from-station-id": 21172,
+      "route-id": 11543,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "129",
+      "route-name": "SBS-KBS",
+      "from-station-id": 21172,
+      "route-id": 1668,
+      "route-parent-id": "",
+      "platform-name": "1",
+      "platform-number": "1",
+      "bay-number": 1
+    },
+    {
+      "route-number": "223-A",
+      "route-name": "SBS-DBT",
+      "from-station-id": 21172,
+      "route-id": 2037,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "226-G",
+      "route-name": "SBS-BDD",
+      "from-station-id": 21172,
+      "route-id": 2120,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "225-B SBS-BEML5",
+      "route-name": "SBS-BEML5",
+      "from-station-id": 21172,
+      "route-id": 2548,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "237-C",
+      "route-name": "SBS-BMBS",
+      "from-station-id": 21172,
+      "route-id": 2561,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 1
+    },
+    {
+      "route-number": "242-JA",
+      "route-name": "SBS-GNKL",
+      "from-station-id": 21172,
+      "route-id": 2779,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "119-B",
+      "route-name": "MRPG-KMT",
+      "from-station-id": 21173,
+      "route-id": 2792,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "242-B SBS-TVK",
+      "route-name": "SBS-TVK",
+      "from-station-id": 21172,
+      "route-id": 3026,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "126",
+      "route-name": "JVH-KBS",
+      "from-station-id": 21173,
+      "route-id": 3107,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "223-E SBS-RMS",
+      "route-name": "SBS-RMS",
+      "from-station-id": 21172,
+      "route-id": 3248,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "238-UA",
+      "route-name": "SBS-BMBS",
+      "from-station-id": 21172,
+      "route-id": 3264,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 1
+    },
+    {
+      "route-number": "214-A",
+      "route-name": "SBS-TGP",
+      "from-station-id": 21172,
+      "route-id": 3460,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "241-Q",
+      "route-name": "SBS-NHN",
+      "from-station-id": 21172,
+      "route-id": 3502,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": 1
+    },
+    {
+      "route-number": "V-129",
+      "route-name": "SBS-KBS",
+      "from-station-id": 21172,
+      "route-id": 3816,
+      "route-parent-id": "",
+      "platform-name": "1",
+      "platform-number": "1",
+      "bay-number": 1
+    },
+    {
+      "route-number": "50",
+      "route-name": "SBS-BRVN",
+      "from-station-id": 21172,
+      "route-id": 4482,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "87-S",
+      "route-name": "SBS-RPCLO",
+      "from-station-id": 21172,
+      "route-id": 7568,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "195",
+      "route-name": "SBS-CLO",
+      "from-station-id": 21172,
+      "route-id": 7753,
+      "route-parent-id": "",
+      "platform-name": "1",
+      "platform-number": "1",
+      "bay-number": 1
+    },
+    {
+      "route-number": "88-B SBS-KBS-BSN",
+      "route-name": "SBS-BSN",
+      "from-station-id": 21172,
+      "route-id": 7923,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "G-7 D35G-KBS-SBS",
+      "route-name": "SBS-D35G",
+      "from-station-id": 21172,
+      "route-id": 7976,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "305-D KBS-VSD-CNS",
+      "route-name": "CNS-KBS",
+      "from-station-id": 21172,
+      "route-id": 10312,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "238-U SBS-MDPC",
+      "route-name": "SBS-MDPC",
+      "from-station-id": 21172,
+      "route-id": 10670,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "129 KBS-CMS",
+      "route-name": "CMS-KBS",
+      "from-station-id": 21172,
+      "route-id": 11842,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "238-UA SBS-AIT",
+      "route-name": "SBS-AIT",
+      "from-station-id": 21172,
+      "route-id": 12477,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "ARMY-SBS-KBS",
+      "route-name": "ARMY-KBS",
+      "from-station-id": 21172,
+      "route-id": 13610,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "KBS-SBS-MEG",
+      "route-name": "MEG-KBS",
+      "from-station-id": 21172,
+      "route-id": 13643,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "234-E SBS-KBS-UST",
+      "route-name": "SBS-UST",
+      "from-station-id": 21172,
+      "route-id": 15218,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "243-L SBS-VSD-KBS-LDH",
+      "route-name": "SBS-LDH",
+      "from-station-id": 21172,
+      "route-id": 15463,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "238-VK SBS-KNL",
+      "route-name": "SBS-KNL",
+      "from-station-id": 21172,
+      "route-id": 16491,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "228-K SBS-BDD",
+      "route-name": "SBS-BDD",
+      "from-station-id": 21172,
+      "route-id": 17388,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "27 KBS-SBS-MDN",
+      "route-name": "MDN-SBS-KBS",
+      "from-station-id": 21172,
+      "route-id": 17429,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "227 SBS-KMT-CDC",
+      "route-name": "SBS-CDC",
+      "from-station-id": 21172,
+      "route-id": 17568,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "227-H SBS-KMT-KPL",
+      "route-name": "SBS-KMT-KLP",
+      "from-station-id": 21172,
+      "route-id": 17707,
       "route-parent-id": "",
       "platform-name": null,
       "platform-number": null,
@@ -891,16 +1578,6 @@
       "bay-number": null
     },
     {
-      "route-number": "317-QS",
-      "route-name": "SBS-SVP",
-      "from-station-id": 21172,
-      "route-id": 16483,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
       "route-number": "139 SBS-HLS LAKE-SVM",
       "route-name": "SBS-HLS LAKE-SVM",
       "from-station-id": 21172,
@@ -931,310 +1608,10 @@
       "bay-number": null
     },
     {
-      "route-number": "129",
-      "route-name": "SBS-KBS",
+      "route-number": "331-A SBS-HALARDC",
+      "route-name": "SBS-HALARDC",
       "from-station-id": 21172,
-      "route-id": 1668,
-      "route-parent-id": "",
-      "platform-name": "1",
-      "platform-number": "1",
-      "bay-number": 1
-    },
-    {
-      "route-number": "223-A",
-      "route-name": "SBS-DBT",
-      "from-station-id": 21172,
-      "route-id": 2037,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "226-G",
-      "route-name": "SBS-BDD",
-      "from-station-id": 21172,
-      "route-id": 2120,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "225-B SBS-BEML5",
-      "route-name": "SBS-BEML5",
-      "from-station-id": 21172,
-      "route-id": 2548,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "237-C",
-      "route-name": "SBS-BMBS",
-      "from-station-id": 21172,
-      "route-id": 2561,
-      "route-parent-id": "",
-      "platform-name": "2",
-      "platform-number": "2",
-      "bay-number": 1
-    },
-    {
-      "route-number": "242-JA",
-      "route-name": "SBS-GNKL",
-      "from-station-id": 21172,
-      "route-id": 2779,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "119-B",
-      "route-name": "MRPG-KMT",
-      "from-station-id": 21173,
-      "route-id": 2792,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "242-B SBS-TVK",
-      "route-name": "SBS-TVK",
-      "from-station-id": 21172,
-      "route-id": 3026,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "126",
-      "route-name": "JVH-KBS",
-      "from-station-id": 21173,
-      "route-id": 3107,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "223-E SBS-RMS",
-      "route-name": "SBS-RMS",
-      "from-station-id": 21172,
-      "route-id": 3248,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "238-UA",
-      "route-name": "SBS-BMBS",
-      "from-station-id": 21172,
-      "route-id": 3264,
-      "route-parent-id": "",
-      "platform-name": "2",
-      "platform-number": "2",
-      "bay-number": 1
-    },
-    {
-      "route-number": "214-A",
-      "route-name": "SBS-TGP",
-      "from-station-id": 21172,
-      "route-id": 3460,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "241-Q",
-      "route-name": "SBS-NHN",
-      "from-station-id": 21172,
-      "route-id": 3502,
-      "route-parent-id": "",
-      "platform-name": "2",
-      "platform-number": "2",
-      "bay-number": 1
-    },
-    {
-      "route-number": "V-129",
-      "route-name": "SBS-KBS",
-      "from-station-id": 21172,
-      "route-id": 3816,
-      "route-parent-id": "",
-      "platform-name": "1",
-      "platform-number": "1",
-      "bay-number": 1
-    },
-    {
-      "route-number": "50",
-      "route-name": "SBS-BRVN",
-      "from-station-id": 21172,
-      "route-id": 4482,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "87-S",
-      "route-name": "SBS-RPCLO",
-      "from-station-id": 21172,
-      "route-id": 7568,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "195",
-      "route-name": "SBS-CLO",
-      "from-station-id": 21172,
-      "route-id": 7753,
-      "route-parent-id": "",
-      "platform-name": "1",
-      "platform-number": "1",
-      "bay-number": 1
-    },
-    {
-      "route-number": "88-B SBS-KBS-BSN",
-      "route-name": "SBS-BSN",
-      "from-station-id": 21172,
-      "route-id": 7923,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "G-7 D35G-KBS-SBS",
-      "route-name": "SBS-D35G",
-      "from-station-id": 21172,
-      "route-id": 7976,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "80-D SBS-VSD-KBS-RBJN",
-      "route-name": "SBS-VSD-RBJN",
-      "from-station-id": 21172,
-      "route-id": 9777,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "305-D KBS-VSD-CNS",
-      "route-name": "CNS-KBS",
-      "from-station-id": 21172,
-      "route-id": 10312,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "238-U SBS-MDPC",
-      "route-name": "SBS-MDPC",
-      "from-station-id": 21172,
-      "route-id": 10670,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "129 KBS-CMS",
-      "route-name": "CMS-KBS",
-      "from-station-id": 21172,
-      "route-id": 11842,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "238-UA SBS-AIT",
-      "route-name": "SBS-AIT",
-      "from-station-id": 21172,
-      "route-id": 12477,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "ARMY-SBS-KBS",
-      "route-name": "ARMY-KBS",
-      "from-station-id": 21172,
-      "route-id": 13610,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "KBS-SBS-MEG",
-      "route-name": "MEG-KBS",
-      "from-station-id": 21172,
-      "route-id": 13643,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "234-E SBS-KBS-UST",
-      "route-name": "SBS-UST",
-      "from-station-id": 21172,
-      "route-id": 15218,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "243-L SBS-VSD-KBS-LDH",
-      "route-name": "SBS-LDH",
-      "from-station-id": 21172,
-      "route-id": 15463,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "238-VK SBS-KNL",
-      "route-name": "SBS-KNL",
-      "from-station-id": 21172,
-      "route-id": 16491,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "228-K SBS-BDD",
-      "route-name": "SBS-BDD",
-      "from-station-id": 21172,
-      "route-id": 17388,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "27 KBS-SBS-MDN",
-      "route-name": "MDN-SBS-KBS",
-      "from-station-id": 21172,
-      "route-id": 17429,
+      "route-id": 17810,
       "route-parent-id": "",
       "platform-name": null,
       "platform-number": null,
@@ -1482,7 +1859,7 @@
     },
     {
       "route-number": "250-N",
-      "route-name": "SVJN-MEIL",
+      "route-name": "SBS-MEIL",
       "from-station-id": 21172,
       "route-id": 4296,
       "route-parent-id": "",
@@ -1961,16 +2338,6 @@
       "bay-number": 3
     },
     {
-      "route-number": "295-C",
-      "route-name": "SBS-DGB",
-      "from-station-id": 21172,
-      "route-id": 8999,
-      "route-parent-id": "",
-      "platform-name": "9",
-      "platform-number": "9",
-      "bay-number": 3
-    },
-    {
       "route-number": "273-H SBS-SDN",
       "route-name": "SBS-SDN",
       "from-station-id": 21172,
@@ -2021,16 +2388,6 @@
       "bay-number": null
     },
     {
-      "route-number": "294-H",
-      "route-name": "SBS-RMP",
-      "from-station-id": 21172,
-      "route-id": 9103,
-      "route-parent-id": "",
-      "platform-name": "9",
-      "platform-number": "9",
-      "bay-number": 3
-    },
-    {
       "route-number": "294-A SBS-KSHH",
       "route-name": "SBS-KSHH",
       "from-station-id": 21172,
@@ -2039,16 +2396,6 @@
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
-    },
-    {
-      "route-number": "292-D SBS-NNHD",
-      "route-name": "SBS-NNHD",
-      "from-station-id": 21172,
-      "route-id": 9345,
-      "route-parent-id": "",
-      "platform-name": "9",
-      "platform-number": "9",
-      "bay-number": 3
     },
     {
       "route-number": "293-B SBS-KAH",
@@ -2069,16 +2416,6 @@
       "platform-name": "9",
       "platform-number": "9",
       "bay-number": 3
-    },
-    {
-      "route-number": "296-F SBS-MRS",
-      "route-name": "SBS-MRS",
-      "from-station-id": 21172,
-      "route-id": 9404,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
     },
     {
       "route-number": "293-N",
@@ -2409,16 +2746,6 @@
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
-    },
-    {
-      "route-number": "292-A",
-      "route-name": "SBS-YHKOT",
-      "from-station-id": 21172,
-      "route-id": 13426,
-      "route-parent-id": "",
-      "platform-name": "9",
-      "platform-number": "9",
-      "bay-number": 3
     },
     {
       "route-number": "285-M SBS-RTN-PTML",
@@ -2791,16 +3118,6 @@
       "bay-number": null
     },
     {
-      "route-number": "293-A SBS-PRC",
-      "route-name": "SBS-PRC",
-      "from-station-id": 21172,
-      "route-id": 17034,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
       "route-number": "258-MA MGRMS-JKH",
       "route-name": "MGRMS-JKH",
       "from-station-id": 21172,
@@ -2881,30 +3198,20 @@
       "bay-number": null
     },
     {
-      "route-number": "SBS-SPHSL",
-      "route-name": "SBS-SHS",
+      "route-number": "V-287A SBS-HBLB",
+      "route-name": "SBS-HBLB",
       "from-station-id": 21172,
-      "route-id": 6906,
+      "route-id": 17749,
       "route-parent-id": "",
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
     },
     {
-      "route-number": "BCSS-SBS",
-      "route-name": "SBS-BCSS",
+      "route-number": "250-N TPH-SBS",
+      "route-name": "SBS-TPH",
       "from-station-id": 21172,
-      "route-id": 7910,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "MF-8A",
-      "route-name": "SBS-MML",
-      "from-station-id": 21172,
-      "route-id": 15186,
+      "route-id": 17873,
       "route-parent-id": "",
       "platform-name": null,
       "platform-number": null,
@@ -2931,6 +3238,16 @@
       "bay-number": 2
     },
     {
+      "route-number": "SBS-SPHSL",
+      "route-name": "SBS-SHS",
+      "from-station-id": 21172,
+      "route-id": 6906,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
       "route-number": "63-C",
       "route-name": "SBS-VTTMC",
       "from-station-id": 21172,
@@ -2939,6 +3256,16 @@
       "platform-name": "8",
       "platform-number": "8",
       "bay-number": 2
+    },
+    {
+      "route-number": "BCSS-SBS",
+      "route-name": "SBS-BCSS",
+      "from-station-id": 21172,
+      "route-id": 7910,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
     },
     {
       "route-number": "314-T VSD-RMN",
@@ -3095,6 +3422,16 @@
       "route-name": "SBS-MRBS",
       "from-station-id": 21172,
       "route-id": 13377,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "MF-8A",
+      "route-name": "SBS-MML",
+      "from-station-id": 21172,
+      "route-id": 15186,
       "route-parent-id": "",
       "platform-name": null,
       "platform-number": null,
@@ -3521,30 +3858,10 @@
       "bay-number": null
     },
     {
-      "route-number": "210-FA",
-      "route-name": "SBS-PPLO",
-      "from-station-id": 21172,
-      "route-id": 3470,
-      "route-parent-id": "",
-      "platform-name": "10",
-      "platform-number": "10",
-      "bay-number": 3
-    },
-    {
       "route-number": "210-G",
       "route-name": "SBS-VSP",
       "from-station-id": 21172,
       "route-id": 3790,
-      "route-parent-id": "",
-      "platform-name": "10",
-      "platform-number": "10",
-      "bay-number": 3
-    },
-    {
-      "route-number": "210-Q",
-      "route-name": "SBS-CKLS",
-      "from-station-id": 21172,
-      "route-id": 3799,
       "route-parent-id": "",
       "platform-name": "10",
       "platform-number": "10",
@@ -3575,16 +3892,6 @@
       "route-name": "SBS-D34G",
       "from-station-id": 21172,
       "route-id": 4316,
-      "route-parent-id": "",
-      "platform-name": "10",
-      "platform-number": "10",
-      "bay-number": 3
-    },
-    {
-      "route-number": "210-T",
-      "route-name": " SBS-PTGT",
-      "from-station-id": 21172,
-      "route-id": 4357,
       "route-parent-id": "",
       "platform-name": "10",
       "platform-number": "10",
@@ -3651,16 +3958,6 @@
       "bay-number": null
     },
     {
-      "route-number": "37-E",
-      "route-name": "SBS-GNR",
-      "from-station-id": 21172,
-      "route-id": 7074,
-      "route-parent-id": "",
-      "platform-name": "10",
-      "platform-number": "10",
-      "bay-number": 3
-    },
-    {
       "route-number": "34-A",
       "route-name": "SBS-BSK3",
       "from-station-id": 21172,
@@ -3688,16 +3985,6 @@
       "route-parent-id": "",
       "platform-name": "10",
       "platform-number": "10",
-      "bay-number": 3
-    },
-    {
-      "route-number": "293 D10G-BCGHS",
-      "route-name": "D10G-BCGHS",
-      "from-station-id": 21172,
-      "route-id": 8520,
-      "route-parent-id": "",
-      "platform-name": "9",
-      "platform-number": "9",
       "bay-number": 3
     },
     {
@@ -3729,26 +4016,6 @@
       "platform-name": "10",
       "platform-number": "10",
       "bay-number": 3
-    },
-    {
-      "route-number": "161-D SBS-BTMS",
-      "route-name": "SBS-BTMS",
-      "from-station-id": 21172,
-      "route-id": 10573,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "13 SBS-BCGHS",
-      "route-name": "SBS-BCGHS",
-      "from-station-id": 21172,
-      "route-id": 10583,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
     },
     {
       "route-number": "32 PPLO-TRN-SBS",
@@ -3841,26 +4108,6 @@
       "bay-number": null
     },
     {
-      "route-number": "290-E BCGHS-SBS-YHKOT",
-      "route-name": "YHKOT-BCGHS",
-      "from-station-id": 35779,
-      "route-id": 15114,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "161-B",
-      "route-name": "SBS-JBN",
-      "from-station-id": 21172,
-      "route-id": 15207,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
       "route-number": "TR-4 VTTMC-NGV",
       "route-name": "NGV-VJN",
       "from-station-id": 21172,
@@ -3885,16 +4132,6 @@
       "route-name": "SBS-TTG",
       "from-station-id": 21172,
       "route-id": 16386,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "32 SBS-NRC-UTH",
-      "route-name": "SBS-UTHBS",
-      "from-station-id": 21172,
-      "route-id": 16391,
       "route-parent-id": "",
       "platform-name": null,
       "platform-number": null,
@@ -3951,6 +4188,16 @@
       "bay-number": null
     },
     {
+      "route-number": "273-H SBS-SDN",
+      "route-name": "SDN-SBS",
+      "from-station-id": 35779,
+      "route-id": 9014,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
       "route-number": "288-J MGRMS-NCBS",
       "route-name": "NBCS-MGRMS",
       "from-station-id": 35779,
@@ -3971,14 +4218,174 @@
       "bay-number": null
     },
     {
-      "route-number": "273-H SBS-SDN",
-      "route-name": "SDN-SBS",
+      "route-number": "KIA-7A",
+      "route-name": "KIA-HSRBDA",
       "from-station-id": 35779,
-      "route-id": 9014,
+      "route-id": 3954,
       "route-parent-id": "",
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
+    },
+    {
+      "route-number": "KIA-7A D25G-KIA",
+      "route-name": "KIA-D25G",
+      "from-station-id": 35779,
+      "route-id": 16266,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "331 UP",
+      "route-name": "SBS-KDG",
+      "from-station-id": 21172,
+      "route-id": 1704,
+      "route-parent-id": "",
+      "platform-name": "4",
+      "platform-number": "4",
+      "bay-number": "1"
+    },
+    {
+      "route-number": "240-A UP",
+      "route-name": "SBS-MCH",
+      "from-station-id": 21172,
+      "route-id": 3304,
+      "route-parent-id": "",
+      "platform-name": "2",
+      "platform-number": "2",
+      "bay-number": "1"
+    },
+    {
+      "route-number": "210-Q UP",
+      "route-name": "SBS-CKLS",
+      "from-station-id": 21172,
+      "route-id": 3799,
+      "route-parent-id": "",
+      "platform-name": "10",
+      "platform-number": "10",
+      "bay-number": "3"
+    },
+    {
+      "route-number": "210-T UP",
+      "route-name": " SBS-PTGT",
+      "from-station-id": 21172,
+      "route-id": 4357,
+      "route-parent-id": "",
+      "platform-name": "10",
+      "platform-number": "10",
+      "bay-number": "3"
+    },
+    {
+      "route-number": "290-EK UP",
+      "route-name": "SBS-RJK",
+      "from-station-id": 21172,
+      "route-id": 7516,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "",
+      "bay-number": ""
+    },
+    {
+      "route-number": "295-C UP",
+      "route-name": "SBS-DGB",
+      "from-station-id": 21172,
+      "route-id": 8999,
+      "route-parent-id": "",
+      "platform-name": "9",
+      "platform-number": "9",
+      "bay-number": "3"
+    },
+    {
+      "route-number": "296-F SBS-MRS UP",
+      "route-name": "SBS-MRS",
+      "from-station-id": 21172,
+      "route-id": 9404,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "",
+      "bay-number": ""
+    },
+    {
+      "route-number": "290-EB UP",
+      "route-name": "SBS-YST",
+      "from-station-id": 21172,
+      "route-id": 11875,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "",
+      "bay-number": ""
+    },
+    {
+      "route-number": "292-A UP",
+      "route-name": "SBS-YHKOT",
+      "from-station-id": 21172,
+      "route-id": 13426,
+      "route-parent-id": "",
+      "platform-name": "9",
+      "platform-number": "9",
+      "bay-number": "3"
+    },
+    {
+      "route-number": "217-E UP",
+      "route-name": "SBS-MAT",
+      "from-station-id": 21172,
+      "route-id": 13457,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "",
+      "bay-number": ""
+    },
+    {
+      "route-number": "291 SBS-MNP UP",
+      "route-name": "SBS-MNP",
+      "from-station-id": 21172,
+      "route-id": 14368,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "",
+      "bay-number": ""
+    },
+    {
+      "route-number": "114 SBS-MRP UP",
+      "route-name": "SBS-MRP",
+      "from-station-id": 21172,
+      "route-id": 14370,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "",
+      "bay-number": ""
+    },
+    {
+      "route-number": "161-B UP",
+      "route-name": "SBS-JBN",
+      "from-station-id": 21172,
+      "route-id": 15207,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "",
+      "bay-number": ""
+    },
+    {
+      "route-number": "195 SBS-CLO-MDPC UP",
+      "route-name": "SBS-MDPC",
+      "from-station-id": 21172,
+      "route-id": 15252,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "",
+      "bay-number": ""
+    },
+    {
+      "route-number": "293-A SBS-PRC UP",
+      "route-name": "SBS-PRC",
+      "from-station-id": 21172,
+      "route-id": 17034,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "",
+      "bay-number": ""
     }
   ]
 }

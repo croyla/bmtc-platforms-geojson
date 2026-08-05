@@ -101,6 +101,16 @@
       "bay-number": null
     },
     {
+      "route-number": "82-A YTTMC-SRPS",
+      "route-name": "YTTMC-SRPS",
+      "from-station-id": 21288,
+      "route-id": 9491,
+      "route-parent-id": 5085,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
       "route-number": "YBS-POWA",
       "route-name": "YBS-POWA",
       "from-station-id": 24016,
@@ -126,16 +136,6 @@
       "from-station-id": 21288,
       "route-id": 16552,
       "route-parent-id": 8865,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "89-F BELC-YRS-GBE",
-      "route-name": "BELC-GBE",
-      "from-station-id": 21288,
-      "route-id": 16767,
-      "route-parent-id": 8979,
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
@@ -641,16 +641,6 @@
       "bay-number": null
     },
     {
-      "route-number": "276-F KMT-YHKOT",
-      "route-name": "KMT-YHKOT",
-      "from-station-id": 36187,
-      "route-id": 11807,
-      "route-parent-id": 6288,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
       "route-number": "276-E KMT-MTK-VRP-D45",
       "route-name": "KMT-D45",
       "from-station-id": 36187,
@@ -861,36 +851,6 @@
       "bay-number": null
     },
     {
-      "route-number": "YTTMC-YPRS",
-      "route-name": "YTTMC-YPRS",
-      "from-station-id": 21288,
-      "route-id": 11851,
-      "route-parent-id": 6313,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "300-R",
-      "route-name": "SMVT-YRS",
-      "from-station-id": 21288,
-      "route-id": 14417,
-      "route-parent-id": 7715,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "300-R YRS-KBS-SMVR",
-      "route-name": "SMVR-YRS",
-      "from-station-id": 21288,
-      "route-id": 15301,
-      "route-parent-id": 8199,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
       "route-number": "O EXP-258C YBS-NGM",
       "route-name": "YBS-NMG",
       "from-station-id": 21288,
@@ -971,11 +931,11 @@
       "bay-number": null
     },
     {
-      "route-number": "D26-YBS",
-      "route-name": "YBS-D26",
+      "route-number": "BJL-YBS",
+      "route-name": "YBS-BJL",
       "from-station-id": 24016,
-      "route-id": 2694,
-      "route-parent-id": 1552,
+      "route-id": 17867,
+      "route-parent-id": 9608,
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
@@ -1001,11 +961,51 @@
       "bay-number": null
     },
     {
+      "route-number": "YTTMC-YPRS",
+      "route-name": "YTTMC-YPRS",
+      "from-station-id": 21288,
+      "route-id": 11851,
+      "route-parent-id": 6313,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "300-R",
+      "route-name": "SMVT-YRS",
+      "from-station-id": 21288,
+      "route-id": 14417,
+      "route-parent-id": 7715,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "300-R YRS-KBS-SMVR",
+      "route-name": "SMVR-YRS",
+      "from-station-id": 21288,
+      "route-id": 15301,
+      "route-parent-id": 8199,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
       "route-number": "266-T",
       "route-name": "KBS-LKP",
       "from-station-id": 36187,
       "route-id": 3958,
       "route-parent-id": 2194,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "D26-YBS",
+      "route-name": "YBS-D26",
+      "from-station-id": 24016,
+      "route-id": 2694,
+      "route-parent-id": 1552,
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
@@ -1021,14 +1021,34 @@
       "bay-number": null
     },
     {
-      "route-number": "89-F BELC-YRS-GBE",
-      "route-name": "GBE-BELC",
-      "from-station-id": 24016,
-      "route-id": 16768,
-      "route-parent-id": 8979,
+      "route-number": "507 YPRRS-BEL-HBL-KRPG",
+      "route-name": "YPRRS-KTPGH",
+      "from-station-id": 21288,
+      "route-id": 5295,
+      "route-parent-id": 2889,
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
+    },
+    {
+      "route-number": "501-CH YTTMC-KMG UP",
+      "route-name": "YTTMC-KMG",
+      "from-station-id": 21288,
+      "route-id": 6002,
+      "route-parent-id": 3246,
+      "platform-name": "",
+      "platform-number": "",
+      "bay-number": ""
+    },
+    {
+      "route-number": "500 YTTMC-HBLB-JKLO UP",
+      "route-name": "YTTMC-HBLB-JKLO",
+      "from-station-id": 24016,
+      "route-id": 15321,
+      "route-parent-id": 1026,
+      "platform-name": "",
+      "platform-number": "",
+      "bay-number": ""
     }
   ],
   "Unsorted": []

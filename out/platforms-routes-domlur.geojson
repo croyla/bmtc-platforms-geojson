@@ -21,70 +21,6 @@
         ],
         "Routes": [
           {
-            "Route": "136",
-            "RouteId": 15284,
-            "RouteParentId": 8190,
-            "Destination": "Shivajinagara Bus Station",
-            "Via": "",
-            "Area": "Dr BR Ambedkar Bus Terminal (Domlur)",
-            "PlatformNumber": "1",
-            "KannadaDestination": "ಶಿವಜಿನಗರ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-            "KannadaArea": "ಡಾ. ಬಿಆರ್ ಅಂಬೇಡ್ಕರ್ ಬಸ್ ಟರ್ಮಿನಲ್ (ದೊಮ್ಮಲುರು))",
-            "KannadaVia": "",
-            "FromStationId": 21923,
-            "Stops": [
-              {
-                "name": "Dr BR Ambedkar Bus Terminal (Domlur)",
-                "name_kn": "ದ್ರ್ ಬ್ರ್ ಂಬೆದ್ಕರ್ ಬುಸ್ ಟೆರ್ಮಿನಲ್ (ದೊಂಲುರ್)",
-                "stop_id": "21923",
-                "lat": 12.96163,
-                "lon": 77.63881
-              },
-              {
-                "name": "Dhoopanahalli",
-                "name_kn": "ಧೂಪನಹಲ್ಲಿ",
-                "stop_id": "24979",
-                "lat": 12.96336,
-                "lon": 77.64146
-              },
-              {
-                "name": "ESI Hospital Indiranagara",
-                "name_kn": "ಎಸಿ ಹೊಸ್ಪಿಟಲ್ ಿಂದಿರನಗರ",
-                "stop_id": "39474",
-                "lat": 12.97094,
-                "lon": 77.63594
-              },
-              {
-                "name": "Cambridge Hospital",
-                "name_kn": "ಕಂಬ್ರಿದ್ಗೆ ಹೊಸ್ಪಿಟಲ್",
-                "stop_id": "39472",
-                "lat": 12.97191,
-                "lon": 77.62726
-              },
-              {
-                "name": "Manipal Centre MG Road",
-                "name_kn": "ಮನಿಪಲ್ ಕೆಂಟ್ರೆ ಂಗ್ ರೊದ್",
-                "stop_id": "22255",
-                "lat": 12.97552,
-                "lon": 77.61356
-              },
-              {
-                "name": "Maniksha Parade Ground",
-                "name_kn": "ಮನಿಕ್ಷ ಪರದೆ ಗ್ರೌಂದ್",
-                "stop_id": "22252",
-                "lat": 12.97746,
-                "lon": 77.60771
-              },
-              {
-                "name": "Shivajinagara Bus Station",
-                "name_kn": "ಶಿವಜಿನಗರ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-                "stop_id": "21173",
-                "lat": 12.98328,
-                "lon": 77.60304
-              }
-            ]
-          },
-          {
             "Route": "201",
             "RouteId": 3138,
             "RouteParentId": 1773,
@@ -596,6 +532,70 @@
                 "lon": 77.6344
               }
             ]
+          },
+          {
+            "Route": "136",
+            "RouteId": 15284,
+            "RouteParentId": 8190,
+            "Destination": "Shivajinagara Bus Station",
+            "Via": "",
+            "Area": "Dr BR Ambedkar Bus Terminal (Domlur)",
+            "PlatformNumber": "1",
+            "KannadaDestination": "ಶಿವಜಿನಗರ ಬುಸ್ ಸ್ಟಟಿೊಂ",
+            "KannadaArea": "ಡಾ. ಬಿಆರ್ ಅಂಬೇಡ್ಕರ್ ಬಸ್ ಟರ್ಮಿನಲ್ (ದೊಮ್ಮಲುರು))",
+            "KannadaVia": "",
+            "FromStationId": 21923,
+            "Stops": [
+              {
+                "name": "Dr BR Ambedkar Bus Terminal (Domlur)",
+                "name_kn": "ದ್ರ್ ಬ್ರ್ ಂಬೆದ್ಕರ್ ಬುಸ್ ಟೆರ್ಮಿನಲ್ (ದೊಂಲುರ್)",
+                "stop_id": "21923",
+                "lat": 12.96163,
+                "lon": 77.63881
+              },
+              {
+                "name": "Dhoopanahalli",
+                "name_kn": "ಧೂಪನಹಲ್ಲಿ",
+                "stop_id": "24979",
+                "lat": 12.96336,
+                "lon": 77.64146
+              },
+              {
+                "name": "ESI Hospital Indiranagara",
+                "name_kn": "ಎಸಿ ಹೊಸ್ಪಿಟಲ್ ಿಂದಿರನಗರ",
+                "stop_id": "39474",
+                "lat": 12.97094,
+                "lon": 77.63594
+              },
+              {
+                "name": "Cambridge Hospital",
+                "name_kn": "ಕಂಬ್ರಿದ್ಗೆ ಹೊಸ್ಪಿಟಲ್",
+                "stop_id": "39472",
+                "lat": 12.97191,
+                "lon": 77.62726
+              },
+              {
+                "name": "Manipal Centre MG Road",
+                "name_kn": "ಮನಿಪಲ್ ಕೆಂಟ್ರೆ ಂಗ್ ರೊದ್",
+                "stop_id": "22255",
+                "lat": 12.97552,
+                "lon": 77.61356
+              },
+              {
+                "name": "Maniksha Parade Ground",
+                "name_kn": "ಮನಿಕ್ಷ ಪರದೆ ಗ್ರೌಂದ್",
+                "stop_id": "22252",
+                "lat": 12.97746,
+                "lon": 77.60771
+              },
+              {
+                "name": "Shivajinagara Bus Station",
+                "name_kn": "ಶಿವಜಿನಗರ ಬುಸ್ ಸ್ಟಟಿೊಂ",
+                "stop_id": "21173",
+                "lat": 12.98328,
+                "lon": 77.60304
+              }
+            ]
           }
         ]
       }
@@ -619,6 +619,217 @@
           "21923"
         ],
         "Routes": [
+          {
+            "Route": "412 KLN-BRAB DMLR",
+            "RouteId": 14188,
+            "RouteParentId": 7582,
+            "Destination": "Kalyananagara Bus Stand",
+            "Via": "",
+            "Area": "Dr BR Ambedkar Bus Terminal (Domlur)",
+            "PlatformNumber": "5",
+            "KannadaDestination": "ಕಲೆನನಗರ ಬುಸ್ ಸ್ಟಂದ್",
+            "KannadaArea": "ಡಾ. ಬಿಆರ್ ಅಂಬೇಡ್ಕರ್ ಬಸ್ ಟರ್ಮಿನಲ್ (ದೊಮ್ಮಲುರು))",
+            "KannadaVia": "",
+            "FromStationId": 21923,
+            "Stops": [
+              {
+                "name": "Dr BR Ambedkar Bus Terminal (Domlur)",
+                "name_kn": "ದ್ರ್ ಬ್ರ್ ಂಬೆದ್ಕರ್ ಬುಸ್ ಟೆರ್ಮಿನಲ್ (ದೊಂಲುರ್)",
+                "stop_id": "21923",
+                "lat": 12.96163,
+                "lon": 77.63881
+              },
+              {
+                "name": "Dhoopanahalli",
+                "name_kn": "ಧೂಪನಹಲ್ಲಿ",
+                "stop_id": "35940",
+                "lat": 12.96354,
+                "lon": 77.64156
+              },
+              {
+                "name": "Indiranagara 100ft Road",
+                "name_kn": "ಇಂದಿರನಗರ 100ೞ್ಟ್ ರೊದ್",
+                "stop_id": "22073",
+                "lat": 12.96658,
+                "lon": 77.64141
+              },
+              {
+                "name": "New Horizon School",
+                "name_kn": "ನೆವ್ ಹೊರಿಜ಼ೊಂ ಸ್ಚೂಲ್",
+                "stop_id": "22361",
+                "lat": 12.9689,
+                "lon": 77.64129
+              },
+              {
+                "name": "Indiranagara 12th Main",
+                "name_kn": "ಇಂದಿರನಗರ 12ತ್ ಮೈಂ",
+                "stop_id": "26131",
+                "lat": 12.97026,
+                "lon": 77.64122
+              },
+              {
+                "name": "Indiranagara 6th Main",
+                "name_kn": "ಇಂದಿರನಗರ 6ತ್ ಮೈಂ",
+                "stop_id": "22000",
+                "lat": 12.974,
+                "lon": 77.64103
+              },
+              {
+                "name": "Indiranagara Police Station/KFC",
+                "name_kn": "ಇಂದಿರನಗರ ಪೊಲಿಕೆ ಸ್ಟಟಿೊಂ/ಕ್ೞ್ಕ್",
+                "stop_id": "22389",
+                "lat": 12.97857,
+                "lon": 77.6408
+              },
+              {
+                "name": "Binnamangala",
+                "name_kn": "ಬಿಂನಮಙಲ",
+                "stop_id": "35957",
+                "lat": 12.98368,
+                "lon": 77.64049
+              },
+              {
+                "name": "Bayyappanahalli Cross",
+                "name_kn": "ಬಯೆಪ್ಪನಹಲ್ಲಿ ಕ್ರೊಸ್ಸ್",
+                "stop_id": "21725",
+                "lat": 12.98525,
+                "lon": 77.64246
+              },
+              {
+                "name": "Bayyappanahalli Gate",
+                "name_kn": "ಬಯೆಪ್ಪನಹಲ್ಲಿ ಗಟೆ",
+                "stop_id": "21727",
+                "lat": 12.99157,
+                "lon": 77.64327
+              },
+              {
+                "name": "Kattalepalya",
+                "name_kn": "ಕಟಲೆಪಲೆ",
+                "stop_id": "35362",
+                "lat": 12.99285,
+                "lon": 77.63631
+              },
+              {
+                "name": "Jeevanahalli Graveyard",
+                "name_kn": "ಜೀವನಹಲ್ಲಿ ಗ್ರವೆಯರ್ದ್",
+                "stop_id": "35361",
+                "lat": 12.99374,
+                "lon": 77.63178
+              },
+              {
+                "name": "Jeevanahalli Cross",
+                "name_kn": "ಜೀವನಹಲ್ಲಿ ಕ್ರೊಸ್ಸ್",
+                "stop_id": "35213",
+                "lat": 12.99419,
+                "lon": 77.629
+              },
+              {
+                "name": "Jeevanahalli Water Tank",
+                "name_kn": "ಜೀವನಹಲ್ಲಿ ವಟೆರ್ ಟಂಕ್",
+                "stop_id": "23436",
+                "lat": 12.99382,
+                "lon": 77.62666
+              },
+              {
+                "name": "Pankaj Dairy",
+                "name_kn": "ಪಂಕಜ್ ದೈರೆ",
+                "stop_id": "23424",
+                "lat": 12.99543,
+                "lon": 77.62348
+              },
+              {
+                "name": "Cox Town",
+                "name_kn": "ಕೊಕ್ಸ್ ಟೌಂ",
+                "stop_id": "24047",
+                "lat": 12.99629,
+                "lon": 77.62153
+              },
+              {
+                "name": "Sindhi Colony",
+                "name_kn": "ಸಿಂಧಿ ಕೊಲೊನೆ",
+                "stop_id": "23752",
+                "lat": 12.9962,
+                "lon": 77.6177
+              },
+              {
+                "name": "ITC Factory Fly",
+                "name_kn": "ಇಟ್ಕ್ ೞಕ್ಟೊರೆ ೞ್ಲೆ",
+                "stop_id": "38562",
+                "lat": 12.99847,
+                "lon": 77.62384
+              },
+              {
+                "name": "Jai Bharath Nagara",
+                "name_kn": "ಜೈ ಭರತ್ ನಗರ",
+                "stop_id": "22089",
+                "lat": 13.00156,
+                "lon": 77.63032
+              },
+              {
+                "name": "Maruthi Sevanagara",
+                "name_kn": "ಮರುತಿ ಸೆವನಗರ",
+                "stop_id": "22272",
+                "lat": 13.00266,
+                "lon": 77.63461
+              },
+              {
+                "name": "Indian Oil",
+                "name_kn": "ಇಂದಿಂ ೊಿಲ್",
+                "stop_id": "27947",
+                "lat": 13.00488,
+                "lon": 77.63714
+              },
+              {
+                "name": "Ramaswamypalya",
+                "name_kn": "ರಮಸ್ವಮೆಪಲೆ",
+                "stop_id": "22423",
+                "lat": 13.00964,
+                "lon": 77.63534
+              },
+              {
+                "name": "Oil Mill Road Junction",
+                "name_kn": "ಒಿಲ್ ಮಿಲ್ಲ್ ರೊದ್ ಜುಂಕ್ಟಿೊಂ",
+                "stop_id": "30396",
+                "lat": 13.01278,
+                "lon": 77.63536
+              },
+              {
+                "name": "Kammanahalli Empire Hotel",
+                "name_kn": "ಕಮ್ಮನಹಲ್ಲಿ ೆಂಪಿರೆ ಹೊಟೆಲ್",
+                "stop_id": "22148",
+                "lat": 13.01469,
+                "lon": 77.63577
+              },
+              {
+                "name": "Kammanahalli",
+                "name_kn": "ಕಮ್ಮನಹಲ್ಲಿ",
+                "stop_id": "22146",
+                "lat": 13.01766,
+                "lon": 77.6364
+              },
+              {
+                "name": "Jalavayu Vihara",
+                "name_kn": "ಜಲವಯು ವಿಹರ",
+                "stop_id": "22663",
+                "lat": 13.02117,
+                "lon": 77.63695
+              },
+              {
+                "name": "Kalyana nagara 8th Main 3rd Cross Junction",
+                "name_kn": "ಕಲೆನ ನಗರ 8ತ್ ಮೈಂ 3ರ್ದ್ ಕ್ರೊಸ್ಸ್ ಜುಂಕ್ಟಿೊಂ",
+                "stop_id": "22108",
+                "lat": 13.02248,
+                "lon": 77.63714
+              },
+              {
+                "name": "Kalyananagara Bus Stand",
+                "name_kn": "ಕಲೆನನಗರ ಬುಸ್ ಸ್ಟಂದ್",
+                "stop_id": "36441",
+                "lat": 13.02642,
+                "lon": 77.63839
+              }
+            ]
+          },
           {
             "Route": "315-G",
             "RouteId": 7193,
@@ -1684,217 +1895,6 @@
                 "stop_id": "30214",
                 "lat": 13.13512,
                 "lon": 77.74753
-              }
-            ]
-          },
-          {
-            "Route": "412 KLN-BRAB DMLR",
-            "RouteId": 14188,
-            "RouteParentId": 7582,
-            "Destination": "Kalyananagara Bus Stand",
-            "Via": "",
-            "Area": "Dr BR Ambedkar Bus Terminal (Domlur)",
-            "PlatformNumber": "5",
-            "KannadaDestination": "ಕಲೆನನಗರ ಬುಸ್ ಸ್ಟಂದ್",
-            "KannadaArea": "ಡಾ. ಬಿಆರ್ ಅಂಬೇಡ್ಕರ್ ಬಸ್ ಟರ್ಮಿನಲ್ (ದೊಮ್ಮಲುರು))",
-            "KannadaVia": "",
-            "FromStationId": 21923,
-            "Stops": [
-              {
-                "name": "Dr BR Ambedkar Bus Terminal (Domlur)",
-                "name_kn": "ದ್ರ್ ಬ್ರ್ ಂಬೆದ್ಕರ್ ಬುಸ್ ಟೆರ್ಮಿನಲ್ (ದೊಂಲುರ್)",
-                "stop_id": "21923",
-                "lat": 12.96163,
-                "lon": 77.63881
-              },
-              {
-                "name": "Dhoopanahalli",
-                "name_kn": "ಧೂಪನಹಲ್ಲಿ",
-                "stop_id": "35940",
-                "lat": 12.96354,
-                "lon": 77.64156
-              },
-              {
-                "name": "Indiranagara 100ft Road",
-                "name_kn": "ಇಂದಿರನಗರ 100ೞ್ಟ್ ರೊದ್",
-                "stop_id": "22073",
-                "lat": 12.96658,
-                "lon": 77.64141
-              },
-              {
-                "name": "New Horizon School",
-                "name_kn": "ನೆವ್ ಹೊರಿಜ಼ೊಂ ಸ್ಚೂಲ್",
-                "stop_id": "22361",
-                "lat": 12.9689,
-                "lon": 77.64129
-              },
-              {
-                "name": "Indiranagara 12th Main",
-                "name_kn": "ಇಂದಿರನಗರ 12ತ್ ಮೈಂ",
-                "stop_id": "26131",
-                "lat": 12.97026,
-                "lon": 77.64122
-              },
-              {
-                "name": "Indiranagara 6th Main",
-                "name_kn": "ಇಂದಿರನಗರ 6ತ್ ಮೈಂ",
-                "stop_id": "22000",
-                "lat": 12.974,
-                "lon": 77.64103
-              },
-              {
-                "name": "Indiranagara Police Station/KFC",
-                "name_kn": "ಇಂದಿರನಗರ ಪೊಲಿಕೆ ಸ್ಟಟಿೊಂ/ಕ್ೞ್ಕ್",
-                "stop_id": "22389",
-                "lat": 12.97857,
-                "lon": 77.6408
-              },
-              {
-                "name": "Binnamangala",
-                "name_kn": "ಬಿಂನಮಙಲ",
-                "stop_id": "35957",
-                "lat": 12.98368,
-                "lon": 77.64049
-              },
-              {
-                "name": "Bayyappanahalli Cross",
-                "name_kn": "ಬಯೆಪ್ಪನಹಲ್ಲಿ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "21725",
-                "lat": 12.98525,
-                "lon": 77.64246
-              },
-              {
-                "name": "Bayyappanahalli Gate",
-                "name_kn": "ಬಯೆಪ್ಪನಹಲ್ಲಿ ಗಟೆ",
-                "stop_id": "21727",
-                "lat": 12.99157,
-                "lon": 77.64327
-              },
-              {
-                "name": "Kattalepalya",
-                "name_kn": "ಕಟಲೆಪಲೆ",
-                "stop_id": "35362",
-                "lat": 12.99285,
-                "lon": 77.63631
-              },
-              {
-                "name": "Jeevanahalli Graveyard",
-                "name_kn": "ಜೀವನಹಲ್ಲಿ ಗ್ರವೆಯರ್ದ್",
-                "stop_id": "35361",
-                "lat": 12.99374,
-                "lon": 77.63178
-              },
-              {
-                "name": "Jeevanahalli Cross",
-                "name_kn": "ಜೀವನಹಲ್ಲಿ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "35213",
-                "lat": 12.99419,
-                "lon": 77.629
-              },
-              {
-                "name": "Jeevanahalli Water Tank",
-                "name_kn": "ಜೀವನಹಲ್ಲಿ ವಟೆರ್ ಟಂಕ್",
-                "stop_id": "23436",
-                "lat": 12.99382,
-                "lon": 77.62666
-              },
-              {
-                "name": "Pankaj Dairy",
-                "name_kn": "ಪಂಕಜ್ ದೈರೆ",
-                "stop_id": "23424",
-                "lat": 12.99543,
-                "lon": 77.62348
-              },
-              {
-                "name": "Cox Town",
-                "name_kn": "ಕೊಕ್ಸ್ ಟೌಂ",
-                "stop_id": "24047",
-                "lat": 12.99629,
-                "lon": 77.62153
-              },
-              {
-                "name": "Sindhi Colony",
-                "name_kn": "ಸಿಂಧಿ ಕೊಲೊನೆ",
-                "stop_id": "23752",
-                "lat": 12.9962,
-                "lon": 77.6177
-              },
-              {
-                "name": "ITC Factory Fly",
-                "name_kn": "ಇಟ್ಕ್ ೞಕ್ಟೊರೆ ೞ್ಲೆ",
-                "stop_id": "38562",
-                "lat": 12.99847,
-                "lon": 77.62384
-              },
-              {
-                "name": "Jai Bharath Nagara",
-                "name_kn": "ಜೈ ಭರತ್ ನಗರ",
-                "stop_id": "22089",
-                "lat": 13.00156,
-                "lon": 77.63032
-              },
-              {
-                "name": "Maruthi Sevanagara",
-                "name_kn": "ಮರುತಿ ಸೆವನಗರ",
-                "stop_id": "22272",
-                "lat": 13.00266,
-                "lon": 77.63461
-              },
-              {
-                "name": "Indian Oil",
-                "name_kn": "ಇಂದಿಂ ೊಿಲ್",
-                "stop_id": "27947",
-                "lat": 13.00488,
-                "lon": 77.63714
-              },
-              {
-                "name": "Ramaswamypalya",
-                "name_kn": "ರಮಸ್ವಮೆಪಲೆ",
-                "stop_id": "22423",
-                "lat": 13.00964,
-                "lon": 77.63534
-              },
-              {
-                "name": "Oil Mill Road Junction",
-                "name_kn": "ಒಿಲ್ ಮಿಲ್ಲ್ ರೊದ್ ಜುಂಕ್ಟಿೊಂ",
-                "stop_id": "30396",
-                "lat": 13.01278,
-                "lon": 77.63536
-              },
-              {
-                "name": "Kammanahalli Empire Hotel",
-                "name_kn": "ಕಮ್ಮನಹಲ್ಲಿ ೆಂಪಿರೆ ಹೊಟೆಲ್",
-                "stop_id": "22148",
-                "lat": 13.01469,
-                "lon": 77.63577
-              },
-              {
-                "name": "Kammanahalli",
-                "name_kn": "ಕಮ್ಮನಹಲ್ಲಿ",
-                "stop_id": "22146",
-                "lat": 13.01766,
-                "lon": 77.6364
-              },
-              {
-                "name": "Jalavayu Vihara",
-                "name_kn": "ಜಲವಯು ವಿಹರ",
-                "stop_id": "22663",
-                "lat": 13.02117,
-                "lon": 77.63695
-              },
-              {
-                "name": "Kalyana nagara 8th Main 3rd Cross Junction",
-                "name_kn": "ಕಲೆನ ನಗರ 8ತ್ ಮೈಂ 3ರ್ದ್ ಕ್ರೊಸ್ಸ್ ಜುಂಕ್ಟಿೊಂ",
-                "stop_id": "22108",
-                "lat": 13.02248,
-                "lon": 77.63714
-              },
-              {
-                "name": "Kalyananagara Bus Stand",
-                "name_kn": "ಕಲೆನನಗರ ಬುಸ್ ಸ್ಟಂದ್",
-                "stop_id": "36441",
-                "lat": 13.02642,
-                "lon": 77.63839
               }
             ]
           }

@@ -4,11 +4,6 @@
     "lat": 12.96018,
     "lon": 77.51398
   },
-  "20568": {
-    "name": "14th Main HSR Layout",
-    "lat": 12.91637,
-    "lon": 77.63472
-  },
   "22891": {
     "name": "19th Main 13th Cross HSR Layout",
     "lat": 12.91593,
@@ -279,11 +274,6 @@
     "lat": 12.82279,
     "lon": 77.51417
   },
-  "39585": {
-    "name": "Art of Living Sri Ravishankar Ashram",
-    "lat": 12.82857,
-    "lon": 77.51236
-  },
   "21458": {
     "name": "Ashoka Pillar",
     "lat": 12.94322,
@@ -543,11 +533,6 @@
     "name": "Basavanagudi Police Station",
     "lat": 12.94168,
     "lon": 77.57396
-  },
-  "29762": {
-    "name": "Basavanapura Church",
-    "lat": 12.84678,
-    "lon": 77.5932
   },
   "22752": {
     "name": "Basavanapura Gate",
@@ -989,11 +974,6 @@
     "lat": 12.98984,
     "lon": 77.57181
   },
-  "20707": {
-    "name": "Central Silk Board",
-    "lat": 12.91803,
-    "lon": 77.62355
-  },
   "35943": {
     "name": "Central Silk Board",
     "lat": 12.91819,
@@ -1144,11 +1124,6 @@
     "lat": 13.17288,
     "lon": 77.63336
   },
-  "24575": {
-    "name": "Chikkallasandra",
-    "lat": 12.91507,
-    "lon": 77.55198
-  },
   "21841": {
     "name": "Chikkallasandra Aralimara",
     "lat": 12.91157,
@@ -1203,6 +1178,11 @@
     "name": "City Civil Court",
     "lat": 12.97343,
     "lon": 77.58243
+  },
+  "37720": {
+    "name": "City Civil Court (CHAKRA)",
+    "lat": 12.97339,
+    "lon": 77.58237
   },
   "21864": {
     "name": "Commando Hospital",
@@ -1698,11 +1678,6 @@
     "name": "Govt School Yelahanka 4th Phase",
     "lat": 13.10388,
     "lon": 77.57422
-  },
-  "21979": {
-    "name": "Gowdanapalya",
-    "lat": 12.91157,
-    "lon": 77.55608
   },
   "23454": {
     "name": "Gowrava Nagara",
@@ -2269,11 +2244,6 @@
     "lat": 12.90809,
     "lon": 77.60045
   },
-  "30463": {
-    "name": "JP Nagara 6th Phase",
-    "lat": 12.90634,
-    "lon": 77.57778
-  },
   "35926": {
     "name": "JP Nagara Metro Station",
     "lat": 12.908,
@@ -2318,11 +2288,6 @@
     "name": "Jambu Savari Dinne",
     "lat": 12.86581,
     "lon": 77.58098
-  },
-  "35804": {
-    "name": "Jambu Savari Dinne",
-    "lat": 12.86567,
-    "lon": 77.581
   },
   "20872": {
     "name": "Janapriya Apartment",
@@ -2449,11 +2414,6 @@
     "lat": 12.77935,
     "lon": 77.64358
   },
-  "35298": {
-    "name": "Jigani APC Circle",
-    "lat": 12.77926,
-    "lon": 77.64385
-  },
   "24085": {
     "name": "Jigani Bus Stand",
     "lat": 12.78664,
@@ -2463,11 +2423,6 @@
     "name": "Jigani Bus Stand",
     "lat": 12.78661,
     "lon": 77.63762
-  },
-  "39290": {
-    "name": "Jigani DLF Cloub House",
-    "lat": 12.78503,
-    "lon": 77.66051
   },
   "35299": {
     "name": "Jigani Double Road",
@@ -2739,10 +2694,10 @@
     "lat": 13.01505,
     "lon": 77.53901
   },
-  "35326": {
+  "30847": {
     "name": "Kariyappana Doddy",
-    "lat": 12.71068,
-    "lon": 77.5793
+    "lat": 12.7107,
+    "lon": 77.57932
   },
   "30882": {
     "name": "Kasthuri Nagara",
@@ -3869,11 +3824,6 @@
     "lat": 13.2691,
     "lon": 77.55217
   },
-  "29359": {
-    "name": "Navya Badavane",
-    "lat": 12.78732,
-    "lon": 77.65385
-  },
   "34121": {
     "name": "Navya Badavane",
     "lat": 12.78723,
@@ -4118,11 +4068,6 @@
     "name": "Prashanth Nagara",
     "lat": 12.9762,
     "lon": 77.531
-  },
-  "34282": {
-    "name": "Pratyangira Temple Turahalli",
-    "lat": 12.89259,
-    "lon": 77.53668
   },
   "34299": {
     "name": "Puttenahalli",
@@ -4459,11 +4404,6 @@
     "lat": 12.83378,
     "lon": 77.68021
   },
-  "21177": {
-    "name": "SI Apartment HSR Layout",
-    "lat": 12.91677,
-    "lon": 77.62942
-  },
   "22496": {
     "name": "SJES College",
     "lat": 13.02393,
@@ -4618,11 +4558,6 @@
     "name": "Shanimahathma Temple",
     "lat": 12.8372,
     "lon": 77.51626
-  },
-  "34513": {
-    "name": "Shanimahathma Temple",
-    "lat": 12.8934,
-    "lon": 77.54338
   },
   "21164": {
     "name": "Shankar Mutt",
@@ -4894,11 +4829,6 @@
     "lat": 12.92643,
     "lon": 77.55369
   },
-  "21188": {
-    "name": "Srinagara Bus Station",
-    "lat": 12.94425,
-    "lon": 77.55479
-  },
   "23966": {
     "name": "Srinivasa Kalyana Mantapa",
     "lat": 12.926,
@@ -4983,11 +4913,6 @@
     "name": "Subramanyapura KEB",
     "lat": 12.89759,
     "lon": 77.54631
-  },
-  "22393": {
-    "name": "Subramanyapura Police Station",
-    "lat": 12.90149,
-    "lon": 77.54417
   },
   "22394": {
     "name": "Subramanyapura Police Station",
@@ -5229,11 +5154,6 @@
     "lat": 12.8286,
     "lon": 77.59556
   },
-  "39647": {
-    "name": "Turahalli Cross",
-    "lat": 12.89339,
-    "lon": 77.53819
-  },
   "22566": {
     "name": "Udayapura",
     "lat": 12.81324,
@@ -5258,11 +5178,6 @@
     "name": "Uttarahalli",
     "lat": 12.90575,
     "lon": 77.54257
-  },
-  "22569": {
-    "name": "Uttarahalli Bus Stand",
-    "lat": 12.90535,
-    "lon": 77.54327
   },
   "22570": {
     "name": "Uttarahalli Bus Stand",
