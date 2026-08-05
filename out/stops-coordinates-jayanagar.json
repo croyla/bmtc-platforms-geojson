@@ -129,11 +129,6 @@
     "lat": 12.82279,
     "lon": 77.51417
   },
-  "39585": {
-    "name": "Art of Living Sri Ravishankar Ashram",
-    "lat": 12.82857,
-    "lon": 77.51236
-  },
   "21457": {
     "name": "Ashoka Pillar",
     "lat": 12.9426,
@@ -359,6 +354,11 @@
     "lat": 12.90079,
     "lon": 77.60112
   },
+  "36208": {
+    "name": "Bishop Coton Girls High School",
+    "lat": 12.96889,
+    "lon": 77.6014
+  },
   "23552": {
     "name": "Bolare",
     "lat": 12.75429,
@@ -399,6 +399,16 @@
     "lat": 12.97372,
     "lon": 77.58157
   },
+  "37850": {
+    "name": "Central Silk Board",
+    "lat": 12.91756,
+    "lon": 77.62379
+  },
+  "21479": {
+    "name": "Central Silk Board Metro Station",
+    "lat": 12.91691,
+    "lon": 77.62136
+  },
   "38775": {
     "name": "Chandrappanagara",
     "lat": 12.9412,
@@ -423,11 +433,6 @@
     "name": "Chikka Kammanahalli",
     "lat": 12.84969,
     "lon": 77.59996
-  },
-  "24575": {
-    "name": "Chikkallasandra",
-    "lat": 12.91507,
-    "lon": 77.55198
   },
   "21841": {
     "name": "Chikkallasandra Aralimara",
@@ -534,11 +539,6 @@
     "lat": 12.87021,
     "lon": 77.58571
   },
-  "35313": {
-    "name": "Devarachikkanahalli",
-    "lat": 12.88899,
-    "lon": 77.61555
-  },
   "20756": {
     "name": "Devegowda Petrol Bunk",
     "lat": 12.92194,
@@ -638,11 +638,6 @@
     "name": "Govardhan Talkies",
     "lat": 13.01853,
     "lon": 77.55339
-  },
-  "21979": {
-    "name": "Gowdanapalya",
-    "lat": 12.91157,
-    "lon": 77.55608
   },
   "23454": {
     "name": "Gowrava Nagara",
@@ -879,11 +874,6 @@
     "lat": 12.90809,
     "lon": 77.60045
   },
-  "35126": {
-    "name": "JP Nagara 3rd Phase",
-    "lat": 12.90707,
-    "lon": 77.60015
-  },
   "30461": {
     "name": "JP Nagara 5th Phase",
     "lat": 12.90637,
@@ -928,11 +918,6 @@
     "name": "Jambu Savari Dinne",
     "lat": 12.86581,
     "lon": 77.58098
-  },
-  "35804": {
-    "name": "Jambu Savari Dinne",
-    "lat": 12.86567,
-    "lon": 77.581
   },
   "26277": {
     "name": "Janapriya Apartment",
@@ -1699,6 +1684,11 @@
     "lat": 12.94552,
     "lon": 77.52755
   },
+  "37961": {
+    "name": "Nayandahalli Junction",
+    "lat": 12.94581,
+    "lon": 77.52832
+  },
   "31886": {
     "name": "Nayara Petrol Pump Puttenahalli Lake",
     "lat": 12.89127,
@@ -1819,11 +1809,6 @@
     "lat": 12.99618,
     "lon": 77.49603
   },
-  "34282": {
-    "name": "Pratyangira Temple Turahalli",
-    "lat": 12.89259,
-    "lon": 77.53668
-  },
   "23344": {
     "name": "R T Nagara Post Office",
     "lat": 13.02197,
@@ -1838,6 +1823,11 @@
     "name": "R V Dental College",
     "lat": 12.91046,
     "lon": 77.58547
+  },
+  "38587": {
+    "name": "R V Metro Station",
+    "lat": 12.92178,
+    "lon": 77.5803
   },
   "22434": {
     "name": "R V Teachers College",
@@ -1868,6 +1858,11 @@
     "name": "Raghuvanahalli Cross",
     "lat": 12.88067,
     "lon": 77.54621
+  },
+  "21107": {
+    "name": "Ragigudda Temple",
+    "lat": 12.91701,
+    "lon": 77.59303
   },
   "35322": {
     "name": "Ragihalli",
@@ -1933,6 +1928,11 @@
     "name": "Royal Layout",
     "lat": 12.86919,
     "lon": 77.57581
+  },
+  "21177": {
+    "name": "SI Apartment HSR Layout",
+    "lat": 12.91677,
+    "lon": 77.62942
   },
   "23968": {
     "name": "SLV Bakery",
@@ -2423,11 +2423,6 @@
     "name": "Vijaya Bank Colony Ayyappa Temple",
     "lat": 12.89125,
     "lon": 77.60631
-  },
-  "27286": {
-    "name": "Vijaya Bank Layout Devarachikkanahalli",
-    "lat": 12.89276,
-    "lon": 77.61049
   },
   "35311": {
     "name": "Vijaya Bank Layout Devarachikkanahalli",

@@ -35,6 +35,28 @@
     },
     {
       "from_stop": "21288",
+      "to_stop": "27453",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 1
+    },
+    {
+      "from_stop": "21288",
+      "to_stop": "27453",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 2
+    },
+    {
+      "from_stop": "21288",
       "to_stop": "20723",
       "response": {
         "isException": true,
@@ -68,7 +90,7 @@
     },
     {
       "from_stop": "21288",
-      "to_stop": "21517",
+      "to_stop": "21189",
       "response": {
         "isException": true,
         "Issuccess": false,
@@ -79,7 +101,7 @@
     },
     {
       "from_stop": "21288",
-      "to_stop": "21189",
+      "to_stop": "21517",
       "response": {
         "isException": true,
         "Issuccess": false,
@@ -123,6 +145,17 @@
     },
     {
       "from_stop": "21288",
+      "to_stop": "20867",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 5
+    },
+    {
+      "from_stop": "21288",
       "to_stop": "22091",
       "response": {
         "isException": true,
@@ -135,17 +168,6 @@
     {
       "from_stop": "21288",
       "to_stop": "20870",
-      "response": {
-        "isException": true,
-        "Issuccess": false,
-        "exception": "Response not received in JSON.",
-        "Message": "Response not received in JSON."
-      },
-      "level": 5
-    },
-    {
-      "from_stop": "21288",
-      "to_stop": "20867",
       "response": {
         "isException": true,
         "Issuccess": false,
@@ -167,17 +189,6 @@
     },
     {
       "from_stop": "21288",
-      "to_stop": "22091",
-      "response": {
-        "isException": true,
-        "Issuccess": false,
-        "exception": "Response not received in JSON.",
-        "Message": "Response not received in JSON."
-      },
-      "level": 7
-    },
-    {
-      "from_stop": "21288",
       "to_stop": "20870",
       "response": {
         "isException": true,
@@ -190,6 +201,17 @@
     {
       "from_stop": "21288",
       "to_stop": "20867",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 7
+    },
+    {
+      "from_stop": "21288",
+      "to_stop": "22091",
       "response": {
         "isException": true,
         "Issuccess": false,
@@ -212,6 +234,17 @@
     {
       "from_stop": "24016",
       "to_stop": "20791",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 0
+    },
+    {
+      "from_stop": "24016",
+      "to_stop": "23309",
       "response": {
         "isException": true,
         "Issuccess": false,
@@ -376,7 +409,18 @@
     },
     {
       "from_stop": "24016",
-      "to_stop": "20870",
+      "to_stop": "21211",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 6
+    },
+    {
+      "from_stop": "24016",
+      "to_stop": "20867",
       "response": {
         "isException": true,
         "Issuccess": false,
@@ -398,7 +442,7 @@
     },
     {
       "from_stop": "24016",
-      "to_stop": "20867",
+      "to_stop": "20870",
       "response": {
         "isException": true,
         "Issuccess": false,
@@ -408,6 +452,83 @@
       "level": 7
     },
     {
+      "from_stop": "24016",
+      "to_stop": "35570",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 7
+    },
+    {
+      "from_stop": "24016",
+      "to_stop": "20593",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 7
+    },
+    {
+      "from_stop": "24016",
+      "to_stop": "21211",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 8
+    },
+    {
+      "from_stop": "24016",
+      "to_stop": "35572",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 8
+    },
+    {
+      "from_stop": "24016",
+      "to_stop": "35570",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 9
+    },
+    {
+      "from_stop": "24016",
+      "to_stop": "20593",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 9
+    },
+    {
+      "from_stop": "24016",
+      "to_stop": "35572",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 10
+    },
+    {
       "from_stop": "36187",
       "to_stop": "20791",
       "response": {
@@ -428,6 +549,17 @@
         "Message": "Response not received in JSON."
       },
       "level": 0
+    },
+    {
+      "from_stop": "36187",
+      "to_stop": "20790",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 1
     },
     {
       "from_stop": "36187",
@@ -442,7 +574,7 @@
     },
     {
       "from_stop": "36187",
-      "to_stop": "20790",
+      "to_stop": "27453",
       "response": {
         "isException": true,
         "Issuccess": false,
@@ -450,6 +582,17 @@
         "Message": "Response not received in JSON."
       },
       "level": 1
+    },
+    {
+      "from_stop": "36187",
+      "to_stop": "27453",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 2
     },
     {
       "from_stop": "36187",
@@ -475,18 +618,18 @@
     },
     {
       "from_stop": "36187",
-      "to_stop": "20790",
+      "to_stop": "24002",
       "response": {
         "isException": true,
         "Issuccess": false,
         "exception": "Response not received in JSON.",
         "Message": "Response not received in JSON."
       },
-      "level": 3
+      "level": 2
     },
     {
       "from_stop": "36187",
-      "to_stop": "21517",
+      "to_stop": "20790",
       "response": {
         "isException": true,
         "Issuccess": false,
@@ -508,7 +651,29 @@
     },
     {
       "from_stop": "36187",
+      "to_stop": "21517",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 3
+    },
+    {
+      "from_stop": "36187",
       "to_stop": "20723",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 4
+    },
+    {
+      "from_stop": "36187",
+      "to_stop": "24002",
       "response": {
         "isException": true,
         "Issuccess": false,
@@ -541,7 +706,7 @@
     },
     {
       "from_stop": "36187",
-      "to_stop": "22091",
+      "to_stop": "20867",
       "response": {
         "isException": true,
         "Issuccess": false,
@@ -552,7 +717,7 @@
     },
     {
       "from_stop": "36187",
-      "to_stop": "20867",
+      "to_stop": "22091",
       "response": {
         "isException": true,
         "Issuccess": false,
@@ -585,7 +750,29 @@
     },
     {
       "from_stop": "36187",
+      "to_stop": "21211",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 6
+    },
+    {
+      "from_stop": "36187",
       "to_stop": "20867",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 7
+    },
+    {
+      "from_stop": "36187",
+      "to_stop": "20870",
       "response": {
         "isException": true,
         "Issuccess": false,
@@ -607,7 +794,7 @@
     },
     {
       "from_stop": "36187",
-      "to_stop": "20870",
+      "to_stop": "35570",
       "response": {
         "isException": true,
         "Issuccess": false,
@@ -615,6 +802,72 @@
         "Message": "Response not received in JSON."
       },
       "level": 7
+    },
+    {
+      "from_stop": "36187",
+      "to_stop": "20593",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 7
+    },
+    {
+      "from_stop": "36187",
+      "to_stop": "21211",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 8
+    },
+    {
+      "from_stop": "36187",
+      "to_stop": "35572",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 8
+    },
+    {
+      "from_stop": "36187",
+      "to_stop": "35570",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 9
+    },
+    {
+      "from_stop": "36187",
+      "to_stop": "20593",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 9
+    },
+    {
+      "from_stop": "36187",
+      "to_stop": "35572",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 10
     },
     {
       "from_stop": "22835",
@@ -695,7 +948,7 @@
     },
     {
       "from_stop": "22835",
-      "to_stop": "21517",
+      "to_stop": "21189",
       "response": {
         "isException": true,
         "Issuccess": false,
@@ -706,7 +959,7 @@
     },
     {
       "from_stop": "22835",
-      "to_stop": "21189",
+      "to_stop": "21517",
       "response": {
         "isException": true,
         "Issuccess": false,
@@ -739,6 +992,17 @@
     },
     {
       "from_stop": "22835",
+      "to_stop": "21452",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 4
+    },
+    {
+      "from_stop": "22835",
       "to_stop": "21189",
       "response": {
         "isException": true,
@@ -750,7 +1014,7 @@
     },
     {
       "from_stop": "22835",
-      "to_stop": "20870",
+      "to_stop": "22091",
       "response": {
         "isException": true,
         "Issuccess": false,
@@ -761,7 +1025,7 @@
     },
     {
       "from_stop": "22835",
-      "to_stop": "22091",
+      "to_stop": "20870",
       "response": {
         "isException": true,
         "Issuccess": false,
@@ -784,6 +1048,17 @@
     {
       "from_stop": "22835",
       "to_stop": "21082",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 6
+    },
+    {
+      "from_stop": "22835",
+      "to_stop": "21211",
       "response": {
         "isException": true,
         "Issuccess": false,
@@ -826,6 +1101,105 @@
       "level": 7
     },
     {
+      "from_stop": "22835",
+      "to_stop": "20593",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 7
+    },
+    {
+      "from_stop": "22835",
+      "to_stop": "35570",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 7
+    },
+    {
+      "from_stop": "22835",
+      "to_stop": "21211",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 8
+    },
+    {
+      "from_stop": "22835",
+      "to_stop": "35572",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 8
+    },
+    {
+      "from_stop": "22835",
+      "to_stop": "24818",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 8
+    },
+    {
+      "from_stop": "22835",
+      "to_stop": "35570",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 9
+    },
+    {
+      "from_stop": "22835",
+      "to_stop": "20593",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 9
+    },
+    {
+      "from_stop": "22835",
+      "to_stop": "24818",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 10
+    },
+    {
+      "from_stop": "22835",
+      "to_stop": "35572",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 10
+    },
+    {
       "from_stop": "22706",
       "to_stop": "20791",
       "response": {
@@ -846,6 +1220,39 @@
         "Message": "Response not received in JSON."
       },
       "level": 0
+    },
+    {
+      "from_stop": "22706",
+      "to_stop": "22564",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 0
+    },
+    {
+      "from_stop": "22706",
+      "to_stop": "21691",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 0
+    },
+    {
+      "from_stop": "22706",
+      "to_stop": "21691",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 1
     },
     {
       "from_stop": "22706",
@@ -871,7 +1278,7 @@
     },
     {
       "from_stop": "22706",
-      "to_stop": "21016",
+      "to_stop": "20723",
       "response": {
         "isException": true,
         "Issuccess": false,
@@ -882,7 +1289,7 @@
     },
     {
       "from_stop": "22706",
-      "to_stop": "20723",
+      "to_stop": "21016",
       "response": {
         "isException": true,
         "Issuccess": false,
@@ -904,7 +1311,7 @@
     },
     {
       "from_stop": "22706",
-      "to_stop": "21517",
+      "to_stop": "21189",
       "response": {
         "isException": true,
         "Issuccess": false,
@@ -915,7 +1322,7 @@
     },
     {
       "from_stop": "22706",
-      "to_stop": "21189",
+      "to_stop": "21517",
       "response": {
         "isException": true,
         "Issuccess": false,
@@ -992,6 +1399,17 @@
     },
     {
       "from_stop": "22706",
+      "to_stop": "21540",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 5
+    },
+    {
+      "from_stop": "22706",
       "to_stop": "21082",
       "response": {
         "isException": true,
@@ -1000,17 +1418,6 @@
         "Message": "Response not received in JSON."
       },
       "level": 6
-    },
-    {
-      "from_stop": "22706",
-      "to_stop": "22091",
-      "response": {
-        "isException": true,
-        "Issuccess": false,
-        "exception": "Response not received in JSON.",
-        "Message": "Response not received in JSON."
-      },
-      "level": 7
     },
     {
       "from_stop": "22706",
@@ -1035,6 +1442,105 @@
       "level": 7
     },
     {
+      "from_stop": "22706",
+      "to_stop": "22091",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 7
+    },
+    {
+      "from_stop": "22706",
+      "to_stop": "35570",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 7
+    },
+    {
+      "from_stop": "22706",
+      "to_stop": "20593",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 7
+    },
+    {
+      "from_stop": "22706",
+      "to_stop": "35572",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 8
+    },
+    {
+      "from_stop": "22706",
+      "to_stop": "24818",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 8
+    },
+    {
+      "from_stop": "22706",
+      "to_stop": "20593",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 9
+    },
+    {
+      "from_stop": "22706",
+      "to_stop": "35570",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 9
+    },
+    {
+      "from_stop": "22706",
+      "to_stop": "24818",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 10
+    },
+    {
+      "from_stop": "22706",
+      "to_stop": "35572",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 10
+    },
+    {
       "from_stop": "22836",
       "to_stop": "20791",
       "response": {
@@ -1055,6 +1561,39 @@
         "Message": "Response not received in JSON."
       },
       "level": 0
+    },
+    {
+      "from_stop": "22836",
+      "to_stop": "23334",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 0
+    },
+    {
+      "from_stop": "22836",
+      "to_stop": "23309",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 0
+    },
+    {
+      "from_stop": "22836",
+      "to_stop": "20790",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 1
     },
     {
       "from_stop": "22836",
@@ -1069,17 +1608,6 @@
     },
     {
       "from_stop": "22836",
-      "to_stop": "20790",
-      "response": {
-        "isException": true,
-        "Issuccess": false,
-        "exception": "Response not received in JSON.",
-        "Message": "Response not received in JSON."
-      },
-      "level": 1
-    },
-    {
-      "from_stop": "22836",
       "to_stop": "21016",
       "response": {
         "isException": true,
@@ -1113,7 +1641,7 @@
     },
     {
       "from_stop": "22836",
-      "to_stop": "21517",
+      "to_stop": "21189",
       "response": {
         "isException": true,
         "Issuccess": false,
@@ -1124,7 +1652,7 @@
     },
     {
       "from_stop": "22836",
-      "to_stop": "21189",
+      "to_stop": "21517",
       "response": {
         "isException": true,
         "Issuccess": false,
@@ -1168,17 +1696,6 @@
     },
     {
       "from_stop": "22836",
-      "to_stop": "20870",
-      "response": {
-        "isException": true,
-        "Issuccess": false,
-        "exception": "Response not received in JSON.",
-        "Message": "Response not received in JSON."
-      },
-      "level": 5
-    },
-    {
-      "from_stop": "22836",
       "to_stop": "20867",
       "response": {
         "isException": true,
@@ -1191,6 +1708,17 @@
     {
       "from_stop": "22836",
       "to_stop": "22091",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 5
+    },
+    {
+      "from_stop": "22836",
+      "to_stop": "20870",
       "response": {
         "isException": true,
         "Issuccess": false,
@@ -1212,6 +1740,28 @@
     },
     {
       "from_stop": "22836",
+      "to_stop": "21211",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 6
+    },
+    {
+      "from_stop": "22836",
+      "to_stop": "20870",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 7
+    },
+    {
+      "from_stop": "22836",
       "to_stop": "22091",
       "response": {
         "isException": true,
@@ -1234,18 +1784,62 @@
     },
     {
       "from_stop": "22836",
-      "to_stop": "20870",
+      "to_stop": "21211",
       "response": {
         "isException": true,
         "Issuccess": false,
         "exception": "Response not received in JSON.",
         "Message": "Response not received in JSON."
       },
-      "level": 7
+      "level": 8
+    },
+    {
+      "from_stop": "22836",
+      "to_stop": "34439",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 9
+    },
+    {
+      "from_stop": "22836",
+      "to_stop": "34052",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 10
+    },
+    {
+      "from_stop": "22836",
+      "to_stop": "34439",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 11
+    },
+    {
+      "from_stop": "22836",
+      "to_stop": "34052",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 12
     },
     {
       "from_stop": "21289",
-      "to_stop": "20791",
+      "to_stop": "20796",
       "response": {
         "isException": true,
         "Issuccess": false,
@@ -1264,6 +1858,39 @@
         "Message": "Response not received in JSON."
       },
       "level": 0
+    },
+    {
+      "from_stop": "21289",
+      "to_stop": "20791",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 0
+    },
+    {
+      "from_stop": "21289",
+      "to_stop": "21214",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 0
+    },
+    {
+      "from_stop": "21289",
+      "to_stop": "20790",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 1
     },
     {
       "from_stop": "21289",
@@ -1278,7 +1905,7 @@
     },
     {
       "from_stop": "21289",
-      "to_stop": "20790",
+      "to_stop": "22787",
       "response": {
         "isException": true,
         "Issuccess": false,
@@ -1289,7 +1916,7 @@
     },
     {
       "from_stop": "21289",
-      "to_stop": "20723",
+      "to_stop": "38118",
       "response": {
         "isException": true,
         "Issuccess": false,
@@ -1311,7 +1938,29 @@
     },
     {
       "from_stop": "21289",
+      "to_stop": "20723",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 2
+    },
+    {
+      "from_stop": "21289",
       "to_stop": "20790",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 3
+    },
+    {
+      "from_stop": "21289",
+      "to_stop": "24003",
       "response": {
         "isException": true,
         "Issuccess": false,
@@ -1344,12 +1993,43 @@
     },
     {
       "from_stop": "21289",
+      "to_stop": "23313",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 3
+    },
+    {
+      "from_stop": "21289",
+      "to_stop": "38118",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 4
+    },
+    {
+      "from_stop": "21289",
       "to_stop": "20723",
       "response": {
         "isException": true,
         "Issuccess": false,
         "exception": "Response not received in JSON.",
         "Message": "Response not received in JSON."
+      },
+      "level": 4
+    },
+    {
+      "from_stop": "21289",
+      "to_stop": "29571",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
       },
       "level": 4
     },
@@ -1366,29 +2046,29 @@
     },
     {
       "from_stop": "21289",
+      "to_stop": "23313",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 5
+    },
+    {
+      "from_stop": "21289",
+      "to_stop": "24003",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 5
+    },
+    {
+      "from_stop": "21289",
       "to_stop": "21189",
-      "response": {
-        "isException": true,
-        "Issuccess": false,
-        "exception": "Response not received in JSON.",
-        "Message": "Response not received in JSON."
-      },
-      "level": 5
-    },
-    {
-      "from_stop": "21289",
-      "to_stop": "22091",
-      "response": {
-        "isException": true,
-        "Issuccess": false,
-        "exception": "Response not received in JSON.",
-        "Message": "Response not received in JSON."
-      },
-      "level": 5
-    },
-    {
-      "from_stop": "21289",
-      "to_stop": "20867",
       "response": {
         "isException": true,
         "Issuccess": false,
@@ -1410,7 +2090,60 @@
     },
     {
       "from_stop": "21289",
+      "to_stop": "20867",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 5
+    },
+    {
+      "from_stop": "21289",
+      "to_stop": "27411",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 5
+    },
+    {
+      "from_stop": "21289",
+      "to_stop": "22091",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 5
+    },
+    {
+      "from_stop": "21289",
+      "to_stop": "29571",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 6
+    },
+    {
+      "from_stop": "21289",
       "to_stop": "21082",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 6
+    },
+    {
+      "from_stop": "21289",
+      "to_stop": "21211",
       "response": {
         "isException": true,
         "Issuccess": false,
@@ -1432,6 +2165,17 @@
     },
     {
       "from_stop": "21289",
+      "to_stop": "20870",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 7
+    },
+    {
+      "from_stop": "21289",
       "to_stop": "20867",
       "response": {
         "isException": true,
@@ -1443,7 +2187,7 @@
     },
     {
       "from_stop": "21289",
-      "to_stop": "20870",
+      "to_stop": "27411",
       "response": {
         "isException": true,
         "Issuccess": false,
@@ -1451,6 +2195,145 @@
         "Message": "Response not received in JSON."
       },
       "level": 7
+    },
+    {
+      "from_stop": "21289",
+      "to_stop": "35570",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 7
+    },
+    {
+      "from_stop": "21289",
+      "to_stop": "20593",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 7
+    },
+    {
+      "from_stop": "21289",
+      "to_stop": "21211",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 8
+    },
+    {
+      "from_stop": "21289",
+      "to_stop": "35572",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 8
+    },
+    {
+      "from_stop": "21289",
+      "to_stop": "23313",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 9
+    },
+    {
+      "from_stop": "21289",
+      "to_stop": "20593",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 9
+    },
+    {
+      "from_stop": "21289",
+      "to_stop": "35570",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 9
+    },
+    {
+      "from_stop": "21289",
+      "to_stop": "29571",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 10
+    },
+    {
+      "from_stop": "21289",
+      "to_stop": "35572",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 10
+    },
+    {
+      "from_stop": "21289",
+      "to_stop": "27411",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 11
+    },
+    {
+      "from_stop": "21289",
+      "to_stop": "23313",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 11
+    },
+    {
+      "from_stop": "21289",
+      "to_stop": "29571",
+      "response": {
+        "Message": "Cannot find table 1.",
+        "isException": true
+      },
+      "level": 12
+    },
+    {
+      "from_stop": "21289",
+      "to_stop": "27411",
+      "response": {
+        "isException": true,
+        "Issuccess": false,
+        "exception": "Response not received in JSON.",
+        "Message": "Response not received in JSON."
+      },
+      "level": 13
     }
   ],
   "Received": [
@@ -1675,16 +2558,6 @@
       "bay-number": null
     },
     {
-      "route-number": "80-E YTTMC-KNN-2",
-      "route-name": "YTTMC-2KTN",
-      "from-station-id": 21288,
-      "route-id": 9225,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
       "route-number": "89-D YTTMC-JCN",
       "route-name": "YTTMC-JCNK",
       "from-station-id": 21288,
@@ -1719,6 +2592,16 @@
       "route-name": "YTTMC-GLB",
       "from-station-id": 21288,
       "route-id": 9442,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "82-A YTTMC-SRPS",
+      "route-name": "YTTMC-SRPS",
+      "from-station-id": 21288,
+      "route-id": 9491,
       "route-parent-id": "",
       "platform-name": null,
       "platform-number": null,
@@ -1875,16 +2758,6 @@
       "bay-number": null
     },
     {
-      "route-number": "89-F BELC-YRS-GBE",
-      "route-name": "BELC-GBE",
-      "from-station-id": 21288,
-      "route-id": 16767,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
       "route-number": "401-B",
       "route-name": "NES-MRBS",
       "from-station-id": 21288,
@@ -1899,6 +2772,26 @@
       "route-name": "PTH-MRBS",
       "from-station-id": 21288,
       "route-id": 17494,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "80-E YTTMC-KNN2",
+      "route-name": "YTTMC-KNN2",
+      "from-station-id": 21288,
+      "route-id": 17733,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "401-K YBS-BDH",
+      "route-name": "YPR-BDH",
+      "from-station-id": 21288,
+      "route-id": 17834,
       "route-parent-id": "",
       "platform-name": null,
       "platform-number": null,
@@ -2645,16 +3538,6 @@
       "bay-number": null
     },
     {
-      "route-number": "276-F KMT-YHKOT",
-      "route-name": "KMT-YHKOT",
-      "from-station-id": 36187,
-      "route-id": 11807,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
       "route-number": "276-E KMT-MTK-VRP-D45",
       "route-name": "KMT-D45",
       "from-station-id": 36187,
@@ -2975,6 +3858,16 @@
       "bay-number": null
     },
     {
+      "route-number": "271-C KBS-SRP",
+      "route-name": "KBS-SRP",
+      "from-station-id": 36187,
+      "route-id": 17812,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
       "route-number": "258-C",
       "route-name": "NMG-KBS",
       "from-station-id": 24016,
@@ -3109,16 +4002,6 @@
       "route-name": "CKB-KBS",
       "from-station-id": 24016,
       "route-id": 2892,
-      "route-parent-id": "",
-      "platform-name": "B2",
-      "platform-number": "2",
-      "bay-number": null
-    },
-    {
-      "route-number": "500-B",
-      "route-name": "YPR-CSB",
-      "from-station-id": 24016,
-      "route-id": 3022,
       "route-parent-id": "",
       "platform-name": "B2",
       "platform-number": "2",
@@ -3405,6 +4288,16 @@
       "bay-number": null
     },
     {
+      "route-number": "255-C",
+      "route-name": "PLH-KMT",
+      "from-station-id": 24016,
+      "route-id": 4214,
+      "route-parent-id": "",
+      "platform-name": "B3",
+      "platform-number": "3",
+      "bay-number": null
+    },
+    {
       "route-number": "250-B",
       "route-name": "TMH-KBS",
       "from-station-id": 24016,
@@ -3412,16 +4305,6 @@
       "route-parent-id": "",
       "platform-name": "B2",
       "platform-number": "2",
-      "bay-number": null
-    },
-    {
-      "route-number": "253-G KMT-KNW",
-      "route-name": "KNW-KMT",
-      "from-station-id": 24016,
-      "route-id": 4223,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
       "bay-number": null
     },
     {
@@ -3635,16 +4518,6 @@
       "bay-number": null
     },
     {
-      "route-number": "253-R",
-      "route-name": "RGH-KBS",
-      "from-station-id": 24016,
-      "route-id": 4680,
-      "route-parent-id": "",
-      "platform-name": "B2",
-      "platform-number": "2",
-      "bay-number": null
-    },
-    {
       "route-number": "253-V",
       "route-name": "RGH-KBS",
       "from-station-id": 24016,
@@ -3705,20 +4578,20 @@
       "bay-number": null
     },
     {
-      "route-number": "254-D",
+      "route-number": "254-E",
       "route-name": "KMPR-KMT",
       "from-station-id": 24016,
-      "route-id": 4784,
+      "route-id": 4786,
       "route-parent-id": "",
       "platform-name": "B3",
       "platform-number": "3",
       "bay-number": null
     },
     {
-      "route-number": "254-E",
-      "route-name": "KMPR-KMT",
+      "route-number": "255",
+      "route-name": "MTH-KMT",
       "from-station-id": 24016,
-      "route-id": 4786,
+      "route-id": 4788,
       "route-parent-id": "",
       "platform-name": "B3",
       "platform-number": "3",
@@ -3905,16 +4778,6 @@
       "bay-number": null
     },
     {
-      "route-number": "254-D KBS-KMP",
-      "route-name": "KMP-KBS",
-      "from-station-id": 24016,
-      "route-id": 5812,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
       "route-number": "255-B",
       "route-name": "BELT-KBS",
       "from-station-id": 24016,
@@ -3922,6 +4785,16 @@
       "route-parent-id": "",
       "platform-name": "B2",
       "platform-number": "2",
+      "bay-number": null
+    },
+    {
+      "route-number": "255-C KBS-PLH",
+      "route-name": "PLH-KBS",
+      "from-station-id": 24016,
+      "route-id": 5908,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
       "bay-number": null
     },
     {
@@ -4325,6 +5198,16 @@
       "bay-number": null
     },
     {
+      "route-number": "253-H",
+      "route-name": "MDG-KMT",
+      "from-station-id": 24016,
+      "route-id": 13110,
+      "route-parent-id": "",
+      "platform-name": "B3",
+      "platform-number": "3",
+      "bay-number": null
+    },
+    {
       "route-number": "250-SA KMT-KDGM",
       "route-name": "KDGM-KMT",
       "from-station-id": 24016,
@@ -4625,6 +5508,16 @@
       "bay-number": null
     },
     {
+      "route-number": "258-VC KMT-OBNH-YLG",
+      "route-name": "YLG-KMT",
+      "from-station-id": 24016,
+      "route-id": 15873,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
       "route-number": "257-D KDG-KBS",
       "route-name": "KDG-KBS",
       "from-station-id": 24016,
@@ -4785,30 +5678,20 @@
       "bay-number": null
     },
     {
-      "route-number": "YTTMC-YPRS",
-      "route-name": "YTTMC-YPRS",
-      "from-station-id": 21288,
-      "route-id": 11851,
+      "route-number": "251-A KKL-KBS",
+      "route-name": "KKL-KBS",
+      "from-station-id": 24016,
+      "route-id": 17748,
       "route-parent-id": "",
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
     },
     {
-      "route-number": "300-R",
-      "route-name": "SMVT-YRS",
-      "from-station-id": 21288,
-      "route-id": 14417,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "300-R YRS-KBS-SMVR",
-      "route-name": "SMVR-YRS",
-      "from-station-id": 21288,
-      "route-id": 15301,
+      "route-number": "250-N SIS-SBS",
+      "route-name": "SIS-SBS",
+      "from-station-id": 24016,
+      "route-id": 17876,
       "route-parent-id": "",
       "platform-name": null,
       "platform-number": null,
@@ -5109,6 +5992,16 @@
       "route-name": "KMT-PSS",
       "from-station-id": 21288,
       "route-id": 5058,
+      "route-parent-id": "",
+      "platform-name": "B4",
+      "platform-number": "2",
+      "bay-number": null
+    },
+    {
+      "route-number": "252-FB",
+      "route-name": "KBS-TGPY",
+      "from-station-id": 21288,
+      "route-id": 5134,
       "route-parent-id": "",
       "platform-name": "B4",
       "platform-number": "2",
@@ -5565,6 +6458,16 @@
       "bay-number": null
     },
     {
+      "route-number": "255-C",
+      "route-name": "KMT-PLH",
+      "from-station-id": 21288,
+      "route-id": 4211,
+      "route-parent-id": "",
+      "platform-name": "B4",
+      "platform-number": "2",
+      "bay-number": null
+    },
+    {
       "route-number": "250-B",
       "route-name": "KBS-TMH",
       "from-station-id": 21288,
@@ -5666,7 +6569,7 @@
     },
     {
       "route-number": "250-N",
-      "route-name": "SVJN-MEIL",
+      "route-name": "SBS-MEIL",
       "from-station-id": 21288,
       "route-id": 4296,
       "route-parent-id": "",
@@ -5865,6 +6768,16 @@
       "bay-number": null
     },
     {
+      "route-number": "255",
+      "route-name": "KMT-MTH",
+      "from-station-id": 21288,
+      "route-id": 4787,
+      "route-parent-id": "",
+      "platform-name": "B4",
+      "platform-number": "2",
+      "bay-number": null
+    },
+    {
       "route-number": "255-A",
       "route-name": "KMT-HKR",
       "from-station-id": 21288,
@@ -6015,16 +6928,6 @@
       "bay-number": null
     },
     {
-      "route-number": "254-D KBS-KMP",
-      "route-name": "KBS-KMP",
-      "from-station-id": 21288,
-      "route-id": 5810,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
       "route-number": "255-E KBS-NSP",
       "route-name": "KBS-NSP",
       "from-station-id": 21288,
@@ -6042,6 +6945,16 @@
       "route-parent-id": "",
       "platform-name": "B4",
       "platform-number": "2",
+      "bay-number": null
+    },
+    {
+      "route-number": "255-C KBS-PLH",
+      "route-name": "KBS-PLH",
+      "from-station-id": 21288,
+      "route-id": 5905,
+      "route-parent-id": "",
+      "platform-name": "B2",
+      "platform-number": "2A",
       "bay-number": null
     },
     {
@@ -6379,6 +7292,16 @@
       "route-name": "KMT-SVKT",
       "from-station-id": 21288,
       "route-id": 12378,
+      "route-parent-id": "",
+      "platform-name": "B4",
+      "platform-number": "2",
+      "bay-number": null
+    },
+    {
+      "route-number": "253-H",
+      "route-name": "KMT-MDG",
+      "from-station-id": 21288,
+      "route-id": 13109,
       "route-parent-id": "",
       "platform-name": "B4",
       "platform-number": "2",
@@ -6795,10 +7718,20 @@
       "bay-number": null
     },
     {
-      "route-number": "D26-YBS",
-      "route-name": "YBS-D26",
+      "route-number": "BJL-YBS",
+      "route-name": "YBS-BJL",
       "from-station-id": 24016,
-      "route-id": 2694,
+      "route-id": 17867,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "250-N TPH-SBS",
+      "route-name": "SBS-TPH",
+      "from-station-id": 21288,
+      "route-id": 17873,
       "route-parent-id": "",
       "platform-name": null,
       "platform-number": null,
@@ -6865,10 +7798,50 @@
       "bay-number": null
     },
     {
+      "route-number": "YTTMC-YPRS",
+      "route-name": "YTTMC-YPRS",
+      "from-station-id": 21288,
+      "route-id": 11851,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "300-R",
+      "route-name": "SMVT-YRS",
+      "from-station-id": 21288,
+      "route-id": 14417,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "300-R YRS-KBS-SMVR",
+      "route-name": "SMVR-YRS",
+      "from-station-id": 21288,
+      "route-id": 15301,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
       "route-number": "266-T",
       "route-name": "KBS-LKP",
       "from-station-id": 36187,
       "route-id": 3958,
+      "route-parent-id": "",
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "D26-YBS",
+      "route-name": "YBS-D26",
+      "from-station-id": 24016,
+      "route-id": 2694,
       "route-parent-id": "",
       "platform-name": null,
       "platform-number": null,
@@ -6905,20 +7878,10 @@
       "bay-number": null
     },
     {
-      "route-number": "89-F BELC-YRS-GBE",
-      "route-name": "GBE-BELC",
-      "from-station-id": 24016,
-      "route-id": 16768,
-      "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "90-E KBS-YRS-BELC",
-      "route-name": "KBS-BELC",
-      "from-station-id": 22706,
-      "route-id": 16791,
+      "route-number": "507 YPRRS-BEL-HBL-KRPG",
+      "route-name": "YPRRS-KTPGH",
+      "from-station-id": 21288,
+      "route-id": 5295,
       "route-parent-id": "",
       "platform-name": null,
       "platform-number": null,
@@ -6935,14 +7898,64 @@
       "bay-number": null
     },
     {
-      "route-number": "90-E KBS-YRS-BELC",
-      "route-name": "BELC-KBS",
-      "from-station-id": 21289,
-      "route-id": 16792,
+      "route-number": "501-CH YTTMC-KMG UP",
+      "route-name": "YTTMC-KMG",
+      "from-station-id": 21288,
+      "route-id": 6002,
       "route-parent-id": "",
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
+      "platform-name": "",
+      "platform-number": "",
+      "bay-number": ""
+    },
+    {
+      "route-number": "500-BC YTTMC-MTK-CSB UP",
+      "route-name": "YTTMC-CSB",
+      "from-station-id": 24016,
+      "route-id": 12416,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "",
+      "bay-number": ""
+    },
+    {
+      "route-number": "401-KB YTTMC-AIT UP",
+      "route-name": "YTTMC-AIT",
+      "from-station-id": 21288,
+      "route-id": 13254,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "",
+      "bay-number": ""
+    },
+    {
+      "route-number": "401-NY YTTMC-HBL UP",
+      "route-name": "YTTMC-HBL",
+      "from-station-id": 24016,
+      "route-id": 13434,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "",
+      "bay-number": ""
+    },
+    {
+      "route-number": "500 YTTMC-HBLB-JKLO UP",
+      "route-name": "YTTMC-HBLB-JKLO",
+      "from-station-id": 24016,
+      "route-id": 15321,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "",
+      "bay-number": ""
+    },
+    {
+      "route-number": "410-FA NLS-YBS DOWN",
+      "route-name": "YBS-NLS",
+      "from-station-id": 21288,
+      "route-id": 17503,
+      "route-parent-id": "",
+      "platform-name": "",
+      "platform-number": "",
+      "bay-number": ""
     }
   ]
 }

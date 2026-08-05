@@ -1,6 +1,16 @@
 {
   "Unknown": [
     {
+      "route-number": "335-N KGR-HALLCA",
+      "route-name": "HALLCA-KMT-KGR",
+      "from-station-id": 20944,
+      "route-id": 17886,
+      "route-parent-id": 9619,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
       "route-number": "220-D",
       "route-name": "KMT-DBL",
       "from-station-id": 20944,
@@ -461,16 +471,6 @@
       "bay-number": null
     },
     {
-      "route-number": "351",
-      "route-name": "KMT-NRG",
-      "from-station-id": 20944,
-      "route-id": 9706,
-      "route-parent-id": 5199,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
       "route-number": "350-G",
       "route-name": "KMT-BMSD",
       "from-station-id": 20944,
@@ -541,16 +541,6 @@
       "bay-number": null
     },
     {
-      "route-number": "227 SBS- KMT FLY-DAM",
-      "route-name": "DAM-KMT FLY-SBS",
-      "from-station-id": 31256,
-      "route-id": 17467,
-      "route-parent-id": 9385,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
       "route-number": "218-A",
       "route-name": "KBP-KBS",
       "from-station-id": 31256,
@@ -569,26 +559,6 @@
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
-    },
-    {
-      "route-number": "227 SBS- KMT FLY-DAM",
-      "route-name": "SBS-KMT FLY-DAM",
-      "from-station-id": 36229,
-      "route-id": 17466,
-      "route-parent-id": 9385,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "231 UP",
-      "route-name": "KMT-DDR",
-      "from-station-id": 20944,
-      "route-id": 2488,
-      "route-parent-id": 1433,
-      "platform-name": "",
-      "platform-number": "",
-      "bay-number": ""
     },
     {
       "route-number": "240 UP",

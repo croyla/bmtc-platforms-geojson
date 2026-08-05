@@ -1468,126 +1468,6 @@
             ]
           },
           {
-            "Route": "210-FA",
-            "RouteId": 3471,
-            "RouteParentId": 1945,
-            "Destination": "Shivajinagara Bus Station",
-            "Via": "",
-            "Area": "Poornaprajna Layout",
-            "PlatformNumber": "1",
-            "KannadaDestination": "ಶಿವಜಿನಗರ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-            "KannadaArea": "ಪೂರ್ಣಪ್ರಜ್ಞಾ ಬಡಾವಣೆ",
-            "KannadaVia": "",
-            "FromStationId": 21544,
-            "Stops": [
-              {
-                "name": "Jayanagara Bus Station",
-                "name_kn": "ಜಯನಗರ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-                "stop_id": "21544",
-                "lat": 12.92852,
-                "lon": 77.58418
-              },
-              {
-                "name": "3rd Block Jayanagara",
-                "name_kn": "3ರ್ದ್ ಬ್ಲೊಕ್ಕ್ ಜಯನಗರ",
-                "stop_id": "21446",
-                "lat": 12.9318,
-                "lon": 77.58393
-              },
-              {
-                "name": "Madhavan Park",
-                "name_kn": "ಮಧವಂ ಪರ್ಕ್",
-                "stop_id": "21563",
-                "lat": 12.93644,
-                "lon": 77.58392
-              },
-              {
-                "name": "Rani Saraladevi High School",
-                "name_kn": "ರನಿ ಸರಲದೆವಿ ಹಿಘ್ ಸ್ಚೂಲ್",
-                "stop_id": "21592",
-                "lat": 12.93767,
-                "lon": 77.585
-              },
-              {
-                "name": "Ashoka Pillar",
-                "name_kn": "ಅಶೊಕ ಪಿಲ್ಲರ್",
-                "stop_id": "21457",
-                "lat": 12.9426,
-                "lon": 77.58508
-              },
-              {
-                "name": "Siddapura Ashoka Pillar",
-                "name_kn": "ಸಿದ್ದಪುರ ಶೊಕ ಪಿಲ್ಲರ್",
-                "stop_id": "21602",
-                "lat": 12.94633,
-                "lon": 77.58873
-              },
-              {
-                "name": "Mallige Hospital",
-                "name_kn": "ಮಲ್ಲಿಗೆ ಹೊಸ್ಪಿಟಲ್",
-                "stop_id": "21564",
-                "lat": 12.94762,
-                "lon": 77.59124
-              },
-              {
-                "name": "Wilson Garden 10th Cross",
-                "name_kn": "ವಿಲ್ಸೊಂ ಗರ್ದೆಂ 10ತ್ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "20563",
-                "lat": 12.94645,
-                "lon": 77.59596
-              },
-              {
-                "name": "Wilson Garden Police Station",
-                "name_kn": "ವಿಲ್ಸೊಂ ಗರ್ದೆಂ ಪೊಲಿಕೆ ಸ್ಟಟಿೊಂ",
-                "stop_id": "21281",
-                "lat": 12.95064,
-                "lon": 77.59558
-              },
-              {
-                "name": "Shanthinagara Bus Station",
-                "name_kn": "ಶಂತಿನಗರ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-                "stop_id": "21167",
-                "lat": 12.95483,
-                "lon": 77.59235
-              },
-              {
-                "name": "KH Road",
-                "name_kn": "ಖ್ ರೊದ್",
-                "stop_id": "20928",
-                "lat": 12.95815,
-                "lon": 77.59299
-              },
-              {
-                "name": "Richmond Circle",
-                "name_kn": "ರಿಚ್ಮೊಂದ್ ಕಿರ್ಕ್ಲೆ",
-                "stop_id": "21125",
-                "lat": 12.96738,
-                "lon": 77.59946
-              },
-              {
-                "name": "St Joseph Boys High School Musuem Road",
-                "name_kn": "ಸ್ಟ್ ಜೊಸೆಫ್ ಬೊಯ್ಸ್ ಹಿಘ್ ಸ್ಚೂಲ್ ಮುಸುೆಂ ರೊದ್",
-                "stop_id": "23433",
-                "lat": 12.97176,
-                "lon": 77.60441
-              },
-              {
-                "name": "MG Road",
-                "name_kn": "ಂಗ್ ರೊದ್",
-                "stop_id": "21572",
-                "lat": 12.97779,
-                "lon": 77.60204
-              },
-              {
-                "name": "Shivajinagara Bus Station",
-                "name_kn": "ಶಿವಜಿನಗರ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-                "stop_id": "21173",
-                "lat": 12.98328,
-                "lon": 77.60304
-              }
-            ]
-          },
-          {
             "Route": "210-G",
             "RouteId": 3791,
             "RouteParentId": 2113,
@@ -1597,140 +1477,6 @@
             "PlatformNumber": "1",
             "KannadaDestination": "ಶಿವಜಿನಗರ ಬುಸ್ ಸ್ಟಟಿೊಂ",
             "KannadaArea": "ವಸಂತಪುರ",
-            "KannadaVia": "",
-            "FromStationId": 21544,
-            "Stops": [
-              {
-                "name": "Jayanagara Bus Station",
-                "name_kn": "ಜಯನಗರ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-                "stop_id": "21544",
-                "lat": 12.92852,
-                "lon": 77.58418
-              },
-              {
-                "name": "3rd Block Jayanagara",
-                "name_kn": "3ರ್ದ್ ಬ್ಲೊಕ್ಕ್ ಜಯನಗರ",
-                "stop_id": "21446",
-                "lat": 12.9318,
-                "lon": 77.58393
-              },
-              {
-                "name": "Madhavan Park",
-                "name_kn": "ಮಧವಂ ಪರ್ಕ್",
-                "stop_id": "21563",
-                "lat": 12.93644,
-                "lon": 77.58392
-              },
-              {
-                "name": "Rani Saraladevi High School",
-                "name_kn": "ರನಿ ಸರಲದೆವಿ ಹಿಘ್ ಸ್ಚೂಲ್",
-                "stop_id": "21592",
-                "lat": 12.93767,
-                "lon": 77.585
-              },
-              {
-                "name": "Ashoka Pillar",
-                "name_kn": "ಅಶೊಕ ಪಿಲ್ಲರ್",
-                "stop_id": "21457",
-                "lat": 12.9426,
-                "lon": 77.58508
-              },
-              {
-                "name": "Siddapura Ashoka Pillar",
-                "name_kn": "ಸಿದ್ದಪುರ ಶೊಕ ಪಿಲ್ಲರ್",
-                "stop_id": "21602",
-                "lat": 12.94633,
-                "lon": 77.58873
-              },
-              {
-                "name": "Mallige Hospital",
-                "name_kn": "ಮಲ್ಲಿಗೆ ಹೊಸ್ಪಿಟಲ್",
-                "stop_id": "21564",
-                "lat": 12.94762,
-                "lon": 77.59124
-              },
-              {
-                "name": "Wilson Garden 10th Cross",
-                "name_kn": "ವಿಲ್ಸೊಂ ಗರ್ದೆಂ 10ತ್ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "20563",
-                "lat": 12.94645,
-                "lon": 77.59596
-              },
-              {
-                "name": "Wilson Garden Police Station",
-                "name_kn": "ವಿಲ್ಸೊಂ ಗರ್ದೆಂ ಪೊಲಿಕೆ ಸ್ಟಟಿೊಂ",
-                "stop_id": "21281",
-                "lat": 12.95064,
-                "lon": 77.59558
-              },
-              {
-                "name": "Shanthinagara Bus Station",
-                "name_kn": "ಶಂತಿನಗರ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-                "stop_id": "21167",
-                "lat": 12.95483,
-                "lon": 77.59235
-              },
-              {
-                "name": "KH Road",
-                "name_kn": "ಖ್ ರೊದ್",
-                "stop_id": "20928",
-                "lat": 12.95815,
-                "lon": 77.59299
-              },
-              {
-                "name": "Richmond Circle",
-                "name_kn": "ರಿಚ್ಮೊಂದ್ ಕಿರ್ಕ್ಲೆ",
-                "stop_id": "21125",
-                "lat": 12.96738,
-                "lon": 77.59946
-              },
-              {
-                "name": "St Joseph College",
-                "name_kn": "ಸ್ಟ್ ಜೊಸೆಫ್ ಕೊಲ್ಲೆಗೆ",
-                "stop_id": "21194",
-                "lat": 12.97036,
-                "lon": 77.60368
-              },
-              {
-                "name": "St Joseph Boys High School Musuem Road",
-                "name_kn": "ಸ್ಟ್ ಜೊಸೆಫ್ ಬೊಯ್ಸ್ ಹಿಘ್ ಸ್ಚೂಲ್ ಮುಸುೆಂ ರೊದ್",
-                "stop_id": "23433",
-                "lat": 12.97176,
-                "lon": 77.60441
-              },
-              {
-                "name": "State Bank India Garage",
-                "name_kn": "ಸ್ಟಟೆ ಬಂಕ್ ಿಂದಿ ಗರಗೆ",
-                "stop_id": "21608",
-                "lat": 12.97465,
-                "lon": 77.60154
-              },
-              {
-                "name": "MG Road",
-                "name_kn": "ಂಗ್ ರೊದ್",
-                "stop_id": "21572",
-                "lat": 12.97779,
-                "lon": 77.60204
-              },
-              {
-                "name": "Shivajinagara Bus Station",
-                "name_kn": "ಶಿವಜಿನಗರ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-                "stop_id": "21173",
-                "lat": 12.98328,
-                "lon": 77.60304
-              }
-            ]
-          },
-          {
-            "Route": "210-Q",
-            "RouteId": 3800,
-            "RouteParentId": 2118,
-            "Destination": "Shivajinagara Bus Station",
-            "Via": "",
-            "Area": "Chikkallasandra",
-            "PlatformNumber": "1",
-            "KannadaDestination": "ಶಿವಜಿನಗರ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-            "KannadaArea": "ಚಿಕ್ಕಲ್ಲಸಂದ್ರ",
             "KannadaVia": "",
             "FromStationId": 21544,
             "Stops": [
@@ -1944,140 +1690,6 @@
                 "stop_id": "21125",
                 "lat": 12.96738,
                 "lon": 77.59946
-              },
-              {
-                "name": "St Joseph Boys High School Musuem Road",
-                "name_kn": "ಸ್ಟ್ ಜೊಸೆಫ್ ಬೊಯ್ಸ್ ಹಿಘ್ ಸ್ಚೂಲ್ ಮುಸುೆಂ ರೊದ್",
-                "stop_id": "23433",
-                "lat": 12.97176,
-                "lon": 77.60441
-              },
-              {
-                "name": "State Bank India Garage",
-                "name_kn": "ಸ್ಟಟೆ ಬಂಕ್ ಿಂದಿ ಗರಗೆ",
-                "stop_id": "21608",
-                "lat": 12.97465,
-                "lon": 77.60154
-              },
-              {
-                "name": "MG Road",
-                "name_kn": "ಂಗ್ ರೊದ್",
-                "stop_id": "21572",
-                "lat": 12.97779,
-                "lon": 77.60204
-              },
-              {
-                "name": "Shivajinagara Bus Station",
-                "name_kn": "ಶಿವಜಿನಗರ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-                "stop_id": "21173",
-                "lat": 12.98328,
-                "lon": 77.60304
-              }
-            ]
-          },
-          {
-            "Route": "210-T",
-            "RouteId": 4358,
-            "RouteParentId": 2400,
-            "Destination": "Shivajinagara Bus Station",
-            "Via": "",
-            "Area": "Pratyangira Temple Turahalli",
-            "PlatformNumber": "1",
-            "KannadaDestination": "ಶಿವಜಿನಗರ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-            "KannadaArea": "ಪ್ರತ್ಯಂಗಿರ ದೇವಸ್ಥಾನ ತುರಹಳ್ಳಿ",
-            "KannadaVia": "",
-            "FromStationId": 21544,
-            "Stops": [
-              {
-                "name": "Jayanagara Bus Station",
-                "name_kn": "ಜಯನಗರ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-                "stop_id": "21544",
-                "lat": 12.92852,
-                "lon": 77.58418
-              },
-              {
-                "name": "3rd Block Jayanagara",
-                "name_kn": "3ರ್ದ್ ಬ್ಲೊಕ್ಕ್ ಜಯನಗರ",
-                "stop_id": "21446",
-                "lat": 12.9318,
-                "lon": 77.58393
-              },
-              {
-                "name": "Madhavan Park",
-                "name_kn": "ಮಧವಂ ಪರ್ಕ್",
-                "stop_id": "21563",
-                "lat": 12.93644,
-                "lon": 77.58392
-              },
-              {
-                "name": "Rani Saraladevi High School",
-                "name_kn": "ರನಿ ಸರಲದೆವಿ ಹಿಘ್ ಸ್ಚೂಲ್",
-                "stop_id": "21592",
-                "lat": 12.93767,
-                "lon": 77.585
-              },
-              {
-                "name": "Ashoka Pillar",
-                "name_kn": "ಅಶೊಕ ಪಿಲ್ಲರ್",
-                "stop_id": "21457",
-                "lat": 12.9426,
-                "lon": 77.58508
-              },
-              {
-                "name": "Siddapura Ashoka Pillar",
-                "name_kn": "ಸಿದ್ದಪುರ ಶೊಕ ಪಿಲ್ಲರ್",
-                "stop_id": "21602",
-                "lat": 12.94633,
-                "lon": 77.58873
-              },
-              {
-                "name": "Mallige Hospital",
-                "name_kn": "ಮಲ್ಲಿಗೆ ಹೊಸ್ಪಿಟಲ್",
-                "stop_id": "21564",
-                "lat": 12.94762,
-                "lon": 77.59124
-              },
-              {
-                "name": "Wilson Garden 10th Cross",
-                "name_kn": "ವಿಲ್ಸೊಂ ಗರ್ದೆಂ 10ತ್ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "20563",
-                "lat": 12.94645,
-                "lon": 77.59596
-              },
-              {
-                "name": "Wilson Garden Police Station",
-                "name_kn": "ವಿಲ್ಸೊಂ ಗರ್ದೆಂ ಪೊಲಿಕೆ ಸ್ಟಟಿೊಂ",
-                "stop_id": "21281",
-                "lat": 12.95064,
-                "lon": 77.59558
-              },
-              {
-                "name": "Shanthinagara Bus Station",
-                "name_kn": "ಶಂತಿನಗರ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-                "stop_id": "21167",
-                "lat": 12.95483,
-                "lon": 77.59235
-              },
-              {
-                "name": "KH Road",
-                "name_kn": "ಖ್ ರೊದ್",
-                "stop_id": "20928",
-                "lat": 12.95815,
-                "lon": 77.59299
-              },
-              {
-                "name": "Richmond Circle",
-                "name_kn": "ರಿಚ್ಮೊಂದ್ ಕಿರ್ಕ್ಲೆ",
-                "stop_id": "21125",
-                "lat": 12.96738,
-                "lon": 77.59946
-              },
-              {
-                "name": "St Joseph College",
-                "name_kn": "ಸ್ಟ್ ಜೊಸೆಫ್ ಕೊಲ್ಲೆಗೆ",
-                "stop_id": "21194",
-                "lat": 12.97036,
-                "lon": 77.60368
               },
               {
                 "name": "St Joseph Boys High School Musuem Road",
@@ -2710,6 +2322,112 @@
             ]
           },
           {
+            "Route": "215-S D34G-JBS-BCGS",
+            "RouteId": 12105,
+            "RouteParentId": 6447,
+            "Destination": "Bishop Coton Girls High School",
+            "Via": "",
+            "Area": "Depot-34 Gate",
+            "PlatformNumber": "1",
+            "KannadaDestination": "ಬಿಶೊಪ್ ಕೊಟೊಂ ಗಿರ್ಲ್ಸ್ ಹಿಘ್ ಸ್ಚೂಲ್",
+            "KannadaArea": "ಘಟಕ -34 ಗೇಟ್",
+            "KannadaVia": "",
+            "FromStationId": 21544,
+            "Stops": [
+              {
+                "name": "Jayanagara Bus Station",
+                "name_kn": "ಜಯನಗರ ಬುಸ್ ಸ್ಟಟಿೊಂ",
+                "stop_id": "21544",
+                "lat": 12.92852,
+                "lon": 77.58418
+              },
+              {
+                "name": "3rd Block Jayanagara",
+                "name_kn": "3ರ್ದ್ ಬ್ಲೊಕ್ಕ್ ಜಯನಗರ",
+                "stop_id": "21446",
+                "lat": 12.9318,
+                "lon": 77.58393
+              },
+              {
+                "name": "Madhavan Park",
+                "name_kn": "ಮಧವಂ ಪರ್ಕ್",
+                "stop_id": "21563",
+                "lat": 12.93644,
+                "lon": 77.58392
+              },
+              {
+                "name": "Rani Saraladevi High School",
+                "name_kn": "ರನಿ ಸರಲದೆವಿ ಹಿಘ್ ಸ್ಚೂಲ್",
+                "stop_id": "21592",
+                "lat": 12.93767,
+                "lon": 77.585
+              },
+              {
+                "name": "Ashoka Pillar",
+                "name_kn": "ಅಶೊಕ ಪಿಲ್ಲರ್",
+                "stop_id": "21457",
+                "lat": 12.9426,
+                "lon": 77.58508
+              },
+              {
+                "name": "Siddapura Ashoka Pillar",
+                "name_kn": "ಸಿದ್ದಪುರ ಶೊಕ ಪಿಲ್ಲರ್",
+                "stop_id": "21602",
+                "lat": 12.94633,
+                "lon": 77.58873
+              },
+              {
+                "name": "Mallige Hospital",
+                "name_kn": "ಮಲ್ಲಿಗೆ ಹೊಸ್ಪಿಟಲ್",
+                "stop_id": "21564",
+                "lat": 12.94762,
+                "lon": 77.59124
+              },
+              {
+                "name": "Wilson Garden 10th Cross",
+                "name_kn": "ವಿಲ್ಸೊಂ ಗರ್ದೆಂ 10ತ್ ಕ್ರೊಸ್ಸ್",
+                "stop_id": "20563",
+                "lat": 12.94645,
+                "lon": 77.59596
+              },
+              {
+                "name": "Wilson Garden Police Station",
+                "name_kn": "ವಿಲ್ಸೊಂ ಗರ್ದೆಂ ಪೊಲಿಕೆ ಸ್ಟಟಿೊಂ",
+                "stop_id": "21281",
+                "lat": 12.95064,
+                "lon": 77.59558
+              },
+              {
+                "name": "Shanthinagara Bus Station",
+                "name_kn": "ಶಂತಿನಗರ ಬುಸ್ ಸ್ಟಟಿೊಂ",
+                "stop_id": "21167",
+                "lat": 12.95483,
+                "lon": 77.59235
+              },
+              {
+                "name": "KH Road",
+                "name_kn": "ಖ್ ರೊದ್",
+                "stop_id": "20928",
+                "lat": 12.95815,
+                "lon": 77.59299
+              },
+              {
+                "name": "Richmond Circle",
+                "name_kn": "ರಿಚ್ಮೊಂದ್ ಕಿರ್ಕ್ಲೆ",
+                "stop_id": "21125",
+                "lat": 12.96738,
+                "lon": 77.59946
+              },
+              {
+                "name": "Bishop Coton Girls High School",
+                "name_kn": "ಬಿಶೊಪ್ ಕೊಟೊಂ ಗಿರ್ಲ್ಸ್ ಹಿಘ್ ಸ್ಚೂಲ್",
+                "stop_id": "36208",
+                "lat": 12.96889,
+                "lon": 77.6014
+              }
+            ]
+          },
+          {
             "Route": "27 BTMW-VSD-SBS",
             "RouteId": 14252,
             "RouteParentId": 7620,
@@ -2833,119 +2551,6 @@
                 "stop_id": "21173",
                 "lat": 12.98328,
                 "lon": 77.60304
-              }
-            ]
-          },
-          {
-            "Route": "215-S SJBS-JSD",
-            "RouteId": 15903,
-            "RouteParentId": 8524,
-            "Destination": "St Joseph Boys High School Musuem Road",
-            "Via": "",
-            "Area": "Jambu Savari Dinne",
-            "PlatformNumber": "1",
-            "KannadaDestination": "ಸ್ಟ್ ಜೊಸೆಫ್ ಬೊಯ್ಸ್ ಹಿಘ್ ಸ್ಚೂಲ್ ಮುಸುೆಂ ರೊದ್",
-            "KannadaArea": "ಜಂಬು ಸವಾರಿ ದಿಣ್ಣೆ",
-            "KannadaVia": "",
-            "FromStationId": 21544,
-            "Stops": [
-              {
-                "name": "Jayanagara Bus Station",
-                "name_kn": "ಜಯನಗರ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-                "stop_id": "21544",
-                "lat": 12.92852,
-                "lon": 77.58418
-              },
-              {
-                "name": "3rd Block Jayanagara",
-                "name_kn": "3ರ್ದ್ ಬ್ಲೊಕ್ಕ್ ಜಯನಗರ",
-                "stop_id": "21446",
-                "lat": 12.9318,
-                "lon": 77.58393
-              },
-              {
-                "name": "Madhavan Park",
-                "name_kn": "ಮಧವಂ ಪರ್ಕ್",
-                "stop_id": "21563",
-                "lat": 12.93644,
-                "lon": 77.58392
-              },
-              {
-                "name": "Rani Saraladevi High School",
-                "name_kn": "ರನಿ ಸರಲದೆವಿ ಹಿಘ್ ಸ್ಚೂಲ್",
-                "stop_id": "21592",
-                "lat": 12.93767,
-                "lon": 77.585
-              },
-              {
-                "name": "Ashoka Pillar",
-                "name_kn": "ಅಶೊಕ ಪಿಲ್ಲರ್",
-                "stop_id": "21457",
-                "lat": 12.9426,
-                "lon": 77.58508
-              },
-              {
-                "name": "Siddapura Ashoka Pillar",
-                "name_kn": "ಸಿದ್ದಪುರ ಶೊಕ ಪಿಲ್ಲರ್",
-                "stop_id": "21602",
-                "lat": 12.94633,
-                "lon": 77.58873
-              },
-              {
-                "name": "Mallige Hospital",
-                "name_kn": "ಮಲ್ಲಿಗೆ ಹೊಸ್ಪಿಟಲ್",
-                "stop_id": "21564",
-                "lat": 12.94762,
-                "lon": 77.59124
-              },
-              {
-                "name": "Wilson Garden 10th Cross",
-                "name_kn": "ವಿಲ್ಸೊಂ ಗರ್ದೆಂ 10ತ್ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "20563",
-                "lat": 12.94645,
-                "lon": 77.59596
-              },
-              {
-                "name": "Wilson Garden Police Station",
-                "name_kn": "ವಿಲ್ಸೊಂ ಗರ್ದೆಂ ಪೊಲಿಕೆ ಸ್ಟಟಿೊಂ",
-                "stop_id": "21281",
-                "lat": 12.95064,
-                "lon": 77.59558
-              },
-              {
-                "name": "Shanthinagara Bus Station",
-                "name_kn": "ಶಂತಿನಗರ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-                "stop_id": "21167",
-                "lat": 12.95483,
-                "lon": 77.59235
-              },
-              {
-                "name": "KH Road",
-                "name_kn": "ಖ್ ರೊದ್",
-                "stop_id": "20928",
-                "lat": 12.95815,
-                "lon": 77.59299
-              },
-              {
-                "name": "Richmond Circle",
-                "name_kn": "ರಿಚ್ಮೊಂದ್ ಕಿರ್ಕ್ಲೆ",
-                "stop_id": "21125",
-                "lat": 12.96738,
-                "lon": 77.59946
-              },
-              {
-                "name": "St Joseph College",
-                "name_kn": "ಸ್ಟ್ ಜೊಸೆಫ್ ಕೊಲ್ಲೆಗೆ",
-                "stop_id": "21194",
-                "lat": 12.97036,
-                "lon": 77.60368
-              },
-              {
-                "name": "St Joseph Boys High School Musuem Road",
-                "name_kn": "ಸ್ಟ್ ಜೊಸೆಫ್ ಬೊಯ್ಸ್ ಹಿಘ್ ಸ್ಚೂಲ್ ಮುಸುೆಂ ರೊದ್",
-                "stop_id": "23433",
-                "lat": 12.97176,
-                "lon": 77.60441
               }
             ]
           },
@@ -4800,6 +4405,84 @@
             ]
           },
           {
+            "Route": "24-A",
+            "RouteId": 3402,
+            "RouteParentId": 1908,
+            "Destination": "KR Market",
+            "Via": "",
+            "Area": "Mahadeshwara Nagara",
+            "PlatformNumber": "2",
+            "KannadaDestination": "ಕ್ರ್ ಮರ್ಕೆಟ್",
+            "KannadaArea": "ಮಹದೇಶ್ವರ ನಗರ",
+            "KannadaVia": "",
+            "FromStationId": 21544,
+            "Stops": [
+              {
+                "name": "Jayanagara Bus Station",
+                "name_kn": "ಜಯನಗರ ಬುಸ್ ಸ್ಟಟಿೊಂ",
+                "stop_id": "21544",
+                "lat": 12.92852,
+                "lon": 77.58418
+              },
+              {
+                "name": "3rd Block Jayanagara",
+                "name_kn": "3ರ್ದ್ ಬ್ಲೊಕ್ಕ್ ಜಯನಗರ",
+                "stop_id": "21446",
+                "lat": 12.9318,
+                "lon": 77.58393
+              },
+              {
+                "name": "Madhavan Park",
+                "name_kn": "ಮಧವಂ ಪರ್ಕ್",
+                "stop_id": "21563",
+                "lat": 12.93644,
+                "lon": 77.58392
+              },
+              {
+                "name": "South End Circle",
+                "name_kn": "ಸೌತ್ ೆಂದ್ ಕಿರ್ಕ್ಲೆ",
+                "stop_id": "22505",
+                "lat": 12.93717,
+                "lon": 77.57965
+              },
+              {
+                "name": "MN Krishna Rao Park",
+                "name_kn": "ಂಂ ಕ್ರಿಶ್ನ ರೊ ಪರ್ಕ್",
+                "stop_id": "22294",
+                "lat": 12.94405,
+                "lon": 77.57689
+              },
+              {
+                "name": "Sajjan Rao Circle",
+                "name_kn": "ಸಜ್ಜಂ ರೊ ಕಿರ್ಕ್ಲೆ",
+                "stop_id": "22445",
+                "lat": 12.95262,
+                "lon": 77.57653
+              },
+              {
+                "name": "Basappa Circle",
+                "name_kn": "ಬಸಪ್ಪ ಕಿರ್ಕ್ಲೆ",
+                "stop_id": "21718",
+                "lat": 12.95624,
+                "lon": 77.57721
+              },
+              {
+                "name": "Makkala Koota",
+                "name_kn": "ಮಕ್ಕಲ ಕೂಟ",
+                "stop_id": "20986",
+                "lat": 12.95803,
+                "lon": 77.57385
+              },
+              {
+                "name": "KR Market",
+                "name_kn": "ಕ್ರ್ ಮರ್ಕೆಟ್",
+                "stop_id": "22201",
+                "lat": 12.96367,
+                "lon": 77.57722
+              }
+            ]
+          },
+          {
             "Route": "2-E",
             "RouteId": 4017,
             "RouteParentId": 2228,
@@ -5856,91 +5539,6 @@
             "PlatformNumber": "2",
             "KannadaDestination": "ಕ್ರ್ ಮರ್ಕೆಟ್ (ಕಲಸಿಪಲೆ)",
             "KannadaArea": "ಯಲೇನಹಳ್ಳಿ",
-            "KannadaVia": "",
-            "FromStationId": 21544,
-            "Stops": [
-              {
-                "name": "Jayanagara Bus Station",
-                "name_kn": "ಜಯನಗರ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-                "stop_id": "21544",
-                "lat": 12.92852,
-                "lon": 77.58418
-              },
-              {
-                "name": "3rd Block Jayanagara",
-                "name_kn": "3ರ್ದ್ ಬ್ಲೊಕ್ಕ್ ಜಯನಗರ",
-                "stop_id": "21446",
-                "lat": 12.9318,
-                "lon": 77.58393
-              },
-              {
-                "name": "Madhavan Park",
-                "name_kn": "ಮಧವಂ ಪರ್ಕ್",
-                "stop_id": "21563",
-                "lat": 12.93644,
-                "lon": 77.58392
-              },
-              {
-                "name": "Vijaya College",
-                "name_kn": "ವಿಜಯ ಕೊಲ್ಲೆಗೆ",
-                "stop_id": "24269",
-                "lat": 12.93958,
-                "lon": 77.57996
-              },
-              {
-                "name": "R V Teachers College",
-                "name_kn": "ರ್ ವ್ ಟೆಚೆರ್ಸ್ ಕೊಲ್ಲೆಗೆ",
-                "stop_id": "22434",
-                "lat": 12.94446,
-                "lon": 77.5799
-              },
-              {
-                "name": "Lalbagh West Gate",
-                "name_kn": "ಲಲ್ಬಘ್ ವೆಸ್ಟ್ ಗಟೆ",
-                "stop_id": "20968",
-                "lat": 12.94826,
-                "lon": 77.57918
-              },
-              {
-                "name": "Sajjan Rao Circle",
-                "name_kn": "ಸಜ್ಜಂ ರೊ ಕಿರ್ಕ್ಲೆ",
-                "stop_id": "22445",
-                "lat": 12.95262,
-                "lon": 77.57653
-              },
-              {
-                "name": "Basappa Circle",
-                "name_kn": "ಬಸಪ್ಪ ಕಿರ್ಕ್ಲೆ",
-                "stop_id": "21718",
-                "lat": 12.95624,
-                "lon": 77.57721
-              },
-              {
-                "name": "Makkala Koota",
-                "name_kn": "ಮಕ್ಕಲ ಕೂಟ",
-                "stop_id": "20986",
-                "lat": 12.95803,
-                "lon": 77.57385
-              },
-              {
-                "name": "KR Market (Kalasipalya)",
-                "name_kn": "ಕ್ರ್ ಮರ್ಕೆಟ್ (ಕಲಸಿಪಲೆ)",
-                "stop_id": "20945",
-                "lat": 12.96154,
-                "lon": 77.57736
-              }
-            ]
-          },
-          {
-            "Route": "369-B",
-            "RouteId": 8144,
-            "RouteParentId": 4376,
-            "Destination": "KR Market (Kalasipalya)",
-            "Via": "",
-            "Area": "Shanthiniketan Layout",
-            "PlatformNumber": "2",
-            "KannadaDestination": "ಕ್ರ್ ಮರ್ಕೆಟ್ (ಕಲಸಿಪಲೆ)",
-            "KannadaArea": "ಶಾಂತಿನಿಕೇತನ ಬಡಾವಣೆ",
             "KannadaVia": "",
             "FromStationId": 21544,
             "Stops": [
@@ -7165,161 +6763,6 @@
             ]
           },
           {
-            "Route": "215-C",
-            "RouteId": 4242,
-            "RouteParentId": 2332,
-            "Destination": "Jambu Savari Dinne",
-            "Via": "",
-            "Area": "KR Market (Kalasipalya)",
-            "PlatformNumber": "SOUTH",
-            "KannadaDestination": "ಜಂಬು ಸವರಿ ದಿಂನೆ",
-            "KannadaArea": "ಕೆಆರ್ ಮಾರುಕಟ್ಟೆ (ಕಲಾಸಿಪಾಳ್ಯ)",
-            "KannadaVia": "",
-            "FromStationId": 21545,
-            "Stops": [
-              {
-                "name": "Jayanagara Bus Station",
-                "name_kn": "ಜಯನಗರ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-                "stop_id": "21545",
-                "lat": 12.92802,
-                "lon": 77.58364
-              },
-              {
-                "name": "Jayanagara Telephone Exchange",
-                "name_kn": "ಜಯನಗರ ಟೆಲೆಫೊನೆ ೆಕ್ಸ್ಚಙೆ",
-                "stop_id": "39972",
-                "lat": 12.92339,
-                "lon": 77.58395
-              },
-              {
-                "name": "MP Office Bangalore South",
-                "name_kn": "ಂಪ್ ೊೞ್ೞಿಕೆ ಬಙಲೊರೆ ಸೌತ್",
-                "stop_id": "39973",
-                "lat": 12.9199,
-                "lon": 77.58597
-              },
-              {
-                "name": "Marenahalli",
-                "name_kn": "ಮರೆನಹಲ್ಲಿ",
-                "stop_id": "35080",
-                "lat": 12.9149,
-                "lon": 77.58588
-              },
-              {
-                "name": "R V Dental College",
-                "name_kn": "ರ್ ವ್ ದೆಂಟಲ್ ಕೊಲ್ಲೆಗೆ",
-                "stop_id": "23450",
-                "lat": 12.90988,
-                "lon": 77.58579
-              },
-              {
-                "name": "JP Nagara 15th Cross",
-                "name_kn": "ಜ್ಪ್ ನಗರ 15ತ್ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "33177",
-                "lat": 12.90665,
-                "lon": 77.58581
-              },
-              {
-                "name": "Nandini Hotel JP Nagara",
-                "name_kn": "ನಂದಿನಿ ಹೊಟೆಲ್ ಜ್ಪ್ ನಗರ",
-                "stop_id": "34195",
-                "lat": 12.90512,
-                "lon": 77.58581
-              },
-              {
-                "name": "Inchara Hotel JP Nagar",
-                "name_kn": "ಇಂಚರ ಹೊಟೆಲ್ ಜ್ಪ್ ನಗರ್",
-                "stop_id": "37836",
-                "lat": 12.90272,
-                "lon": 77.5858
-              },
-              {
-                "name": "Auto Gas/Royal School",
-                "name_kn": "ಔಟೊ ಗಸ್/ರೊಯಲ್ ಸ್ಚೂಲ್",
-                "stop_id": "28061",
-                "lat": 12.90133,
-                "lon": 77.58585
-              },
-              {
-                "name": "Shobha Tulip JP Nagara",
-                "name_kn": "ಶೊಭ ಟುಲಿಪ್ ಜ್ಪ್ ನಗರ",
-                "stop_id": "28376",
-                "lat": 12.89805,
-                "lon": 77.58591
-              },
-              {
-                "name": "Nayara Petrol Pump Puttenahalli Lake",
-                "name_kn": "ನಯರ ಪೆಟ್ರೊಲ್ ಪುಂಪ್ ಪುಟೆನಹಲ್ಲಿ ಲಕೆ",
-                "stop_id": "31886",
-                "lat": 12.89127,
-                "lon": 77.58769
-              },
-              {
-                "name": "Sri Dharmaraya Circle",
-                "name_kn": "ಸ್ರಿ ಧರ್ಮರಯ ಕಿರ್ಕ್ಲೆ",
-                "stop_id": "23452",
-                "lat": 12.89213,
-                "lon": 77.58192
-              },
-              {
-                "name": "RBI Layout",
-                "name_kn": "ರ್ಬಿ ಲಯೌಟ್",
-                "stop_id": "23453",
-                "lat": 12.88806,
-                "lon": 77.58198
-              },
-              {
-                "name": "Gowrava Nagara",
-                "name_kn": "ಗೌರವ ನಗರ",
-                "stop_id": "23454",
-                "lat": 12.88476,
-                "lon": 77.58266
-              },
-              {
-                "name": "Navodaya Nagara",
-                "name_kn": "ನವೊದಯ ನಗರ",
-                "stop_id": "23455",
-                "lat": 12.88137,
-                "lon": 77.58381
-              },
-              {
-                "name": "Kothanuru Dinne Ganesha Temple",
-                "name_kn": "ಕೊತನುರು ದಿಂನೆ ಗನೆಶ ಟೆಂಪ್ಲೆ",
-                "stop_id": "23456",
-                "lat": 12.87711,
-                "lon": 77.58399
-              },
-              {
-                "name": "Kothanur Dinne Water Tank",
-                "name_kn": "ಕೊತನುರ್ ದಿಂನೆ ವಟೆರ್ ಟಂಕ್",
-                "stop_id": "23457",
-                "lat": 12.87455,
-                "lon": 77.58419
-              },
-              {
-                "name": "BK Circle",
-                "name_kn": "ಬ್ಕ್ ಕಿರ್ಕ್ಲೆ",
-                "stop_id": "35060",
-                "lat": 12.87056,
-                "lon": 77.58309
-              },
-              {
-                "name": "Surabhi Layout",
-                "name_kn": "ಸುರಭಿ ಲಯೌಟ್",
-                "stop_id": "35114",
-                "lat": 12.8675,
-                "lon": 77.58184
-              },
-              {
-                "name": "Jambu Savari Dinne",
-                "name_kn": "ಜಂಬು ಸವರಿ ದಿಂನೆ",
-                "stop_id": "35343",
-                "lat": 12.86581,
-                "lon": 77.58098
-              }
-            ]
-          },
-          {
             "Route": "215-E",
             "RouteId": 4252,
             "RouteParentId": 2337,
@@ -8375,316 +7818,6 @@
                 "stop_id": "34867",
                 "lat": 12.89928,
                 "lon": 77.59141
-              }
-            ]
-          },
-          {
-            "Route": "KIA-5D",
-            "RouteId": 15793,
-            "RouteParentId": 8468,
-            "Destination": "Art of Living Sri Ravishankar Ashram",
-            "Via": "",
-            "Area": "Kempegowda International Airport",
-            "PlatformNumber": "SOUTH",
-            "KannadaDestination": "ಅರ್ಟ್ ೊೞ್ ಲಿವಿಙ್ ಸ್ರಿ ರವಿಶಂಕರ್ ಶ್ರಂ",
-            "KannadaArea": "ಕೆಂಪೇಗೌಡ ಅಂತರಾಷ್ಟ್ರೀಯ ವಿಮಾನ ನಿಲ್ದಾಣ",
-            "KannadaVia": "",
-            "FromStationId": 21545,
-            "Stops": [
-              {
-                "name": "Jayanagara Bus Station",
-                "name_kn": "ಜಯನಗರ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-                "stop_id": "21545",
-                "lat": 12.92802,
-                "lon": 77.58364
-              },
-              {
-                "name": "Jayanagara Telephone Exchange",
-                "name_kn": "ಜಯನಗರ ಟೆಲೆಫೊನೆ ೆಕ್ಸ್ಚಙೆ",
-                "stop_id": "39972",
-                "lat": 12.92339,
-                "lon": 77.58395
-              },
-              {
-                "name": "MP Office Bangalore South",
-                "name_kn": "ಂಪ್ ೊೞ್ೞಿಕೆ ಬಙಲೊರೆ ಸೌತ್",
-                "stop_id": "39973",
-                "lat": 12.9199,
-                "lon": 77.58597
-              },
-              {
-                "name": "Marenahalli",
-                "name_kn": "ಮರೆನಹಲ್ಲಿ",
-                "stop_id": "35080",
-                "lat": 12.9149,
-                "lon": 77.58588
-              },
-              {
-                "name": "R V Dental College",
-                "name_kn": "ರ್ ವ್ ದೆಂಟಲ್ ಕೊಲ್ಲೆಗೆ",
-                "stop_id": "23450",
-                "lat": 12.90988,
-                "lon": 77.58579
-              },
-              {
-                "name": "JP Nagara 15th Cross",
-                "name_kn": "ಜ್ಪ್ ನಗರ 15ತ್ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "33177",
-                "lat": 12.90665,
-                "lon": 77.58581
-              },
-              {
-                "name": "JP Nagara 6th Phase",
-                "name_kn": "ಜ್ಪ್ ನಗರ 6ತ್ ಫಸೆ",
-                "stop_id": "30463",
-                "lat": 12.90634,
-                "lon": 77.57778
-              },
-              {
-                "name": "Jaraganahalli Cross",
-                "name_kn": "ಜರಗನಹಲ್ಲಿ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "22101",
-                "lat": 12.9014,
-                "lon": 77.57344
-              },
-              {
-                "name": "Konanakunte Cross",
-                "name_kn": "ಕೊನನಕುಂಟೆ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "22190",
-                "lat": 12.89053,
-                "lon": 77.56459
-              },
-              {
-                "name": "Konanakunte Cross Metro Station",
-                "name_kn": "ಕೊನನಕುಂಟೆ ಕ್ರೊಸ್ಸ್ ಮೆಟ್ರೊ ಸ್ಟಟಿೊಂ",
-                "stop_id": "38358",
-                "lat": 12.88907,
-                "lon": 77.56306
-              },
-              {
-                "name": "Cura Hospital",
-                "name_kn": "ಕುರ ಹೊಸ್ಪಿಟಲ್",
-                "stop_id": "39689",
-                "lat": 12.88787,
-                "lon": 77.56161
-              },
-              {
-                "name": "Doddakallasandra",
-                "name_kn": "ದೊದ್ದಕಲ್ಲಸಂದ್ರ",
-                "stop_id": "21909",
-                "lat": 12.88574,
-                "lon": 77.5565
-              },
-              {
-                "name": "Doddakallasandra Metro Station",
-                "name_kn": "ದೊದ್ದಕಲ್ಲಸಂದ್ರ ಮೆಟ್ರೊ ಸ್ಟಟಿೊಂ",
-                "stop_id": "38362",
-                "lat": 12.88467,
-                "lon": 77.55312
-              },
-              {
-                "name": "Raghuvanahalli Cross",
-                "name_kn": "ರಘುವನಹಲ್ಲಿ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "22408",
-                "lat": 12.88067,
-                "lon": 77.54621
-              },
-              {
-                "name": "Vajarahalli Metro Station",
-                "name_kn": "ವಜರಹಲ್ಲಿ ಮೆಟ್ರೊ ಸ್ಟಟಿೊಂ",
-                "stop_id": "38360",
-                "lat": 12.87768,
-                "lon": 77.54498
-              },
-              {
-                "name": "Thalaghattapura Metro Station",
-                "name_kn": "ತಲಘಟಪುರ ಮೆಟ್ರೊ ಸ್ಟಟಿೊಂ",
-                "stop_id": "37739",
-                "lat": 12.87128,
-                "lon": 77.53854
-              },
-              {
-                "name": "Thalagattapura",
-                "name_kn": "ತಲಗಟಪುರ",
-                "stop_id": "22538",
-                "lat": 12.86958,
-                "lon": 77.53705
-              },
-              {
-                "name": "Silk Institute Metro Station",
-                "name_kn": "ಸಿಲ್ಕ್ ಿಂಸ್ಟಿಟುಟೆ ಮೆಟ್ರೊ ಸ್ಟಟಿೊಂ",
-                "stop_id": "35891",
-                "lat": 12.8616,
-                "lon": 77.52993
-              },
-              {
-                "name": "Chinnayyanapalya Silk Farm",
-                "name_kn": "ಚಿಂನಯೆನಪಲೆ ಸಿಲ್ಕ್ ೞರ್ಂ",
-                "stop_id": "21844",
-                "lat": 12.85356,
-                "lon": 77.52343
-              },
-              {
-                "name": "Shanimahathma Temple",
-                "name_kn": "ಶನಿಮಹತ್ಮ ಟೆಂಪ್ಲೆ",
-                "stop_id": "22474",
-                "lat": 12.8372,
-                "lon": 77.51626
-              },
-              {
-                "name": "Art of Living Sri Ravishankar Ashram",
-                "name_kn": "ಅರ್ಟ್ ೊೞ್ ಲಿವಿಙ್ ಸ್ರಿ ರವಿಶಂಕರ್ ಶ್ರಂ",
-                "stop_id": "39585",
-                "lat": 12.82857,
-                "lon": 77.51236
-              }
-            ]
-          },
-          {
-            "Route": "215-S SJBS-JSD",
-            "RouteId": 15902,
-            "RouteParentId": 8524,
-            "Destination": "Jambu Savari Dinne",
-            "Via": "",
-            "Area": "St Joseph Boys High School Musuem Road",
-            "PlatformNumber": "SOUTH",
-            "KannadaDestination": "ಜಂಬು ಸವರಿ ದಿಂನೆ",
-            "KannadaArea": "ಎಸ್ಟಿ ಜೋಸೆಫ್ ಬಾಯ್ಸ್ ಹೈ ಸ್ಕೂಲ್ ಮುಸುಯೆಮ್ ರೋಡ್",
-            "KannadaVia": "",
-            "FromStationId": 21545,
-            "Stops": [
-              {
-                "name": "Jayanagara Bus Station",
-                "name_kn": "ಜಯನಗರ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-                "stop_id": "21545",
-                "lat": 12.92802,
-                "lon": 77.58364
-              },
-              {
-                "name": "Jayanagara Telephone Exchange",
-                "name_kn": "ಜಯನಗರ ಟೆಲೆಫೊನೆ ೆಕ್ಸ್ಚಙೆ",
-                "stop_id": "39972",
-                "lat": 12.92339,
-                "lon": 77.58395
-              },
-              {
-                "name": "MP Office Bangalore South",
-                "name_kn": "ಂಪ್ ೊೞ್ೞಿಕೆ ಬಙಲೊರೆ ಸೌತ್",
-                "stop_id": "39973",
-                "lat": 12.9199,
-                "lon": 77.58597
-              },
-              {
-                "name": "Marenahalli",
-                "name_kn": "ಮರೆನಹಲ್ಲಿ",
-                "stop_id": "35080",
-                "lat": 12.9149,
-                "lon": 77.58588
-              },
-              {
-                "name": "R V Dental College",
-                "name_kn": "ರ್ ವ್ ದೆಂಟಲ್ ಕೊಲ್ಲೆಗೆ",
-                "stop_id": "23450",
-                "lat": 12.90988,
-                "lon": 77.58579
-              },
-              {
-                "name": "JP Nagara 15th Cross",
-                "name_kn": "ಜ್ಪ್ ನಗರ 15ತ್ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "33177",
-                "lat": 12.90665,
-                "lon": 77.58581
-              },
-              {
-                "name": "Nandini Hotel JP Nagara",
-                "name_kn": "ನಂದಿನಿ ಹೊಟೆಲ್ ಜ್ಪ್ ನಗರ",
-                "stop_id": "34195",
-                "lat": 12.90512,
-                "lon": 77.58581
-              },
-              {
-                "name": "Auto Gas/Royal School",
-                "name_kn": "ಔಟೊ ಗಸ್/ರೊಯಲ್ ಸ್ಚೂಲ್",
-                "stop_id": "28061",
-                "lat": 12.90133,
-                "lon": 77.58585
-              },
-              {
-                "name": "Shobha Tulip JP Nagara",
-                "name_kn": "ಶೊಭ ಟುಲಿಪ್ ಜ್ಪ್ ನಗರ",
-                "stop_id": "28376",
-                "lat": 12.89805,
-                "lon": 77.58591
-              },
-              {
-                "name": "Nayara Petrol Pump Puttenahalli Lake",
-                "name_kn": "ನಯರ ಪೆಟ್ರೊಲ್ ಪುಂಪ್ ಪುಟೆನಹಲ್ಲಿ ಲಕೆ",
-                "stop_id": "31886",
-                "lat": 12.89127,
-                "lon": 77.58769
-              },
-              {
-                "name": "Sri Dharmaraya Circle",
-                "name_kn": "ಸ್ರಿ ಧರ್ಮರಯ ಕಿರ್ಕ್ಲೆ",
-                "stop_id": "23452",
-                "lat": 12.89213,
-                "lon": 77.58192
-              },
-              {
-                "name": "RBI Layout",
-                "name_kn": "ರ್ಬಿ ಲಯೌಟ್",
-                "stop_id": "23453",
-                "lat": 12.88806,
-                "lon": 77.58198
-              },
-              {
-                "name": "Gowrava Nagara",
-                "name_kn": "ಗೌರವ ನಗರ",
-                "stop_id": "23454",
-                "lat": 12.88476,
-                "lon": 77.58266
-              },
-              {
-                "name": "Navodaya Nagara",
-                "name_kn": "ನವೊದಯ ನಗರ",
-                "stop_id": "23455",
-                "lat": 12.88137,
-                "lon": 77.58381
-              },
-              {
-                "name": "Kothanuru Dinne Ganesha Temple",
-                "name_kn": "ಕೊತನುರು ದಿಂನೆ ಗನೆಶ ಟೆಂಪ್ಲೆ",
-                "stop_id": "23456",
-                "lat": 12.87711,
-                "lon": 77.58399
-              },
-              {
-                "name": "Kothanur Dinne Water Tank",
-                "name_kn": "ಕೊತನುರ್ ದಿಂನೆ ವಟೆರ್ ಟಂಕ್",
-                "stop_id": "23457",
-                "lat": 12.87455,
-                "lon": 77.58419
-              },
-              {
-                "name": "BK Circle",
-                "name_kn": "ಬ್ಕ್ ಕಿರ್ಕ್ಲೆ",
-                "stop_id": "35060",
-                "lat": 12.87056,
-                "lon": 77.58309
-              },
-              {
-                "name": "Surabhi Layout",
-                "name_kn": "ಸುರಭಿ ಲಯೌಟ್",
-                "stop_id": "35114",
-                "lat": 12.8675,
-                "lon": 77.58184
-              },
-              {
-                "name": "Jambu Savari Dinne",
-                "name_kn": "ಜಂಬು ಸವರಿ ದಿಂನೆ",
-                "stop_id": "35804",
-                "lat": 12.86567,
-                "lon": 77.581
               }
             ]
           },
@@ -10071,13 +9204,6 @@
                 "lon": 77.55741
               },
               {
-                "name": "Gowdanapalya",
-                "name_kn": "ಗೌದನಪಲೆ",
-                "stop_id": "21979",
-                "lat": 12.9113,
-                "lon": 77.5561
-              },
-              {
                 "name": "Chikkallasandra Aralimara",
                 "name_kn": "ಚಿಕ್ಕಲ್ಲಸಂದ್ರ ರಲಿಮರ",
                 "stop_id": "21841",
@@ -10570,8 +9696,8 @@
                 "lon": 77.529
               },
               {
-                "name": "NICE Road",
-                "name_kn": "ನಿಕೆ ರೊದ್",
+                "name": "NICE Road Kanakapura Road Junction",
+                "name_kn": "ನಿಕೆ ರೊದ್ ಕನಕಪುರ ರೊದ್ ಜುಂಕ್ಟಿೊಂ",
                 "stop_id": "22363",
                 "lat": 12.85694,
                 "lon": 77.52685
@@ -10824,126 +9950,6 @@
             ]
           },
           {
-            "Route": "210-FA",
-            "RouteId": 3470,
-            "RouteParentId": 1945,
-            "Destination": "Poornaprajna Layout",
-            "Via": "",
-            "Area": "Shivajinagara Bus Station",
-            "PlatformNumber": "SOUTH",
-            "KannadaDestination": "ಪೂರ್ನಪ್ರಜ್ನ ಲಯೌಟ್",
-            "KannadaArea": "ಶಿವಾಜಿನಗರ ಬಸ್ ನಿಲ್ದಾಣ",
-            "KannadaVia": "",
-            "FromStationId": 21545,
-            "Stops": [
-              {
-                "name": "Jayanagara Bus Station",
-                "name_kn": "ಜಯನಗರ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-                "stop_id": "21545",
-                "lat": 12.92802,
-                "lon": 77.58364
-              },
-              {
-                "name": "Jayanagara Telephone Exchange",
-                "name_kn": "ಜಯನಗರ ಟೆಲೆಫೊನೆ ೆಕ್ಸ್ಚಙೆ",
-                "stop_id": "21543",
-                "lat": 12.9228,
-                "lon": 77.58385
-              },
-              {
-                "name": "Jayanagara 38th Cross",
-                "name_kn": "ಜಯನಗರ 38ತ್ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "21445",
-                "lat": 12.92101,
-                "lon": 77.58376
-              },
-              {
-                "name": "Jayanagara 40th Cross",
-                "name_kn": "ಜಯನಗರ 40ತ್ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "21449",
-                "lat": 12.91989,
-                "lon": 77.58068
-              },
-              {
-                "name": "Sangam Circle",
-                "name_kn": "ಸಙಂ ಕಿರ್ಕ್ಲೆ",
-                "stop_id": "21148",
-                "lat": 12.91704,
-                "lon": 77.57875
-              },
-              {
-                "name": "Banashankari Bus Station",
-                "name_kn": "ಬನಶಂಕರಿ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-                "stop_id": "20623",
-                "lat": 12.91779,
-                "lon": 77.57272
-              },
-              {
-                "name": "Kadirenahalli Cross",
-                "name_kn": "ಕದಿರೆನಹಲ್ಲಿ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "20897",
-                "lat": 12.91364,
-                "lon": 77.56727
-              },
-              {
-                "name": "Kadirenahalli Village",
-                "name_kn": "ಕದಿರೆನಹಲ್ಲಿ ವಿಲ್ಲಗೆ",
-                "stop_id": "22134",
-                "lat": 12.9157,
-                "lon": 77.56146
-              },
-              {
-                "name": "Prarthana School",
-                "name_kn": "ಪ್ರರ್ತನ ಸ್ಚೂಲ್",
-                "stop_id": "22404",
-                "lat": 12.9116,
-                "lon": 77.55741
-              },
-              {
-                "name": "Chikkallasandra Aralimara",
-                "name_kn": "ಚಿಕ್ಕಲ್ಲಸಂದ್ರ ರಲಿಮರ",
-                "stop_id": "21841",
-                "lat": 12.91157,
-                "lon": 77.55238
-              },
-              {
-                "name": "Chikkallasandra Bank Colony",
-                "name_kn": "ಚಿಕ್ಕಲ್ಲಸಂದ್ರ ಬಂಕ್ ಕೊಲೊನೆ",
-                "stop_id": "21843",
-                "lat": 12.90914,
-                "lon": 77.54927
-              },
-              {
-                "name": "Nano Hospital",
-                "name_kn": "ನನೊ ಹೊಸ್ಪಿಟಲ್",
-                "stop_id": "22198",
-                "lat": 12.90698,
-                "lon": 77.54622
-              },
-              {
-                "name": "Uttarahalli",
-                "name_kn": "ಉಟರಹಲ್ಲಿ",
-                "stop_id": "22571",
-                "lat": 12.90575,
-                "lon": 77.54257
-              },
-              {
-                "name": "Arehalli",
-                "name_kn": "ಅರೆಹಲ್ಲಿ",
-                "stop_id": "21659",
-                "lat": 12.90834,
-                "lon": 77.53797
-              },
-              {
-                "name": "Poornaprajna Layout",
-                "name_kn": "ಪೂರ್ನಪ್ರಜ್ನ ಲಯೌಟ್",
-                "stop_id": "34271",
-                "lat": 12.90877,
-                "lon": 77.53592
-              }
-            ]
-          },
-          {
             "Route": "375-H",
             "RouteId": 3523,
             "RouteParentId": 1974,
@@ -11018,13 +10024,6 @@
                 "stop_id": "22404",
                 "lat": 12.9116,
                 "lon": 77.55741
-              },
-              {
-                "name": "Gowdanapalya",
-                "name_kn": "ಗೌದನಪಲೆ",
-                "stop_id": "21979",
-                "lat": 12.9113,
-                "lon": 77.5561
               },
               {
                 "name": "Chikkallasandra Aralimara",
@@ -11299,105 +10298,6 @@
                 "stop_id": "22588",
                 "lat": 12.89635,
                 "lon": 77.55242
-              }
-            ]
-          },
-          {
-            "Route": "210-Q",
-            "RouteId": 3799,
-            "RouteParentId": 2118,
-            "Destination": "Chikkallasandra",
-            "Via": "",
-            "Area": "Shivajinagara Bus Station",
-            "PlatformNumber": "SOUTH",
-            "KannadaDestination": "ಚಿಕ್ಕಲ್ಲಸಂದ್ರ",
-            "KannadaArea": "ಶಿವಾಜಿನಗರ ಬಸ್ ನಿಲ್ದಾಣ",
-            "KannadaVia": "",
-            "FromStationId": 21545,
-            "Stops": [
-              {
-                "name": "Jayanagara Bus Station",
-                "name_kn": "ಜಯನಗರ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-                "stop_id": "21545",
-                "lat": 12.92802,
-                "lon": 77.58364
-              },
-              {
-                "name": "Jayanagara Telephone Exchange",
-                "name_kn": "ಜಯನಗರ ಟೆಲೆಫೊನೆ ೆಕ್ಸ್ಚಙೆ",
-                "stop_id": "21543",
-                "lat": 12.9228,
-                "lon": 77.58385
-              },
-              {
-                "name": "Jayanagara 38th Cross",
-                "name_kn": "ಜಯನಗರ 38ತ್ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "21445",
-                "lat": 12.92101,
-                "lon": 77.58376
-              },
-              {
-                "name": "Jayanagara 40th Cross",
-                "name_kn": "ಜಯನಗರ 40ತ್ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "21449",
-                "lat": 12.91989,
-                "lon": 77.58068
-              },
-              {
-                "name": "Sangam Circle",
-                "name_kn": "ಸಙಂ ಕಿರ್ಕ್ಲೆ",
-                "stop_id": "21148",
-                "lat": 12.91704,
-                "lon": 77.57875
-              },
-              {
-                "name": "Banashankari Bus Station",
-                "name_kn": "ಬನಶಂಕರಿ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-                "stop_id": "20623",
-                "lat": 12.91779,
-                "lon": 77.57272
-              },
-              {
-                "name": "Kadirenahalli Cross",
-                "name_kn": "ಕದಿರೆನಹಲ್ಲಿ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "20897",
-                "lat": 12.91364,
-                "lon": 77.56727
-              },
-              {
-                "name": "Kadirenahalli Village",
-                "name_kn": "ಕದಿರೆನಹಲ್ಲಿ ವಿಲ್ಲಗೆ",
-                "stop_id": "22134",
-                "lat": 12.9157,
-                "lon": 77.56146
-              },
-              {
-                "name": "Prarthana School",
-                "name_kn": "ಪ್ರರ್ತನ ಸ್ಚೂಲ್",
-                "stop_id": "22404",
-                "lat": 12.9116,
-                "lon": 77.55741
-              },
-              {
-                "name": "Gowdanapalya",
-                "name_kn": "ಗೌದನಪಲೆ",
-                "stop_id": "21979",
-                "lat": 12.9113,
-                "lon": 77.5561
-              },
-              {
-                "name": "Chikkallasandra Aralimara",
-                "name_kn": "ಚಿಕ್ಕಲ್ಲಸಂದ್ರ ರಲಿಮರ",
-                "stop_id": "21841",
-                "lat": 12.91157,
-                "lon": 77.55238
-              },
-              {
-                "name": "Chikkallasandra",
-                "name_kn": "ಚಿಕ್ಕಲ್ಲಸಂದ್ರ",
-                "stop_id": "24575",
-                "lat": 12.91507,
-                "lon": 77.55198
               }
             ]
           },
@@ -11756,8 +10656,8 @@
                 "name": "Hari Nagara Cross",
                 "name_kn": "ಹರಿ ನಗರ ಕ್ರೊಸ್ಸ್",
                 "stop_id": "22015",
-                "lat": 12.87907,
-                "lon": 77.5673
+                "lat": 12.87901,
+                "lon": 77.56727
               },
               {
                 "name": "Glass Factory",
@@ -11793,147 +10693,6 @@
                 "stop_id": "34108",
                 "lat": 12.87911,
                 "lon": 77.55845
-              }
-            ]
-          },
-          {
-            "Route": "210-T",
-            "RouteId": 4357,
-            "RouteParentId": 2400,
-            "Destination": "Pratyangira Temple Turahalli",
-            "Via": "",
-            "Area": "Shivajinagara Bus Station",
-            "PlatformNumber": "SOUTH",
-            "KannadaDestination": "ಪ್ರಟೆಙಿರ ಟೆಂಪ್ಲೆ ಟುರಹಲ್ಲಿ",
-            "KannadaArea": "ಶಿವಾಜಿನಗರ ಬಸ್ ನಿಲ್ದಾಣ",
-            "KannadaVia": "",
-            "FromStationId": 21545,
-            "Stops": [
-              {
-                "name": "Jayanagara Bus Station",
-                "name_kn": "ಜಯನಗರ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-                "stop_id": "21545",
-                "lat": 12.92802,
-                "lon": 77.58364
-              },
-              {
-                "name": "Jayanagara Telephone Exchange",
-                "name_kn": "ಜಯನಗರ ಟೆಲೆಫೊನೆ ೆಕ್ಸ್ಚಙೆ",
-                "stop_id": "21543",
-                "lat": 12.9228,
-                "lon": 77.58385
-              },
-              {
-                "name": "Jayanagara 38th Cross",
-                "name_kn": "ಜಯನಗರ 38ತ್ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "21445",
-                "lat": 12.92101,
-                "lon": 77.58376
-              },
-              {
-                "name": "Jayanagara 40th Cross",
-                "name_kn": "ಜಯನಗರ 40ತ್ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "21449",
-                "lat": 12.91989,
-                "lon": 77.58068
-              },
-              {
-                "name": "Sangam Circle",
-                "name_kn": "ಸಙಂ ಕಿರ್ಕ್ಲೆ",
-                "stop_id": "21148",
-                "lat": 12.91704,
-                "lon": 77.57875
-              },
-              {
-                "name": "Banashankari Bus Station",
-                "name_kn": "ಬನಶಂಕರಿ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-                "stop_id": "20623",
-                "lat": 12.91779,
-                "lon": 77.57272
-              },
-              {
-                "name": "Kadirenahalli Cross",
-                "name_kn": "ಕದಿರೆನಹಲ್ಲಿ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "20897",
-                "lat": 12.91364,
-                "lon": 77.56727
-              },
-              {
-                "name": "Kadirenahalli Village",
-                "name_kn": "ಕದಿರೆನಹಲ್ಲಿ ವಿಲ್ಲಗೆ",
-                "stop_id": "22134",
-                "lat": 12.9157,
-                "lon": 77.56146
-              },
-              {
-                "name": "Prarthana School",
-                "name_kn": "ಪ್ರರ್ತನ ಸ್ಚೂಲ್",
-                "stop_id": "22404",
-                "lat": 12.9116,
-                "lon": 77.55741
-              },
-              {
-                "name": "Chikkallasandra Aralimara",
-                "name_kn": "ಚಿಕ್ಕಲ್ಲಸಂದ್ರ ರಲಿಮರ",
-                "stop_id": "21841",
-                "lat": 12.91157,
-                "lon": 77.55238
-              },
-              {
-                "name": "Chikkallasandra Bank Colony",
-                "name_kn": "ಚಿಕ್ಕಲ್ಲಸಂದ್ರ ಬಂಕ್ ಕೊಲೊನೆ",
-                "stop_id": "21843",
-                "lat": 12.90914,
-                "lon": 77.54927
-              },
-              {
-                "name": "Nano Hospital",
-                "name_kn": "ನನೊ ಹೊಸ್ಪಿಟಲ್",
-                "stop_id": "22198",
-                "lat": 12.90698,
-                "lon": 77.54622
-              },
-              {
-                "name": "Uttarahalli Bus Stand",
-                "name_kn": "ಉಟರಹಲ್ಲಿ ಬುಸ್ ಸ್ಟಂದ್",
-                "stop_id": "22569",
-                "lat": 12.90535,
-                "lon": 77.54327
-              },
-              {
-                "name": "Subramanyapura Police Station",
-                "name_kn": "ಸುಬ್ರಮನೆಪುರ ಪೊಲಿಕೆ ಸ್ಟಟಿೊಂ",
-                "stop_id": "22393",
-                "lat": 12.90149,
-                "lon": 77.54417
-              },
-              {
-                "name": "Subramanyapura Post Office",
-                "name_kn": "ಸುಬ್ರಮನೆಪುರ ಪೊಸ್ಟ್ ೊೞ್ೞಿಕೆ",
-                "stop_id": "34276",
-                "lat": 12.89878,
-                "lon": 77.54389
-              },
-              {
-                "name": "Shanimahathma Temple",
-                "name_kn": "ಶನಿಮಹತ್ಮ ಟೆಂಪ್ಲೆ",
-                "stop_id": "34513",
-                "lat": 12.8934,
-                "lon": 77.54338
-              },
-              {
-                "name": "Turahalli Cross",
-                "name_kn": "ಟುರಹಲ್ಲಿ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "39647",
-                "lat": 12.89339,
-                "lon": 77.53819
-              },
-              {
-                "name": "Pratyangira Temple Turahalli",
-                "name_kn": "ಪ್ರಟೆಙಿರ ಟೆಂಪ್ಲೆ ಟುರಹಲ್ಲಿ",
-                "stop_id": "34282",
-                "lat": 12.89259,
-                "lon": 77.53668
               }
             ]
           },
@@ -12277,7 +11036,7 @@
                 "name": "Summanahalli",
                 "name_kn": "ಸುಮ್ಮನಹಲ್ಲಿ",
                 "stop_id": "35413",
-                "lat": 12.98814,
+                "lat": 12.98815,
                 "lon": 77.51951
               },
               {
@@ -12622,8 +11381,8 @@
                 "name": "Hari Nagara Cross",
                 "name_kn": "ಹರಿ ನಗರ ಕ್ರೊಸ್ಸ್",
                 "stop_id": "22015",
-                "lat": 12.87907,
-                "lon": 77.5673
+                "lat": 12.87901,
+                "lon": 77.56727
               },
               {
                 "name": "Glass Factory",
@@ -12864,6 +11623,63 @@
                 "stop_id": "29871",
                 "lat": 12.90685,
                 "lon": 77.52137
+              }
+            ]
+          },
+          {
+            "Route": "13 MDP-BSK",
+            "RouteId": 11467,
+            "RouteParentId": 6112,
+            "Destination": "Banashankari Bus Station",
+            "Via": "",
+            "Area": "Madhavan Park",
+            "PlatformNumber": "SOUTH",
+            "KannadaDestination": "ಬನಶಂಕರಿ ಬುಸ್ ಸ್ಟಟಿೊಂ",
+            "KannadaArea": "ಮಾಧವನ್‌ ಪಾರ್ಕ್",
+            "KannadaVia": "",
+            "FromStationId": 21545,
+            "Stops": [
+              {
+                "name": "Jayanagara Bus Station",
+                "name_kn": "ಜಯನಗರ ಬುಸ್ ಸ್ಟಟಿೊಂ",
+                "stop_id": "21545",
+                "lat": 12.92802,
+                "lon": 77.58364
+              },
+              {
+                "name": "Jayanagara Telephone Exchange",
+                "name_kn": "ಜಯನಗರ ಟೆಲೆಫೊನೆ ೆಕ್ಸ್ಚಙೆ",
+                "stop_id": "21543",
+                "lat": 12.9228,
+                "lon": 77.58385
+              },
+              {
+                "name": "Jayanagara 38th Cross",
+                "name_kn": "ಜಯನಗರ 38ತ್ ಕ್ರೊಸ್ಸ್",
+                "stop_id": "21445",
+                "lat": 12.92101,
+                "lon": 77.58376
+              },
+              {
+                "name": "Jayanagara 40th Cross",
+                "name_kn": "ಜಯನಗರ 40ತ್ ಕ್ರೊಸ್ಸ್",
+                "stop_id": "21449",
+                "lat": 12.91989,
+                "lon": 77.58068
+              },
+              {
+                "name": "Sangam Circle",
+                "name_kn": "ಸಙಂ ಕಿರ್ಕ್ಲೆ",
+                "stop_id": "21148",
+                "lat": 12.91704,
+                "lon": 77.57875
+              },
+              {
+                "name": "Banashankari Bus Station",
+                "name_kn": "ಬನಶಂಕರಿ ಬುಸ್ ಸ್ಟಟಿೊಂ",
+                "stop_id": "20624",
+                "lat": 12.91736,
+                "lon": 77.5727
               }
             ]
           },
@@ -13200,7 +12016,7 @@
                 "name": "Summanahalli",
                 "name_kn": "ಸುಮ್ಮನಹಲ್ಲಿ",
                 "stop_id": "35413",
-                "lat": 12.98814,
+                "lat": 12.98815,
                 "lon": 77.51951
               },
               {
@@ -13425,8 +12241,8 @@
                 "name": "Hari Nagara Cross",
                 "name_kn": "ಹರಿ ನಗರ ಕ್ರೊಸ್ಸ್",
                 "stop_id": "22015",
-                "lat": 12.87907,
-                "lon": 77.5673
+                "lat": 12.87901,
+                "lon": 77.56727
               },
               {
                 "name": "Glass Factory",
@@ -13661,8 +12477,8 @@
                 "lon": 77.529
               },
               {
-                "name": "NICE Road",
-                "name_kn": "ನಿಕೆ ರೊದ್",
+                "name": "NICE Road Kanakapura Road Junction",
+                "name_kn": "ನಿಕೆ ರೊದ್ ಕನಕಪುರ ರೊದ್ ಜುಂಕ್ಟಿೊಂ",
                 "stop_id": "22363",
                 "lat": 12.85694,
                 "lon": 77.52685
@@ -13937,8 +12753,8 @@
                 "name": "Dayananda Sagara MDC",
                 "name_kn": "ದಯನಂದ ಸಗರ ಂದ್ಕ್",
                 "stop_id": "39368",
-                "lat": 12.66282,
-                "lon": 77.4501
+                "lat": 12.66297,
+                "lon": 77.45029
               }
             ]
           },
@@ -14405,8 +13221,8 @@
                 "lon": 77.529
               },
               {
-                "name": "NICE Road",
-                "name_kn": "ನಿಕೆ ರೊದ್",
+                "name": "NICE Road Kanakapura Road Junction",
+                "name_kn": "ನಿಕೆ ರೊದ್ ಕನಕಪುರ ರೊದ್ ಜುಂಕ್ಟಿೊಂ",
                 "stop_id": "22363",
                 "lat": 12.85694,
                 "lon": 77.52685
@@ -14731,8 +13547,8 @@
                 "name": "Maruthi Mandira",
                 "name_kn": "ಮರುತಿ ಮಂದಿರ",
                 "stop_id": "21011",
-                "lat": 12.96783,
-                "lon": 77.53611
+                "lat": 12.96767,
+                "lon": 77.53613
               },
               {
                 "name": "Vijayanagara",
@@ -14843,8 +13659,8 @@
                 "name": "Neelagiri Thopu",
                 "name_kn": "ನೀಲಗಿರಿ ತೊಪು",
                 "stop_id": "21055",
-                "lat": 12.99577,
-                "lon": 77.50249
+                "lat": 12.99579,
+                "lon": 77.50245
               },
               {
                 "name": "Hegganahalli Cross",
@@ -14913,8 +13729,8 @@
                 "name": "Jalahalli Cross",
                 "name_kn": "ಜಲಹಲ್ಲಿ ಕ್ರೊಸ್ಸ್",
                 "stop_id": "20870",
-                "lat": 13.03959,
-                "lon": 77.51839
+                "lat": 13.03958,
+                "lon": 77.51837
               }
             ]
           },
@@ -15519,8 +14335,8 @@
                 "name": "Maruthi Mandira",
                 "name_kn": "ಮರುತಿ ಮಂದಿರ",
                 "stop_id": "21011",
-                "lat": 12.96783,
-                "lon": 77.53611
+                "lat": 12.96767,
+                "lon": 77.53613
               },
               {
                 "name": "Vijayanagara",
@@ -15706,8 +14522,8 @@
                 "lon": 77.529
               },
               {
-                "name": "NICE Road",
-                "name_kn": "ನಿಕೆ ರೊದ್",
+                "name": "NICE Road Kanakapura Road Junction",
+                "name_kn": "ನಿಕೆ ರೊದ್ ಕನಕಪುರ ರೊದ್ ಜುಂಕ್ಟಿೊಂ",
                 "stop_id": "22363",
                 "lat": 12.85694,
                 "lon": 77.52685
@@ -15732,6 +14548,196 @@
                 "stop_id": "27189",
                 "lat": 12.85436,
                 "lon": 77.51004
+              }
+            ]
+          },
+          {
+            "Route": "MF-19",
+            "RouteId": 17774,
+            "RouteParentId": 9557,
+            "Destination": "Vijayanagara",
+            "Via": "",
+            "Area": "Jayanagara Bus Station",
+            "PlatformNumber": "SOUTH",
+            "KannadaDestination": "ವಿಜಯನಗರ",
+            "KannadaArea": "ಜಯನಗರ ಬಸ್ ನಿಲ್ದಾಣ",
+            "KannadaVia": "",
+            "FromStationId": 21544,
+            "Stops": [
+              {
+                "name": "Jayanagara Bus Station",
+                "name_kn": "ಜಯನಗರ ಬುಸ್ ಸ್ಟಟಿೊಂ",
+                "stop_id": "21544",
+                "lat": 12.92852,
+                "lon": 77.58418
+              },
+              {
+                "name": "R V Metro Station",
+                "name_kn": "ರ್ ವ್ ಮೆಟ್ರೊ ಸ್ಟಟಿೊಂ",
+                "stop_id": "38587",
+                "lat": 12.92178,
+                "lon": 77.5803
+              },
+              {
+                "name": "Sangam Circle",
+                "name_kn": "ಸಙಂ ಕಿರ್ಕ್ಲೆ",
+                "stop_id": "21148",
+                "lat": 12.91704,
+                "lon": 77.57875
+              },
+              {
+                "name": "Banashankari Bus Station",
+                "name_kn": "ಬನಶಂಕರಿ ಬುಸ್ ಸ್ಟಟಿೊಂ",
+                "stop_id": "20623",
+                "lat": 12.91779,
+                "lon": 77.57272
+              },
+              {
+                "name": "Banashankari Hunasemara",
+                "name_kn": "ಬನಶಂಕರಿ ಹುನಸೆಮರ",
+                "stop_id": "21713",
+                "lat": 12.92084,
+                "lon": 77.57414
+              },
+              {
+                "name": "Monotype Corporation",
+                "name_kn": "ಮೊನೊಟೆಪೆ ಕೊರ್ಪೊರಟಿೊಂ",
+                "stop_id": "22295",
+                "lat": 12.92154,
+                "lon": 77.57104
+              },
+              {
+                "name": "Bata Show Room banashankari",
+                "name_kn": "ಬಟ ಶೌ ರೂಂ ಬನಶಂಕರಿ",
+                "stop_id": "37682",
+                "lat": 12.92348,
+                "lon": 77.57008
+              },
+              {
+                "name": "BDA Complex Banashankari 2nd Stage",
+                "name_kn": "ಬ್ದ ಕೊಂಪ್ಲೆಕ್ಸ್ ಬನಶಂಕರಿ 2ಂದ್ ಸ್ಟಗೆ",
+                "stop_id": "24341",
+                "lat": 12.92448,
+                "lon": 77.56464
+              },
+              {
+                "name": "Indira Nursing Home",
+                "name_kn": "ಇಂದಿರ ನುರ್ಸಿಙ್ ಹೊಮೆ",
+                "stop_id": "23733",
+                "lat": 12.92907,
+                "lon": 77.5646
+              },
+              {
+                "name": "KIMS College",
+                "name_kn": "ಕಿಂಸ್ ಕೊಲ್ಲೆಗೆ",
+                "stop_id": "23734",
+                "lat": 12.92725,
+                "lon": 77.56174
+              },
+              {
+                "name": "Devegowda Petrol Bunk",
+                "name_kn": "ದೆವೆಗೌದ ಪೆಟ್ರೊಲ್ ಬುಂಕ್",
+                "stop_id": "20756",
+                "lat": 12.92194,
+                "lon": 77.55914
+              },
+              {
+                "name": "Kamakya Talkies",
+                "name_kn": "ಕಮಕೆ ಟಲ್ಕಿೆಸ್",
+                "stop_id": "35772",
+                "lat": 12.92405,
+                "lon": 77.55264
+              },
+              {
+                "name": "Kathriguppe",
+                "name_kn": "ಕತ್ರಿಗುಪ್ಪೆ",
+                "stop_id": "20917",
+                "lat": 12.92535,
+                "lon": 77.54989
+              },
+              {
+                "name": "Hosakerehalli  Junction",
+                "name_kn": "ಹೊಸಕೆರೆಹಲ್ಲಿ  ಜುಂಕ್ಟಿೊಂ",
+                "stop_id": "20843",
+                "lat": 12.93044,
+                "lon": 77.54342
+              },
+              {
+                "name": "Hosakerehalli Petrol Bunk",
+                "name_kn": "ಹೊಸಕೆರೆಹಲ್ಲಿ ಪೆಟ್ರೊಲ್ ಬುಂಕ್",
+                "stop_id": "20845",
+                "lat": 12.933,
+                "lon": 77.54018
+              },
+              {
+                "name": "PES College",
+                "name_kn": "ಪೆಸ್ ಕೊಲ್ಲೆಗೆ",
+                "stop_id": "21089",
+                "lat": 12.93489,
+                "lon": 77.53707
+              },
+              {
+                "name": "Veerabhadranagara",
+                "name_kn": "ವೀರಭದ್ರನಗರ",
+                "stop_id": "21250",
+                "lat": 12.93828,
+                "lon": 77.53343
+              },
+              {
+                "name": "Nayandahalli Junction",
+                "name_kn": "ನಯಂದಹಲ್ಲಿ ಜುಂಕ್ಟಿೊಂ",
+                "stop_id": "37961",
+                "lat": 12.94581,
+                "lon": 77.52832
+              },
+              {
+                "name": "BHEL",
+                "name_kn": "ಭೆಲ್",
+                "stop_id": "20661",
+                "lat": 12.94874,
+                "lon": 77.53559
+              },
+              {
+                "name": "BCC Layout Cross",
+                "name_kn": "ಬ್ಕ್ಕ್ ಲಯೌಟ್ ಕ್ರೊಸ್ಸ್",
+                "stop_id": "40440",
+                "lat": 12.95425,
+                "lon": 77.53557
+              },
+              {
+                "name": "Attiguppe",
+                "name_kn": "ಅಟಿಗುಪ್ಪೆ",
+                "stop_id": "20613",
+                "lat": 12.95789,
+                "lon": 77.53385
+              },
+              {
+                "name": "Attiguppe Metro Station",
+                "name_kn": "ಅಟಿಗುಪ್ಪೆ ಮೆಟ್ರೊ ಸ್ಟಟಿೊಂ",
+                "stop_id": "39679",
+                "lat": 12.96245,
+                "lon": 77.53377
+              },
+              {
+                "name": "Vijayanagara Bus Station",
+                "name_kn": "ವಿಜಯನಗರ ಬುಸ್ ಸ್ಟಟಿೊಂ",
+                "stop_id": "35395",
+                "lat": 12.96558,
+                "lon": 77.53492
+              },
+              {
+                "name": "Maruthi Mandira",
+                "name_kn": "ಮರುತಿ ಮಂದಿರ",
+                "stop_id": "21011",
+                "lat": 12.96767,
+                "lon": 77.53613
+              },
+              {
+                "name": "Vijayanagara",
+                "name_kn": "ವಿಜಯನಗರ",
+                "stop_id": "21266",
+                "lat": 12.97192,
+                "lon": 77.53766
               }
             ]
           }
@@ -16183,6 +15189,112 @@
           "23691"
         ],
         "Routes": [
+          {
+            "Route": "VW-226HSR",
+            "RouteId": 3982,
+            "RouteParentId": 2209,
+            "Destination": "BDA Complex HSR Layout",
+            "Via": "",
+            "Area": "Wonderla Amusement Park",
+            "PlatformNumber": "4TH BLOCK",
+            "KannadaDestination": "ಬ್ದ ಕೊಂಪ್ಲೆಕ್ಸ್ ಹ್ಸ್ರ್ ಲಯೌಟ್",
+            "KannadaArea": "ವಂಡರ್ಲಾ ಅಮ್ಯೂಸ್‌ಮೆಂಟ್‌ ಪಾರ್ಕ್",
+            "KannadaVia": "",
+            "FromStationId": 23691,
+            "Stops": [
+              {
+                "name": "Jayanagara Bus Station",
+                "name_kn": "ಜಯನಗರ ಬುಸ್ ಸ್ಟಟಿೊಂ",
+                "stop_id": "21544",
+                "lat": 12.92852,
+                "lon": 77.58418
+              },
+              {
+                "name": "Jayanagara 4th Block",
+                "name_kn": "ಜಯನಗರ 4ತ್ ಬ್ಲೊಕ್ಕ್",
+                "stop_id": "23691",
+                "lat": 12.92915,
+                "lon": 77.58602
+              },
+              {
+                "name": "Jayanagara Church",
+                "name_kn": "ಜಯನಗರ ಚುರ್ಚ್",
+                "stop_id": "23427",
+                "lat": 12.92715,
+                "lon": 77.58961
+              },
+              {
+                "name": "Ragigudda Temple",
+                "name_kn": "ರಗಿಗುದ್ದ ಟೆಂಪ್ಲೆ",
+                "stop_id": "21107",
+                "lat": 12.91701,
+                "lon": 77.59303
+              },
+              {
+                "name": "East End Jayanagara",
+                "name_kn": "ಎಸ್ಟ್ ೆಂದ್ ಜಯನಗರ",
+                "stop_id": "20769",
+                "lat": 12.9169,
+                "lon": 77.59802
+              },
+              {
+                "name": "MICO Layout BTM",
+                "name_kn": "ಮಿಕೊ ಲಯೌಟ್ ಬ್ಟ್ಂ",
+                "stop_id": "21022",
+                "lat": 12.91682,
+                "lon": 77.60407
+              },
+              {
+                "name": "BTM Layout Water Tank",
+                "name_kn": "ಬ್ಟ್ಂ ಲಯೌಟ್ ವಟೆರ್ ಟಂಕ್",
+                "stop_id": "20689",
+                "lat": 12.91673,
+                "lon": 77.60713
+              },
+              {
+                "name": "BTM Layout 16th Main",
+                "name_kn": "ಬ್ಟ್ಂ ಲಯೌಟ್ 16ತ್ ಮೈಂ",
+                "stop_id": "20572",
+                "lat": 12.91669,
+                "lon": 77.60912
+              },
+              {
+                "name": "Kuvempunagara ( BTM Layout)",
+                "name_kn": "ಕುವೆಂಪುನಗರ ( ಬ್ಟ್ಂ ಲಯೌಟ್)",
+                "stop_id": "20687",
+                "lat": 12.91643,
+                "lon": 77.6159
+              },
+              {
+                "name": "Central Silk Board Metro Station",
+                "name_kn": "ಕೆಂಟ್ರಲ್ ಸಿಲ್ಕ್ ಬೊರ್ದ್ ಮೆಟ್ರೊ ಸ್ಟಟಿೊಂ",
+                "stop_id": "21479",
+                "lat": 12.91691,
+                "lon": 77.62136
+              },
+              {
+                "name": "Central Silk Board",
+                "name_kn": "ಕೆಂಟ್ರಲ್ ಸಿಲ್ಕ್ ಬೊರ್ದ್",
+                "stop_id": "37850",
+                "lat": 12.91756,
+                "lon": 77.62379
+              },
+              {
+                "name": "SI Apartment HSR Layout",
+                "name_kn": "ಸಿ ಪರ್ಟ್ಮೆಂಟ್ ಹ್ಸ್ರ್ ಲಯೌಟ್",
+                "stop_id": "21177",
+                "lat": 12.91677,
+                "lon": 77.62942
+              },
+              {
+                "name": "BDA Complex HSR Layout",
+                "name_kn": "ಬ್ದ ಕೊಂಪ್ಲೆಕ್ಸ್ ಹ್ಸ್ರ್ ಲಯೌಟ್",
+                "stop_id": "23925",
+                "lat": 12.91293,
+                "lon": 77.63814
+              }
+            ]
+          },
           {
             "Route": "13 SGH-BSK",
             "RouteId": 8281,
@@ -16730,8 +15842,8 @@
                 "name": "AECS Dental College",
                 "name_kn": "ಅೆಕ್ಸ್ ದೆಂಟಲ್ ಕೊಲ್ಲೆಗೆ",
                 "stop_id": "35541",
-                "lat": 12.8654,
-                "lon": 77.59836
+                "lat": 12.86543,
+                "lon": 77.59833
               },
               {
                 "name": "Doddakammanahalli",
@@ -17734,15 +16846,15 @@
             ]
           },
           {
-            "Route": "25-E",
-            "RouteId": 3969,
-            "RouteParentId": 2203,
-            "Destination": "JP Nagara 3rd Phase",
+            "Route": "24-A",
+            "RouteId": 3401,
+            "RouteParentId": 1908,
+            "Destination": "Mahadeshwara Nagara",
             "Via": "",
-            "Area": "Kempegowda Bus Station",
+            "Area": "KR Market",
             "PlatformNumber": "4TH BLOCK",
-            "KannadaDestination": "ಜ್ಪ್ ನಗರ 3ರ್ದ್ ಫಸೆ",
-            "KannadaArea": "ಕೆಂಪೇಗೌಡ ಬಸ್ ನಿಲ್ದಾಣ",
+            "KannadaDestination": "ಮಹದೆಶ್ವರ ನಗರ",
+            "KannadaArea": "ಕೆಆರ್ ಮಾರುಕಟ್ಟೆ",
             "KannadaVia": "",
             "FromStationId": 23691,
             "Stops": [
@@ -17775,25 +16887,46 @@
                 "lon": 77.5971
               },
               {
-                "name": "Gurappanapalya",
-                "name_kn": "ಗುರಪ್ಪನಪಲೆ",
-                "stop_id": "22745",
-                "lat": 12.91988,
-                "lon": 77.6002
+                "name": "East End Jayanagara",
+                "name_kn": "ಎಸ್ಟ್ ೆಂದ್ ಜಯನಗರ",
+                "stop_id": "20769",
+                "lat": 12.9169,
+                "lon": 77.59802
               },
               {
-                "name": "MICO Layout Checkpost Gopalan mall",
-                "name_kn": "ಮಿಕೊ ಲಯೌಟ್ ಚೆಕ್ಕ್ಪೊಸ್ಟ್ ಗೊಪಲಂ ಮಲ್ಲ್",
-                "stop_id": "23575",
-                "lat": 12.91413,
-                "lon": 77.60001
+                "name": "MICO Layout BTM",
+                "name_kn": "ಮಿಕೊ ಲಯೌಟ್ ಬ್ಟ್ಂ",
+                "stop_id": "21022",
+                "lat": 12.91682,
+                "lon": 77.60407
               },
               {
-                "name": "JP Nagara 3rd Phase",
-                "name_kn": "ಜ್ಪ್ ನಗರ 3ರ್ದ್ ಫಸೆ",
-                "stop_id": "35126",
-                "lat": 12.90707,
-                "lon": 77.60015
+                "name": "BTM Layout Water Tank",
+                "name_kn": "ಬ್ಟ್ಂ ಲಯೌಟ್ ವಟೆರ್ ಟಂಕ್",
+                "stop_id": "20689",
+                "lat": 12.91673,
+                "lon": 77.60713
+              },
+              {
+                "name": "BTM Layout 16th Main",
+                "name_kn": "ಬ್ಟ್ಂ ಲಯೌಟ್ 16ತ್ ಮೈಂ",
+                "stop_id": "31345",
+                "lat": 12.91627,
+                "lon": 77.61014
+              },
+              {
+                "name": "BTM Layout 12th Main 7th Cross",
+                "name_kn": "ಬ್ಟ್ಂ ಲಯೌಟ್ 12ತ್ ಮೈಂ 7ತ್ ಕ್ರೊಸ್ಸ್",
+                "stop_id": "22869",
+                "lat": 12.91393,
+                "lon": 77.61007
+              },
+              {
+                "name": "Mahadeshwara Nagara",
+                "name_kn": "ಮಹದೆಶ್ವರ ನಗರ",
+                "stop_id": "35353",
+                "lat": 12.90779,
+                "lon": 77.61094
               }
             ]
           },
@@ -17971,119 +17104,6 @@
                 "stop_id": "28990",
                 "lat": 12.88958,
                 "lon": 77.59391
-              }
-            ]
-          },
-          {
-            "Route": "364-B",
-            "RouteId": 4182,
-            "RouteParentId": 2298,
-            "Destination": "Devarachikkanahalli",
-            "Via": "",
-            "Area": "Kempegowda Bus Station",
-            "PlatformNumber": "4TH BLOCK",
-            "KannadaDestination": "ದೆವರಚಿಕ್ಕನಹಲ್ಲಿ",
-            "KannadaArea": "ಕೆಂಪೇಗೌಡ ಬಸ್ ನಿಲ್ದಾಣ",
-            "KannadaVia": "",
-            "FromStationId": 23691,
-            "Stops": [
-              {
-                "name": "Jayanagara 4th Block",
-                "name_kn": "ಜಯನಗರ 4ತ್ ಬ್ಲೊಕ್ಕ್",
-                "stop_id": "23691",
-                "lat": 12.92915,
-                "lon": 77.58602
-              },
-              {
-                "name": "Sanjay Gandhi Hospital",
-                "name_kn": "ಸಞಯ್ ಗಂಧಿ ಹೊಸ್ಪಿಟಲ್",
-                "stop_id": "35099",
-                "lat": 12.92707,
-                "lon": 77.59309
-              },
-              {
-                "name": "Carmel Convent Jayanagara",
-                "name_kn": "ಕರ್ಮೆಲ್ ಕೊಂವೆಂಟ್ ಜಯನಗರ",
-                "stop_id": "35199",
-                "lat": 12.92643,
-                "lon": 77.59724
-              },
-              {
-                "name": "Jayanagara Pump House",
-                "name_kn": "ಜಯನಗರ ಪುಂಪ್ ಹೌಸೆ",
-                "stop_id": "23694",
-                "lat": 12.92172,
-                "lon": 77.5971
-              },
-              {
-                "name": "Gurappanapalya",
-                "name_kn": "ಗುರಪ್ಪನಪಲೆ",
-                "stop_id": "22745",
-                "lat": 12.91988,
-                "lon": 77.6002
-              },
-              {
-                "name": "MICO Layout Checkpost Gopalan mall",
-                "name_kn": "ಮಿಕೊ ಲಯೌಟ್ ಚೆಕ್ಕ್ಪೊಸ್ಟ್ ಗೊಪಲಂ ಮಲ್ಲ್",
-                "stop_id": "23575",
-                "lat": 12.91413,
-                "lon": 77.60001
-              },
-              {
-                "name": "JP Nagara 3rd Phase",
-                "name_kn": "ಜ್ಪ್ ನಗರ 3ರ್ದ್ ಫಸೆ",
-                "stop_id": "35076",
-                "lat": 12.90809,
-                "lon": 77.60045
-              },
-              {
-                "name": "Bilekahalli",
-                "name_kn": "ಬಿಲೆಕಹಲ್ಲಿ",
-                "stop_id": "23577",
-                "lat": 12.90079,
-                "lon": 77.60112
-              },
-              {
-                "name": "Apollo Hospital",
-                "name_kn": "ಅಪೊಲ್ಲೊ ಹೊಸ್ಪಿಟಲ್",
-                "stop_id": "23578",
-                "lat": 12.89662,
-                "lon": 77.6
-              },
-              {
-                "name": "HSBC",
-                "name_kn": "ಹ್ಸ್ಬ್ಕ್",
-                "stop_id": "35309",
-                "lat": 12.89273,
-                "lon": 77.59915
-              },
-              {
-                "name": "Vijaya Bank Colony Ayyappa Temple",
-                "name_kn": "ವಿಜಯ ಬಂಕ್ ಕೊಲೊನೆ ಯೆಪ್ಪ ಟೆಂಪ್ಲೆ",
-                "stop_id": "27284",
-                "lat": 12.89125,
-                "lon": 77.60631
-              },
-              {
-                "name": "Vijaya Bank Layout Devarachikkanahalli",
-                "name_kn": "ವಿಜಯ ಬಂಕ್ ಲಯೌಟ್ ದೆವರಚಿಕ್ಕನಹಲ್ಲಿ",
-                "stop_id": "27286",
-                "lat": 12.89276,
-                "lon": 77.61049
-              },
-              {
-                "name": "Vijaya Bank Layout Petrol Bunk",
-                "name_kn": "ವಿಜಯ ಬಂಕ್ ಲಯೌಟ್ ಪೆಟ್ರೊಲ್ ಬುಂಕ್",
-                "stop_id": "35312",
-                "lat": 12.89206,
-                "lon": 77.61172
-              },
-              {
-                "name": "Devarachikkanahalli",
-                "name_kn": "ದೆವರಚಿಕ್ಕನಹಲ್ಲಿ",
-                "stop_id": "35313",
-                "lat": 12.88899,
-                "lon": 77.61555
               }
             ]
           },
@@ -20446,107 +19466,15 @@
             ]
           },
           {
-            "Route": "370-A KBS-JBS-UJPD",
-            "RouteId": 17195,
-            "RouteParentId": 9223,
-            "Destination": "Kempegowda Bus Station",
+            "Route": "24-A KBS-KMT-BTMS",
+            "RouteId": 16914,
+            "RouteParentId": 9056,
+            "Destination": "Mahadeshwara Nagara",
             "Via": "",
-            "Area": "UjinappanaDoddy",
+            "Area": "Kempegowda Bus Station",
             "PlatformNumber": "4TH BLOCK",
-            "KannadaDestination": "ಕೆಂಪೆಗೌದ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-            "KannadaArea": "ಉಜಿನಪ್ಪನದೊಡ್ಡಿ",
-            "KannadaVia": "",
-            "FromStationId": 21544,
-            "Stops": [
-              {
-                "name": "Jayanagara Bus Station",
-                "name_kn": "ಜಯನಗರ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-                "stop_id": "21544",
-                "lat": 12.92852,
-                "lon": 77.58418
-              },
-              {
-                "name": "3rd Block Jayanagara",
-                "name_kn": "3ರ್ದ್ ಬ್ಲೊಕ್ಕ್ ಜಯನಗರ",
-                "stop_id": "21446",
-                "lat": 12.9318,
-                "lon": 77.58393
-              },
-              {
-                "name": "Madhavan Park",
-                "name_kn": "ಮಧವಂ ಪರ್ಕ್",
-                "stop_id": "21563",
-                "lat": 12.93644,
-                "lon": 77.58392
-              },
-              {
-                "name": "Vijaya College",
-                "name_kn": "ವಿಜಯ ಕೊಲ್ಲೆಗೆ",
-                "stop_id": "24269",
-                "lat": 12.93958,
-                "lon": 77.57996
-              },
-              {
-                "name": "R V Teachers College",
-                "name_kn": "ರ್ ವ್ ಟೆಚೆರ್ಸ್ ಕೊಲ್ಲೆಗೆ",
-                "stop_id": "22434",
-                "lat": 12.94446,
-                "lon": 77.5799
-              },
-              {
-                "name": "Lalbagh West Gate",
-                "name_kn": "ಲಲ್ಬಘ್ ವೆಸ್ಟ್ ಗಟೆ",
-                "stop_id": "22225",
-                "lat": 12.94963,
-                "lon": 77.57993
-              },
-              {
-                "name": "Minerva Circle",
-                "name_kn": "ಮಿನೆರ್ವ ಕಿರ್ಕ್ಲೆ",
-                "stop_id": "22291",
-                "lat": 12.95387,
-                "lon": 77.57992
-              },
-              {
-                "name": "Town Hall",
-                "name_kn": "ಟೌಂ ಹಲ್ಲ್",
-                "stop_id": "22565",
-                "lat": 12.96353,
-                "lon": 77.58507
-              },
-              {
-                "name": "Corporation",
-                "name_kn": "ಕೊರ್ಪೊರಟಿೊಂ",
-                "stop_id": "20725",
-                "lat": 12.96839,
-                "lon": 77.58675
-              },
-              {
-                "name": "Mysore Bank",
-                "name_kn": "ಮೆಸೊರೆ ಬಂಕ್",
-                "stop_id": "35383",
-                "lat": 12.97253,
-                "lon": 77.58199
-              },
-              {
-                "name": "Kempegowda Bus Station",
-                "name_kn": "ಕೆಂಪೆಗೌದ ಬುಸ್ ಸ್ಟಟಿೊಂ",
-                "stop_id": "20922",
-                "lat": 12.97749,
-                "lon": 77.57327
-              }
-            ]
-          },
-          {
-            "Route": "22-A",
-            "RouteId": 10466,
-            "RouteParentId": 5579,
-            "Destination": "Byrasandra New Bus Stand",
-            "Via": "",
-            "Area": "Shivajinagara Bus Station",
-            "PlatformNumber": "4TH BLOCK",
-            "KannadaDestination": "ಬೆರಸಂದ್ರ ನೆವ್ ಬುಸ್ ಸ್ಟಂದ್",
-            "KannadaArea": "ಶಿವಾಜಿನಗರ ಬಸ್ ನಿಲ್ದಾಣ",
+            "KannadaDestination": "ಮಹದೆಶ್ವರ ನಗರ",
+            "KannadaArea": "ಕೆಂಪೇಗೌಡ ಬಸ್ ನಿಲ್ದಾಣ",
             "KannadaVia": "",
             "FromStationId": 23691,
             "Stops": [
@@ -20558,11 +19486,67 @@
                 "lon": 77.58602
               },
               {
-                "name": "Byrasandra New Bus Stand",
-                "name_kn": "ಬೆರಸಂದ್ರ ನೆವ್ ಬುಸ್ ಸ್ಟಂದ್",
-                "stop_id": "30319",
-                "lat": 12.93549,
-                "lon": 77.59001
+                "name": "Sanjay Gandhi Hospital",
+                "name_kn": "ಸಞಯ್ ಗಂಧಿ ಹೊಸ್ಪಿಟಲ್",
+                "stop_id": "35099",
+                "lat": 12.92707,
+                "lon": 77.59309
+              },
+              {
+                "name": "Carmel Convent Jayanagara",
+                "name_kn": "ಕರ್ಮೆಲ್ ಕೊಂವೆಂಟ್ ಜಯನಗರ",
+                "stop_id": "35199",
+                "lat": 12.92643,
+                "lon": 77.59724
+              },
+              {
+                "name": "Jayanagara Pump House",
+                "name_kn": "ಜಯನಗರ ಪುಂಪ್ ಹೌಸೆ",
+                "stop_id": "23694",
+                "lat": 12.92172,
+                "lon": 77.5971
+              },
+              {
+                "name": "East End Jayanagara",
+                "name_kn": "ಎಸ್ಟ್ ೆಂದ್ ಜಯನಗರ",
+                "stop_id": "20769",
+                "lat": 12.9169,
+                "lon": 77.59802
+              },
+              {
+                "name": "MICO Layout BTM",
+                "name_kn": "ಮಿಕೊ ಲಯೌಟ್ ಬ್ಟ್ಂ",
+                "stop_id": "21022",
+                "lat": 12.91682,
+                "lon": 77.60407
+              },
+              {
+                "name": "BTM Layout Water Tank",
+                "name_kn": "ಬ್ಟ್ಂ ಲಯೌಟ್ ವಟೆರ್ ಟಂಕ್",
+                "stop_id": "20689",
+                "lat": 12.91673,
+                "lon": 77.60713
+              },
+              {
+                "name": "BTM Layout 16th Main",
+                "name_kn": "ಬ್ಟ್ಂ ಲಯೌಟ್ 16ತ್ ಮೈಂ",
+                "stop_id": "31345",
+                "lat": 12.91627,
+                "lon": 77.61014
+              },
+              {
+                "name": "BTM Layout 12th Main 7th Cross",
+                "name_kn": "ಬ್ಟ್ಂ ಲಯೌಟ್ 12ತ್ ಮೈಂ 7ತ್ ಕ್ರೊಸ್ಸ್",
+                "stop_id": "22869",
+                "lat": 12.91393,
+                "lon": 77.61007
+              },
+              {
+                "name": "Mahadeshwara Nagara",
+                "name_kn": "ಮಹದೆಶ್ವರ ನಗರ",
+                "stop_id": "35353",
+                "lat": 12.90779,
+                "lon": 77.61094
               }
             ]
           },

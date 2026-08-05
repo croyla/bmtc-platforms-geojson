@@ -1,68 +1,6 @@
 {
-  "Failed": [
-    {
-      "from_stop": "21924",
-      "to_stop": "35940",
-      "response": {
-        "isException": true,
-        "Issuccess": false,
-        "exception": "Response not received in JSON.",
-        "Message": "Response not received in JSON."
-      },
-      "level": 0
-    }
-  ],
+  "Failed": [],
   "Received": [
-    {
-      "route-number": "315-G",
-      "route-name": "DBS-KRP",
-      "from-station-id": 21923,
-      "route-id": 7193,
-      "route-parent-id": "",
-      "platform-name": "5",
-      "platform-number": "5",
-      "bay-number": 2
-    },
-    {
-      "route-number": "136",
-      "route-name": "DML-SBS",
-      "from-station-id": 21923,
-      "route-id": 15284,
-      "route-parent-id": "",
-      "platform-name": "1",
-      "platform-number": "1",
-      "bay-number": 1
-    },
-    {
-      "route-number": "334-E",
-      "route-name": "DBS-HSK",
-      "from-station-id": 21923,
-      "route-id": 3034,
-      "route-parent-id": "",
-      "platform-name": "5",
-      "platform-number": "5",
-      "bay-number": 2
-    },
-    {
-      "route-number": "334-E DBS-KDG",
-      "route-name": "BRAB-KDG",
-      "from-station-id": 21923,
-      "route-id": 12166,
-      "route-parent-id": "",
-      "platform-name": "5",
-      "platform-number": "5",
-      "bay-number": 2
-    },
-    {
-      "route-number": "334-E BRAB-BDG",
-      "route-name": "BRAB-BDG",
-      "from-station-id": 21923,
-      "route-id": 16064,
-      "route-parent-id": "",
-      "platform-name": "5",
-      "platform-number": "5",
-      "bay-number": 2
-    },
     {
       "route-number": "201",
       "route-name": "DBS-SRN",
@@ -102,6 +40,66 @@
       "platform-name": "5",
       "platform-number": "5",
       "bay-number": 2
+    },
+    {
+      "route-number": "136",
+      "route-name": "DML-SBS",
+      "from-station-id": 21923,
+      "route-id": 15284,
+      "route-parent-id": "",
+      "platform-name": "1",
+      "platform-number": "1",
+      "bay-number": 1
+    },
+    {
+      "route-number": "315-G",
+      "route-name": "DBS-KRP",
+      "from-station-id": 21923,
+      "route-id": 7193,
+      "route-parent-id": "",
+      "platform-name": "5",
+      "platform-number": "5",
+      "bay-number": 2
+    },
+    {
+      "route-number": "334-E",
+      "route-name": "DBS-HSK",
+      "from-station-id": 21923,
+      "route-id": 3034,
+      "route-parent-id": "",
+      "platform-name": "5",
+      "platform-number": "5",
+      "bay-number": 2
+    },
+    {
+      "route-number": "334-E DBS-KDG",
+      "route-name": "BRAB-KDG",
+      "from-station-id": 21923,
+      "route-id": 12166,
+      "route-parent-id": "",
+      "platform-name": "5",
+      "platform-number": "5",
+      "bay-number": 2
+    },
+    {
+      "route-number": "334-E BRAB-BDG",
+      "route-name": "BRAB-BDG",
+      "from-station-id": 21923,
+      "route-id": 16064,
+      "route-parent-id": "",
+      "platform-name": "5",
+      "platform-number": "5",
+      "bay-number": 2
+    },
+    {
+      "route-number": "132 DOWN",
+      "route-name": "DBS-SBS",
+      "from-station-id": 21923,
+      "route-id": 11659,
+      "route-parent-id": "",
+      "platform-name": "5",
+      "platform-number": "5",
+      "bay-number": "2"
     }
   ]
 }
