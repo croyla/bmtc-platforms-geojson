@@ -11,6 +11,16 @@
       "bay-number": null
     },
     {
+      "route-number": "215-CA D44-JNMS",
+      "route-name": "10BAJP-JNRMS",
+      "from-station-id": 21544,
+      "route-id": 8153,
+      "route-parent-id": 4381,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
       "route-number": "MF-17",
       "route-name": "VDRP-JNMS",
       "from-station-id": 21544,
@@ -41,11 +51,21 @@
       "bay-number": null
     },
     {
-      "route-number": "MF-18 BSK-BGT",
-      "route-name": "BGT-BSK",
+      "route-number": "MF-18 BSK-BGT-ANK",
+      "route-name": "ANK-BGT-BSK",
       "from-station-id": 23374,
-      "route-id": 16239,
-      "route-parent-id": 8693,
+      "route-id": 17287,
+      "route-parent-id": 9272,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
+      "route-number": "MF-18 BSK-BNZ",
+      "route-name": "BNZ-BSK",
+      "from-station-id": 23374,
+      "route-id": 17289,
+      "route-parent-id": 9273,
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
