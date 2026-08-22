@@ -11,6 +11,16 @@
       "bay-number": null
     },
     {
+      "route-number": "CLO-SNB",
+      "route-name": "CLO-SNB",
+      "from-station-id": 35395,
+      "route-id": 6472,
+      "route-parent-id": 3495,
+      "platform-name": null,
+      "platform-number": null,
+      "bay-number": null
+    },
+    {
       "route-number": "374-S NMG-KMT",
       "route-name": "KMT-NMG",
       "from-station-id": 35395,
@@ -26,16 +36,6 @@
       "from-station-id": 35395,
       "route-id": 16302,
       "route-parent-id": 8731,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "223 CLO-HALARDC",
-      "route-name": "CLO-HALARDC",
-      "from-station-id": 35395,
-      "route-id": 17805,
-      "route-parent-id": 9575,
       "platform-name": null,
       "platform-number": null,
       "bay-number": null

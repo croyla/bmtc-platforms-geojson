@@ -41,21 +41,21 @@
       "bay-number": null
     },
     {
-      "route-number": "KGR-MLS-BEML5",
-      "route-name": "KGR-BEML5",
+      "route-number": "223-H KGR-DNH",
+      "route-name": "KGR-DNH",
       "from-station-id": 20925,
-      "route-id": 17048,
-      "route-parent-id": 9135,
+      "route-id": 2204,
+      "route-parent-id": 1282,
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
     },
     {
-      "route-number": "VLO1-KGR",
-      "route-name": "KGR-VLO1",
+      "route-number": "223-L KTTMC-MRN",
+      "route-name": "KTTMC-MRN",
       "from-station-id": 20925,
-      "route-id": 2319,
-      "route-parent-id": 1345,
+      "route-id": 6868,
+      "route-parent-id": 3695,
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
@@ -81,11 +81,11 @@
       "bay-number": null
     },
     {
-      "route-number": "401K-CWS-3-KGRTTMC",
-      "route-name": "KGRTTMC-CWS-3",
+      "route-number": "KGR-MLS-BEML5",
+      "route-name": "KGR-BEML5",
       "from-station-id": 20925,
-      "route-id": 6207,
-      "route-parent-id": 3358,
+      "route-id": 17048,
+      "route-parent-id": 9135,
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
@@ -96,16 +96,6 @@
       "from-station-id": 20925,
       "route-id": 15810,
       "route-parent-id": 8477,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "KGR-SCS",
-      "route-name": "KGR-SCS",
-      "from-station-id": 20925,
-      "route-id": 17079,
-      "route-parent-id": 9156,
       "platform-name": null,
       "platform-number": null,
       "bay-number": null
@@ -136,16 +126,6 @@
       "from-station-id": 20925,
       "route-id": 4772,
       "route-parent-id": 2618,
-      "platform-name": null,
-      "platform-number": null,
-      "bay-number": null
-    },
-    {
-      "route-number": "STBEN-KGR",
-      "route-name": "KGR-ST- BEN",
-      "from-station-id": 20925,
-      "route-id": 14239,
-      "route-parent-id": 7612,
       "platform-name": null,
       "platform-number": null,
       "bay-number": null

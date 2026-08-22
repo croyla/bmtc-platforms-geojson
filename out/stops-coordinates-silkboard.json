@@ -24,11 +24,6 @@
     "lat": 12.92452,
     "lon": 77.65028
   },
-  "29472": {
-    "name": "Akshayanagara",
-    "lat": 13.0208,
-    "lon": 77.68338
-  },
   "21453": {
     "name": "Alisda",
     "lat": 13.03404,
@@ -38,11 +33,6 @@
     "name": "Ambedkar Nagara",
     "lat": 12.89929,
     "lon": 77.71273
-  },
-  "29511": {
-    "name": "Anandapura",
-    "lat": 13.02423,
-    "lon": 77.69285
   },
   "23084": {
     "name": "Anchepalya",
@@ -79,25 +69,10 @@
     "lat": 13.04402,
     "lon": 77.55489
   },
-  "21734": {
-    "name": "BEL Circle",
-    "lat": 13.04588,
-    "lon": 77.55654
-  },
   "29841": {
     "name": "BEL Circle",
     "lat": 13.04339,
     "lon": 77.55713
-  },
-  "21735": {
-    "name": "BEL Factory",
-    "lat": 13.04887,
-    "lon": 77.55861
-  },
-  "24153": {
-    "name": "BEML Gate",
-    "lat": 12.9713,
-    "lon": 77.6588
   },
   "20640": {
     "name": "BEML Layout Gate",
@@ -113,11 +88,6 @@
     "name": "Babusabpalya",
     "lat": 13.0226,
     "lon": 77.64702
-  },
-  "20635": {
-    "name": "Bayyappanahalli Metro Station",
-    "lat": 12.98967,
-    "lon": 77.65404
   },
   "20638": {
     "name": "Bellanduru City light Apartment",
@@ -139,11 +109,6 @@
     "lat": 13.00414,
     "lon": 77.7569
   },
-  "20657": {
-    "name": "Benniganahalli",
-    "lat": 12.99406,
-    "lon": 77.6632
-  },
   "21751": {
     "name": "Bevinamara Kannamangala",
     "lat": 13.02801,
@@ -153,16 +118,6 @@
     "name": "Bhadrappa Layout",
     "lat": 13.0472,
     "lon": 77.57339
-  },
-  "32021": {
-    "name": "Bhakthi Yoga Ashrama",
-    "lat": 13.02262,
-    "lon": 77.6893
-  },
-  "26700": {
-    "name": "Bhattarahalli Bank Of India",
-    "lat": 13.01521,
-    "lon": 77.70947
   },
   "20670": {
     "name": "Big Bazzar ITPL",
@@ -314,16 +269,6 @@
     "lat": 12.98681,
     "lon": 77.74338
   },
-  "25560": {
-    "name": "GTRE Engine Division",
-    "lat": 12.9836,
-    "lon": 77.64942
-  },
-  "21960": {
-    "name": "Geetanjali Layout",
-    "lat": 12.97691,
-    "lon": 77.65482
-  },
   "21968": {
     "name": "Gokula",
     "lat": 13.04152,
@@ -409,11 +354,6 @@
     "lat": 13.05963,
     "lon": 77.77057
   },
-  "32982": {
-    "name": "Hoysala Nagara",
-    "lat": 13.01669,
-    "lon": 77.66888
-  },
   "20849": {
     "name": "I Gate",
     "lat": 12.97734,
@@ -423,11 +363,6 @@
     "name": "ITI Circle",
     "lat": 13.0079,
     "lon": 77.68338
-  },
-  "20863": {
-    "name": "ITI Colony Gate",
-    "lat": 13.00532,
-    "lon": 77.68522
   },
   "22086": {
     "name": "ITI Colony Gate",
@@ -469,16 +404,6 @@
     "lat": 12.91086,
     "lon": 77.68439
   },
-  "22205": {
-    "name": "KR Pura Bus Stand",
-    "lat": 13.00821,
-    "lon": 77.69214
-  },
-  "22203": {
-    "name": "KR Pura Extension",
-    "lat": 13.01172,
-    "lon": 77.69862
-  },
   "22207": {
     "name": "KR Pura Market",
     "lat": 13.00841,
@@ -518,11 +443,6 @@
     "name": "Kalamandira Marathahalli Bridge",
     "lat": 12.96038,
     "lon": 77.70135
-  },
-  "30642": {
-    "name": "Kalkere Cross",
-    "lat": 13.02127,
-    "lon": 77.67891
   },
   "20904": {
     "name": "Kalyananagara",
@@ -568,11 +488,6 @@
     "name": "Kodathi Gate",
     "lat": 12.8966,
     "lon": 77.72037
-  },
-  "33576": {
-    "name": "Koshys Hospital Kalkere",
-    "lat": 13.02077,
-    "lon": 77.67708
   },
   "20956": {
     "name": "Kundalahalli",
@@ -669,11 +584,6 @@
     "lat": 12.95153,
     "lon": 77.69973
   },
-  "33975": {
-    "name": "Muneshwara Nagara",
-    "lat": 13.01793,
-    "lon": 77.67123
-  },
   "22315": {
     "name": "Munish Singh Hospital",
     "lat": 12.97703,
@@ -693,11 +603,6 @@
     "name": "Muttanalluru Cross",
     "lat": 12.88749,
     "lon": 77.7384
-  },
-  "21061": {
-    "name": "NGEF",
-    "lat": 12.98771,
-    "lon": 77.64986
   },
   "20885": {
     "name": "Nagawara Junction",
@@ -729,20 +634,10 @@
     "lat": 13.03556,
     "lon": 77.52613
   },
-  "34419": {
-    "name": "RK Apartment",
-    "lat": 13.01465,
-    "lon": 77.66532
-  },
   "23390": {
     "name": "Radhareddy Layout",
     "lat": 12.90883,
     "lon": 77.6897
-  },
-  "34309": {
-    "name": "Raghavendra Circle",
-    "lat": 13.01995,
-    "lon": 77.67441
   },
   "22412": {
     "name": "Ramagondanahalli",
@@ -869,11 +764,6 @@
     "lat": 12.89246,
     "lon": 77.72846
   },
-  "26771": {
-    "name": "Suranjan Das Road/NGEF",
-    "lat": 12.98643,
-    "lon": 77.6481
-  },
   "21211": {
     "name": "T Dasarahalli",
     "lat": 13.04283,
@@ -883,16 +773,6 @@
     "name": "TB Nelamangala",
     "lat": 13.09706,
     "lon": 77.40148
-  },
-  "34768": {
-    "name": "TC Palya",
-    "lat": 13.0216,
-    "lon": 77.69998
-  },
-  "22536": {
-    "name": "TC Palya  Gate Hosakote Road",
-    "lat": 13.01734,
-    "lon": 77.70475
   },
   "26844": {
     "name": "TCI",
@@ -913,11 +793,6 @@
     "name": "Tin Factory",
     "lat": 12.99645,
     "lon": 77.66857
-  },
-  "21229": {
-    "name": "Tin Factory",
-    "lat": 12.99698,
-    "lon": 77.66937
   },
   "22577": {
     "name": "Varthur kodi",

@@ -2430,232 +2430,14 @@
             ]
           },
           {
-            "Route": "500-D BSBI-CSB",
-            "RouteId": 11701,
-            "RouteParentId": 6234,
-            "Destination": "Bhattarahalli Bank Of India",
+            "Route": "500-QD YBS-CSB",
+            "RouteId": 11538,
+            "RouteParentId": 6146,
+            "Destination": "Yeshawanthapura Bus Station",
             "Via": "",
             "Area": "Central Silk Board",
             "PlatformNumber": "2A",
-            "KannadaDestination": "ಭಟರಹಲ್ಲಿ ಬಂಕ್ ೊೞ್ ಿಂದಿ",
-            "KannadaArea": "ಕೇಂದ್ರ ರೇಷ್ಮೆ ಮಂಡಳಿ",
-            "KannadaVia": "",
-            "FromStationId": 20707,
-            "Stops": [
-              {
-                "name": "Central Silk Board",
-                "name_kn": "ಕೆಂಟ್ರಲ್ ಸಿಲ್ಕ್ ಬೊರ್ದ್",
-                "stop_id": "20707",
-                "lat": 12.91803,
-                "lon": 77.62355
-              },
-              {
-                "name": "SI Apartment HSR Layout",
-                "name_kn": "ಸಿ ಪರ್ಟ್ಮೆಂಟ್ ಹ್ಸ್ರ್ ಲಯೌಟ್",
-                "stop_id": "21177",
-                "lat": 12.91677,
-                "lon": 77.62942
-              },
-              {
-                "name": "14th Main HSR Layout",
-                "name_kn": "14ತ್ ಮೈಂ ಹ್ಸ್ರ್ ಲಯೌಟ್",
-                "stop_id": "20568",
-                "lat": 12.91637,
-                "lon": 77.63472
-              },
-              {
-                "name": "Depot-25 Gate",
-                "name_kn": "ದೆಪೊಟ್-25 ಗಟೆ",
-                "stop_id": "20749",
-                "lat": 12.91936,
-                "lon": 77.64255
-              },
-              {
-                "name": "Agara Junction",
-                "name_kn": "ಅಗರ ಜುಂಕ್ಟಿೊಂ",
-                "stop_id": "20598",
-                "lat": 12.92452,
-                "lon": 77.65028
-              },
-              {
-                "name": "Ibbaluru",
-                "name_kn": "ಇಬ್ಬಲುರು",
-                "stop_id": "20851",
-                "lat": 12.9216,
-                "lon": 77.66176
-              },
-              {
-                "name": "Sarjapura Ring Road Junction",
-                "name_kn": "ಸರ್ಜಪುರ ರಿಙ್ ರೊದ್ ಜುಂಕ್ಟಿೊಂ",
-                "stop_id": "20889",
-                "lat": 12.92113,
-                "lon": 77.66604
-              },
-              {
-                "name": "Bellanduru Petrol Bunk",
-                "name_kn": "ಬೆಲ್ಲಂದುರು ಪೆಟ್ರೊಲ್ ಬುಂಕ್",
-                "stop_id": "21092",
-                "lat": 12.92322,
-                "lon": 77.6702
-              },
-              {
-                "name": "Bellanduru City light Apartment",
-                "name_kn": "ಬೆಲ್ಲಂದುರು ಕಿಟೆ ಲಿಘ್ಟ್ ಪರ್ಟ್ಮೆಂಟ್",
-                "stop_id": "20638",
-                "lat": 12.92493,
-                "lon": 77.67394
-              },
-              {
-                "name": "Eco Space",
-                "name_kn": "ಎಕೊ ಸ್ಪಕೆ",
-                "stop_id": "20771",
-                "lat": 12.92838,
-                "lon": 77.6812
-              },
-              {
-                "name": "Devarabisanahalli Ring Road",
-                "name_kn": "ದೆವರಬಿಸನಹಲ್ಲಿ ರಿಙ್ ರೊದ್",
-                "stop_id": "20754",
-                "lat": 12.93218,
-                "lon": 77.68729
-              },
-              {
-                "name": "New Horizon College",
-                "name_kn": "ನೆವ್ ಹೊರಿಜ಼ೊಂ ಕೊಲ್ಲೆಗೆ",
-                "stop_id": "21059",
-                "lat": 12.93516,
-                "lon": 77.69063
-              },
-              {
-                "name": "Kadubisanahalli",
-                "name_kn": "ಕದುಬಿಸನಹಲ್ಲಿ",
-                "stop_id": "20895",
-                "lat": 12.94259,
-                "lon": 77.69704
-              },
-              {
-                "name": "Multiplex Marathahalli",
-                "name_kn": "ಮುಲ್ಟಿಪ್ಲೆಕ್ಸ್ ಮರತಹಲ್ಲಿ",
-                "stop_id": "21032",
-                "lat": 12.95153,
-                "lon": 77.69973
-              },
-              {
-                "name": "Kalamandira Marathahalli Bridge",
-                "name_kn": "ಕಲಮಂದಿರ ಮರತಹಲ್ಲಿ ಬ್ರಿದ್ಗೆ",
-                "stop_id": "22670",
-                "lat": 12.96038,
-                "lon": 77.70135
-              },
-              {
-                "name": "Karthik Nagara",
-                "name_kn": "ಕರ್ತಿಕ್ ನಗರ",
-                "stop_id": "20913",
-                "lat": 12.96818,
-                "lon": 77.70147
-              },
-              {
-                "name": "Dodda Nekkundi Bridge/Rainbow Hospital",
-                "name_kn": "ದೊದ್ದ ನೆಕ್ಕುಂದಿ ಬ್ರಿದ್ಗೆ/ರೈಂಬೌ ಹೊಸ್ಪಿಟಲ್",
-                "stop_id": "20761",
-                "lat": 12.97565,
-                "lon": 77.697
-              },
-              {
-                "name": "EMC2",
-                "name_kn": "ಎಂಕ್2",
-                "stop_id": "20775",
-                "lat": 12.98239,
-                "lon": 77.69288
-              },
-              {
-                "name": "Mahadevapura Ring Road",
-                "name_kn": "ಮಹದೆವಪುರ ರಿಙ್ ರೊದ್",
-                "stop_id": "20978",
-                "lat": 12.98868,
-                "lon": 77.68904
-              },
-              {
-                "name": "B Narayanapura Ring Road",
-                "name_kn": "ಬ್ ನರಯನಪುರ ರಿಙ್ ರೊದ್",
-                "stop_id": "20616",
-                "lat": 12.99589,
-                "lon": 77.68387
-              },
-              {
-                "name": "KR Pura Railway Station",
-                "name_kn": "ಕ್ರ್ ಪುರ ರೈಲ್ವಯ್ ಸ್ಟಟಿೊಂ",
-                "stop_id": "21113",
-                "lat": 12.99998,
-                "lon": 77.67654
-              },
-              {
-                "name": "Tin Factory",
-                "name_kn": "ಟಿಂ ೞಕ್ಟೊರೆ",
-                "stop_id": "21228",
-                "lat": 12.99645,
-                "lon": 77.66857
-              },
-              {
-                "name": "Tin Factory",
-                "name_kn": "ಟಿಂ ೞಕ್ಟೊರೆ",
-                "stop_id": "21229",
-                "lat": 12.99698,
-                "lon": 77.66937
-              },
-              {
-                "name": "ITI Colony Gate",
-                "name_kn": "ಇಟಿ ಕೊಲೊನೆ ಗಟೆ",
-                "stop_id": "20863",
-                "lat": 13.00532,
-                "lon": 77.68522
-              },
-              {
-                "name": "KR Pura Bus Stand",
-                "name_kn": "ಕ್ರ್ ಪುರ ಬುಸ್ ಸ್ಟಂದ್",
-                "stop_id": "22205",
-                "lat": 13.00821,
-                "lon": 77.69214
-              },
-              {
-                "name": "KR Pura Market",
-                "name_kn": "ಕ್ರ್ ಪುರ ಮರ್ಕೆಟ್",
-                "stop_id": "22207",
-                "lat": 13.00841,
-                "lon": 77.69403
-              },
-              {
-                "name": "KR Pura Extension",
-                "name_kn": "ಕ್ರ್ ಪುರ ೆಕ್ಸ್ಟೆಂಸಿೊಂ",
-                "stop_id": "22203",
-                "lat": 13.01172,
-                "lon": 77.69862
-              },
-              {
-                "name": "TC Palya  Gate Hosakote Road",
-                "name_kn": "ಟ್ಕ್ ಪಲೆ  ಗಟೆ ಹೊಸಕೊಟೆ ರೊದ್",
-                "stop_id": "22536",
-                "lat": 13.01734,
-                "lon": 77.70475
-              },
-              {
-                "name": "Bhattarahalli Bank Of India",
-                "name_kn": "ಭಟರಹಲ್ಲಿ ಬಂಕ್ ೊೞ್ ಿಂದಿ",
-                "stop_id": "26700",
-                "lat": 13.01521,
-                "lon": 77.70947
-              }
-            ]
-          },
-          {
-            "Route": "500-D BELF-CSB",
-            "RouteId": 11703,
-            "RouteParentId": 6235,
-            "Destination": "BEL Factory",
-            "Via": "",
-            "Area": "Central Silk Board",
-            "PlatformNumber": "2A",
-            "KannadaDestination": "ಬೆಲ್ ೞಕ್ಟೊರೆ",
+            "KannadaDestination": "ಯೆಶವಂತಪುರ ಬುಸ್ ಸ್ಟಟಿೊಂ",
             "KannadaArea": "ಕೇಂದ್ರ ರೇಷ್ಮೆ ಮಂಡಳಿ",
             "KannadaVia": "",
             "FromStationId": 20707,
@@ -2929,16 +2711,58 @@
               {
                 "name": "BEL Circle",
                 "name_kn": "ಬೆಲ್ ಕಿರ್ಕ್ಲೆ",
-                "stop_id": "21734",
-                "lat": 13.04588,
-                "lon": 77.55654
+                "stop_id": "29841",
+                "lat": 13.04339,
+                "lon": 77.55713
               },
               {
-                "name": "BEL Factory",
-                "name_kn": "ಬೆಲ್ ೞಕ್ಟೊರೆ",
-                "stop_id": "21735",
-                "lat": 13.04887,
-                "lon": 77.55861
+                "name": "Gokula",
+                "name_kn": "ಗೊಕುಲ",
+                "stop_id": "21968",
+                "lat": 13.04152,
+                "lon": 77.55725
+              },
+              {
+                "name": "Mathikere",
+                "name_kn": "ಮತಿಕೆರೆ",
+                "stop_id": "22276",
+                "lat": 13.03467,
+                "lon": 77.55748
+              },
+              {
+                "name": "MS Ramaiah College",
+                "name_kn": "ಂಸ್ ರಮೈಹ್ ಕೊಲ್ಲೆಗೆ",
+                "stop_id": "22306",
+                "lat": 13.02867,
+                "lon": 77.56161
+              },
+              {
+                "name": "Diwanarapalya",
+                "name_kn": "ದಿವನರಪಲೆ",
+                "stop_id": "21899",
+                "lat": 13.02677,
+                "lon": 77.56181
+              },
+              {
+                "name": "Yeshawanthapura Ayyappa Temple",
+                "name_kn": "ಯೆಶವಂತಪುರ ಯೆಪ್ಪ ಟೆಂಪ್ಲೆ",
+                "stop_id": "21690",
+                "lat": 13.02164,
+                "lon": 77.56317
+              },
+              {
+                "name": "Yeshawanthapura Tollgate",
+                "name_kn": "ಯೆಶವಂತಪುರ ಟೊಲ್ಲ್ಗಟೆ",
+                "stop_id": "22647",
+                "lat": 13.0179,
+                "lon": 77.56099
+              },
+              {
+                "name": "Yeshawanthapura Bus Station",
+                "name_kn": "ಯೆಶವಂತಪುರ ಬುಸ್ ಸ್ಟಟಿೊಂ",
+                "stop_id": "21288",
+                "lat": 13.01801,
+                "lon": 77.55662
               }
             ]
           },
@@ -3113,8 +2937,8 @@
                 "name": "Chambenahalli",
                 "name_kn": "ಚಂಬೆನಹಲ್ಲಿ",
                 "stop_id": "21813",
-                "lat": 12.87934,
-                "lon": 77.76163
+                "lat": 12.87942,
+                "lon": 77.76162
               },
               {
                 "name": "Yamare",
@@ -3150,266 +2974,6 @@
                 "stop_id": "23907",
                 "lat": 12.86136,
                 "lon": 77.7856
-              }
-            ]
-          },
-          {
-            "Route": "500-C CSB-TCP",
-            "RouteId": 13633,
-            "RouteParentId": 7254,
-            "Destination": "TC Palya",
-            "Via": "",
-            "Area": "Central Silk Board",
-            "PlatformNumber": "2A",
-            "KannadaDestination": "ಟ್ಕ್ ಪಲೆ",
-            "KannadaArea": "ಕೇಂದ್ರ ರೇಷ್ಮೆ ಮಂಡಳಿ",
-            "KannadaVia": "",
-            "FromStationId": 20707,
-            "Stops": [
-              {
-                "name": "Central Silk Board",
-                "name_kn": "ಕೆಂಟ್ರಲ್ ಸಿಲ್ಕ್ ಬೊರ್ದ್",
-                "stop_id": "20707",
-                "lat": 12.91803,
-                "lon": 77.62355
-              },
-              {
-                "name": "SI Apartment HSR Layout",
-                "name_kn": "ಸಿ ಪರ್ಟ್ಮೆಂಟ್ ಹ್ಸ್ರ್ ಲಯೌಟ್",
-                "stop_id": "21177",
-                "lat": 12.91677,
-                "lon": 77.62942
-              },
-              {
-                "name": "14th Main HSR Layout",
-                "name_kn": "14ತ್ ಮೈಂ ಹ್ಸ್ರ್ ಲಯೌಟ್",
-                "stop_id": "20568",
-                "lat": 12.91637,
-                "lon": 77.63472
-              },
-              {
-                "name": "Depot-25 Gate",
-                "name_kn": "ದೆಪೊಟ್-25 ಗಟೆ",
-                "stop_id": "20749",
-                "lat": 12.91936,
-                "lon": 77.64255
-              },
-              {
-                "name": "Agara Junction",
-                "name_kn": "ಅಗರ ಜುಂಕ್ಟಿೊಂ",
-                "stop_id": "20598",
-                "lat": 12.92452,
-                "lon": 77.65028
-              },
-              {
-                "name": "Ibbaluru",
-                "name_kn": "ಇಬ್ಬಲುರು",
-                "stop_id": "20851",
-                "lat": 12.9216,
-                "lon": 77.66176
-              },
-              {
-                "name": "Sarjapura Ring Road Junction",
-                "name_kn": "ಸರ್ಜಪುರ ರಿಙ್ ರೊದ್ ಜುಂಕ್ಟಿೊಂ",
-                "stop_id": "20889",
-                "lat": 12.92113,
-                "lon": 77.66604
-              },
-              {
-                "name": "Bellanduru Petrol Bunk",
-                "name_kn": "ಬೆಲ್ಲಂದುರು ಪೆಟ್ರೊಲ್ ಬುಂಕ್",
-                "stop_id": "21092",
-                "lat": 12.92322,
-                "lon": 77.6702
-              },
-              {
-                "name": "Bellanduru City light Apartment",
-                "name_kn": "ಬೆಲ್ಲಂದುರು ಕಿಟೆ ಲಿಘ್ಟ್ ಪರ್ಟ್ಮೆಂಟ್",
-                "stop_id": "20638",
-                "lat": 12.92493,
-                "lon": 77.67394
-              },
-              {
-                "name": "Eco Space",
-                "name_kn": "ಎಕೊ ಸ್ಪಕೆ",
-                "stop_id": "20771",
-                "lat": 12.92838,
-                "lon": 77.6812
-              },
-              {
-                "name": "Devarabisanahalli Ring Road",
-                "name_kn": "ದೆವರಬಿಸನಹಲ್ಲಿ ರಿಙ್ ರೊದ್",
-                "stop_id": "20754",
-                "lat": 12.93218,
-                "lon": 77.68729
-              },
-              {
-                "name": "New Horizon College",
-                "name_kn": "ನೆವ್ ಹೊರಿಜ಼ೊಂ ಕೊಲ್ಲೆಗೆ",
-                "stop_id": "21059",
-                "lat": 12.93516,
-                "lon": 77.69063
-              },
-              {
-                "name": "Kadubisanahalli",
-                "name_kn": "ಕದುಬಿಸನಹಲ್ಲಿ",
-                "stop_id": "20895",
-                "lat": 12.94259,
-                "lon": 77.69704
-              },
-              {
-                "name": "Multiplex Marathahalli",
-                "name_kn": "ಮುಲ್ಟಿಪ್ಲೆಕ್ಸ್ ಮರತಹಲ್ಲಿ",
-                "stop_id": "21032",
-                "lat": 12.95153,
-                "lon": 77.69973
-              },
-              {
-                "name": "Marathahalli Bridge",
-                "name_kn": "ಮರತಹಲ್ಲಿ ಬ್ರಿದ್ಗೆ",
-                "stop_id": "33843",
-                "lat": 12.95488,
-                "lon": 77.70053
-              },
-              {
-                "name": "Kalamandira Marathahalli Bridge",
-                "name_kn": "ಕಲಮಂದಿರ ಮರತಹಲ್ಲಿ ಬ್ರಿದ್ಗೆ",
-                "stop_id": "22670",
-                "lat": 12.96038,
-                "lon": 77.70135
-              },
-              {
-                "name": "Karthik Nagara",
-                "name_kn": "ಕರ್ತಿಕ್ ನಗರ",
-                "stop_id": "20913",
-                "lat": 12.96818,
-                "lon": 77.70147
-              },
-              {
-                "name": "Dodda Nekkundi Bridge/Rainbow Hospital",
-                "name_kn": "ದೊದ್ದ ನೆಕ್ಕುಂದಿ ಬ್ರಿದ್ಗೆ/ರೈಂಬೌ ಹೊಸ್ಪಿಟಲ್",
-                "stop_id": "20761",
-                "lat": 12.97565,
-                "lon": 77.697
-              },
-              {
-                "name": "EMC2",
-                "name_kn": "ಎಂಕ್2",
-                "stop_id": "20775",
-                "lat": 12.98239,
-                "lon": 77.69288
-              },
-              {
-                "name": "Mahadevapura Ring Road",
-                "name_kn": "ಮಹದೆವಪುರ ರಿಙ್ ರೊದ್",
-                "stop_id": "20978",
-                "lat": 12.98868,
-                "lon": 77.68904
-              },
-              {
-                "name": "B Narayanapura Ring Road",
-                "name_kn": "ಬ್ ನರಯನಪುರ ರಿಙ್ ರೊದ್",
-                "stop_id": "20616",
-                "lat": 12.99589,
-                "lon": 77.68387
-              },
-              {
-                "name": "KR Pura Railway Station",
-                "name_kn": "ಕ್ರ್ ಪುರ ರೈಲ್ವಯ್ ಸ್ಟಟಿೊಂ",
-                "stop_id": "21113",
-                "lat": 12.99998,
-                "lon": 77.67654
-              },
-              {
-                "name": "Tin Factory",
-                "name_kn": "ಟಿಂ ೞಕ್ಟೊರೆ",
-                "stop_id": "21228",
-                "lat": 12.99645,
-                "lon": 77.66857
-              },
-              {
-                "name": "Kasthurinagara",
-                "name_kn": "ಕಸ್ತುರಿನಗರ",
-                "stop_id": "20915",
-                "lat": 13.00404,
-                "lon": 77.66315
-              },
-              {
-                "name": "B Channasandra Bridge(Ramamurthy Nagara Ring Road)",
-                "name_kn": "ಬ್ ಚಂನಸಂದ್ರ ಬ್ರಿದ್ಗೆ(ರಮಮುರ್ತೆ ನಗರ ರಿಙ್ ರೊದ್)",
-                "stop_id": "21695",
-                "lat": 13.01318,
-                "lon": 77.66272
-              },
-              {
-                "name": "RK Apartment",
-                "name_kn": "ರ್ಕ್ ಪರ್ಟ್ಮೆಂಟ್",
-                "stop_id": "34419",
-                "lat": 13.01465,
-                "lon": 77.66532
-              },
-              {
-                "name": "Hoysala Nagara",
-                "name_kn": "ಹೊಯ್ಸಲ ನಗರ",
-                "stop_id": "32982",
-                "lat": 13.01669,
-                "lon": 77.66888
-              },
-              {
-                "name": "Muneshwara Nagara",
-                "name_kn": "ಮುನೆಶ್ವರ ನಗರ",
-                "stop_id": "33975",
-                "lat": 13.01793,
-                "lon": 77.67123
-              },
-              {
-                "name": "Raghavendra Circle",
-                "name_kn": "ರಘವೆಂದ್ರ ಕಿರ್ಕ್ಲೆ",
-                "stop_id": "34309",
-                "lat": 13.01995,
-                "lon": 77.67441
-              },
-              {
-                "name": "Koshys Hospital Kalkere",
-                "name_kn": "ಕೊಶೆಸ್ ಹೊಸ್ಪಿಟಲ್ ಕಲ್ಕೆರೆ",
-                "stop_id": "33576",
-                "lat": 13.02077,
-                "lon": 77.67708
-              },
-              {
-                "name": "Kalkere Cross",
-                "name_kn": "ಕಲ್ಕೆರೆ ಕ್ರೊಸ್ಸ್",
-                "stop_id": "30642",
-                "lat": 13.02127,
-                "lon": 77.67891
-              },
-              {
-                "name": "Akshayanagara",
-                "name_kn": "ಅಕ್ಷಯನಗರ",
-                "stop_id": "29472",
-                "lat": 13.0208,
-                "lon": 77.68338
-              },
-              {
-                "name": "Bhakthi Yoga Ashrama",
-                "name_kn": "ಭಕ್ತಿ ಯೊಗ ಶ್ರಮ",
-                "stop_id": "32021",
-                "lat": 13.02262,
-                "lon": 77.6893
-              },
-              {
-                "name": "Anandapura",
-                "name_kn": "ಅನಂದಪುರ",
-                "stop_id": "29511",
-                "lat": 13.02423,
-                "lon": 77.69285
-              },
-              {
-                "name": "TC Palya",
-                "name_kn": "ಟ್ಕ್ ಪಲೆ",
-                "stop_id": "34768",
-                "lat": 13.0216,
-                "lon": 77.69998
               }
             ]
           },
@@ -4018,14 +3582,14 @@
             ]
           },
           {
-            "Route": "500-L CSB-BEML",
-            "RouteId": 16995,
-            "RouteParentId": 9101,
-            "Destination": "BEML Gate",
+            "Route": "500-D BSBI-CSB DOWN",
+            "RouteId": 11701,
+            "RouteParentId": 1066,
+            "Destination": "Hebbala Bridge",
             "Via": "",
             "Area": "Central Silk Board",
             "PlatformNumber": "2A",
-            "KannadaDestination": "ಬೆಂಲ್ ಗಟೆ",
+            "KannadaDestination": "ಹೆಬ್ಬಲ ಬ್ರಿದ್ಗೆ",
             "KannadaArea": "ಕೇಂದ್ರ ರೇಷ್ಮೆ ಮಂಡಳಿ",
             "KannadaVia": "",
             "FromStationId": 20707,
@@ -4129,6 +3693,13 @@
                 "lon": 77.69973
               },
               {
+                "name": "Marathahalli Bridge",
+                "name_kn": "ಮರತಹಲ್ಲಿ ಬ್ರಿದ್ಗೆ",
+                "stop_id": "33843",
+                "lat": 12.95488,
+                "lon": 77.70053
+              },
+              {
                 "name": "Kalamandira Marathahalli Bridge",
                 "name_kn": "ಕಲಮಂದಿರ ಮರತಹಲ್ಲಿ ಬ್ರಿದ್ಗೆ",
                 "stop_id": "22670",
@@ -4185,53 +3756,95 @@
                 "lon": 77.66857
               },
               {
-                "name": "Benniganahalli",
-                "name_kn": "ಬೆಂನಿಗನಹಲ್ಲಿ",
-                "stop_id": "20657",
-                "lat": 12.99406,
-                "lon": 77.6632
+                "name": "Kasthurinagara",
+                "name_kn": "ಕಸ್ತುರಿನಗರ",
+                "stop_id": "20915",
+                "lat": 13.00404,
+                "lon": 77.66315
               },
               {
-                "name": "Bayyappanahalli Metro Station",
-                "name_kn": "ಬಯೆಪ್ಪನಹಲ್ಲಿ ಮೆಟ್ರೊ ಸ್ಟಟಿೊಂ",
-                "stop_id": "20635",
-                "lat": 12.98967,
-                "lon": 77.65404
+                "name": "B Channasandra Bridge(Ramamurthy Nagara Ring Road)",
+                "name_kn": "ಬ್ ಚಂನಸಂದ್ರ ಬ್ರಿದ್ಗೆ(ರಮಮುರ್ತೆ ನಗರ ರಿಙ್ ರೊದ್)",
+                "stop_id": "22651",
+                "lat": 13.01124,
+                "lon": 77.66226
               },
               {
-                "name": "NGEF",
-                "name_kn": "ಙೆೞ್",
-                "stop_id": "21061",
-                "lat": 12.98771,
-                "lon": 77.64986
+                "name": "Vijaya Bank Colony Ring Road",
+                "name_kn": "ವಿಜಯ ಬಂಕ್ ಕೊಲೊನೆ ರಿಙ್ ರೊದ್",
+                "stop_id": "21264",
+                "lat": 13.01695,
+                "lon": 77.66021
               },
               {
-                "name": "Suranjan Das Road/NGEF",
-                "name_kn": "ಸುರಞಂ ದಸ್ ರೊದ್/ಙೆೞ್",
-                "stop_id": "26771",
-                "lat": 12.98643,
-                "lon": 77.6481
+                "name": "Horamavu Signal",
+                "name_kn": "ಹೊರಮವು ಸಿಗ್ನಲ್",
+                "stop_id": "20839",
+                "lat": 13.01961,
+                "lon": 77.65385
               },
               {
-                "name": "GTRE Engine Division",
-                "name_kn": "ಗ್ಟ್ರೆ ೆಙಿನೆ ದಿವಿಸಿೊಂ",
-                "stop_id": "25560",
-                "lat": 12.9836,
-                "lon": 77.64942
+                "name": "Babusabpalya",
+                "name_kn": "ಬಬುಸಬ್ಪಲೆ",
+                "stop_id": "20617",
+                "lat": 13.0226,
+                "lon": 77.64702
               },
               {
-                "name": "Geetanjali Layout",
-                "name_kn": "ಗೀಟಞಲಿ ಲಯೌಟ್",
-                "stop_id": "21960",
-                "lat": 12.97691,
-                "lon": 77.65482
+                "name": "Kalyananagara",
+                "name_kn": "ಕಲೆನನಗರ",
+                "stop_id": "20904",
+                "lat": 13.0264,
+                "lon": 77.63642
               },
               {
-                "name": "BEML Gate",
-                "name_kn": "ಬೆಂಲ್ ಗಟೆ",
-                "stop_id": "24153",
-                "lat": 12.9713,
-                "lon": 77.6588
+                "name": "Hennur Junction",
+                "name_kn": "ಹೆಂನುರ್ ಜುಂಕ್ಟಿೊಂ",
+                "stop_id": "21528",
+                "lat": 13.02948,
+                "lon": 77.63125
+              },
+              {
+                "name": "HBR Layout",
+                "name_kn": "ಹ್ಬ್ರ್ ಲಯೌಟ್",
+                "stop_id": "20816",
+                "lat": 13.035,
+                "lon": 77.62849
+              },
+              {
+                "name": "Nagawara Junction",
+                "name_kn": "ನಗವರ ಜುಂಕ್ಟಿೊಂ",
+                "stop_id": "20885",
+                "lat": 13.04046,
+                "lon": 77.62408
+              },
+              {
+                "name": "Manyatha Tech Park",
+                "name_kn": "ಮನೆತ ಟೆಚ್ ಪರ್ಕ್",
+                "stop_id": "20999",
+                "lat": 13.04106,
+                "lon": 77.61999
+              },
+              {
+                "name": "Veerannapalya",
+                "name_kn": "ವೀರಂನಪಲೆ",
+                "stop_id": "21252",
+                "lat": 13.04217,
+                "lon": 77.61352
+              },
+              {
+                "name": "Kempapura",
+                "name_kn": "ಕೆಂಪಪುರ",
+                "stop_id": "20920",
+                "lat": 13.0436,
+                "lon": 77.60121
+              },
+              {
+                "name": "Hebbala Bridge",
+                "name_kn": "ಹೆಬ್ಬಲ ಬ್ರಿದ್ಗೆ",
+                "stop_id": "20823",
+                "lat": 13.04259,
+                "lon": 77.5925
               }
             ]
           },
